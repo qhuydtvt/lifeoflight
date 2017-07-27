@@ -5,6 +5,7 @@ import lol.inputs.CommandListener;
 import lol.inputs.InputManager;
 import lol.settings.Settings;
 import lol.uis.GamePanel;
+import lol.uis.InputText;
 import lol.uis.TextView;
 
 import javax.swing.JFrame;
@@ -17,7 +18,7 @@ import java.awt.image.BufferedImage;
 public class GameWindow extends JFrame {
 
     TextView textScreenPanel;
-    GamePanel commandPanel;
+    InputText commandPanel;
     GamePanel statsPanel;
 
     BufferedImage backbufferImage;
@@ -45,17 +46,17 @@ public class GameWindow extends JFrame {
         GameObject.add(textScreenPanel);
 
 
-        commandPanel = new GamePanel();
+        commandPanel = new InputText();
         commandPanel.getPosition().set(
-                0,
+                20,
                 Settings.SCREEN_HEIGHT
         );
         commandPanel.getSize().set(
-                Settings.CMD_SCREEN_WIDTH,
+                Settings.CMD_SCREEN_WIDTH - 20,
                 Settings.CMD_SCREEN_HEIGHT
         );
         commandPanel.getAnchor().set(0, 1);
-        commandPanel.setColor(Color.BLUE);
+        commandPanel.setColor(Color.BLACK);
         GameObject.add(commandPanel);
 
         statsPanel = new GamePanel();
@@ -80,9 +81,6 @@ public class GameWindow extends JFrame {
         this.setVisible(true);
         this.setTitle(Settings.GAME_TITLE);
         this.addKeyListener(InputManager.instance);
-        InputManager.instance.setCommandListener(
-                command -> System.out.println("Command: " + command)
-        );
 
         backbufferImage = new BufferedImage(this.getWidth(),this.getHeight(), BufferedImage.TYPE_INT_ARGB);
         backBufferGraphics = (Graphics2D) backbufferImage.getGraphics();

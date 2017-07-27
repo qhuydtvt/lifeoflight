@@ -22,16 +22,36 @@ public class InputManager implements KeyListener {
 
     @Override
     public void keyTyped(KeyEvent e) {
-        if (e.getKeyChar() != '\n')
-            command += e.getKeyChar();
+        char typedCharacter = e.getKeyChar();
+        if (isValidInput(typedCharacter)) {
+            setCommand(command + typedCharacter);
+            if(commandListener != null) {
+                commandListener.commandChanged(command);
+            }
+        }
+
+        if (typedCharacter == '\b' && command.length() > 0) {
+            setCommand(command.substring(0, command.length() - 2));
+        }
+    }
+
+    private void setCommand(String newCommand) {
+        command = newCommand;
+        if (this.commandListener != null) {
+            this.commandListener.commandChanged(command);
+        }
+    }
+
+    boolean isValidInput(char c) {
+        return Character.isDigit(c) || Character.isSpaceChar(c) || Character.isLetter(c);
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
         if (e.getKeyCode() == KeyEvent.VK_ENTER) {
             if (commandListener != null && command.length() > 0) {
-                commandListener.onCommand(this.command);
-                this.command = "";
+                commandListener.onCommandFinished(this.command);
+                setCommand("");
             }
         }
     }

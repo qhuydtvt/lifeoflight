@@ -7,17 +7,18 @@ import java.util.ArrayList;
  * Created by huynq on 7/28/17.
  */
 public class TextView extends GamePanel {
-    private ArrayList<String> lines;
+    protected ArrayList<String> lines;
     private Color textColor;
 
     private FontMetrics fontMetrics;
-    private int linesMax;
+    private int linesMax = -1;
 
     public TextView() {
         super();
         lines = new ArrayList<>();
         textColor = Color.WHITE;
         fontMetrics = null;
+        linesMax = -1;
     }
 
     public void setTextColor(Color textColor) {
@@ -30,14 +31,18 @@ public class TextView extends GamePanel {
         g2d.setColor(textColor);
 
         if (fontMetrics == null) {
+
             fontMetrics = g2d.getFontMetrics();
-            linesMax = (int)(getSize().y / fontMetrics.getHeight()) - 1;
+            if (linesMax == -1) {
+                linesMax = (int) (getSize().y / fontMetrics.getHeight()) - 1;
+            }
         }
 
-        int stringY = 20;
+        int stringY = (int) (20 + getPosition().y - getAnchor().y * getSize().y);
+        int stringX = (int) (getPosition().x - getAnchor().x * getSize().x);
 
         for (String line : lines) {
-            g2d.drawString(line, 0, stringY);
+            g2d.drawString(line, stringX, stringY);
             stringY += fontMetrics.getHeight();
         }
 
