@@ -1,5 +1,7 @@
 package lol.uis;
 
+import lol.bases.Vector2D;
+
 import java.awt.*;
 import java.util.ArrayList;
 
@@ -8,14 +10,17 @@ import java.util.ArrayList;
  */
 public class TextView extends GamePanel {
     protected ArrayList<String> lines;
+    private String separator = "--------------------------------------------------------------------------------------------";
     private Color textColor;
 
     private FontMetrics fontMetrics;
     private int linesMax = -1;
+    private Vector2D offsetText;
 
     public TextView() {
         super();
         lines = new ArrayList<>();
+        offsetText = new Vector2D();
         textColor = Color.WHITE;
         fontMetrics = null;
         linesMax = -1;
@@ -23,6 +28,10 @@ public class TextView extends GamePanel {
 
     public void setTextColor(Color textColor) {
         this.textColor = textColor;
+    }
+
+    public Vector2D getOffsetText() {
+        return offsetText;
     }
 
     @Override
@@ -38,8 +47,10 @@ public class TextView extends GamePanel {
             }
         }
 
-        int stringY = (int) (20 + getPosition().y - getAnchor().y * getSize().y);
-        int stringX = (int) (getPosition().x - getAnchor().x * getSize().x);
+        g2d.drawString(separator, getPosition().x - getAnchor().x * getSize().x, getPosition().y - getAnchor().y * getSize().y);
+
+        int stringX = (int) (offsetText.x + getPosition().x - getAnchor().x * getSize().x);
+        int stringY = (int) (offsetText.y + getPosition().y - getAnchor().y * getSize().y);
 
         for (String line : lines) {
             g2d.drawString(line, stringX, stringY);
@@ -61,11 +72,11 @@ public class TextView extends GamePanel {
                 newLine.append(word).append(" ");
                 if (fontMetrics.stringWidth(newLine.toString()) > this.getSize().y) {
                     // New line has enough width
-                    lines.add( count++ + newLine.toString());
+                    lines.add(count++ + newLine.toString());
                     newLine.setLength(0); // Flush
                     if (lines.size() > linesMax) {
                         // Trim the begnining
-                        for (int i = 0; i < ( lines.size() - linesMax) && lines.size() > 0; i++) {
+                        for (int i = 0; i < (lines.size() - linesMax) && lines.size() > 0; i++) {
                             lines.remove(0);
                         }
                     }

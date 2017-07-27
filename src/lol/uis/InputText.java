@@ -9,6 +9,8 @@ import lol.inputs.InputManager;
 public class InputText extends TextView {
     public InputText() {
         super();
+        lines.add(">> ");
+
         InputManager.instance.setCommandListener(new CommandListener() {
             @Override
             public void onCommandFinished(String command) {
@@ -18,7 +20,7 @@ public class InputText extends TextView {
             @Override
             public void commandChanged(String command) {
                 lines.clear();
-                lines.add(command);
+                lines.add(">> " + command);
             }
         });
     }

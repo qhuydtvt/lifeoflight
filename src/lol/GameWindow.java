@@ -39,20 +39,21 @@ public class GameWindow extends JFrame {
     private void setupPanels() {
         textScreenPanel = new TextView();
         textScreenPanel.setColor(Color.BLACK);
-        textScreenPanel.getPosition().set(20, 40);
         textScreenPanel.getSize().set(
-                Settings.TEXT_SCREEN_SCREEN_WIDTH - 20,
-                Settings.TEXT_SCREEN_SCREEN_HEIGHT - 40);
+                Settings.TEXT_SCREEN_SCREEN_WIDTH,
+                Settings.TEXT_SCREEN_SCREEN_HEIGHT);
+        textScreenPanel.getOffsetText().set(20, 40);
         GameObject.add(textScreenPanel);
 
 
         commandPanel = new InputText();
         commandPanel.getPosition().set(
-                20,
+                0,
                 Settings.SCREEN_HEIGHT
         );
+        commandPanel.getOffsetText().set(20, 40);
         commandPanel.getSize().set(
-                Settings.CMD_SCREEN_WIDTH - 20,
+                Settings.CMD_SCREEN_WIDTH,
                 Settings.CMD_SCREEN_HEIGHT
         );
         commandPanel.getAnchor().set(0, 1);

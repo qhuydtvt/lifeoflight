@@ -31,7 +31,9 @@ public class InputManager implements KeyListener {
         }
 
         if (typedCharacter == '\b' && command.length() > 0) {
-            setCommand(command.substring(0, command.length() - 2));
+            int endPosition = command.length() - 2;
+            if (endPosition < 0) endPosition = 0;
+            setCommand(command.substring(0,  endPosition));
         }
     }
 
