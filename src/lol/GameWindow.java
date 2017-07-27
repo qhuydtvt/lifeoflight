@@ -15,7 +15,7 @@ import java.awt.image.BufferedImage;
  */
 public class GameWindow extends JFrame {
 
-    GamePanel textScreenPanel;
+    TextPanel textScreenPanel;
     GamePanel commandPanel;
     GamePanel statsPanel;
 
