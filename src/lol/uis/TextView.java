@@ -46,6 +46,8 @@ public class TextView extends GamePanel {
                 linesMax = (int) (getSize().y / fontMetrics.getHeight()) - 1;
             }
         }
+        
+        drawVerticalLines(g2d);
 
         g2d.drawString(separator, getPosition().x - getAnchor().x * getSize().x, getPosition().y - getAnchor().y * getSize().y);
 
@@ -57,6 +59,15 @@ public class TextView extends GamePanel {
             stringY += fontMetrics.getHeight();
         }
 
+    }
+
+    private void drawVerticalLines(Graphics2D g2d) {
+        int x = (int) (getPosition().x - getAnchor().x * getSize().x);
+        int y = (int) (getPosition().y - getAnchor().y * getSize().y);
+        for(int i = 0; i < linesMax + 2; i ++) {
+            g2d.drawString("|", x, y);
+            y += fontMetrics.getHeight();
+        }
     }
 
     int count = 0;

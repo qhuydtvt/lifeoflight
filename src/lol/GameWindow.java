@@ -19,7 +19,7 @@ public class GameWindow extends JFrame {
 
     TextView textScreenPanel;
     InputText commandPanel;
-    GamePanel statsPanel;
+    TextView statsPanel;
 
     BufferedImage backbufferImage;
     Graphics2D backBufferGraphics;
@@ -60,19 +60,18 @@ public class GameWindow extends JFrame {
         commandPanel.setColor(Color.BLACK);
         GameObject.add(commandPanel);
 
-        statsPanel = new GamePanel();
+        statsPanel = new TextView();
         statsPanel.getPosition().set(
                 Settings.SCREEN_WIDTH,
                 0
         );
 
         statsPanel.getAnchor().set(1, 0);
-        statsPanel.setColor(Color.CYAN);
+        statsPanel.setColor(Color.BLACK);
         statsPanel.getSize().set(
                 Settings.STATS_SCREEN_WIDTH,
                 Settings.STATS_SCREEN_HEIGHT
         );
-        statsPanel.setColor(Color.GRAY);
         GameObject.add(statsPanel);
     }
 
