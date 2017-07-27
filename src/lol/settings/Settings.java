@@ -1,5 +1,9 @@
 package lol.settings;
 
+import lol.bases.Utils;
+
+import java.awt.*;
+
 /**
  * Created by huynq on 7/28/17.
  */
@@ -16,4 +20,6 @@ public class Settings {
 
     public static final int STATS_SCREEN_WIDTH = SCREEN_WIDTH - CMD_SCREEN_WIDTH;
     public static final int STATS_SCREEN_HEIGHT = SCREEN_HEIGHT;
+
+    public static Font DEFAULT_FONT = Utils.loadFont("assets/fonts/Menlo-Regular.ttf", 14);
 }

@@ -17,7 +17,7 @@ public class SolidRectRenderer implements Renderer {
     public SolidRectRenderer() {
         size = new Vector2D();
         anchor = new Vector2D();
-        color = Color.yellow;
+        color = Color.BLUE;
     }
 
     public Vector2D getSize() {

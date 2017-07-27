@@ -1,13 +1,13 @@
 package lol;
 
 import lol.bases.GameObject;
+import lol.bases.Utils;
 import lol.settings.Settings;
 import lol.uis.GamePanel;
+import lol.uis.TextPanel;
 
 import javax.swing.JFrame;
-import java.awt.Graphics2D;
-import java.awt.Graphics;
-import java.awt.Color;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 
 /**
@@ -22,13 +22,20 @@ public class GameWindow extends JFrame {
     BufferedImage backbufferImage;
     Graphics2D backBufferGraphics;
 
+    long lastTimeUpdate = -1;
+
     public GameWindow() {
+        setupFont();
         setupPanels();
         setupWindow();
     }
 
+    private void setupFont() {
+
+    }
+
     private void setupPanels() {
-        textScreenPanel = new GamePanel();
+        textScreenPanel = new TextPanel();
         textScreenPanel.getSize().set(
                 Settings.TEXT_SCREEN_SCREEN_WIDTH,
                 Settings.TEXT_SCREEN_SCREEN_HEIGHT);
@@ -53,6 +60,7 @@ public class GameWindow extends JFrame {
                 Settings.SCREEN_WIDTH,
                 0
         );
+
         statsPanel.getAnchor().set(1, 0);
         statsPanel.setColor(Color.CYAN);
         statsPanel.getSize().set(
@@ -73,8 +81,6 @@ public class GameWindow extends JFrame {
         backBufferGraphics = (Graphics2D) backbufferImage.getGraphics();
     }
 
-    long lastTimeUpdate = -1;
-
     public void gameLoop() {
         while(true) {
             if (lastTimeUpdate == -1) {
@@ -94,6 +100,7 @@ public class GameWindow extends JFrame {
     }
 
     public void render(Graphics2D g2d) {
+        g2d.setFont(Settings.DEFAULT_FONT);
         g2d.setColor(Color.BLACK);
         g2d.fillRect(0, 0, Settings.SCREEN_WIDTH, Settings.SCREEN_HEIGHT);
 
