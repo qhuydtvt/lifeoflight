@@ -1,7 +1,5 @@
 package lol.settings;
-
 import lol.bases.Utils;
-
 import java.awt.*;
 
 /**
