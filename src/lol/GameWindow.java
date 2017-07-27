@@ -1,10 +1,9 @@
 package lol;
 
 import lol.bases.GameObject;
-import lol.bases.Utils;
 import lol.settings.Settings;
 import lol.uis.GamePanel;
-import lol.uis.TextPanel;
+import lol.uis.TextView;
 
 import javax.swing.JFrame;
 import java.awt.*;
@@ -15,7 +14,7 @@ import java.awt.image.BufferedImage;
  */
 public class GameWindow extends JFrame {
 
-    TextPanel textScreenPanel;
+    TextView textScreenPanel;
     GamePanel commandPanel;
     GamePanel statsPanel;
 
@@ -35,10 +34,12 @@ public class GameWindow extends JFrame {
     }
 
     private void setupPanels() {
-        textScreenPanel = new TextPanel();
+        textScreenPanel = new TextView();
+        textScreenPanel.setColor(Color.BLACK);
+        textScreenPanel.getPosition().set(20, 40);
         textScreenPanel.getSize().set(
-                Settings.TEXT_SCREEN_SCREEN_WIDTH,
-                Settings.TEXT_SCREEN_SCREEN_HEIGHT);
+                Settings.TEXT_SCREEN_SCREEN_WIDTH - 20,
+                Settings.TEXT_SCREEN_SCREEN_HEIGHT - 40);
         GameObject.add(textScreenPanel);
 
 

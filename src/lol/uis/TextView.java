@@ -6,16 +6,14 @@ import java.util.ArrayList;
 /**
  * Created by huynq on 7/28/17.
  */
-public class TextPanel extends GamePanel {
-    ArrayList<String> lines;
-
-
+public class TextView extends GamePanel {
+    private ArrayList<String> lines;
     private Color textColor;
 
     private FontMetrics fontMetrics;
     private int linesMax;
 
-    public TextPanel() {
+    public TextView() {
         super();
         lines = new ArrayList<>();
         textColor = Color.WHITE;
@@ -29,7 +27,7 @@ public class TextPanel extends GamePanel {
     @Override
     public void render(Graphics2D g2d) {
         super.render(g2d);
-        g2d.setColor(Color.WHITE);
+        g2d.setColor(textColor);
 
         if (fontMetrics == null) {
             fontMetrics = g2d.getFontMetrics();
