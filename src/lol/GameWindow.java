@@ -1,6 +1,8 @@
 package lol;
 
 import lol.bases.GameObject;
+import lol.inputs.CommandListener;
+import lol.inputs.InputManager;
 import lol.settings.Settings;
 import lol.uis.GamePanel;
 import lol.uis.TextView;
@@ -77,6 +79,10 @@ public class GameWindow extends JFrame {
         this.setSize(Settings.SCREEN_WIDTH, Settings.SCREEN_HEIGHT);
         this.setVisible(true);
         this.setTitle(Settings.GAME_TITLE);
+        this.addKeyListener(InputManager.instance);
+        InputManager.instance.setCommandListener(
+                command -> System.out.println("Command: " + command)
+        );
 
         backbufferImage = new BufferedImage(this.getWidth(),this.getHeight(), BufferedImage.TYPE_INT_ARGB);
         backBufferGraphics = (Graphics2D) backbufferImage.getGraphics();
