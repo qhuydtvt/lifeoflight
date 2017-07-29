@@ -10,7 +10,7 @@ import java.util.Vector;
  */
 public class GameObject {
 
-    private Vector2D position;
+    protected Vector2D position;
     protected Renderer renderer;
 
     private static Vector<GameObject> gameObjects = new Vector<>();

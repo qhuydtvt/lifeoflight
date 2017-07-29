@@ -97,7 +97,6 @@ public class GameWindow extends JFrame {
             if(currentTime - lastTimeUpdate > 17) {
                 lastTimeUpdate = currentTime;
                 GameObject.runAll();
-
                 render(backBufferGraphics);
                 repaint();
             }
