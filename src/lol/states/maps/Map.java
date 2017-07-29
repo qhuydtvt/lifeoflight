@@ -1,8 +1,11 @@
-package lol.maps;
+package lol.states.maps;
+
+import lol.states.characters.Character;
+import lol.states.maps.mapitems.MapItem;
+import lol.states.maps.mapitems.Start;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -13,9 +16,12 @@ public class Map {
     private int width;
     private int height;
 
+    private Character character;
+
     private ArrayList<ArrayList<MapItem>> data;
 
     public Map() {
+        character = new Character();
         data = new ArrayList<>();
     }
 
@@ -35,7 +41,11 @@ public class Map {
         for (int y = 0; y < map.height; y++) {
             ArrayList<MapItem> row = new ArrayList<>();
             for (int x = 0; x < map.width; x++) {
-                row.add(MapItem.parse(lines[y].charAt(x)));
+                MapItem mapItem = MapItem.parse(lines[y].charAt(x));
+                if (mapItem instanceof Start) {
+                    map.character.setPosition(x, y);
+                }
+                row.add(mapItem);
             }
             map.data.add(row);
         }
@@ -69,6 +79,7 @@ public class Map {
             }
             content.append("\n");
         }
+        content.append("Character: " + character + "\n");
         return content.toString();
     }
 }

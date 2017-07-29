@@ -1,11 +1,11 @@
-package lol.maps;
+package lol.states.maps.mapitems;
 
 /**
  * Created by huynq on 7/30/17.
  */
-public class Empty extends MapItem {
+public class Event extends MapItem {
     @Override
     public String toString() {
-        return " ";
+        return "$";
     }
 }

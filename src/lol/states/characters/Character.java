@@ -1,4 +1,4 @@
-package lol.characters;
+package lol.states.characters;
 
 /**
  * Created by huynq on 7/30/17.
@@ -60,5 +60,25 @@ public class Character {
     public void move(int dx, int dy) {
         this.x += dx;
         this.y += dy;
+    }
+
+    public void setPosition(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    @Override
+    public String toString() {
+        return "Character{" +
+                "hp=" + hp +
+                ", mana=" + mana +
+                ", stamina=" + stamina +
+                ", strength=" + strength +
+                ", dex=" + dex +
+                ", wis=" + wis +
+                ", luck=" + luck +
+                ", x=" + x +
+                ", y=" + y +
+                '}';
     }
 }

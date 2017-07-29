@@ -1,5 +1,5 @@
 import lol.GameWindow;
-import lol.maps.Map;
+import lol.states.maps.Map;
 
 /**
  * Created by huynq on 7/28/17.
@@ -9,6 +9,10 @@ public class Program {
         testMap();
         GameWindow gameWindow = new GameWindow();
         gameWindow.gameLoop();
+    }
+
+    private static void loadMap() {
+
     }
 
     private static void testMap() {
