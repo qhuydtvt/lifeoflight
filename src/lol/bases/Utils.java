@@ -18,4 +18,6 @@ public class Utils {
         }
         return null;
     }
+
+    public static Font vnFont = new Font(Font.MONOSPACED, Font.PLAIN, 14);
 }

@@ -13,14 +13,14 @@ import java.util.ArrayList;
 public class TextView extends GamePanel {
     protected ArrayList<LineRenderer> lineRenderers;
 
-    private String separator = "--------------------------------------------------------------------------------------------";
+    private String separator = "------------------------------------------------------------------------------------------------------------------------";
     private Color textColor;
     public static final int HEX_NUMBER_OF_CHAR = 7;
 
     private FontMetrics fontMetrics;
     private int linesMax = -1;
     private Vector2D offsetText;
-    int count = 0;
+    private Object renderLock;
 
     public TextView() {
         super();
@@ -29,6 +29,7 @@ public class TextView extends GamePanel {
         textColor = Color.WHITE;
         fontMetrics = null;
         linesMax = -1;
+        renderLock = new Object();
     }
 
     public void setTextColor(Color textColor) {
@@ -48,7 +49,7 @@ public class TextView extends GamePanel {
 
             fontMetrics = g2d.getFontMetrics();
             if (linesMax == -1) {
-                linesMax = (int) (getSize().y / fontMetrics.getHeight()) - 1;
+                linesMax = (int) ((getSize().y - offsetText.y) / fontMetrics.getHeight()) - 1;
             }
         }
 
@@ -60,33 +61,19 @@ public class TextView extends GamePanel {
                 .add(offsetText)
                 .subtract(getAnchor().x * getSize().x, getAnchor().y * getSize().y);
 
-
-        for (LineRenderer lineRenderer: lineRenderers) {
-            lineRenderer.render(g2d, realPosition);
-            realPosition = realPosition.add(0, fontMetrics.getHeight());
-        }
-    }
-
-    private void renderText(Graphics2D g2d, String text, Vector2D position) {
-        if (text.startsWith("#")) {
-            if (text.length() < HEX_NUMBER_OF_CHAR) {
-                System.out.println("Xeko lao: " + text);
-            } else {
-                String hexColor = text.substring(0, HEX_NUMBER_OF_CHAR - 1);
-                String string = text.substring(HEX_NUMBER_OF_CHAR, text.length());
-
-                g2d.setColor(Color.decode(hexColor));
-                g2d.drawString(string, position.x, position.y);
+        synchronized (renderLock) {
+            for (LineRenderer lineRenderer : lineRenderers) {
+                lineRenderer.render(g2d, realPosition);
+                realPosition = realPosition.add(0, fontMetrics.getHeight());
             }
-        } else {
-            g2d.drawString(text, position.x, position.y);
         }
+
     }
 
     private void drawVerticalLines(Graphics2D g2d) {
         int x = (int) (getPosition().x - getAnchor().x * getSize().x);
         int y = (int) (getPosition().y - getAnchor().y * getSize().y);
-        for (int i = 0; i < linesMax + 2; i++) {
+        for (int i = 0; i < (getSize().y / g2d.getFontMetrics().getHeight()) + 1; i++) {
             g2d.drawString("|", x, y);
             y += fontMetrics.getHeight();
         }
@@ -98,7 +85,7 @@ public class TextView extends GamePanel {
         } else {
             ArrayList<WordsRenderer> wordsRenderers = new ArrayList<>();
 
-            for(String words : str.split(";")) {
+            for (String words : str.split(";")) {
                 if (words.length() > 0) {
                     WordsRenderer wordsRenderer = WordsRenderer.parse(words);
                     wordsRenderers.add(wordsRenderer);
@@ -111,46 +98,21 @@ public class TextView extends GamePanel {
                 WordsRenderer wordsRenderer = wordsRenderers.get(wordIndex);
                 newLineRenderer.add(wordsRenderer);
 
-                boolean lineLengthExceeds = newLineRenderer.stringWidth(fontMetrics) > this.getSize().y;
+                boolean lineLengthExceeds = newLineRenderer.stringWidth(fontMetrics) - 20 > this.getSize().y;
                 boolean isLastWord = (wordIndex == wordsRenderers.size() - 1);
                 if (lineLengthExceeds || isLastWord) {
-                    this.lineRenderers.add(newLineRenderer);
-                    newLineRenderer = new LineRenderer();
-                    if (lineRenderers.size() > linesMax) {
-                        // Trim the begnining
-                        for (int lineIndex = 0; lineIndex < (lineRenderers.size() - linesMax) && lineRenderers.size() > 0; lineIndex++) {
-                            lineRenderers.remove(0);
+                    synchronized (renderLock) {
+                        this.lineRenderers.add(newLineRenderer);
+                        newLineRenderer = new LineRenderer();
+                        if (lineRenderers.size() > linesMax) {
+                            // Trim the begnining
+                            for (int lineIndex = 0; lineIndex < (lineRenderers.size() - linesMax) && lineRenderers.size() > 0; lineIndex++) {
+                                lineRenderers.remove(0);
+                            }
                         }
                     }
                 }
             }
         }
     }
-
-//    public void appendText(String str) {
-//        if (fontMetrics == null) {
-//            System.out.println("Font metrics is not ready");
-//        } else {
-//            String[] words = str.split(" ");
-//            StringBuilder newLine = new StringBuilder();
-//            for (int wordIndex = 0; wordIndex < words.length; wordIndex++) {
-//                String word = words[wordIndex];
-//                // Accumulate a new line
-//                newLine.append(word).append(" ");
-//                boolean lineLengthExceeds = fontMetrics.stringWidth(newLine.toString()) > this.getSize().y;
-//                boolean isLastWord = (wordIndex == words.length - 1);
-//                if (lineLengthExceeds || isLastWord) {
-//                    // New line has enough width
-//                    lineRenderers.add(newLine.toString());
-//                    newLine.setLength(0); // Flush
-//                    if (lineRenderers.size() > linesMax) {
-//                        // Trim the begnining
-//                        for (int lineIndex = 0; lineIndex < (lineRenderers.size() - linesMax) && lineRenderers.size() > 0; lineIndex++) {
-//                            lineRenderers.remove(0);
-//                        }
-//                    }
-//                }
-//            }
-//        }
-//    }
 }

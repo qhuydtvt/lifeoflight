@@ -19,5 +19,5 @@ public class Settings {
     public static final int STATS_SCREEN_WIDTH = SCREEN_WIDTH - CMD_SCREEN_WIDTH;
     public static final int STATS_SCREEN_HEIGHT = SCREEN_HEIGHT;
 
-    public static Font DEFAULT_FONT = Utils.loadFont("assets/fonts/Menlo-Regular.ttf", 14);
+    public static Font DEFAULT_FONT = Utils.vnFont;
 }

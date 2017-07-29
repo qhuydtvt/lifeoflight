@@ -11,10 +11,8 @@ import lol.inputs.InputManager;
 public class InputText extends TextView {
     public InputText() {
         super();
-        this.lineRenderers.add(
-                new LineRenderer()
-                .add(WordsRenderer.parse(">> "))
-        );
+        this.lineRenderers.add(new
+                LineRenderer().add(WordsRenderer.parse(">> ")));
 
         InputManager.instance.addCommandListener(new CommandListener() {
             @Override

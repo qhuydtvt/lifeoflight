@@ -35,7 +35,7 @@ public class WordsRenderer {
                 System.out.println("Xeko lao: " + coloredText);
                 return null;
             } else {
-                String hexColor = coloredText.substring(0, HEX_NUMBER_OF_CHAR - 1);
+                String hexColor = coloredText.substring(0, HEX_NUMBER_OF_CHAR);
                 String plainText = coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
 
                 WordsRenderer wordsRenderer =  new WordsRenderer();
