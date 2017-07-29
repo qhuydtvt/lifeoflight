@@ -48,7 +48,7 @@ public class TextView extends GamePanel {
                 linesMax = (int) (getSize().y / fontMetrics.getHeight()) - 1;
             }
         }
-        
+
         drawVerticalLines(g2d);
 
         g2d.drawString(separator, getPosition().x - getAnchor().x * getSize().x, getPosition().y - getAnchor().y * getSize().y);
@@ -84,13 +84,11 @@ public class TextView extends GamePanel {
     private void drawVerticalLines(Graphics2D g2d) {
         int x = (int) (getPosition().x - getAnchor().x * getSize().x);
         int y = (int) (getPosition().y - getAnchor().y * getSize().y);
-        for(int i = 0; i < linesMax + 2; i ++) {
+        for (int i = 0; i < linesMax + 2; i++) {
             g2d.drawString("|", x, y);
             y += fontMetrics.getHeight();
         }
     }
-
-
 
     public void appendText(String str) {
         if (fontMetrics == null) {
@@ -98,21 +96,26 @@ public class TextView extends GamePanel {
         } else {
             String[] words = str.split(" ");
             StringBuilder newLine = new StringBuilder();
-            for (String word : words) {
+            for (int wordIndex = 0; wordIndex < words.length; wordIndex++) {
+                String word = words[wordIndex];
                 // Accumulate a new line
                 newLine.append(word).append(" ");
-                if (fontMetrics.stringWidth(newLine.toString()) > this.getSize().y) {
+                boolean lineLengthExceeds = fontMetrics.stringWidth(newLine.toString()) > this.getSize().y;
+                boolean isLastWord = (wordIndex == words.length - 1);
+                if (lineLengthExceeds || isLastWord) {
                     // New line has enough width
-                    lines.add(count++ + newLine.toString());
+                    lines.add(newLine.toString());
                     newLine.setLength(0); // Flush
                     if (lines.size() > linesMax) {
                         // Trim the begnining
-                        for (int i = 0; i < (lines.size() - linesMax) && lines.size() > 0; i++) {
+                        for (int lineIndex = 0; lineIndex < (lines.size() - linesMax) && lines.size() > 0; lineIndex++) {
                             lines.remove(0);
                         }
                     }
                 }
             }
+
+            System.out.println(lines);
         }
     }
 }
