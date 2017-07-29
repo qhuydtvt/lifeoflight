@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/bases/Utils.java" afterPath="$PROJECT_DIR$/src/lol/bases/Utils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/bases/renderers/WordsRenderer.java" afterPath="$PROJECT_DIR$/src/lol/bases/renderers/WordsRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/settings/Settings.java" afterPath="$PROJECT_DIR$/src/lol/settings/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/uis/InputText.java" afterPath="$PROJECT_DIR$/src/lol/uis/InputText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/uis/TextScreen.java" afterPath="$PROJECT_DIR$/src/lol/uis/TextScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/uis/TextView.java" afterPath="$PROJECT_DIR$/src/lol/uis/TextView.java" />
     </list>
@@ -27,8 +22,8 @@
       <file leaf-file-name="TextScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/uis/TextScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="223">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -37,8 +32,8 @@
       <file leaf-file-name="TextView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lol/uis/TextView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="75" column="80" lean-forward="false" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="80" />
+            <state relative-caret-position="158">
+              <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,8 +160,8 @@
         <option value="$PROJECT_DIR$/src/lol/bases/renderers/WordsRenderer.java" />
         <option value="$PROJECT_DIR$/src/lol/settings/Settings.java" />
         <option value="$PROJECT_DIR$/src/lol/bases/Utils.java" />
-        <option value="$PROJECT_DIR$/src/lol/uis/TextScreen.java" />
         <option value="$PROJECT_DIR$/src/lol/uis/InputText.java" />
+        <option value="$PROJECT_DIR$/src/lol/uis/TextScreen.java" />
         <option value="$PROJECT_DIR$/src/lol/uis/TextView.java" />
       </list>
     </option>
@@ -990,14 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lol/uis/TextScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1038,10 +1025,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/uis/TextScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lol/uis/TextView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="75" column="80" lean-forward="false" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="80" />
+        <state relative-caret-position="158">
+          <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

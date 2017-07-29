@@ -79,6 +79,12 @@ public class TextView extends GamePanel {
         }
     }
 
+    public void clear() {
+        synchronized (renderLock) {
+            this.lineRenderers.clear();;
+        }
+    }
+
     public void addText(String str) {
         if (fontMetrics == null) {
             System.out.println("Font metrics is not ready");
