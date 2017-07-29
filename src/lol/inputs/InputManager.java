@@ -51,11 +51,12 @@ public class InputManager implements KeyListener {
         setCommand("");
     }
 
-    boolean isValidInput(char c) {
+    private boolean isValidInput(char c) {
         return Character.isDigit(c)
                 || Character.isSpaceChar(c)
                 || Character.isLetter(c)
-                || c == '#';
+                || c == '#'
+                || c == ';';
     }
 
     @Override

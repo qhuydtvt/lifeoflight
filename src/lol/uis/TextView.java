@@ -1,6 +1,8 @@
 package lol.uis;
 
 import lol.bases.Vector2D;
+import lol.bases.renderers.LineRenderer;
+import lol.bases.renderers.WordsRenderer;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -9,7 +11,8 @@ import java.util.ArrayList;
  * Created by huynq on 7/28/17.
  */
 public class TextView extends GamePanel {
-    protected ArrayList<String> lines;
+    protected ArrayList<LineRenderer> lineRenderers;
+
     private String separator = "--------------------------------------------------------------------------------------------";
     private Color textColor;
     public static final int HEX_NUMBER_OF_CHAR = 7;
@@ -21,7 +24,7 @@ public class TextView extends GamePanel {
 
     public TextView() {
         super();
-        lines = new ArrayList<>();
+        lineRenderers = new ArrayList<>();
         offsetText = new Vector2D();
         textColor = Color.WHITE;
         fontMetrics = null;
@@ -58,11 +61,10 @@ public class TextView extends GamePanel {
                 .subtract(getAnchor().x * getSize().x, getAnchor().y * getSize().y);
 
 
-        for (String line : lines) {
-            renderText(g2d, line, realPosition);
-            realPosition.y += fontMetrics.getHeight();
+        for (LineRenderer lineRenderer: lineRenderers) {
+            lineRenderer.render(g2d, realPosition);
+            realPosition = realPosition.add(0, fontMetrics.getHeight());
         }
-
     }
 
     private void renderText(Graphics2D g2d, String text, Vector2D position) {
@@ -90,32 +92,65 @@ public class TextView extends GamePanel {
         }
     }
 
-    public void appendText(String str) {
+    public void addText(String str) {
         if (fontMetrics == null) {
             System.out.println("Font metrics is not ready");
         } else {
-            String[] words = str.split(" ");
-            StringBuilder newLine = new StringBuilder();
-            for (int wordIndex = 0; wordIndex < words.length; wordIndex++) {
-                String word = words[wordIndex];
-                // Accumulate a new line
-                newLine.append(word).append(" ");
-                boolean lineLengthExceeds = fontMetrics.stringWidth(newLine.toString()) > this.getSize().y;
-                boolean isLastWord = (wordIndex == words.length - 1);
+            ArrayList<WordsRenderer> wordsRenderers = new ArrayList<>();
+
+            for(String words : str.split(";")) {
+                if (words.length() > 0) {
+                    WordsRenderer wordsRenderer = WordsRenderer.parse(words);
+                    wordsRenderers.add(wordsRenderer);
+                }
+            }
+
+            LineRenderer newLineRenderer = new LineRenderer();
+
+            for (int wordIndex = 0; wordIndex < wordsRenderers.size(); wordIndex++) {
+                WordsRenderer wordsRenderer = wordsRenderers.get(wordIndex);
+                newLineRenderer.add(wordsRenderer);
+
+                boolean lineLengthExceeds = newLineRenderer.stringWidth(fontMetrics) > this.getSize().y;
+                boolean isLastWord = (wordIndex == wordsRenderers.size() - 1);
                 if (lineLengthExceeds || isLastWord) {
-                    // New line has enough width
-                    lines.add(newLine.toString());
-                    newLine.setLength(0); // Flush
-                    if (lines.size() > linesMax) {
+                    this.lineRenderers.add(newLineRenderer);
+                    newLineRenderer = new LineRenderer();
+                    if (lineRenderers.size() > linesMax) {
                         // Trim the begnining
-                        for (int lineIndex = 0; lineIndex < (lines.size() - linesMax) && lines.size() > 0; lineIndex++) {
-                            lines.remove(0);
+                        for (int lineIndex = 0; lineIndex < (lineRenderers.size() - linesMax) && lineRenderers.size() > 0; lineIndex++) {
+                            lineRenderers.remove(0);
                         }
                     }
                 }
             }
-
-            System.out.println(lines);
         }
     }
+
+//    public void appendText(String str) {
+//        if (fontMetrics == null) {
+//            System.out.println("Font metrics is not ready");
+//        } else {
+//            String[] words = str.split(" ");
+//            StringBuilder newLine = new StringBuilder();
+//            for (int wordIndex = 0; wordIndex < words.length; wordIndex++) {
+//                String word = words[wordIndex];
+//                // Accumulate a new line
+//                newLine.append(word).append(" ");
+//                boolean lineLengthExceeds = fontMetrics.stringWidth(newLine.toString()) > this.getSize().y;
+//                boolean isLastWord = (wordIndex == words.length - 1);
+//                if (lineLengthExceeds || isLastWord) {
+//                    // New line has enough width
+//                    lineRenderers.add(newLine.toString());
+//                    newLine.setLength(0); // Flush
+//                    if (lineRenderers.size() > linesMax) {
+//                        // Trim the begnining
+//                        for (int lineIndex = 0; lineIndex < (lineRenderers.size() - linesMax) && lineRenderers.size() > 0; lineIndex++) {
+//                            lineRenderers.remove(0);
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//    }
 }

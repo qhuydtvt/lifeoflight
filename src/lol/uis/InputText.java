@@ -1,5 +1,7 @@
 package lol.uis;
 
+import lol.bases.renderers.LineRenderer;
+import lol.bases.renderers.WordsRenderer;
 import lol.inputs.CommandListener;
 import lol.inputs.InputManager;
 
@@ -9,7 +11,10 @@ import lol.inputs.InputManager;
 public class InputText extends TextView {
     public InputText() {
         super();
-        lines.add(">> ");
+        this.lineRenderers.add(
+                new LineRenderer()
+                .add(WordsRenderer.parse(">> "))
+        );
 
         InputManager.instance.addCommandListener(new CommandListener() {
             @Override
@@ -19,8 +24,8 @@ public class InputText extends TextView {
 
             @Override
             public void commandChanged(String command) {
-                lines.clear();
-                lines.add(">> " + command);
+                lineRenderers.clear();
+                addText(">> " + command);
             }
         });
     }

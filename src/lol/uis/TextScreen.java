@@ -9,7 +9,7 @@ public class TextScreen extends TextView implements CommandListener {
 
     @Override
     public void onCommandFinished(String command) {
-        this.appendText(command);
+        this.addText(command);
     }
 
     @Override

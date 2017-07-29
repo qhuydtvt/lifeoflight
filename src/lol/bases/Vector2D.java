@@ -61,6 +61,10 @@ public class Vector2D {
         set(other.x, other.y);
     }
 
+    public Vector2D clone() {
+        return new Vector2D(this.x, this.y);
+    }
+
     @Override
     public String toString() {
         return "Vector2D{" +
