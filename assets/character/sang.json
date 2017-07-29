@@ -1,0 +1,18 @@
+[
+	"sang":{
+		"name":"Light",
+		"hp" : 15,
+		"mana" : 10,
+		"stamina" : 10,
+		"str" : 5,
+		"dex" : 3,
+		"wis" : 4,
+		"luck" : 1,
+		"item" : null,
+		"skill" : null,
+		"status" : null,
+		"ability" : null,
+		"iventory" : null
+	}
+	
+]
