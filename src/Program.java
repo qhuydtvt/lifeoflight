@@ -1,14 +1,12 @@
 import lol.GameWindow;
-import lol.states.State;
-import lol.states.StateManager;
-import lol.states.maps.Map;
+import lol.gameevents.GameEventManager;
 
 /**
  * Created by huynq on 7/28/17.
  */
 public class Program {
     public static void main(String[] args) {
-        StateManager.instance.loadInitialMap();
+        GameEventManager.instance.loadInitialMap();
         GameWindow gameWindow = new GameWindow();
         gameWindow.gameLoop();
     }

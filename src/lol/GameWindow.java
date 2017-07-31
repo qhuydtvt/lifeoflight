@@ -1,11 +1,9 @@
 package lol;
 
 import lol.bases.GameObject;
-import lol.inputs.CommandListener;
 import lol.inputs.InputManager;
 import lol.settings.Settings;
-import lol.states.StateManager;
-import lol.uis.GamePanel;
+import lol.gameevents.GameEventManager;
 import lol.uis.InputText;
 import lol.uis.TextScreen;
 import lol.uis.TextView;
@@ -78,7 +76,7 @@ public class GameWindow extends JFrame {
         GameObject.add(statsPanel);
 
         InputManager.instance.addCommandListener(textScreenPanel);
-        InputManager.instance.addCommandListener(StateManager.instance);
+        InputManager.instance.addCommandListener(GameEventManager.instance);
     }
 
 
