@@ -1,12 +1,14 @@
 package lol.states;
 
+import lol.commands.CommandProcessor;
+import lol.commands.LookProcessor;
+import lol.commands.MoveProcessor;
 import lol.events.EventManager;
 import lol.inputs.CommandListener;
 import lol.states.maps.Map;
-import lol.states.maps.mapitems.MapItem;
-import lol.states.maps.mapitems.Wall;
-import lol.states.players.Player;
 
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -17,10 +19,13 @@ public class StateManager implements CommandListener {
 
     State state = State.instance;
 
-
+    HashMap<String, CommandProcessor> commandProcessors;
 
     private StateManager() {
-
+        commandProcessors = new HashMap<String, CommandProcessor>() {{
+            put("MOVE", new MoveProcessor());
+            put("LOOK", new LookProcessor());
+        }};
     }
 
     public void loadInitialMap() {
@@ -32,72 +37,20 @@ public class StateManager implements CommandListener {
         );
     }
 
-    public void processCommand(String command) {
+    private void processCommand(String command) {
 
-        Map map = state.getMap();
+        List<String> commands = Arrays.asList(command.toUpperCase().split("_"));
 
-        Player player = state.getPlayer();
+        int commandsNumber = commands.size();
 
-        String[] commands = command.toUpperCase().split("_");
+        if (commandsNumber < 1) return;
 
-        if (commands.length < 1) return;
+        String mainCommand = commands.get(0);
 
-        String mainCommand = commands[0];
-        MapPosition moveDirection = new MapPosition();
-        switch (mainCommand) {
-            case "MOVE":
-                if (commands.length < 2) return;
-                String direction = commands[1];
-                String message = "";
-                switch (direction) {
-                    case "UP":
-                        moveDirection.y = - 1;
-                        message = "You just go ;#00FF00up";
-                        break;
-                    case "DOWN":
-                        moveDirection.y = 1;
-                        message = "You just go ;#00FF00down";
-                        break;
-                    case "RIGHT":
-                        moveDirection.x = 1;
-                        message = "You just go ;#00FF00right";
-                        break;
-                    case "LEFT":
-                        moveDirection.x = -1;
-                        message = "You just go ;#00FF00left";
-                        break;
-                }
-
-                MapPosition futurePosition = player.getPosition().add(moveDirection);
-                MapItem mapItem = map.getMapItem(futurePosition);
-
-                if (mapItem instanceof Wall) {
-                    EventManager.pushUIMessage("You just hit the ;#6e7f89wall;, can't move there");
-                } else {
-                    // TODO: Handle event
-                    player.move(moveDirection.x, moveDirection.y);
-                    EventManager.pushUIMessage(message);
-                }
-                break;
-            case "LOOK":
-                List<List<MapItem>> block = map.getMapItems(player.getPosition(), player.getVision());
-                EventManager.pushUIMessage(" ");
-                for (int y = 0; y < block.size(); y ++) {
-                    StringBuilder rowMessage = new StringBuilder();
-                    for(int x = 0; x < block.get(0).size(); x ++) {
-                        MapItem item = block.get(y).get(x);
-                        if (x == block.size() / 2 && y == block.get(0).size() / 2) {
-                            rowMessage.append("@ ");
-                        } else if (item == null){
-                            rowMessage.append("x ");
-                        } else {
-                            rowMessage.append(item.getSymbol()).append(" ");
-                        }
-                    }
-                    EventManager.pushUIMessage(rowMessage.toString());
-                }
-                EventManager.pushUIMessage(" ");
-                break;
+        if (commandProcessors.containsKey(mainCommand)) {
+            CommandProcessor.forward(commands, commandProcessors.get(mainCommand));
+        } else {
+            EventManager.pushUIMessage("Command not found, type ;#FF0000help; to get support");
         }
     }
 
