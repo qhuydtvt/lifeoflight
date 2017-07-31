@@ -11,18 +11,29 @@ public class MapItem {
     private static final int CHAR_EXIT = '#';
     private static final int CHAR_MAIN = 'M';
 
+    private char symbol;
+
+    public char getSymbol() {
+        return symbol;
+    }
+
+    public MapItem setSymbol(char symbol) {
+        this.symbol = symbol;
+        return this;
+    }
+
     public static MapItem parse(char c) {
         switch (c) {
-            case CHAR_EMPTY: return new Empty();
-            case CHAR_WALL: return new Wall();
-            case CHAR_EVENT: return new Event();
-            case CHAR_START: return new Start();
-            case CHAR_EXIT: return new Exit();
-            case CHAR_MAIN: return new Main();
+            case CHAR_EMPTY: return new Empty().setSymbol(c);
+            case CHAR_WALL: return new Wall().setSymbol(c);
+            case CHAR_EVENT: return new Event().setSymbol(c);
+            case CHAR_START: return new Start().setSymbol(' ');
+            case CHAR_EXIT: return new Exit().setSymbol(c);
+            case CHAR_MAIN: return new Main().setSymbol(c);
             default:
                 break;
         }
 
-        return new Empty();
+        return new Empty().setSymbol(' ');
     }
 }

@@ -13,10 +13,11 @@ public class Player {
     private int dex;
     private int wis;
     private int luck;
+    private int vision;
 
     private MapPosition mapPosition;
 
-    public Player(int hp, int mana, int stamina, int strength, int dex, int wis, int luck) {
+    public Player(int hp, int mana, int stamina, int strength, int dex, int wis, int luck, int vision) {
         this.hp = hp;
         this.mana = mana;
         this.stamina = stamina;
@@ -24,11 +25,12 @@ public class Player {
         this.dex = dex;
         this.wis = wis;
         this.luck = luck;
+        this.vision = vision;
         mapPosition = new MapPosition();
     }
 
     public Player() {
-        this(15,10,10,5,3,4, 1);
+        this(15, 10, 10, 5, 3, 4, 1, 2);
     }
 
     public int getHp() {
@@ -59,6 +61,10 @@ public class Player {
         return luck;
     }
 
+    public int getVision() {
+        return vision;
+    }
+
     public void move(int dx, int dy) {
         this.mapPosition.addUp(dx, dy);
     }
@@ -67,7 +73,7 @@ public class Player {
         this.mapPosition.set(x, y);
     }
 
-    public MapPosition getMapPosition() {
+    public MapPosition getPosition() {
         return mapPosition;
     }
 

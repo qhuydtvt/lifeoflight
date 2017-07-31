@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by huynq on 7/30/17.
@@ -42,12 +43,36 @@ public class Map {
     }
 
     public MapItem getMapItem(int x, int y) {
-        // TODO: Validate x, y
+        if (x < 0 || x >= width) return null;
+        if (y < 0 || y >= height) return null;
         return data.get(y).get(x);
     }
 
     public MapItem getMapItem(MapPosition mapPosition) {
         return getMapItem(mapPosition.x, mapPosition.y);
+    }
+
+    public List<List<MapItem>> getMapItems(int playerX, int playerY, int range) {
+        int startX = playerX - range;
+        int endX = playerX + range;
+        int startY = playerY - range;
+        int endY = playerY + range;
+
+        List<List<MapItem>> block = new ArrayList<>();
+
+        for (int y = startY; y <= endY; y ++) {
+            List<MapItem> row = new ArrayList<>();
+            for (int x = startX; x <= endX; x++) {
+                row.add(getMapItem(x, y));
+            }
+            block.add(row);
+        }
+
+        return block;
+    }
+
+    public List<List<MapItem>> getMapItems(MapPosition playerPosition, int range) {
+        return getMapItems(playerPosition.x, playerPosition.y, range);
     }
 
     public static Map parse(String mapContent) {

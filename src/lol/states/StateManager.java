@@ -1,14 +1,13 @@
 package lol.states;
 
-import lol.bases.Vector2D;
 import lol.events.EventManager;
-import lol.events.EventType;
 import lol.inputs.CommandListener;
 import lol.states.maps.Map;
 import lol.states.maps.mapitems.MapItem;
 import lol.states.maps.mapitems.Wall;
 import lol.states.players.Player;
-import lol.uis.TextScreen;
+
+import java.util.List;
 
 /**
  * Created by huynq on 8/1/17.
@@ -69,7 +68,7 @@ public class StateManager implements CommandListener {
                         break;
                 }
 
-                MapPosition futurePosition = player.getMapPosition().add(moveDirection);
+                MapPosition futurePosition = player.getPosition().add(moveDirection);
                 MapItem mapItem = map.getMapItem(futurePosition);
 
                 if (mapItem instanceof Wall) {
@@ -79,8 +78,25 @@ public class StateManager implements CommandListener {
                     player.move(moveDirection.x, moveDirection.y);
                     EventManager.pushUIMessage(message);
                 }
-
-
+                break;
+            case "LOOK":
+                List<List<MapItem>> block = map.getMapItems(player.getPosition(), player.getVision());
+                EventManager.pushUIMessage(" ");
+                for (int y = 0; y < block.size(); y ++) {
+                    StringBuilder rowMessage = new StringBuilder();
+                    for(int x = 0; x < block.get(0).size(); x ++) {
+                        MapItem item = block.get(y).get(x);
+                        if (x == block.size() / 2 && y == block.get(0).size() / 2) {
+                            rowMessage.append("@ ");
+                        } else if (item == null){
+                            rowMessage.append("x ");
+                        } else {
+                            rowMessage.append(item.getSymbol()).append(" ");
+                        }
+                    }
+                    EventManager.pushUIMessage(rowMessage.toString());
+                }
+                EventManager.pushUIMessage(" ");
                 break;
         }
     }

@@ -35,6 +35,14 @@ public class MapPosition {
         this.y = y;
     }
 
+    public boolean equals(int x, int y) {
+        return this.x == x && this.y == 7;
+    }
+
+    public boolean equals(MapPosition other) {
+        return equals(other.x, other.y);
+    }
+
     @Override
     public String toString() {
         return "MapPosition{" +
