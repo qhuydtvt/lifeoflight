@@ -1,0 +1,93 @@
+[
+	{
+		"name":"yêu tinh ngơ ngác",
+		"id":1,
+		"stat":{
+			"hp":4,
+			"mana":0,
+			"stamina":6,
+			"str":2,
+			"dex":2,
+			"wis":2,
+			"luck":5
+		}
+	},
+	{
+		"name":"yêu tinh",
+		"id":2,
+		"stat":{
+			"hp":6,
+			"mana":0,
+			"stamina":6,
+			"str":4,
+			"dex":3,
+			"wis":2,
+			"luck":4
+		}
+	},
+	{
+		"name":"yêu tinh già",
+		"id":3,
+		"stat":{
+			"hp":3,
+			"mana":0,
+			"stamina":6,
+			"str":3,
+			"dex":2,
+			"wis":2,
+			"luck":10
+		}
+	},
+	{
+		"name":"chuột",
+		"id":4,
+		"stat":{
+			"hp":2,
+			"mana":0,
+			"stamina":5,
+			"str":1,
+			"dex":1,
+			"wis":1,
+			"luck":1
+		}
+	},
+	{
+		"name":"chuột hầm mộ",
+		"id":5,
+		"stat":{
+			"hp":4,
+			"mana":0,
+			"stamina":5,
+			"str":1,
+			"dex":1,
+			"wis":1,
+			"luck":1
+		}
+	},
+	{
+		"name":"hòn đá",
+		"id":6,
+		"stat":{
+			"hp":20,
+			"mana":0,
+			"stamina":5,
+			"str":1,
+			"dex":1,
+			"wis":1,
+			"luck":1
+		}
+	},
+	{
+		"name":"đạo tặc",
+		"id":7,
+		"stat":{
+			"hp":8,
+			"mana":0,
+			"stamina":5,
+			"str":3,
+			"dex":2,
+			"wis":1,
+			"luck":3
+		}
+	},
+]
