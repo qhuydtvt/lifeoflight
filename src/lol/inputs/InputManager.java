@@ -33,7 +33,7 @@ public class InputManager implements KeyListener {
         if (typedCharacter == '\b' && command.length() > 0) {
             int endPosition = command.length() - 1;
             if (endPosition < 0) endPosition = 0;
-            setCommand(command.substring(0,  endPosition));
+            setCommand(command.substring(0, endPosition));
         }
     }
 
@@ -52,11 +52,13 @@ public class InputManager implements KeyListener {
     }
 
     private boolean isValidInput(char c) {
+        List<Character> allowedSpecialCharacters =
+                java.util.Arrays.asList('#', ';', '_');
+
         return Character.isDigit(c)
                 || Character.isSpaceChar(c)
                 || Character.isLetter(c)
-                || c == '#'
-                || c == ';';
+                || allowedSpecialCharacters.contains(c);
     }
 
     @Override

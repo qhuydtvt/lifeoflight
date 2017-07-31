@@ -1,9 +1,11 @@
-package lol.states.characters;
+package lol.states.players;
+
+import lol.states.MapPosition;
 
 /**
  * Created by huynq on 7/30/17.
  */
-public class Character {
+public class Player {
     private int hp;
     private int mana;
     private int stamina;
@@ -12,10 +14,9 @@ public class Character {
     private int wis;
     private int luck;
 
-    private int x;
-    private int y;
+    private MapPosition mapPosition;
 
-    public Character(int hp, int mana, int stamina, int strength, int dex, int wis, int luck) {
+    public Player(int hp, int mana, int stamina, int strength, int dex, int wis, int luck) {
         this.hp = hp;
         this.mana = mana;
         this.stamina = stamina;
@@ -23,9 +24,10 @@ public class Character {
         this.dex = dex;
         this.wis = wis;
         this.luck = luck;
+        mapPosition = new MapPosition();
     }
 
-    public Character() {
+    public Player() {
         this(15,10,10,5,3,4, 1);
     }
 
@@ -58,18 +60,20 @@ public class Character {
     }
 
     public void move(int dx, int dy) {
-        this.x += dx;
-        this.y += dy;
+        this.mapPosition.addUp(dx, dy);
     }
 
     public void setPosition(int x, int y) {
-        this.x = x;
-        this.y = y;
+        this.mapPosition.set(x, y);
+    }
+
+    public MapPosition getMapPosition() {
+        return mapPosition;
     }
 
     @Override
     public String toString() {
-        return "Character{" +
+        return "Player{" +
                 "hp=" + hp +
                 ", mana=" + mana +
                 ", stamina=" + stamina +
@@ -77,8 +81,7 @@ public class Character {
                 ", dex=" + dex +
                 ", wis=" + wis +
                 ", luck=" + luck +
-                ", x=" + x +
-                ", y=" + y +
+                ", mapPosition=" + mapPosition +
                 '}';
     }
 }

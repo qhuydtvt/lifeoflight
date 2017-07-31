@@ -1,4 +1,6 @@
 import lol.GameWindow;
+import lol.states.State;
+import lol.states.StateManager;
 import lol.states.maps.Map;
 
 /**
@@ -6,18 +8,9 @@ import lol.states.maps.Map;
  */
 public class Program {
     public static void main(String[] args) {
-        testMap();
+        StateManager.instance.loadInitialMap();
+        System.out.println(State.instance.toString());
         GameWindow gameWindow = new GameWindow();
         gameWindow.gameLoop();
-    }
-
-    private static void loadMap() {
-
-    }
-
-    private static void testMap() {
-        Map map = Map.parseFile("assets/maps/lvl1.txt");
-        assert map != null;
-        System.out.println(map);
     }
 }

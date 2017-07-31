@@ -4,6 +4,7 @@ import lol.bases.GameObject;
 import lol.inputs.CommandListener;
 import lol.inputs.InputManager;
 import lol.settings.Settings;
+import lol.states.StateManager;
 import lol.uis.GamePanel;
 import lol.uis.InputText;
 import lol.uis.TextScreen;
@@ -44,7 +45,7 @@ public class GameWindow extends JFrame {
                 Settings.TEXT_SCREEN_SCREEN_WIDTH,
                 Settings.TEXT_SCREEN_SCREEN_HEIGHT);
         textScreenPanel.getOffsetText().set(20, 40);
-        InputManager.instance.addCommandListener(textScreenPanel);
+
         GameObject.add(textScreenPanel);
 
 
@@ -75,6 +76,9 @@ public class GameWindow extends JFrame {
                 Settings.STATS_SCREEN_HEIGHT
         );
         GameObject.add(statsPanel);
+
+        InputManager.instance.addCommandListener(textScreenPanel);
+        InputManager.instance.addCommandListener(StateManager.instance);
     }
 
 

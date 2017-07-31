@@ -1,6 +1,6 @@
 package lol.states.maps;
 
-import lol.states.characters.Character;
+import lol.states.MapPosition;
 import lol.states.maps.mapitems.MapItem;
 import lol.states.maps.mapitems.Start;
 
@@ -16,12 +16,12 @@ public class Map {
     private int width;
     private int height;
 
-    private Character character;
+    private int characterStartX;
+    private int getCharacterStartY;
 
     private ArrayList<ArrayList<MapItem>> data;
 
     public Map() {
-        character = new Character();
         data = new ArrayList<>();
     }
 
@@ -31,6 +31,14 @@ public class Map {
 
     public int getHeight() {
         return height;
+    }
+
+    public int getPlayerStartX() {
+        return characterStartX;
+    }
+
+    public int getPlayerStartY() {
+        return getCharacterStartY;
     }
 
     public static Map parse(String mapContent) {
@@ -43,7 +51,8 @@ public class Map {
             for (int x = 0; x < map.width; x++) {
                 MapItem mapItem = MapItem.parse(lines[y].charAt(x));
                 if (mapItem instanceof Start) {
-                    map.character.setPosition(x, y);
+                    map.characterStartX = x;
+                    map.getCharacterStartY = y;
                 }
                 row.add(mapItem);
             }
@@ -70,6 +79,11 @@ public class Map {
         return content == null ? null : parse(content);
     }
 
+    public boolean isValidPosition(MapPosition position) {
+        return 0 <= position.x && position.x < width &&
+                0 <= position.y && position.y < height;
+    }
+
     @Override
     public String toString() {
         StringBuilder content = new StringBuilder();
@@ -79,7 +93,6 @@ public class Map {
             }
             content.append("\n");
         }
-        content.append("Character: " + character + "\n");
         return content.toString();
     }
 }
