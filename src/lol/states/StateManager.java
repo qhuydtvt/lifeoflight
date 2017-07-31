@@ -1,9 +1,12 @@
 package lol.states;
 
+import lol.bases.Vector2D;
 import lol.events.EventManager;
 import lol.events.EventType;
 import lol.inputs.CommandListener;
 import lol.states.maps.Map;
+import lol.states.maps.mapitems.MapItem;
+import lol.states.maps.mapitems.Wall;
 import lol.states.players.Player;
 import lol.uis.TextScreen;
 
@@ -15,7 +18,7 @@ public class StateManager implements CommandListener {
 
     State state = State.instance;
 
-    Player player = State.instance.getPlayer();
+
 
     private StateManager() {
 
@@ -31,34 +34,53 @@ public class StateManager implements CommandListener {
     }
 
     public void processCommand(String command) {
+
+        Map map = state.getMap();
+
+        Player player = state.getPlayer();
+
         String[] commands = command.toUpperCase().split("_");
 
         if (commands.length < 1) return;
 
         String mainCommand = commands[0];
+        MapPosition moveDirection = new MapPosition();
         switch (mainCommand) {
             case "MOVE":
                 if (commands.length < 2) return;
                 String direction = commands[1];
+                String message = "";
                 switch (direction) {
                     case "UP":
-                        player.move(0, -1);
-                        EventManager.push(EventType.UI_MESSAGE, "You just go ;#00FF00up");
+                        moveDirection.y = - 1;
+                        message = "You just go ;#00FF00up";
                         break;
                     case "DOWN":
-                        player.move(0, 1);
-                        EventManager.push(EventType.UI_MESSAGE, "You just go ;#00FF00down");
+                        moveDirection.y = 1;
+                        message = "You just go ;#00FF00down";
                         break;
                     case "RIGHT":
-                        player.move(1, 0);
-                        EventManager.push(EventType.UI_MESSAGE, "You just go ;#00FF00left");
+                        moveDirection.x = 1;
+                        message = "You just go ;#00FF00right";
                         break;
                     case "LEFT":
-                        player.move(-1, 0);
-                        EventManager.push(EventType.UI_MESSAGE, "You just go ;#00FF00right");
+                        moveDirection.x = -1;
+                        message = "You just go ;#00FF00left";
                         break;
                 }
-                System.out.println(player);
+
+                MapPosition futurePosition = player.getMapPosition().add(moveDirection);
+                MapItem mapItem = map.getMapItem(futurePosition);
+
+                if (mapItem instanceof Wall) {
+                    EventManager.pushUIMessage("You just hit the ;#6e7f89wall;, can't move there");
+                } else {
+                    // TODO: Handle event
+                    player.move(moveDirection.x, moveDirection.y);
+                    EventManager.pushUIMessage(message);
+                }
+
+
                 break;
         }
     }

@@ -22,4 +22,8 @@ public class EventManager {
             listener.onEvent(type, message);
         }
     }
+
+    public static void pushUIMessage(String message) {
+        push(EventType.UI_MESSAGE, message);
+    }
 }

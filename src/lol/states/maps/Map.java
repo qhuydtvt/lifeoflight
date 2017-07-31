@@ -41,6 +41,15 @@ public class Map {
         return getCharacterStartY;
     }
 
+    public MapItem getMapItem(int x, int y) {
+        // TODO: Validate x, y
+        return data.get(y).get(x);
+    }
+
+    public MapItem getMapItem(MapPosition mapPosition) {
+        return getMapItem(mapPosition.x, mapPosition.y);
+    }
+
     public static Map parse(String mapContent) {
         String[] lines = mapContent.split("\r\n|\n|\r");
         Map map = new Map();
