@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LifeOfLight:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LifeOfLight_jar</output-path>
+    <root id="archive" name="LifeOfLight.jar">
+      <element id="module-output" name="LifeOfLight" />
+    </root>
+  </artifact>
+</component>

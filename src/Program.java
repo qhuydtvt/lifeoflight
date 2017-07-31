@@ -9,7 +9,6 @@ import lol.states.maps.Map;
 public class Program {
     public static void main(String[] args) {
         StateManager.instance.loadInitialMap();
-        System.out.println(State.instance.toString());
         GameWindow gameWindow = new GameWindow();
         gameWindow.gameLoop();
     }

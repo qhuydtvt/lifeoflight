@@ -1,0 +1,12 @@
+{
+	"base_Pdmg" : "str + str*character_str_rate",
+	"base_Pdmg" : "wis + wis*character_wis_rate",
+	"crit_change" : "roll(luck+dex,100)",
+	"crit_bonus_dmg" : "(0.5*base_Pdmg)+((luck+dex)*base_Pdmg/100)",
+	"physic_atk" : "(wp_Pdmg + base_Pdmg + ab_Pdmg) + crit_bonus_dmg",
+	"magic_atk" : "skill_Mdmg + base_Mdmg + ab_Pdmg + wp_Mdmg",
+	"doge_change" : "roll(dex+luck,100)",
+	"hp_regen" : "character_str_rate*str",
+	"sta_regen" : "character_dex_rate*dex",
+	"mana_regen" : "character_mana_rate*wis",
+}

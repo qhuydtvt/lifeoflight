@@ -1,7 +1,7 @@
 package lol.states;
 
 import lol.commands.CommandProcessor;
-import lol.commands.LookProcessor;
+import lol.commands.MapProcessor;
 import lol.commands.MoveProcessor;
 import lol.events.EventManager;
 import lol.inputs.CommandListener;
@@ -24,7 +24,7 @@ public class StateManager implements CommandListener {
     private StateManager() {
         commandProcessors = new HashMap<String, CommandProcessor>() {{
             put("MOVE", new MoveProcessor());
-            put("LOOK", new LookProcessor());
+            put("MAP", new MapProcessor());
         }};
     }
 

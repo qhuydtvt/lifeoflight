@@ -1,0 +1,8 @@
+- Event:
+    - StatItem
+        - MaxHP
+        - Sword
+    - CombatItem
+        - Combat
+    - ChoiceItem
+        - a, b, c => result

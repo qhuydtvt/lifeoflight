@@ -1,0 +1,43 @@
+[{
+  "id" : "event",
+  "id_number" : 90,
+  "type" : "statt",
+  "begin_text" : "Một tia sáng chói lòa giáng thẳng xuống đầu bạn.. Không gượng nổi bạn quỳ sụp xuống nền đất và cố gắng tìm cách chống lại trong tuyệt vọng. Tất cả những gì bạn có thể làm chỉ là nghe được 1 giọng nói : ...",
+  "action" : ["roll",5,100],
+  "affect" : ["HP"],
+  "result" : [1,1,1,1,1,1,1,1,1,2],
+  "end_text_susscess" : "Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn.",
+  "end_text_fail" : [
+    "Ai cho tao lương thiện. Đoạn, 1 tên trần truồng cầm theo chiếc đèn pin và chạy mất.",
+    "Các vị thần khuyên bạn nên đi sang hướng đông.",
+    "Các vị thần khuyên bạn nên đi sang hướng tây.",
+    "Các vị thần khuyên bạn nên đi sang hướng nam.",
+    "Các vị thần khuyên bạn nên đi sang hướng bắc.",
+    "Đứng nguyên tại vị trí hiện tại, và ;#ff9391nói (say); 'cam on than Huy' 3 lần.",
+    "Lần sau nghỉ việc nhớ post cảm ơn nhé.",
+    "Không nghe rõ tiếng nói đó nhưng tất cả những gì bạn biết hiện tại chỉ là : Bạn vẫn ở nguyên chỗ cũ và lăn lóc bên cạnh là những vỏ chai rượu.",
+    "Phía đông của kinh thành ;#ff9391Thăng Long; có chôn một kho báu ngàn tuổi chứa đựng sức mạnh của rồng. Tìm thợ rèn huyền thoại ;#ff9391Xeko; để hỏi rõ thêm chi tiết.",
+    "Góc đông bắc của hang động này có giấu tấm bản đồ của nó.",
+    "Lối vào chính là lối ra.",
+    "Tìm kĩ các vết nứt trên tường, không gì là không thể!"
+    ]
+},
+{
+  "id" : "event",
+  "id_number" : 10,
+  "type" : "choice",
+  "begin_text" : "Bạn nhặt được một quyển sách.",
+  "action" : ["choice",
+             {"choice_1":"0","text" : "A : Đọc quyển sách này!"},
+             {"choice_2":"1","text" : "B : Đốt quyển sách này!"}
+             ],
+  "affect" : ["HP"],
+  "result" : [-1,1],
+  "end_text_susscess" : [
+    "Văn học là khoa học nghiên cứu về văn chương. Nó lấy các hiện tượng văn chương nghệ thuật làm đối tượng cho mình. Quan hệ giữa văn chương và văn học là quan hệ giữa đối tượng và chủ thể, giữa nghệ thuật và khoa học văn chương (nghệ thuật) là đối tượng của văn học (khoa học). Chính thế bạn giảm ;ff2e00{result} HP; vĩnh viễn",
+    "Các vị thần hài lòng vì bạn không bị tà giáo dụ dỗ và giữ vững niềm tin mãnh liệt vào thánh thần. Các ngài cho bạn ;#46ff2d{result} HP; vĩnh viễn." 
+    ],
+  "end_text_fail" : [""]
+  
+}
+]

@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by huynq on 8/1/17.
  */
-public class LookProcessor extends CommandProcessor {
+public class MapProcessor extends CommandProcessor {
     @Override
     public void process(List<String> subCommands) {
         Map map = State.instance.getMap();
