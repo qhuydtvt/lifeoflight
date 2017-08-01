@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/LifeOfLight_jar</output-path>
     <root id="archive" name="LifeOfLight.jar">
       <element id="module-output" name="LifeOfLight" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
