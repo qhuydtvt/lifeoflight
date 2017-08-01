@@ -2,9 +2,7 @@ package lol.bases;
 
 import java.awt.Font;
 import java.awt.FontFormatException;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.Random;
 import java.util.List;
 
@@ -39,6 +37,21 @@ public class Utils {
         }
 
         return content;
+    }
+
+    public static void saveFileContent(String url, String content) {
+        try {
+            PrintWriter out = new PrintWriter(url);
+            out.print(content);
+            out.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static boolean fileExists(String url) {
+        File varTmpDir = new File(url);
+        return varTmpDir.exists();
     }
 
     public static <T> T choice(List<T> choices) {

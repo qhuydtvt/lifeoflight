@@ -4,7 +4,6 @@ import lol.events.EventManager;
 import lol.gameentities.eventconfigs.EventConfig;
 import lol.inputs.CommandListener;
 import lol.gameentities.State;
-import lol.gameentities.maps.Map;
 
 import java.util.Arrays;
 import java.util.List;
@@ -24,7 +23,7 @@ public class GameEventManager implements CommandListener {
     }
 
     public void loadData() {
-        state.loadInitialMap();
+        state.load();
         EventConfig.load();
     }
 
@@ -43,7 +42,6 @@ public class GameEventManager implements CommandListener {
             }
 
             if (commands.get(0).equals("QUIT")) {
-                // TODO: Save status here
                 System.exit(0);
                 return;
             }

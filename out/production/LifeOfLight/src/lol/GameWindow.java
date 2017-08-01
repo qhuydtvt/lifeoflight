@@ -11,6 +11,8 @@ import lol.uis.TextView;
 
 import javax.swing.JFrame;
 import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 
 /**
@@ -46,7 +48,6 @@ public class GameWindow extends JFrame {
         textScreenPanel.getOffsetText().set(20, 40);
 
         GameObject.add(textScreenPanel);
-
 
         commandPanel = new InputText();
         commandPanel.getPosition().set(
@@ -86,6 +87,12 @@ public class GameWindow extends JFrame {
         this.setVisible(true);
         this.setTitle(Settings.GAME_TITLE);
         this.addKeyListener(InputManager.instance);
+        this.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
 
         backbufferImage = new BufferedImage(this.getWidth(),this.getHeight(), BufferedImage.TYPE_INT_ARGB);
         backBufferGraphics = (Graphics2D) backbufferImage.getGraphics();
