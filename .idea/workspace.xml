@@ -7,18 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/event/event.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/event/event_0.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/maps/lvl0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/maps/lvl1.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LifeOfLight.iml" afterPath="$PROJECT_DIR$/LifeOfLight.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/event/event.json" afterPath="$PROJECT_DIR$/assets/event/event.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/bases/Utils.java" afterPath="$PROJECT_DIR$/src/lol/bases/Utils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/eventconfigs/Action.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/eventconfigs/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/eventconfigs/Choice.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/eventconfigs/Choice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/eventconfigs/EventConfig.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/eventconfigs/EventConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameevents/GameEventManager.java" afterPath="$PROJECT_DIR$/src/lol/gameevents/GameEventManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/maps/Map.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/maps/Map.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,13 +26,15 @@
       <file leaf-file-name="Map.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lol/gameentities/maps/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="123" column="17" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+            <state relative-caret-position="2832">
+              <caret line="150" column="55" lean-forward="false" selection-start-line="150" selection-start-column="55" selection-end-line="150" selection-end-column="55" />
               <folding>
                 <element signature="e#1054#1055#0" expanded="true" />
                 <element signature="e#1089#1090#0" expanded="true" />
                 <element signature="e#1413#1414#0" expanded="true" />
                 <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#4135#4136#0" expanded="true" />
+                <element signature="e#4197#4198#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/lol/gameevents/commands/QuitProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameevents/commands/FleeProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/maps/mapitems/Main.java" />
-        <option value="$PROJECT_DIR$/src/lol/gameentities/maps/Map.java" />
         <option value="$PROJECT_DIR$/src/lol/gameevents/commands/MoveProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/State.java" />
         <option value="$PROJECT_DIR$/assets/maps/lvl0.txt" />
@@ -225,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/lol/gameentities/eventconfigs/EventConfig.java" />
         <option value="$PROJECT_DIR$/src/lol/gameevents/GameEventManager.java" />
         <option value="$PROJECT_DIR$/assets/event/event.json" />
+        <option value="$PROJECT_DIR$/src/lol/gameentities/maps/Map.java" />
       </list>
     </option>
   </component>
@@ -1459,13 +1450,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lol/gameentities/maps/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="123" column="17" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+        <state relative-caret-position="2832">
+          <caret line="150" column="55" lean-forward="false" selection-start-line="150" selection-start-column="55" selection-end-line="150" selection-end-column="55" />
           <folding>
             <element signature="e#1054#1055#0" expanded="true" />
             <element signature="e#1089#1090#0" expanded="true" />
             <element signature="e#1413#1414#0" expanded="true" />
             <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#4135#4136#0" expanded="true" />
+            <element signature="e#4197#4198#0" expanded="true" />
           </folding>
         </state>
       </provider>

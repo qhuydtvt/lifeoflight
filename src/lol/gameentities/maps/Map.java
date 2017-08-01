@@ -148,8 +148,7 @@ public class Map {
     }
 
     public boolean isValidPosition(MapPosition position) {
-        return 0 <= position.x && position.x < width &&
-                0 <= position.y && position.y < height;
+        return isValidPosition(position.x, position.y);
     }
 
     @Override
