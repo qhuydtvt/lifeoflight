@@ -5,6 +5,7 @@ import lol.inputs.InputManager;
 import lol.settings.Settings;
 import lol.gameevents.GameEventManager;
 import lol.uis.InputText;
+import lol.uis.StatScreen;
 import lol.uis.TextScreen;
 import lol.uis.TextView;
 
@@ -19,7 +20,7 @@ public class GameWindow extends JFrame {
 
     TextScreen textScreenPanel;
     InputText commandPanel;
-    TextView statsPanel;
+    StatScreen statsPanel;
 
     BufferedImage backbufferImage;
     Graphics2D backBufferGraphics;
@@ -61,7 +62,7 @@ public class GameWindow extends JFrame {
         commandPanel.setColor(Color.BLACK);
         GameObject.add(commandPanel);
 
-        statsPanel = new TextView();
+        statsPanel = new StatScreen();
         statsPanel.getPosition().set(
                 Settings.SCREEN_WIDTH,
                 0

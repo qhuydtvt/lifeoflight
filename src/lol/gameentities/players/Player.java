@@ -83,6 +83,10 @@ public class Player {
         return mapPosition;
     }
 
+    public int getMaxHp() {
+        return maxHp;
+    }
+
     @Override
     public String toString() {
         return "Player{" +

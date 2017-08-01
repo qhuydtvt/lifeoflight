@@ -19,7 +19,7 @@ public class TextView extends GamePanel {
 
     private FontMetrics fontMetrics;
     private int linesMax = -1;
-    private Vector2D offsetText;
+    protected Vector2D offsetText;
     private Object renderLock;
 
     public TextView() {
@@ -46,20 +46,16 @@ public class TextView extends GamePanel {
         g2d.setColor(textColor);
 
         if (fontMetrics == null) {
-
-            fontMetrics = g2d.getFontMetrics();
-            if (linesMax == -1) {
-                linesMax = (int) ((getSize().y - offsetText.y) / fontMetrics.getHeight()) - 1;
-            }
+            setFontMetrics(g2d.getFontMetrics());
         }
 
         drawVerticalLines(g2d);
 
-        g2d.drawString(separator, getPosition().x - getAnchor().x * getSize().x, getPosition().y - getAnchor().y * getSize().y);
+        Vector2D drawPosition = drawPosition();
 
-        Vector2D realPosition = position
-                .add(offsetText)
-                .subtract(getAnchor().x * getSize().x, getAnchor().y * getSize().y);
+        g2d.drawString(separator, drawPosition.x, drawPosition.y);
+
+        Vector2D realPosition = drawPosition.add(offsetText);
 
         synchronized (renderLock) {
             for (LineRenderer lineRenderer : lineRenderers) {
@@ -70,12 +66,15 @@ public class TextView extends GamePanel {
 
     }
 
+    private Vector2D drawPosition() {
+        return position.subtract(getAnchor().x * getSize().x, getAnchor().y * getSize().y);
+    }
+
     private void drawVerticalLines(Graphics2D g2d) {
-        int x = (int) (getPosition().x - getAnchor().x * getSize().x);
-        int y = (int) (getPosition().y - getAnchor().y * getSize().y);
+        Vector2D drawPosition = drawPosition();
         for (int i = 0; i < (getSize().y / g2d.getFontMetrics().getHeight()) + 1; i++) {
-            g2d.drawString("|", x, y);
-            y += fontMetrics.getHeight();
+            g2d.drawString("|", drawPosition.x, drawPosition.y);
+            drawPosition.y += fontMetrics.getHeight();
         }
     }
 
@@ -83,6 +82,18 @@ public class TextView extends GamePanel {
         synchronized (renderLock) {
             this.lineRenderers.clear();;
         }
+    }
+
+    protected void setFontMetrics(FontMetrics fontMetrics) {
+        this.fontMetrics = fontMetrics;
+        if (linesMax == -1) {
+            linesMax = (int) ((getSize().y - offsetText.y) / fontMetrics.getHeight()) - 1;
+        }
+    }
+
+    public void addText(String str, FontMetrics fontMetrics) {
+        setFontMetrics(fontMetrics);
+        addText(str);
     }
 
     public void addText(String str) {

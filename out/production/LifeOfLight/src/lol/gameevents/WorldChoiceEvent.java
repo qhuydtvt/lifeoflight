@@ -40,8 +40,6 @@ public class WorldChoiceEvent implements GameEvent {
             return null;
         }
 
-        System.out.println(choice);
-
         Integer result = eventConfig.results.get(choice.resultIndex);
 
         State.instance.getPlayer().changeMaxHP(result);

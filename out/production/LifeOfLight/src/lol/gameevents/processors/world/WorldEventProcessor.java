@@ -16,7 +16,6 @@ public class WorldEventProcessor extends Processor {
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
         EventConfig eventConfig = EventConfig.random();
         State.instance.removeItemAtPlayerPosition();
-        System.out.println(eventConfig.getType().toUpperCase());
         switch (eventConfig.getType().toUpperCase()) {
             case "ROLL":
                 return new WorldEventRollProcessor(eventConfig).process(commands, currentEvent);
