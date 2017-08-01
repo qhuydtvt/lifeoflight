@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lol/uis/StatScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/GameWindow.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/GameWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/players/Player.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/players/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/WorldChoiceEvent.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/WorldChoiceEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/processors/world/WorldEventProcessor.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/processors/world/WorldEventProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/GameWindow.java" afterPath="$PROJECT_DIR$/src/lol/GameWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/uis/TextView.java" afterPath="$PROJECT_DIR$/src/lol/uis/TextView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/inputs/InputManager.java" afterPath="$PROJECT_DIR$/src/lol/inputs/InputManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,18 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WorldEventProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/world/WorldEventProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WorldChoiceEvent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/gameevents/WorldChoiceEvent.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,14 +57,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatScreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StatScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/uis/StatScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="251">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lol/inputs/InputManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="80" column="33" lean-forward="true" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lol/states/maps/Map.java" />
         <option value="$PROJECT_DIR$/LifeOfLight.iml" />
         <option value="$PROJECT_DIR$/assets/combat/battle_triger.json" />
         <option value="$PROJECT_DIR$/src/lol/commands/CommandProcessor.java" />
@@ -244,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/lol/GameWindow.java" />
         <option value="$PROJECT_DIR$/src/lol/uis/TextView.java" />
         <option value="$PROJECT_DIR$/src/lol/uis/StatScreen.java" />
+        <option value="$PROJECT_DIR$/src/lol/inputs/InputManager.java" />
       </list>
     </option>
   </component>
@@ -424,6 +414,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="monsters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lol" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inputs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -920,7 +932,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17752443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17752443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33957654" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -979,13 +991,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar!/com/google/gson/reflect/TypeToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LifeOfLight.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1441,11 +1446,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lol/uis/StatScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="251">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/inputs/InputManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="80" column="33" lean-forward="true" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
