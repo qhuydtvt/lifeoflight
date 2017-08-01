@@ -4,7 +4,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * Created by huynq on 7/28/17.
@@ -31,33 +30,28 @@ public class InputManager implements KeyListener {
     public void keyTyped(KeyEvent e) {
         char typedCharacter = e.getKeyChar();
         if (isValidInput(typedCharacter)) {
-            setCommand(command + typedCharacter);
+            changeCommand(command + typedCharacter);
         }
 
         if (typedCharacter == '\b' && command.length() > 0) {
             int endPosition = command.length() - 1;
             if (endPosition < 0) endPosition = 0;
-            setCommand(command.substring(0, endPosition));
+            changeCommand(command.substring(0, endPosition));
         }
     }
 
-    private void setCommand(String newCommand) {
+    private void changeCommand(String newCommand) {
         command = newCommand;
-        for (CommandListener cmdListener : commandListeners) {
-            cmdListener.commandChanged(command);
-        }
+        commandChanged = true;
     }
 
     private void finishCommand() {
-        for (CommandListener cmdListener : commandListeners) {
-            cmdListener.onCommandFinished(this.command);
-        }
+        commandFinished = true;
         oldCommands.add(command);
         if (oldCommands.size() > 10) {
             oldCommands.remove(0);
         }
         oldCommandCurrentIndex = oldCommands.size();
-        setCommand("");
     }
 
     private boolean isValidInput(char c) {
@@ -79,12 +73,15 @@ public class InputManager implements KeyListener {
         } else if (e.getKeyCode() == KeyEvent.VK_UP) {
             if (oldCommandCurrentIndex > 0) {
                 oldCommandCurrentIndex--;
-                setCommand(oldCommands.get(oldCommandCurrentIndex));
+                changeCommand(oldCommands.get(oldCommandCurrentIndex));
             }
         } else if(e.getKeyCode() == KeyEvent.VK_DOWN) {
             if (oldCommandCurrentIndex < oldCommands.size() - 1) {
                 oldCommandCurrentIndex++;
-                setCommand(oldCommands.get(oldCommandCurrentIndex));
+                changeCommand(oldCommands.get(oldCommandCurrentIndex));
+            } else {
+                oldCommandCurrentIndex = oldCommands.size();
+                changeCommand("");
             }
         }
     }
@@ -92,5 +89,24 @@ public class InputManager implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
 
+    }
+
+    private boolean commandChanged;
+    private boolean commandFinished;
+
+    public void run() {
+        if (commandFinished) {
+            for (CommandListener cmdListener : commandListeners) {
+                cmdListener.onCommandFinished(command);
+            }
+            command = "";
+            commandFinished = false;
+        }
+        else if (commandChanged) {
+            for (CommandListener cmdListener : commandListeners) {
+                cmdListener.commandChanged(command);
+            }
+            commandChanged = false;
+        }
     }
 }

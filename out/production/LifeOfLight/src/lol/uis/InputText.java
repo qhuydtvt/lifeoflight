@@ -17,7 +17,8 @@ public class InputText extends TextView {
         InputManager.instance.addCommandListener(new CommandListener() {
             @Override
             public void onCommandFinished(String command) {
-
+                lineRenderers.clear();
+                addText(">> ");
             }
 
             @Override

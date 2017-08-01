@@ -63,7 +63,6 @@ public class TextView extends GamePanel {
                 realPosition = realPosition.add(0, fontMetrics.getHeight());
             }
         }
-
     }
 
     private Vector2D drawPosition() {
