@@ -9,7 +9,7 @@
       "rate": 5,
       "max_rate": 100
     },
-    "choices": [],
+    "choices": null,
     "affect": [
       "HP"
     ],
@@ -25,7 +25,7 @@
       1,
       2
     ],
-    "end_text_success": "Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn.",
+    "end_text_success": ["Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn."],
     "end_text_fail": [
       "Ai cho tao lương thiện. Đoạn, 1 tên trần truồng cầm theo chiếc đèn pin và chạy mất.",
       "Các vị thần khuyên bạn nên đi sang hướng đông.",
@@ -46,7 +46,7 @@
     "id_number": 10,
     "type": "choice",
     "begin_text": "Bạn nhặt được một quyển sách.",
-    "action": "",
+    "action": null,
     "choices": [
       {
         "label": "A",
