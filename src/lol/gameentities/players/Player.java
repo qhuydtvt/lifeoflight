@@ -1,6 +1,6 @@
-package lol.states.players;
+package lol.gameentities.players;
 
-import lol.states.MapPosition;
+import lol.gameentities.MapPosition;
 
 /**
  * Created by huynq on 7/30/17.
@@ -30,7 +30,7 @@ public class Player {
     }
 
     public Player() {
-        this(15, 10, 10, 5, 3, 4, 1, 2);
+        this(15, 10, 10, 5, 3, 4, 3, 2);
     }
 
     public int getHp() {
@@ -89,5 +89,10 @@ public class Player {
                 ", luck=" + luck +
                 ", mapPosition=" + mapPosition +
                 '}';
+    }
+
+    public void getHit(int damage) {
+        this.hp -= damage;
+        if (this.hp < 0) this.hp = 0;
     }
 }

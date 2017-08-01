@@ -1,7 +1,7 @@
-package lol.states;
+package lol.gameentities;
 
-import lol.states.players.Player;
-import lol.states.maps.Map;
+import lol.gameentities.players.Player;
+import lol.gameentities.maps.Map;
 
 /**
  * Created by huynq on 7/30/17.

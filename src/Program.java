@@ -6,7 +6,7 @@ import lol.gameevents.GameEventManager;
  */
 public class Program {
     public static void main(String[] args) {
-        GameEventManager.instance.loadInitialMap();
+        GameEventManager.instance.loadData();
         GameWindow gameWindow = new GameWindow();
         gameWindow.gameLoop();
     }

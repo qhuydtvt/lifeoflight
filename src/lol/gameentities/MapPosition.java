@@ -1,4 +1,4 @@
-package lol.states;
+package lol.gameentities;
 
 /**
  * Created by huynq on 7/30/17.

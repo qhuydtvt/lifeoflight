@@ -1,4 +1,4 @@
-package lol.states.maps.mapitems;
+package lol.gameentities.maps.mapitems;
 
 /**
  * Created by huynq on 7/30/17.

@@ -1,8 +1,8 @@
-package lol.states.maps;
+package lol.gameentities.maps;
 
-import lol.states.MapPosition;
-import lol.states.maps.mapitems.MapItem;
-import lol.states.maps.mapitems.Start;
+import lol.gameentities.MapPosition;
+import lol.gameentities.maps.mapitems.MapItem;
+import lol.gameentities.maps.mapitems.Start;
 
 import java.io.File;
 import java.io.FileInputStream;

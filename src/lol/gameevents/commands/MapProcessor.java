@@ -1,10 +1,11 @@
-package lol.commands;
+package lol.gameevents.commands;
 
 import lol.events.EventManager;
-import lol.states.State;
-import lol.states.maps.Map;
-import lol.states.maps.mapitems.MapItem;
-import lol.states.players.Player;
+import lol.gameevents.GameEvent;
+import lol.gameentities.State;
+import lol.gameentities.maps.Map;
+import lol.gameentities.maps.mapitems.MapItem;
+import lol.gameentities.players.Player;
 
 import java.util.List;
 
@@ -13,7 +14,7 @@ import java.util.List;
  */
 public class MapProcessor extends CommandProcessor {
     @Override
-    public void process(List<String> subCommands) {
+    public GameEvent process(List<String> subCommands, GameEvent currentEvent) {
         Map map = State.instance.getMap();
         Player player = State.instance.getPlayer();
 
@@ -34,5 +35,6 @@ public class MapProcessor extends CommandProcessor {
             EventManager.pushUIMessage(rowMessage.toString());
         }
         EventManager.pushUIMessage(" ");
+        return null;
     }
 }
