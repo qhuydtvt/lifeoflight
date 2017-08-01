@@ -9,7 +9,7 @@
       "rate": 5,
       "max_rate": 100
     },
-    "choices": [],
+    "choices": null,
     "affect": [
       "HP"
     ],
@@ -25,7 +25,7 @@
       1,
       2
     ],
-    "end_text_success": "Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn.",
+    "end_text_success": ["Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn."],
     "end_text_fail": [
       "Ai cho tao lương thiện. Đoạn, 1 tên trần truồng cầm theo chiếc đèn pin và chạy mất.",
       "Các vị thần khuyên bạn nên đi sang hướng đông.",
@@ -46,7 +46,7 @@
     "id_number": 10,
     "type": "choice",
     "begin_text": "Bạn nhặt được một quyển sách.",
-    "action": "",
+    "action": null,
     "choices": [
       {
         "label": "A",
@@ -66,7 +66,7 @@
       -1,
       1
     ],
-    "end_text_susscess": [
+    "end_text_success": [
       "Văn học là khoa học nghiên cứu về văn chương. Nó lấy các hiện tượng văn chương nghệ thuật làm đối tượng cho mình. Quan hệ giữa văn chương và văn học là quan hệ giữa đối tượng và chủ thể, giữa nghệ thuật và khoa học văn chương (nghệ thuật) là đối tượng của văn học (khoa học). Chính thế bạn giảm ;ff2e00{result} HP; vĩnh viễn",
       "Các vị thần hài lòng vì bạn không bị tà giáo dụ dỗ và giữ vững niềm tin mãnh liệt vào thánh thần. Các ngài cho bạn ;#46ff2d{result} HP; vĩnh viễn."
     ],
