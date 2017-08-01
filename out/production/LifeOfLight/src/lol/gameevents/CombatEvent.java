@@ -1,9 +1,9 @@
 package lol.gameevents;
 
 import lol.events.EventManager;
-import lol.gameevents.commands.AttackProcessor;
-import lol.gameevents.commands.CommandProcessor;
-import lol.gameevents.commands.FleeProcessor;
+import lol.gameevents.processors.combat.AttackProcessor;
+import lol.gameevents.processors.Processor;
+import lol.gameevents.processors.combat.FleeProcessor;
 import lol.monsters.Monster;
 
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ public class CombatEvent implements GameEvent {
 
     private List<Monster> monsters;
 
-    HashMap<String, CommandProcessor> commandProcessors = new HashMap<String, CommandProcessor>() {{
+    HashMap<String, Processor> commandProcessors = new HashMap<String, Processor>() {{
         put("ATK", new AttackProcessor());
         put("FLEE", new FleeProcessor());
     }};
@@ -36,6 +36,11 @@ public class CombatEvent implements GameEvent {
     }
 
     @Override
+    public GameEvent preProcess() {
+        return null;
+    }
+
+    @Override
     public GameEvent process(List<String> commands) {
         if (commands.size() == 0) return null;
         String mainCommand = commands.get(0);
@@ -43,7 +48,7 @@ public class CombatEvent implements GameEvent {
             EventManager.pushHelpMessage();
             return null;
         }
-        return CommandProcessor.forward(commands, commandProcessors.get(mainCommand), this);
+        return Processor.forward(commands, commandProcessors.get(mainCommand), this);
     }
 
 

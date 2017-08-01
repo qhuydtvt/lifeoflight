@@ -49,6 +49,10 @@ public class State {
         loadMap(mapUrl(currentLevel));
     }
 
+    public void removeItemAtPlayerPosition() {
+        map.removeItem(player.getPosition());
+    }
+
     private String mapUrl(int lvl) {
         return String.format("assets/maps/lvl%s.txt", lvl);
     }

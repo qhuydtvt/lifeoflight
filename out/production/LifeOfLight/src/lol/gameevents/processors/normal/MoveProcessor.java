@@ -1,26 +1,34 @@
-package lol.gameevents.commands;
+package lol.gameevents.processors.normal;
 
 import lol.events.EventManager;
-import lol.gameentities.maps.mapitems.Exit;
-import lol.gameentities.maps.mapitems.Main;
+import lol.gameentities.maps.mapitems.*;
 import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
 import lol.gameentities.MapPosition;
 import lol.gameentities.State;
 import lol.gameentities.maps.Map;
-import lol.gameentities.maps.mapitems.MapItem;
-import lol.gameentities.maps.mapitems.Wall;
 import lol.gameentities.players.Player;
+import lol.gameevents.processors.Processor;
+import lol.gameevents.processors.maps.ExitEventProcessor;
+import lol.gameevents.processors.maps.MainItemProcessor;
+import lol.gameevents.processors.world.WorldEventProcessor;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
 /**
  * Created by huynq on 8/1/17.
  */
-public class MoveProcessor extends CommandProcessor {
+public class MoveProcessor extends Processor {
 
     Random random = new Random();
+
+    HashMap<Class, Processor> newPositionProcessors = new HashMap<Class, Processor>() {{
+       put(Main.class, new MainItemProcessor());
+       put(Exit.class, new ExitEventProcessor());
+       put(Event.class, new WorldEventProcessor());
+    }};
 
     @Override
     public GameEvent process(List<String> subCommands, GameEvent currentEvent) {
@@ -43,17 +51,9 @@ public class MoveProcessor extends CommandProcessor {
         } else {
             player.move(moveDirection.x, moveDirection.y);
             EventManager.pushUIMessage(message.toString());
-            if (mapItem instanceof Main) {
-                map.collectMainItem(futurePosition);
-                EventManager.pushUIMessage("You just collected a ;#0000FFmain item;");
-            } else if (mapItem instanceof Exit) {
-                if (map.getMainItemLeft() == 0) {
-                    EventManager.pushUIMessage("Congrats, you just cleared the dungeon");
-                    State.instance.loadNextMap();
-                    return null;
-                } else {
-                    EventManager.pushUIMessage("You hit the exit, but you can't get out, try to collect ;#FF0000all; main items");
-                }
+            if (newPositionProcessors.containsKey(mapItem.getClass())) {
+                return newPositionProcessors.get(mapItem.getClass())
+                        .process(subCommands, currentEvent);
             }
             return generateRandomEvent();
         }

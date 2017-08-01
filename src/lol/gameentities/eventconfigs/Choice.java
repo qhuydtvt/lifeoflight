@@ -8,14 +8,18 @@ public class Choice {
     @SerializedName("text")
     public String text;
     @SerializedName("result")
-    public int result;
+    public int resultIndex;
+
+    public String displayString() {
+        return String.format("%s. %s", label, text);
+    }
 
     @Override
     public String toString() {
         return "Choice{" +
                 "label='" + label + '\'' +
                 ", text='" + text + '\'' +
-                ", result=" + result +
+                ", resultIndex=" + resultIndex +
                 '}';
     }
 }

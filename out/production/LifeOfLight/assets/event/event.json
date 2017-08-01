@@ -2,8 +2,8 @@
   {
     "id": "event",
     "id_number": 90,
-    "type": "stat",
-    "begin_text": "Một tia sáng chói lòa giáng thẳng xuống đầu bạn.. Không gượng nổi bạn quỳ sụp xuống nền đất và cố gắng tìm cách chống lại trong tuyệt vọng. Tất cả những gì bạn có thể làm chỉ là nghe được 1 giọng nói : ...",
+    "type": "roll",
+    "begin_text": "Một tia sáng chói lòa giáng thẳng xuống đầu bạn..; Không gượng nổi bạn quỳ sụp xuống nền đất và cố gắng tìm cách chống lại trong tuyệt vọng. Tất cả những gì bạn có thể làm chỉ là nghe được 1 giọng nói : ...;",
     "action": {
       "type": "roll",
       "rate": 5,
@@ -67,7 +67,7 @@
       1
     ],
     "end_text_success": [
-      "Văn học là khoa học nghiên cứu về văn chương. Nó lấy các hiện tượng văn chương nghệ thuật làm đối tượng cho mình. Quan hệ giữa văn chương và văn học là quan hệ giữa đối tượng và chủ thể, giữa nghệ thuật và khoa học văn chương (nghệ thuật) là đối tượng của văn học (khoa học). Chính thế bạn giảm ;ff2e00{result} HP; vĩnh viễn",
+      "Văn học là khoa học nghiên cứu về văn chương. Nó lấy các hiện tượng văn chương nghệ thuật làm đối tượng cho mình. Quan hệ giữa văn chương và văn học là quan hệ giữa đối tượng và chủ thể, giữa nghệ thuật và khoa học văn chương (nghệ thuật) là đối tượng của văn học (khoa học). Chính thế bạn bị ;#ff2e00{result} HP; vĩnh viễn",
       "Các vị thần hài lòng vì bạn không bị tà giáo dụ dỗ và giữ vững niềm tin mãnh liệt vào thánh thần. Các ngài cho bạn ;#46ff2d{result} HP; vĩnh viễn."
     ],
     "end_text_fail": [

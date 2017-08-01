@@ -1,4 +1,4 @@
-package lol.gameevents.commands;
+package lol.gameevents.processors.combat;
 
 import lol.bases.Utils;
 import lol.events.EventManager;
@@ -8,6 +8,7 @@ import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
 import lol.gameevents.LostEvent;
 import lol.gameevents.MainGameEvent;
+import lol.gameevents.processors.Processor;
 import lol.monsters.Monster;
 
 import java.util.List;
@@ -15,7 +16,7 @@ import java.util.List;
 /**
  * Created by huynq on 8/1/17.
  */
-public class AttackProcessor extends CommandProcessor {
+public class AttackProcessor extends Processor {
 
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {

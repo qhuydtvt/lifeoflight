@@ -28,11 +28,20 @@ public class EventConfig {
     @SerializedName("affect")
     public List<String> affect;
     @SerializedName("result")
-    public List<Integer> result;
+    public List<Integer> results;
     @SerializedName("end_text_success")
     public List<String> endTextSuccess;
     @SerializedName("end_text_fail")
     public List<String> endTextFail;
+
+    public Choice findChoice(String label) {
+        for (Choice choice : choices) {
+            if (choice.label.toUpperCase().equals(label.toUpperCase())) {
+                return choice;
+            }
+        }
+        return null;
+    }
 
     public String getId() {
         return id;
@@ -90,12 +99,12 @@ public class EventConfig {
         this.affect = affect;
     }
 
-    public List<Integer> getResult() {
-        return result;
+    public List<Integer> getResults() {
+        return results;
     }
 
-    public void setResult(List<Integer> result) {
-        this.result = result;
+    public void setResults(List<Integer> results) {
+        this.results = results;
     }
 
     public List<String> getEndTextSuccess() {
@@ -124,7 +133,7 @@ public class EventConfig {
                 ", action=" + action +
                 ", choices=" + choices +
                 ", affect=" + affect +
-                ", result=" + result +
+                ", results=" + results +
                 ", endTextSuccess=" + endTextSuccess +
                 ", endTextFail=" + endTextFail +
                 '}';
@@ -136,11 +145,29 @@ public class EventConfig {
         if (eventConfigString != null) {
             Type configListType = new TypeToken<List<EventConfig>>(){}.getType();
             eventConfigs = new Gson().fromJson(eventConfigString, configListType);
-            System.out.println(eventConfigs);
         }
     }
 
-    public static EventConfig randomEventConfig() {
+    private static final String RESULT_PLACEHOLDER = "{result}";
+
+    public String renderTextSuccess(int index, Object result) {
+        return this.endTextSuccess
+                .get(index)
+                .replace(RESULT_PLACEHOLDER, result.toString());
+    }
+
+    public String renderTextFailed(int index, Object result) {
+        return this.endTextFail
+                .get(index)
+                .replace(RESULT_PLACEHOLDER, result.toString());
+    }
+
+    public String renderRndTextFailed(Object result) {
+        return Utils.choice(this.endTextFail)
+                .replace(RESULT_PLACEHOLDER, result.toString());
+    }
+
+    public static EventConfig random() {
         return Utils.choice(eventConfigs);
     }
 }

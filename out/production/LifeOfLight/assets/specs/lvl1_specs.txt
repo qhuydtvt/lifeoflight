@@ -5,4 +5,4 @@
     - CombatItem
         - Combat
     - ChoiceItem
-        - a, b, c => result
+        - a, b, c => results

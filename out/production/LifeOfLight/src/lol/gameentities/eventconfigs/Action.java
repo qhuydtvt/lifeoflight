@@ -2,6 +2,8 @@ package lol.gameentities.eventconfigs;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Random;
+
 public class Action {
     @SerializedName("type")
     public String type;
@@ -10,6 +12,8 @@ public class Action {
     @SerializedName("max_rate")
     public int maxRate;
 
+    Random random = new Random();
+
     @Override
     public String toString() {
         return "Action{" +
@@ -17,5 +21,9 @@ public class Action {
                 ", rate=" + rate +
                 ", maxRate=" + maxRate +
                 '}';
+    }
+
+    public boolean roll() {
+        return random.nextInt(maxRate + 1) < rate;
     }
 }

@@ -1,11 +1,7 @@
 package lol.gameentities.maps;
 
-import lol.bases.Vector2D;
 import lol.gameentities.MapPosition;
-import lol.gameentities.maps.mapitems.Empty;
-import lol.gameentities.maps.mapitems.Main;
-import lol.gameentities.maps.mapitems.MapItem;
-import lol.gameentities.maps.mapitems.Start;
+import lol.gameentities.maps.mapitems.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -52,21 +48,25 @@ public class Map {
         return mainItemLeft;
     }
 
-    public void collectMainItem(int x, int y) {
-        Main main = (Main)getMapItem(x, y);
-        if (main != null) {
+    public void removeItem(int x, int y) {
+        MapItem mapItem = getMapItem(x, y);
+        if (mapItem instanceof Event || mapItem instanceof Main) {
             mainItemLeft--;
             setMapItem(x, y, new Empty().setSymbol(' ')); //TODO: Think of a better solution for this
         }
     }
 
-    public void collectMainItem(MapPosition position) {
-        collectMainItem(position.x, position.y);
+    public void removeItem(MapPosition position) {
+        removeItem(position.x, position.y);
     }
 
     public MapItem getMapItem(int x, int y) {
         if (!isValidPosition(x, y)) return null;
         return data.get(y).get(x);
+    }
+
+    public void setMapItem(MapPosition position, MapItem mapItem) {
+        setMapItem(position.x, position.y, mapItem);
     }
 
     public void setMapItem(int x, int y, MapItem item) {

@@ -21,8 +21,6 @@ public class GameEventManager implements CommandListener {
 
     private GameEventManager() {
         currentEvent = new MainGameEvent();
-
-
     }
 
     public void loadData() {

@@ -14,6 +14,7 @@ public class Player {
     private int wis;
     private int luck;
     private int vision;
+    private int maxHp;
 
     private MapPosition mapPosition;
 
@@ -26,11 +27,16 @@ public class Player {
         this.wis = wis;
         this.luck = luck;
         this.vision = vision;
+        this.maxHp = hp;
         mapPosition = new MapPosition();
     }
 
     public Player() {
         this(15, 10, 10, 5, 3, 4, 3, 2);
+    }
+
+    public void changeMaxHP(int amount) {
+        this.maxHp += amount;
     }
 
     public int getHp() {

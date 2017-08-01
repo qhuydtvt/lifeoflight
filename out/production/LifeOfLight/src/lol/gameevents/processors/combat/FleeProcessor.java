@@ -1,4 +1,4 @@
-package lol.gameevents.commands;
+package lol.gameevents.processors.combat;
 
 import lol.bases.Utils;
 import lol.events.EventManager;
@@ -7,6 +7,7 @@ import lol.gameentities.players.Player;
 import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
 import lol.gameevents.MainGameEvent;
+import lol.gameevents.processors.Processor;
 import lol.monsters.Monster;
 
 import java.util.List;
@@ -15,7 +16,7 @@ import java.util.Random;
 /**
  * Created by huynq on 8/1/17.
  */
-public class FleeProcessor extends CommandProcessor {
+public class FleeProcessor extends Processor {
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
         if (Utils.rollDice() < State.instance.getPlayer().getLuck()) {
