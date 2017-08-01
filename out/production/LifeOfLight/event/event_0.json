@@ -1,0 +1,14 @@
+[{
+  "id" : "event",
+  "id_number" : 90,
+  "type" : "statt",
+  "begin_text" : "Những tia nắng lách qua khe nứt trên, vách đá. Có lẽ cửa hang ở ngay đâu đó phía sau bức tường này.",
+  "action" : ["roll",99,100],
+  "affect" : ["HP"],
+  "result" : [1],
+  "end_text_susscess" : "Ra đi vui vẻ nhé, bạn hiền. Đã quá lâu từ lần cuối ánh sáng chiếu xuống thế giới này rồi. Bạn nhận được ;#48ff30{result} HP; vĩnh viễn. Đó là tất cả những gì tôi có thể giúp được bạn vào lúc này.",
+  "end_text_fail" : [
+    "Ai cho tao lương thiện. Đoạn, bạn tự dông đầu vào vách đá hòng tìm lối ra. Ngu cũng là 1 cái tội.",
+    ]
+}
+]

@@ -1,6 +1,8 @@
 package lol.gameevents.commands;
 
 import lol.events.EventManager;
+import lol.gameentities.maps.mapitems.Exit;
+import lol.gameentities.maps.mapitems.Main;
 import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
 import lol.gameentities.MapPosition;
@@ -41,6 +43,18 @@ public class MoveProcessor extends CommandProcessor {
         } else {
             player.move(moveDirection.x, moveDirection.y);
             EventManager.pushUIMessage(message.toString());
+            if (mapItem instanceof Main) {
+                map.collectMainItem(futurePosition);
+                EventManager.pushUIMessage("You just collected a ;#0000FFmain item;");
+            } else if (mapItem instanceof Exit) {
+                if (map.getMainItemLeft() == 0) {
+                    EventManager.pushUIMessage("Congrats, you just cleared the dungeon");
+                    State.instance.loadNextMap();
+                    return null;
+                } else {
+                    EventManager.pushUIMessage("You hit the exit, but you can't get out, try to collect ;#FF0000all; main items");
+                }
+            }
             return generateRandomEvent();
         }
         return null;
@@ -48,7 +62,7 @@ public class MoveProcessor extends CommandProcessor {
 
     //TODO: Change combat possibilities here
     private GameEvent generateRandomEvent() {
-        return random.nextInt(100) > 50 ? new CombatEvent() : null;
+        return random.nextInt(100) < 10 ? new CombatEvent() : null;
     }
 
     private void extractDirection(String direction, final MapPosition moveDirection, final StringBuilder message) {

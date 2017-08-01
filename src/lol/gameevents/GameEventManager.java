@@ -25,12 +25,7 @@ public class GameEventManager implements CommandListener {
     }
 
     public void loadData() {
-        Map map = Map.parseFile("assets/maps/lvl1.txt");
-        state.setMap(map);
-        state.getPlayer().setPosition(
-                map.getPlayerStartX(),
-                map.getPlayerStartY()
-        );
+        state.loadInitialMap();
     }
 
     @Override

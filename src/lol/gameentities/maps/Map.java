@@ -1,6 +1,9 @@
 package lol.gameentities.maps;
 
+import lol.bases.Vector2D;
 import lol.gameentities.MapPosition;
+import lol.gameentities.maps.mapitems.Empty;
+import lol.gameentities.maps.mapitems.Main;
 import lol.gameentities.maps.mapitems.MapItem;
 import lol.gameentities.maps.mapitems.Start;
 
@@ -22,8 +25,11 @@ public class Map {
 
     private ArrayList<ArrayList<MapItem>> data;
 
+    private int mainItemLeft;
+
     public Map() {
         data = new ArrayList<>();
+        mainItemLeft = 0;
     }
 
     public int getWidth() {
@@ -42,10 +48,30 @@ public class Map {
         return getCharacterStartY;
     }
 
+    public int getMainItemLeft() {
+        return mainItemLeft;
+    }
+
+    public void collectMainItem(int x, int y) {
+        Main main = (Main)getMapItem(x, y);
+        if (main != null) {
+            mainItemLeft--;
+            setMapItem(x, y, new Empty().setSymbol(' ')); //TODO: Think of a better solution for this
+        }
+    }
+
+    public void collectMainItem(MapPosition position) {
+        collectMainItem(position.x, position.y);
+    }
+
     public MapItem getMapItem(int x, int y) {
-        if (x < 0 || x >= width) return null;
-        if (y < 0 || y >= height) return null;
+        if (!isValidPosition(x, y)) return null;
         return data.get(y).get(x);
+    }
+
+    public void setMapItem(int x, int y, MapItem item) {
+        if (!isValidPosition(x, y)) return;
+        data.get(y).set(x, item);
     }
 
     public MapItem getMapItem(MapPosition mapPosition) {
@@ -75,6 +101,12 @@ public class Map {
         return getMapItems(playerPosition.x, playerPosition.y, range);
     }
 
+    private boolean isValidPosition(int x, int y) {
+        if (x < 0 || x >= width) return false;
+        if (y < 0 || y >= height) return false;
+        return true;
+    }
+
     public static Map parse(String mapContent) {
         String[] lines = mapContent.split("\r\n|\n|\r");
         Map map = new Map();
@@ -87,6 +119,8 @@ public class Map {
                 if (mapItem instanceof Start) {
                     map.characterStartX = x;
                     map.getCharacterStartY = y;
+                } else if (mapItem instanceof Main) {
+                    map.mainItemLeft++;
                 }
                 row.add(mapItem);
             }
