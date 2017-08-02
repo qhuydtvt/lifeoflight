@@ -5,6 +5,8 @@
     "mana": 10,
     "stamina": 10,
     "strRate": 0.5,
+	"dexRate": 0.25,
+	"wisRate": 0.25,
     "str": 5,
     "dex": 3,
     "wis": 4,
