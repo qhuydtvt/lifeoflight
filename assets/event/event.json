@@ -43,6 +43,56 @@
   },
   {
     "id": "event",
+    "id_number": 89,
+    "type": "roll",
+    "begin_text": ";Ai!;Ai giúp tôi vơi!;... Anh đẹp zai, cao ráo ơi! Anh tìm giúp lão chiếc nhẫn lão làm rơi được không?;Lò mò ... lọ mọ tìm xung quanh;Cuối cùng thì bạn đã : ...",
+    "action": {
+      "type": "roll",
+      "rate": 30,
+      "max_rate": 100
+    },
+    "choices": null,
+    "affect": [
+      "HP"
+    ],
+    "result": [
+      0,
+	  0
+    ],
+    "end_text_success": [
+		"Trên tay lão luôn mà!;Lão già cúi xuống và nhìn thấy chính chiếc nhẫn mình cần.;Cảm ơn anh chàng đập chai tốt bụng. Chúc anh 1 ngày tốt lành.",
+		"Bên dưới 1 gốc cây gần đó. Trong lúc anh cúi xuống lấy chiếc nhẫn cho lão thì thấy 1 dòng ký tự khắc trên gốc cây :;#ffe896Vùng này có chôn 1 thanh kiếm tên là ;#ff9391Demon Slayer; tìm nó và cầu xin sự giúp đỡ của các vị thần;"
+	],
+    "end_text_fail": [
+      "Không sao đâu anh bạn trẻ. Dù sao nó cũng chả đáng giá 1 xu.;Cảm ơn anh đã giúp lão suốt cả ngày qua.",
+	  "Có phải chiếc này không lão ?;Đúng Đúng là không phải nó. Thôi anh đi đi, từ lúc anh đến tôi không thể nào tập trung tìm được.",
+	  "Trong lúc đang tìm kiếm, lão giá lén lút lấy của bạn ;#ffe89610 đồng vàng;."
+    ]
+  },
+  {
+    "id": "event",
+    "id_number": 88,
+    "type": "roll",
+    "begin_text": "",
+    "action": {
+      "type": "roll",
+      "rate": 0,
+      "max_rate": 100
+    },
+    "choices": null,
+    "affect": [
+      "HP"
+    ],
+    "result": [
+      0
+    ],
+    "end_text_success": null,
+    "end_text_fail": [
+      "Chả có sự kiện gì xảy ra cả." 
+    ]
+  },
+  {
+    "id": "event",
     "id_number": 10,
     "type": "choice",
     "begin_text": "Bạn nhặt được một quyển sách.",
