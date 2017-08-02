@@ -1,4 +1,7 @@
+import com.udojava.evalex.Expression;
 import lol.GameWindow;
+import lol.formulas.CombatFormula;
+import lol.gameentities.State;
 import lol.gameevents.GameEventManager;
 
 /**
@@ -6,14 +9,12 @@ import lol.gameevents.GameEventManager;
  */
 public class Program {
     public static void main(String[] args) {
+
+        CombatFormula.instance.physicsAttack();
+
         GameEventManager.instance.loadData();
 
-        Runtime.getRuntime().addShutdownHook(new Thread(){
-            @Override
-            public void run() {
-                lol.gameentities.State.instance.save();
-            }
-        });
+        Runtime.getRuntime().addShutdownHook(new Thread(State.instance::save));
 
         GameWindow gameWindow = new GameWindow();
         gameWindow.gameLoop();

@@ -11,18 +11,18 @@ import java.util.ArrayList;
  * Created by huynq on 7/28/17.
  */
 public class TextView extends GamePanel {
-    protected ArrayList<LineRenderer> lineRenderers;
+    ArrayList<LineRenderer> lineRenderers;
 
-    private String separator = "------------------------------------------------------------------------------------------------------------------------";
+    private final String SEPARATOR = "------------------------------------------------------------------------------------------------------------------------";
     private Color textColor;
     public static final int HEX_NUMBER_OF_CHAR = 7;
 
     private FontMetrics fontMetrics;
     private int linesMax = -1;
-    protected Vector2D offsetText;
-    private Object renderLock;
+    Vector2D offsetText;
+    private final Object renderLock;
 
-    public TextView() {
+    TextView() {
         super();
         lineRenderers = new ArrayList<>();
         offsetText = new Vector2D();
@@ -53,7 +53,7 @@ public class TextView extends GamePanel {
 
         Vector2D drawPosition = drawPosition();
 
-        g2d.drawString(separator, drawPosition.x, drawPosition.y);
+        g2d.drawString(SEPARATOR, drawPosition.x, drawPosition.y);
 
         Vector2D realPosition = drawPosition.add(offsetText);
 
@@ -77,25 +77,20 @@ public class TextView extends GamePanel {
         }
     }
 
-    public void clear() {
+    void clear() {
         synchronized (renderLock) {
             this.lineRenderers.clear();;
         }
     }
 
-    protected void setFontMetrics(FontMetrics fontMetrics) {
+    void setFontMetrics(FontMetrics fontMetrics) {
         this.fontMetrics = fontMetrics;
         if (linesMax == -1) {
             linesMax = (int) ((getSize().y - offsetText.y) / fontMetrics.getHeight()) - 1;
         }
     }
 
-    public void addText(String str, FontMetrics fontMetrics) {
-        setFontMetrics(fontMetrics);
-        addText(str);
-    }
-
-    public void addText(String str) {
+    void addText(String str) {
         if (fontMetrics == null) {
             System.out.println("Font metrics is not ready");
         } else {

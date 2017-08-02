@@ -55,7 +55,6 @@ public class MainGameEvent implements GameEvent {
 
     @Override
     public GameEvent postProcess() {
-
         return null;
     }
 

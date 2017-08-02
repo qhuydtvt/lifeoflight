@@ -14,7 +14,7 @@ import java.awt.*;
 public class StatScreen extends TextView {
     public StatScreen() {
         super();
-        offsetText.set(10, Settings.STATS_SCREEN_HEIGHT / 2);
+        offsetText.set(20, Settings.STATS_SCREEN_HEIGHT / 2);
     }
 
     @Override
@@ -23,7 +23,8 @@ public class StatScreen extends TextView {
         Player player = State.instance.getPlayer();
         setFontMetrics(g2d.getFontMetrics());
         addText(String.format("HP: %s/%s", player.getHp(), player.getMaxHp()));
-        addText(String.format("Str: %s", player.getStrength()));
+        addText(String.format("STR: %s", player.getStrength()));
+        addText(String.format("EXP: %s", player.getExp()));
         super.render(g2d);
     }
 }

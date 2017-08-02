@@ -4,6 +4,7 @@
     <root id="archive" name="LifeOfLight.jar">
       <element id="module-output" name="LifeOfLight" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/udojava/EvalEx/1.9/EvalEx-1.9.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

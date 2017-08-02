@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static lol.gameentities.maps.mapitems.MapItemType.*;
+
 /**
  * Created by huynq on 7/30/17.
  */
@@ -28,14 +30,6 @@ public class Map {
         mainItemLeft = 0;
     }
 
-    public int getWidth() {
-        return width;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
     public int getPlayerStartX() {
         return characterStartX;
     }
@@ -50,9 +44,12 @@ public class Map {
 
     public void removeItem(int x, int y) {
         MapItem mapItem = getMapItem(x, y);
-        if (mapItem instanceof Event || mapItem instanceof Main) {
-            mainItemLeft--;
-            setMapItem(x, y, new Empty().setSymbol(' ')); //TODO: Think of a better solution for this
+        if (mapItem.getType() == MapItemType.EVENT ||
+                mapItem.getType() == MapItemType.MAIN) {
+            if (mapItem.getType() == MapItemType.MAIN) {
+                mainItemLeft --;
+            }
+            setMapItem(x, y, MapItem.newEmpty() ); //TODO: Think of a better solution for this
         }
     }
 
@@ -63,10 +60,6 @@ public class Map {
     public MapItem getMapItem(int x, int y) {
         if (!isValidPosition(x, y)) return null;
         return data.get(y).get(x);
-    }
-
-    public void setMapItem(MapPosition position, MapItem mapItem) {
-        setMapItem(position.x, position.y, mapItem);
     }
 
     public void setMapItem(int x, int y, MapItem item) {
@@ -116,10 +109,10 @@ public class Map {
             ArrayList<MapItem> row = new ArrayList<>();
             for (int x = 0; x < map.width; x++) {
                 MapItem mapItem = MapItem.parse(lines[y].charAt(x));
-                if (mapItem instanceof Start) {
+                if (mapItem.getType() == START) {
                     map.characterStartX = x;
                     map.getCharacterStartY = y;
-                } else if (mapItem instanceof Main) {
+                } else if (mapItem.getType() == MAIN) {
                     map.mainItemLeft++;
                 }
                 row.add(mapItem);
@@ -145,10 +138,6 @@ public class Map {
         }
 
         return content == null ? null : parse(content);
-    }
-
-    public boolean isValidPosition(MapPosition position) {
-        return isValidPosition(position.x, position.y);
     }
 
     @Override

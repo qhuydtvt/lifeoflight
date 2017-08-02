@@ -15,10 +15,11 @@ public class Player {
     private int luck;
     private int vision;
     private int maxHp;
+    private int exp;
 
     private MapPosition mapPosition;
 
-    public Player(int hp, int mana, int stamina, int strength, int dex, int wis, int luck, int vision) {
+    public Player(int hp, int mana, int stamina, int strength, int dex, int wis, int luck, int vision, int exp) {
         this.hp = hp;
         this.mana = mana;
         this.stamina = stamina;
@@ -28,11 +29,12 @@ public class Player {
         this.luck = luck;
         this.vision = vision;
         this.maxHp = hp;
+        this.exp = exp;
         mapPosition = new MapPosition();
     }
 
     public Player() {
-        this(15, 10, 10, 5, 3, 4, 3, 2);
+        this(15, 10, 10, 5, 3, 4, 3, 2, 0);
     }
 
     public void changeMaxHP(int amount) {
@@ -85,6 +87,10 @@ public class Player {
 
     public int getMaxHp() {
         return maxHp;
+    }
+
+    public int getExp() {
+        return exp;
     }
 
     @Override

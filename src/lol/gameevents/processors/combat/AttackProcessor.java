@@ -30,10 +30,12 @@ public class AttackProcessor extends Processor {
         String monsterIdxString = commands.get(0);
 
         try {
+            EventManager.pushUIMessage(";");
             int monsterIdx = Integer.parseInt(monsterIdxString);
             Monster monster = monsters.get(monsterIdx);
             Player player = State.instance.getPlayer();
             fight(player, monster);
+            monsterFightBack(player, monsters);
             if (player.getHp() <= 0) {
                 return new LostEvent();
             }
@@ -46,6 +48,8 @@ public class AttackProcessor extends Processor {
                 }
                 return null;
             }
+
+            EventManager.pushUIMessage(";");
         }
         catch (NumberFormatException | IndexOutOfBoundsException ex) {
             EventManager.pushUIMessage("Again, which one?");
@@ -64,12 +68,18 @@ public class AttackProcessor extends Processor {
         } else {
             EventManager.pushUIMessage(String.format("You attacked %s but missed", monster.getName()));
         }
+    }
 
-        if (monster.getStat().getHp() > 0 && Utils.rollDice() < monster.getStat().getLuck()) {
-            player.getHit(monster.getStat().getStrength());
-            EventManager.pushUIMessage(String.format("%s fights back, you now has %s hp left", monster.getName(), player.getHp()));
-        } else {
-            EventManager.pushUIMessage(String.format("%s fight back but missed", monster.getName()));
+    private void monsterFightBack(Player player, List<Monster> monsters) {
+        for (Monster monster : monsters) {
+            if (monster.getStat().hp > 0) {
+                if (monster.getStat().getHp() > 0 && Utils.rollDice() < monster.getStat().getLuck()) {
+                    player.getHit(monster.getStat().getStrength());
+                    EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.getHp()));
+                } else {
+                    EventManager.pushUIMessage(String.format("%s attacked you but missed", monster.getName()));
+                }
+            }
         }
     }
 }

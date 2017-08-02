@@ -7,7 +7,6 @@ import lol.gameevents.GameEventManager;
 import lol.uis.InputText;
 import lol.uis.StatScreen;
 import lol.uis.TextScreen;
-import lol.uis.TextView;
 
 import javax.swing.JFrame;
 import java.awt.*;
@@ -15,19 +14,17 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 
+import static java.lang.System.currentTimeMillis;
+
 /**
  * Created by huynq on 7/28/17.
  */
 public class GameWindow extends JFrame {
 
-    TextScreen textScreenPanel;
-    InputText commandPanel;
-    StatScreen statsPanel;
+    private BufferedImage backBufferImage;
+    private Graphics2D backBufferGraphics;
 
-    BufferedImage backbufferImage;
-    Graphics2D backBufferGraphics;
-
-    long lastTimeUpdate = -1;
+    private long lastTimeUpdate = -1;
 
     public GameWindow() {
         setupFont();
@@ -40,7 +37,7 @@ public class GameWindow extends JFrame {
     }
 
     private void setupPanels() {
-        textScreenPanel = new TextScreen();
+        TextScreen textScreenPanel = new TextScreen();
         textScreenPanel.setColor(Color.BLACK);
         textScreenPanel.getSize().set(
                 Settings.TEXT_SCREEN_SCREEN_WIDTH,
@@ -49,12 +46,13 @@ public class GameWindow extends JFrame {
 
         GameObject.add(textScreenPanel);
 
-        commandPanel = new InputText();
+
+        InputText commandPanel = new InputText();
         commandPanel.getPosition().set(
                 0,
                 Settings.SCREEN_HEIGHT
         );
-        commandPanel.getOffsetText().set(20, 40);
+        commandPanel.getOffsetText().set(20, 20);
         commandPanel.getSize().set(
                 Settings.CMD_SCREEN_WIDTH,
                 Settings.CMD_SCREEN_HEIGHT
@@ -63,7 +61,8 @@ public class GameWindow extends JFrame {
         commandPanel.setColor(Color.BLACK);
         GameObject.add(commandPanel);
 
-        statsPanel = new StatScreen();
+
+        StatScreen statsPanel = new StatScreen();
         statsPanel.getPosition().set(
                 Settings.SCREEN_WIDTH,
                 0
@@ -94,17 +93,15 @@ public class GameWindow extends JFrame {
             }
         });
 
-        backbufferImage = new BufferedImage(this.getWidth(),this.getHeight(), BufferedImage.TYPE_INT_ARGB);
-        backBufferGraphics = (Graphics2D) backbufferImage.getGraphics();
+        backBufferImage = new BufferedImage(this.getWidth(),this.getHeight(), BufferedImage.TYPE_INT_ARGB);
+        backBufferGraphics = (Graphics2D) backBufferImage.getGraphics();
     }
 
     public void gameLoop() {
         while(true) {
-            if (lastTimeUpdate == -1) {
-                lastTimeUpdate = System.currentTimeMillis();
-            }
+            if (-1 == lastTimeUpdate) lastTimeUpdate = currentTimeMillis();
 
-            long currentTime = System.currentTimeMillis();
+            long currentTime = currentTimeMillis();
 
             if(currentTime - lastTimeUpdate > 17) {
                 lastTimeUpdate = currentTime;
@@ -116,7 +113,7 @@ public class GameWindow extends JFrame {
         }
     }
 
-    public void render(Graphics2D g2d) {
+    private void render(Graphics2D g2d) {
         g2d.setFont(Settings.DEFAULT_FONT);
         g2d.setColor(Color.BLACK);
         g2d.fillRect(0, 0, Settings.SCREEN_WIDTH, Settings.SCREEN_HEIGHT);
@@ -126,6 +123,6 @@ public class GameWindow extends JFrame {
 
     @Override
     public void paint(Graphics g) {
-        g.drawImage(backbufferImage, 0, 0, null);
+        g.drawImage(backBufferImage, 0, 0, null);
     }
 }

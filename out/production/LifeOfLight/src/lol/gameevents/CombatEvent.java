@@ -1,5 +1,6 @@
 package lol.gameevents;
 
+import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.gameevents.processors.combat.AttackProcessor;
 import lol.gameevents.processors.Processor;
@@ -24,7 +25,7 @@ public class CombatEvent implements GameEvent {
 
     public CombatEvent() {
         monsters = new ArrayList<>();
-        for(int i = 0; i < 2; i++) {
+        for(int i = 0; i < Utils.rollDice() % 2 + 1; i++) {
             monsters.add(Monster.randomMonster());
         }
         EventManager.pushUIMessage("You have just entered a combat");

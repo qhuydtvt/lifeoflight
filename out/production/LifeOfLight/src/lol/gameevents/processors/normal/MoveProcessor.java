@@ -17,17 +17,19 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
+import static lol.gameentities.maps.mapitems.MapItemType.*;
+
 /**
  * Created by huynq on 8/1/17.
  */
 public class MoveProcessor extends Processor {
 
-    Random random = new Random();
+    private Random random = new Random();
 
-    HashMap<Class, Processor> newPositionProcessors = new HashMap<Class, Processor>() {{
-       put(Main.class, new MainItemProcessor());
-       put(Exit.class, new ExitEventProcessor());
-       put(Event.class, new WorldEventProcessor());
+    HashMap<MapItemType, Processor> newPositionProcessors = new HashMap<MapItemType, Processor>() {{
+       put(MAIN, new MainItemProcessor());
+       put(EXIT, new ExitEventProcessor());
+       put(EVENT, new WorldEventProcessor());
     }};
 
     @Override
@@ -46,13 +48,13 @@ public class MoveProcessor extends Processor {
         MapPosition futurePosition = player.getPosition().add(moveDirection);
         MapItem mapItem = map.getMapItem(futurePosition);
 
-        if (mapItem instanceof Wall) {
+        if (mapItem.getType() == WALL) {
             EventManager.pushUIMessage("You just hit the ;#6e7f89wall;, can't move there");
         } else {
             player.move(moveDirection.x, moveDirection.y);
             EventManager.pushUIMessage(message.toString());
-            if (newPositionProcessors.containsKey(mapItem.getClass())) {
-                return newPositionProcessors.get(mapItem.getClass())
+            if (newPositionProcessors.containsKey(mapItem.getType())) {
+                return newPositionProcessors.get(mapItem.getType())
                         .process(subCommands, currentEvent);
             }
             return generateRandomEvent();

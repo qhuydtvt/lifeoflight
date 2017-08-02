@@ -46,7 +46,8 @@ public class Monster implements Cloneable {
     }
 
     protected Monster clone() throws CloneNotSupportedException {
-        return (Monster) super.clone();
+        Gson gson = new Gson();
+        return gson.fromJson(gson.toJson(this), Monster.class);
     }
 
     public void getHit(int damage) {

@@ -1,6 +1,7 @@
 package lol.gameentities;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.annotations.SerializedName;
 import lol.bases.Utils;
 import lol.gameentities.players.Player;
@@ -13,7 +14,7 @@ import java.io.File;
  */
 public class State {
 
-    private transient Map map = null;
+    private Map map = null;
 
     @SerializedName("player")
     private Player player = null;
@@ -38,30 +39,25 @@ public class State {
             State savedState = new Gson().fromJson(Utils.loadFileContent(DATA_URL), State.class);
             instance.player = savedState.player;
             instance.currentLevel = savedState.currentLevel;
-            instance.loadInitialMap(false);
+            instance.map = savedState.map;
         } else {
-            instance.loadInitialMap(false);
+            instance.loadInitialMap(true);
         }
     }
 
     public void save() {
-        Utils.saveFileContent(DATA_URL, new Gson().toJson(this));
+        Utils.saveFileContent(DATA_URL, new GsonBuilder()
+                .setPrettyPrinting()
+                .create()
+                .toJson(this));
     }
 
     public Map getMap() {
         return map;
     }
 
-    public void setMap(Map map) {
-        this.map = map;
-    }
-
     public Player getPlayer() {
         return player;
-    }
-
-    public void setPlayer(Player player) {
-        this.player = player;
     }
 
     @Override
@@ -90,22 +86,8 @@ public class State {
 
     private void loadMap(String url, boolean updatePlayerPosition) {
         map = Map.parseFile(url);
-        if (updatePlayerPosition)
+        if (updatePlayerPosition) {
             player.setPosition(map.getPlayerStartX(), map.getPlayerStartY());
+        }
     }
-
-//    public void saveData() {
-//        Utils.saveFileContent(PLAYER_DATA_URL, new Gson().toJson(player));
-//    }
-//
-//    public void loadData() {
-//        if (Utils.fileExists(PLAYER_DATA_URL)) {
-//            this.player = new Gson()
-//                    .fromJson(Utils.loadFileContent(PLAYER_DATA_URL), Player.class);
-//        } else {
-//            this.player = new Player();
-//        }
-//
-//        loadInitialMap();
-//    }
 }

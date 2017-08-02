@@ -1,1 +1,5740 @@
-{"player":{"hp":15,"mana":10,"stamina":10,"strength":5,"dex":3,"wis":4,"luck":3,"vision":2,"maxHp":16,"mapPosition":{"x":6,"y":5}},"current_level":0}
+{
+  "map": {
+    "width": 59,
+    "height": 24,
+    "characterStartX": 1,
+    "getCharacterStartY": 10,
+    "data": [
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "✩",
+          "type": "MAIN"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "✩",
+          "type": "MAIN"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "START"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "⌗",
+          "type": "EXIT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        }
+      ]
+    ],
+    "mainItemLeft": 2
+  },
+  "player": {
+    "hp": 1,
+    "mana": 10,
+    "stamina": 10,
+    "strength": 5,
+    "dex": 3,
+    "wis": 4,
+    "luck": 3,
+    "vision": 2,
+    "maxHp": 25,
+    "exp": 0,
+    "mapPosition": {
+      "x": 41,
+      "y": 13
+    }
+  },
+  "current_level": 1
+}

@@ -64,5 +64,5 @@ public class Utils {
         return random.nextInt(6) + 1;
     }
 
-    public static Font vnFont = new Font(Font.MONOSPACED, Font.PLAIN, 14);
+    public static Font vnFont = new Font(Font.MONOSPACED, Font.PLAIN, 18);
 }

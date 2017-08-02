@@ -6,3 +6,5 @@
         - Combat
     - ChoiceItem
         - a, b, c => results
+
+Use fomula in: https://github.com/uklimaschewski/EvalEx

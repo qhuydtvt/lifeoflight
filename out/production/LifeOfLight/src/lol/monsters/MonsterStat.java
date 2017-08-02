@@ -17,6 +17,8 @@ public class MonsterStat {
     public int wisdom;
     @SerializedName("luck")
     public int luck;
+    @SerializedName("exp")
+    public int exp;
 
     public int getHp() {
         return hp;
@@ -72,6 +74,14 @@ public class MonsterStat {
 
     public void setLuck(int luck) {
         this.luck = luck;
+    }
+
+    public int getExp() {
+        return exp;
+    }
+
+    public void setExp(int exp) {
+        this.exp = exp;
     }
 
     @Override
