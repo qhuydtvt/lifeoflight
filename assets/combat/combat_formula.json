@@ -1,7 +1,7 @@
 {
   "basePdmg": "{player.str} + ({player.str} * {player.strRate})",
   "baseMdmg": "{player.wis} + ({player.wis} * {player.wisRate})",
-  "critChance": "(random() * 100) < ({player.luck} + {player.rate})",
+  "critChance": "(random() * 100) < ({player.luck} + {player.strRate})",
   "critBonusDmg": "(0.5*{basePdmg})+(({player.luck} + {player.dex}) * {basePdmg}/100)",
   "pAtk": "{basePdmg} + ({critChance} * {critBonusDmg})",
   "mAtk": "{baseMdmg}",
