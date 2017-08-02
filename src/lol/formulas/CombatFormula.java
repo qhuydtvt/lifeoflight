@@ -37,12 +37,34 @@ public class CombatFormula extends Formula {
         instance = new Gson().fromJson(formulaContent, CombatFormula.class);
     }
 
-    public int physicsAttack() {
+    public class PhysicsAttackResult {
+        public float damage;
+        public boolean isCriticalAttack;
+
+        public PhysicsAttackResult(float damage, boolean isCriticalAttack) {
+            this.damage = damage;
+            this.isCriticalAttack = isCriticalAttack;
+        }
+
+        @Override
+        public String toString() {
+            return "PhysicsAttackResult{" +
+                    "damage=" + damage +
+                    ", isCriticalAttack=" + isCriticalAttack +
+                    '}';
+        }
+    }
+
+    public PhysicsAttackResult physicsAttack() {
+        String critChanceTemplate = critchance.replace("{basePdmg}", safe(basepdmg));
+        Float critChance = evaluate(critChanceTemplate);
+
         String finalTemplate = patk
                 .replace("{critBonusDmg}", safe(critbonusdmg))
-                .replace("{critChance}", safe(critchance))
+                .replace("{critChance}", critChance.toString())
                 .replace("{basePdmg}", safe(basepdmg));
         System.out.println(render(finalTemplate));
-        return (int)evaluate(finalTemplate);
+        int damage = (int) evaluate(finalTemplate);
+        return new PhysicsAttackResult(damage, critChance == 1.0f);
     }
 }

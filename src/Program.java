@@ -9,16 +9,16 @@ import lol.gameevents.GameEventManager;
  */
 public class Program {
     public static void main(String[] args) {
-
-        int damage = CombatFormula.instance.physicsAttack();
-        System.out.println(damage);
-
-
         GameEventManager.instance.loadData();
+        for (int i = 0; i < 100; i++) {
+            System.out.println(CombatFormula.instance.physicsAttack());
+            System.out.println("*********************");
+        }
 
-        Runtime.getRuntime().addShutdownHook(new Thread(State.instance::save));
 
-        GameWindow gameWindow = new GameWindow();
-        gameWindow.gameLoop();
+//        Runtime.getRuntime().addShutdownHook(new Thread(State.instance::save));
+//
+//        GameWindow gameWindow = new GameWindow();
+//        gameWindow.gameLoop();
     }
 }

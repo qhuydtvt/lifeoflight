@@ -36,7 +36,7 @@ public class Player {
     }
 
     public Player() {
-        this(15, 10, 10, 5, 3, 4, 3, 2, 0.5f,0);
+        this(15, 10, 10, 5, 3, 4, 5, 2, 0.5f,0);
     }
 
     public void changeMaxHP(int amount) {
