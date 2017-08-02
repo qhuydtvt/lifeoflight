@@ -1,11 +1,11 @@
 {
   "basePdmg": "{player.str} + ({player.str} * {player.strRate})",
   "baseMdmg": "{player.wis} + ({player.wis} * {player.wisRate})",
-  "critChance": "(random() * 100) > ({player.luck} + {player.rate})",
+  "critChance": "(random() * 100) < ({player.luck} + {player.rate})",
   "critBonusDmg": "(0.5*{basePdmg})+(({player.luck} + {player.dex}) * {basePdmg}/100)",
   "pAtk": "{basePdmg} + ({critChance} * {critBonusDmg})",
   "mAtk": "{baseMdmg}",
-  "dodgeChance": "(random() * 100) > ({player_luck} + {player_dex})",
+  "dodgeChance": "(random() * 100) < ({player_luck} + {player_dex})",
   "hpRegen": "{player.strRate} * {player.str}",
   "staRegen": "{player.dexRate} * {player.dex}",
   "manaRegen": "{player.manaRate} * {player.wis}"
