@@ -4,7 +4,7 @@
     "hp": 15,
     "mana": 10,
     "stamina": 10,
-    "str_rate": 0.5,
+    "strRate": 0.5,
     "str": 5,
     "dex": 3,
     "wis": 4,
