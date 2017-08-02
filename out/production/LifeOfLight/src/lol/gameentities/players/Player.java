@@ -15,11 +15,12 @@ public class Player {
     private int luck;
     private int vision;
     private int maxHp;
+    private float strRate;
     private int exp;
 
     private MapPosition mapPosition;
 
-    public Player(int hp, int mana, int stamina, int strength, int dex, int wis, int luck, int vision, int exp) {
+    public Player(int hp, int mana, int stamina, int strength, int dex, int wis, int luck, int vision, float strRate, int exp) {
         this.hp = hp;
         this.mana = mana;
         this.stamina = stamina;
@@ -29,47 +30,48 @@ public class Player {
         this.luck = luck;
         this.vision = vision;
         this.maxHp = hp;
+        this.strRate = strRate;
         this.exp = exp;
         mapPosition = new MapPosition();
     }
 
     public Player() {
-        this(15, 10, 10, 5, 3, 4, 3, 2, 0);
+        this(15, 10, 10, 5, 3, 4, 3, 2, 0.5f,0);
     }
 
     public void changeMaxHP(int amount) {
         this.maxHp += amount;
     }
 
-    public int getHp() {
+    public Integer getHp() {
         return hp;
     }
 
-    public int getMana() {
+    public Integer getMana() {
         return mana;
     }
 
-    public int getStamina() {
+    public Integer getStamina() {
         return stamina;
     }
 
-    public int getStrength() {
+    public Integer getStrength() {
         return strength;
     }
 
-    public int getDex() {
+    public Integer getDex() {
         return dex;
     }
 
-    public int getWis() {
+    public Integer getWis() {
         return wis;
     }
 
-    public int getLuck() {
+    public Integer getLuck() {
         return luck;
     }
 
-    public int getVision() {
+    public Integer getVision() {
         return vision;
     }
 
@@ -85,12 +87,16 @@ public class Player {
         return mapPosition;
     }
 
-    public int getMaxHp() {
+    public Integer getMaxHp() {
         return maxHp;
     }
 
-    public int getExp() {
+    public Integer getExp() {
         return exp;
+    }
+
+    public Float getStrRate() {
+        return strRate;
     }
 
     @Override

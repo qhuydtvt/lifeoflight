@@ -38,91 +38,11 @@ public class CombatFormula extends Formula {
     }
 
     public int physicsAttack() {
-        String finalPhysicsFormula = patk
+        String finalTemplate = patk
                 .replace("{critBonusDmg}", safe(critbonusdmg))
                 .replace("{critChance}", safe(critchance))
                 .replace("{basePdmg}", safe(basepdmg));
-        System.out.println(finalPhysicsFormula);
-        return -1;
-    }
-
-    public String getBasepdmg() {
-        return basepdmg;
-    }
-
-    public void setBasepdmg(String basepdmg) {
-        this.basepdmg = basepdmg;
-    }
-
-    public String getBasemdmg() {
-        return basemdmg;
-    }
-
-    public void setBasemdmg(String basemdmg) {
-        this.basemdmg = basemdmg;
-    }
-
-    public String getCritchance() {
-        return critchance;
-    }
-
-    public void setCritchance(String critchance) {
-        this.critchance = critchance;
-    }
-
-    public String getCritbonusdmg() {
-        return critbonusdmg;
-    }
-
-    public void setCritbonusdmg(String critbonusdmg) {
-        this.critbonusdmg = critbonusdmg;
-    }
-
-    public String getPatk() {
-        return patk;
-    }
-
-    public void setPatk(String patk) {
-        this.patk = patk;
-    }
-
-    public String getMatk() {
-        return matk;
-    }
-
-    public void setMatk(String matk) {
-        this.matk = matk;
-    }
-
-    public String getDodgechance() {
-        return dodgechance;
-    }
-
-    public void setDodgechance(String dodgechance) {
-        this.dodgechance = dodgechance;
-    }
-
-    public String getHpregen() {
-        return hpregen;
-    }
-
-    public void setHpregen(String hpregen) {
-        this.hpregen = hpregen;
-    }
-
-    public String getStaregen() {
-        return staregen;
-    }
-
-    public void setStaregen(String staregen) {
-        this.staregen = staregen;
-    }
-
-    public String getManaregen() {
-        return manaregen;
-    }
-
-    public void setManaregen(String manaregen) {
-        this.manaregen = manaregen;
+        System.out.println(render(finalTemplate));
+        return (int)evaluate(finalTemplate);
     }
 }

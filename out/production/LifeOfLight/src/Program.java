@@ -10,7 +10,9 @@ import lol.gameevents.GameEventManager;
 public class Program {
     public static void main(String[] args) {
 
-        CombatFormula.instance.physicsAttack();
+        int damage = CombatFormula.instance.physicsAttack();
+        System.out.println(damage);
+
 
         GameEventManager.instance.loadData();
 

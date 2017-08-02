@@ -5730,6 +5730,7 @@
     "luck": 3,
     "vision": 2,
     "maxHp": 25,
+    "strRate": 0.5,
     "exp": 0,
     "mapPosition": {
       "x": 41,
