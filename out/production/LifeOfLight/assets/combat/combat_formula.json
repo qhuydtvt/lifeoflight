@@ -5,7 +5,7 @@
   "critBonusDmg": "(0.5*{basePdmg})+(({player.luck} + {player.dex}) * {basePdmg}/100)",
   "pAtk": "{basePdmg} + ({critChance} * {critBonusDmg})",
   "mAtk": "{baseMdmg}",
-  "dodgeChance": "(random() * 100) < ({player_luck} + {player_dex})",
+  "dodgeChance": "(random() * 100) < ({player.luck} + {player.dex})",
   "hpRegen": "{player.strRate} * {player.str}",
   "staRegen": "{player.dexRate} * {player.dex}",
   "manaRegen": "{player.manaRate} * {player.wis}"

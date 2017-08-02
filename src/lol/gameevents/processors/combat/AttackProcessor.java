@@ -2,6 +2,7 @@ package lol.gameevents.processors.combat;
 
 import lol.bases.Utils;
 import lol.events.EventManager;
+import lol.formulas.CombatFormula;
 import lol.gameentities.State;
 import lol.gameentities.players.Player;
 import lol.gameevents.CombatEvent;
@@ -10,6 +11,8 @@ import lol.gameevents.LostEvent;
 import lol.gameevents.MainGameEvent;
 import lol.gameevents.processors.Processor;
 import lol.monsters.Monster;
+
+import lol.formulas.CombatFormula.PhysicsAttackResult;
 
 import java.util.List;
 
@@ -60,20 +63,20 @@ public class AttackProcessor extends Processor {
     }
 
     private void fight(Player player, Monster monster) {
-        // TODO: Calculate fight stats based on formula
-        if (Utils.rollDice() < player.getLuck()) {
-            monster.getHit(player.getStrength());
-            EventManager.pushUIMessage(String.format("You hit %s and now it has %s hp left", monster.getName(),
-                    monster.getStat().getHp()));
-        } else {
-            EventManager.pushUIMessage(String.format("You attacked %s but missed", monster.getName()));
+        PhysicsAttackResult physicsAttackResult = CombatFormula.instance.physicsAttack();
+        if (physicsAttackResult.isCriticalAttack) {
+            EventManager.pushUIMessage("Critical attack");
         }
+        monster.getHit(physicsAttackResult.damage);
+        EventManager.pushUIMessage(String.format("You hit %s with %s damage and now it has %s hp left", monster.getName(),
+                physicsAttackResult.damage,
+                monster.getStat().getHp()));
     }
 
     private void monsterFightBack(Player player, List<Monster> monsters) {
         for (Monster monster : monsters) {
             if (monster.getStat().hp > 0) {
-                if (monster.getStat().getHp() > 0 && Utils.rollDice() < monster.getStat().getLuck()) {
+                if (CombatFormula.instance.doge()) {
                     player.getHit(monster.getStat().getStrength());
                     EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.getHp()));
                 } else {

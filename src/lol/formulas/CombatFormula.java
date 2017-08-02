@@ -38,10 +38,10 @@ public class CombatFormula extends Formula {
     }
 
     public class PhysicsAttackResult {
-        public float damage;
+        public int damage;
         public boolean isCriticalAttack;
 
-        public PhysicsAttackResult(float damage, boolean isCriticalAttack) {
+        public PhysicsAttackResult(int damage, boolean isCriticalAttack) {
             this.damage = damage;
             this.isCriticalAttack = isCriticalAttack;
         }

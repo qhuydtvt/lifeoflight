@@ -5721,7 +5721,7 @@
     "mainItemLeft": 2
   },
   "player": {
-    "hp": 1,
+    "hp": 10,
     "mana": 10,
     "stamina": 10,
     "strength": 5,
@@ -5733,8 +5733,8 @@
     "strRate": 0.5,
     "exp": 0,
     "mapPosition": {
-      "x": 41,
-      "y": 13
+      "x": 40,
+      "y": 12
     }
   },
   "current_level": 1
