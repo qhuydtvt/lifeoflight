@@ -13,7 +13,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/formulas/CombatFormula.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/formulas/CombatFormula.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Program.java" afterPath="$PROJECT_DIR$/src/Program.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/formulas/CombatFormula.java" afterPath="$PROJECT_DIR$/src/lol/formulas/CombatFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +28,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CombatFormula.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CombatFormula.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/formulas/CombatFormula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="205">
+              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2158#2159#0" expanded="true" />
+                <element signature="e#2210#2211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combat_formula.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/combat/combat_formula.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +161,10 @@
         <option value="$PROJECT_DIR$/assets/combat/battle_triger.json" />
         <option value="$PROJECT_DIR$/assets/specs/lvl1_specs.txt" />
         <option value="$PROJECT_DIR$/src/lol/formulas/Formula.java" />
-        <option value="$PROJECT_DIR$/src/lol/formulas/CombatFormula.java" />
-        <option value="$PROJECT_DIR$/assets/combat/combat_formula.json" />
-        <option value="$PROJECT_DIR$/src/Program.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" />
+        <option value="$PROJECT_DIR$/src/lol/formulas/CombatFormula.java" />
+        <option value="$PROJECT_DIR$/src/Program.java" />
+        <option value="$PROJECT_DIR$/assets/combat/combat_formula.json" />
       </list>
     </option>
   </component>
@@ -1095,9 +1118,9 @@
         <state relative-caret-position="117">
           <caret line="5723" column="12" lean-forward="false" selection-start-line="5723" selection-start-column="12" selection-end-line="5723" selection-end-column="12" />
           <folding>
-            <marker date="1501715257000" expanded="true" signature="0:102201" ph="{&quot;current_level&quot;: 1...}" />
-            <marker date="1501715257000" expanded="true" signature="102167:102173" ph="{&quot;x&quot;: 20...}" />
-            <marker date="1501715257000" expanded="true" signature="102167:102177" ph="{&quot;hp&quot;: 15...}" />
+            <marker date="1501716195000" expanded="true" signature="0:102201" ph="{&quot;current_level&quot;: 1...}" />
+            <marker date="1501716195000" expanded="true" signature="102167:102173" ph="{&quot;x&quot;: 20...}" />
+            <marker date="1501716195000" expanded="true" signature="102167:102177" ph="{&quot;hp&quot;: 15...}" />
           </folding>
         </state>
       </provider>
@@ -1214,29 +1237,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/formulas/CombatFormula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2158#2159#0" expanded="true" />
+            <element signature="e#2210#2211#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/combat/combat_formula.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="119">
+          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lol/formulas/CombatFormula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
