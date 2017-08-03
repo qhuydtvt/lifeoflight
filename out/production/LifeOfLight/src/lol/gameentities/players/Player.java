@@ -99,6 +99,10 @@ public class Player {
         return strRate;
     }
 
+    public void changeExp(int amount) {
+        this.exp += amount;
+    }
+
     @Override
     public String toString() {
         return "Player{" +

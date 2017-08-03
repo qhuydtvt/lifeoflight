@@ -45,6 +45,8 @@ public class AttackProcessor extends Processor {
             if (monster.getStat().getHp() <= 0) {
                 EventManager.pushUIMessage(String.format("%s just died", monster.getName()));
                 monsters.remove(monster);
+                player.changeExp(monster.getStat().getExp());
+                EventManager.pushUIMessage(String.format("Your EXP just increased by %s", monster.getStat().getExp()));
                 if (monsters.size() == 0) {
                     EventManager.pushUIMessage("All monsters were killed, you won the combat");
                     return new MainGameEvent();
