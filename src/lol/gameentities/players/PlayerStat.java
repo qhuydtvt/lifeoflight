@@ -1,16 +1,17 @@
 package lol.gameentities.players;
 
+import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
 /**
  * Created by huynq on 8/5/17.
  */
-public class PlayerStat {
+public class PlayerStat implements Cloneable {
 
     @SerializedName("name")
     public String name;
     @SerializedName("min_exp")
-    public String minExp;
+    public Integer minExp;
     @SerializedName("max_hp")
     public Integer maxHp;
     @SerializedName("hp")
@@ -35,6 +36,15 @@ public class PlayerStat {
     public Integer luck;
     @SerializedName("vision")
     public Integer vision;
+
+    public void init() {
+        hp = maxHp;
+    }
+
+    public PlayerStat clone() {
+        Gson gson = new Gson();
+        return gson.fromJson(gson.toJson(this), this.getClass());
+    }
 
     @Override
     public String toString() {

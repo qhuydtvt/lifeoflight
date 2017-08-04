@@ -46,7 +46,11 @@ public class AttackProcessor extends Processor {
                 EventManager.pushUIMessage(String.format("%s just died", monster.getName()));
                 monsters.remove(monster);
                 player.changeExp(monster.getStat().getExp());
-                EventManager.pushUIMessage(String.format("Your EXP just increased by %s¡", monster.getStat().getExp()));
+                EventManager.pushUIMessage(String.format("Your EXP just increased by %s", monster.getStat().getExp()));
+                while(player.levelUp()) {
+                    EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel));
+                    EventManager.pushUIMessage(String.format("Your new stat: %s", "blah blah"));
+                }
                 if (monsters.size() == 0) {
                     EventManager.pushUIMessage("All monsters were killed, you won the combat");
                     return new MainGameEvent();

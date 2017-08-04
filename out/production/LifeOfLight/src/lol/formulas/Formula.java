@@ -19,7 +19,7 @@ public class Formula {
         Player player = state.getPlayer();
         return template
                 .replace("{player.hp}", player.stat.hp.toString())
-                .replace("{player.mana}", player.stat.stamina.toString())
+                .replace("{player.mana}", player.stat.mana.toString())
                 .replace("{player.stamina}", player.stat.stamina.toString())
                 .replace("{player.str}", player.stat.str.toString())
                 .replace("{player.dex}", player.stat.dex.toString())

@@ -50,6 +50,25 @@ public class Player {
         this.exp += amount;
     }
 
+    public boolean levelUp() {
+        int nextLevelEXP = nextLevelEXP();
+        if (nextLevelEXP != -1 && exp >= nextLevelEXP) {
+            currentLevel++;
+            exp -= nextLevelEXP;
+            loadStat(currentLevel);
+            stat.init();
+            return true;
+        }
+        return false;
+    }
+
+    public int nextLevelEXP() {
+        if (levelStats.size() > currentLevel + 1) {
+            return levelStats.get(currentLevel + 1).minExp;
+        } else {
+            return -1;
+        }
+    }
 
     @Override
     public String toString() {
@@ -65,6 +84,10 @@ public class Player {
                 ", levelStats=" + levelStats +
                 ", mapPosition=" + mapPosition +
                 '}';
+    }
+
+    public void loadStat(int level) {
+        this.stat = levelStats.get(level).clone();
     }
 
     public void getHit(int damage) {

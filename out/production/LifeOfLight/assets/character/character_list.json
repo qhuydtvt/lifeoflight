@@ -7,11 +7,12 @@
     "ability": null,
     "inventory": [],
     "current_level": 0,
+    "exp": 0,
 
     "level_stats": [
       {
         "name": "Sáng",
-        "min_exp": "0",
+        "min_exp": 0,
         "max_hp": 15,
         "hp": 15,
         "mana": 10,
@@ -27,8 +28,9 @@
       },
       {
         "name": "Sáng siêu xay da",
-        "min_exp": "100",
+        "min_exp": 20,
         "max_hp": 20,
+        "hp": 20,
         "mana": 15,
         "stamina": 15,
         "strRate": 0.5,
@@ -38,7 +40,7 @@
         "dex": 4,
         "wis": 3,
         "luck": 2,
-        "vision": 2
+        "vision": 3
       }
     ]
   }
