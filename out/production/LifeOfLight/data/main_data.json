@@ -7,61 +7,61 @@
     "data": [
       [
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
@@ -109,13 +109,13 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
@@ -163,121 +163,13 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "☒",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "⚡",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
@@ -301,10 +193,6 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "⚡",
-          "type": "EVENT"
-        },
-        {
           "symbol": " ",
           "type": "EMPTY"
         },
@@ -325,121 +213,71 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "☒",
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "⚡",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "⚡",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "⚡",
-          "type": "EVENT"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": "⚡",
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
           "type": "EVENT"
         },
         {
-          "symbol": "⚡",
-          "type": "EVENT"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": "⚡",
-          "type": "EVENT"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
@@ -455,19 +293,181 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "⚡",
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
           "type": "EVENT"
         },
         {
-          "symbol": "⚡",
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
           "type": "EVENT"
         },
         {
-          "symbol": "⚡",
+          "symbol": "$",
           "type": "EVENT"
         },
         {
-          "symbol": "✩",
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "M",
           "type": "MAIN"
         },
         {
@@ -487,61 +487,61 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "⌗",
+          "symbol": "#",
           "type": "EXIT"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": "☒",
+          "symbol": "O",
           "type": "WALL"
         }
       ]
@@ -604,7 +604,7 @@
     ],
     "mapPosition": {
       "x": 6,
-      "y": 2
+      "y": 1
     }
   },
   "current_level": 0

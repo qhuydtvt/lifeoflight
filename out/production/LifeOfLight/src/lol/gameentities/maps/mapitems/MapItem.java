@@ -37,11 +37,11 @@ public class MapItem {
     public static MapItem parse(char c) {
         switch (c) {
             case CHAR_EMPTY: return new MapItem(MapItemType.EMPTY, ' ');
-            case CHAR_WALL: return new MapItem(MapItemType.WALL, '☒');
-            case CHAR_EVENT: return new MapItem(MapItemType.EVENT, '⚡');
+            case CHAR_WALL: return new MapItem(MapItemType.WALL, 'O');
+            case CHAR_EVENT: return new MapItem(MapItemType.EVENT, '$');
             case CHAR_START: return new MapItem(MapItemType.START, ' ');
-            case CHAR_EXIT: return new MapItem(MapItemType.EXIT, '⌗');
-            case CHAR_MAIN: return new MapItem(MapItemType.MAIN, '✩');
+            case CHAR_EXIT: return new MapItem(MapItemType.EXIT, '#');
+            case CHAR_MAIN: return new MapItem(MapItemType.MAIN, 'M');
             default:
                 break;
         }
