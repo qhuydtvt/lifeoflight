@@ -7,8 +7,6 @@ import lol.bases.Utils;
 import lol.gameentities.players.Player;
 import lol.gameentities.maps.Map;
 
-import java.io.File;
-
 /**
  * Created by huynq on 7/30/17.
  */
@@ -41,9 +39,11 @@ public class State {
             instance.currentLevel = savedState.currentLevel;
             instance.map = savedState.map;
         } else {
-            instance.loadInitialMap(true);
+            instance.loadInitialPlayer();
+            instance.loadInitialMap();
         }
     }
+
 
     public void save() {
         Utils.saveFileContent(DATA_URL, new GsonBuilder()
@@ -67,27 +67,34 @@ public class State {
                 ", player=" + player;
     }
 
-    private void loadInitialMap(boolean updatePlayerPosition) {
-        loadMap(mapUrl(currentLevel), updatePlayerPosition);
+    private void loadInitialMap() {
+        loadMap(mapUrl(currentLevel));
     }
 
     public void loadNextMap() {
         currentLevel++;
-        loadMap(mapUrl(currentLevel), true);
+        loadMap(mapUrl(currentLevel));
     }
 
     public void removeItemAtPlayerPosition() {
-        map.removeItem(player.getPosition());
+        map.removeItem(player.mapPosition);
     }
 
     private String mapUrl(int lvl) {
         return String.format("assets/maps/lvl%s.txt", lvl);
     }
 
-    private void loadMap(String url, boolean updatePlayerPosition) {
+    private void loadMap(String url) {
         map = Map.parseFile(url);
-        if (updatePlayerPosition) {
-            player.setPosition(map.getPlayerStartX(), map.getPlayerStartY());
-        }
+        assert map != null;
+        player.mapPosition.set(map.getPlayerStartX(), map.getPlayerStartY());
+    }
+
+    private void loadInitialPlayer() {
+        loadPlayer("assets/character/character_list.json");
+    }
+
+    private void loadPlayer(String url) {
+        player = Player.parseFile(url);
     }
 }

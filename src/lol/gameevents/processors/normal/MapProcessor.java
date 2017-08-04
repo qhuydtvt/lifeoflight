@@ -19,7 +19,7 @@ public class MapProcessor extends Processor {
         Map map = State.instance.getMap();
         Player player = State.instance.getPlayer();
 
-        List<List<MapItem>> block = map.getMapItems(player.getPosition(), player.getVision());
+        List<List<MapItem>> block = map.getMapItems(player.mapPosition, player.stat.vision);
         EventManager.pushUIMessage(" ");
         for (int y = 0; y < block.size(); y ++) {
             StringBuilder rowMessage = new StringBuilder();

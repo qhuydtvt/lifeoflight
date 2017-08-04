@@ -1,5 +1,6 @@
 package lol.gameentities.maps;
 
+import lol.bases.Utils;
 import lol.gameentities.MapPosition;
 import lol.gameentities.maps.mapitems.*;
 
@@ -124,20 +125,7 @@ public class Map {
     }
 
     public static Map parseFile(String url) {
-        File file = new File(url);
-        FileInputStream fis = null;
-        String content = null;
-        try {
-            fis = new FileInputStream(file);
-            byte[] data = new byte[(int) file.length()];
-            fis.read(data);
-            fis.close();
-            content = new String(data, "UTF-8");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        return content == null ? null : parse(content);
+        return parse(Utils.loadFileContent(url));
     }
 
     @Override

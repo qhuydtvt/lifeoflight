@@ -22,9 +22,9 @@ public class StatScreen extends TextView {
         clear();
         Player player = State.instance.getPlayer();
         setFontMetrics(g2d.getFontMetrics());
-        addText(String.format("HP: %s/%s", player.getHp(), player.getMaxHp()));
-        addText(String.format("STR: %s", player.getStrength()));
-        addText(String.format("EXP: %s", player.getExp()));
+        addText(String.format("HP: %s/%s", player.stat.hp, player.stat.maxHp));
+        addText(String.format("STR: %s", player.stat.str));
+        addText(String.format("EXP: %s", player.exp));
         super.render(g2d);
     }
 }

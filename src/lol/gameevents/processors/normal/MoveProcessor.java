@@ -45,7 +45,7 @@ public class MoveProcessor extends Processor {
 
         extractDirection(direction, moveDirection, message);
 
-        MapPosition futurePosition = player.getPosition().add(moveDirection);
+        MapPosition futurePosition = player.mapPosition.add(moveDirection);
         MapItem mapItem = map.getMapItem(futurePosition);
 
         if (mapItem.getType() == WALL) {

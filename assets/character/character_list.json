@@ -1,25 +1,18 @@
 [
   {
     "name": "Sáng",
-    "hp": 15,
-    "mana": 10,
-    "stamina": 10,
-    "strRate": 0.5,
-	"dexRate": 0.25,
-	"wisRate": 0.25,
-    "str": 5,
-    "dex": 3,
-    "wis": 4,
-    "luck": 1,
     "item": null,
     "skill": null,
     "status": null,
     "ability": null,
-    "inventory": null,
+    "inventory": [],
     "current_level": 0,
-    "levels": [
+
+    "level_stats": [
       {
+        "name": "Sáng",
         "min_exp": "0",
+        "max_hp": 15,
         "hp": 15,
         "mana": 10,
         "stamina": 10,
@@ -29,11 +22,13 @@
         "str": 5,
         "dex": 3,
         "wis": 4,
-        "luck": 1
+        "luck": 1,
+        "vision": 2
       },
       {
+        "name": "Sáng siêu xay da",
         "min_exp": "100",
-        "hp": 20,
+        "max_hp": 20,
         "mana": 15,
         "stamina": 15,
         "strRate": 0.5,
@@ -42,7 +37,8 @@
         "str": 6,
         "dex": 4,
         "wis": 3,
-        "luck": 2
+        "luck": 2,
+        "vision": 2
       }
     ]
   }

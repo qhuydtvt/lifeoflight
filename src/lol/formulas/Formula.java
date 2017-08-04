@@ -18,17 +18,17 @@ public class Formula {
     public static String render(String template) {
         Player player = state.getPlayer();
         return template
-                .replace("{player.hp}", player.getHp().toString())
-                .replace("{player.mana}", player.getMana().toString())
-                .replace("{player.stamina}", player.getStamina().toString())
-                .replace("{player.str}", player.getStrength().toString())
-                .replace("{player.dex}", player.getDex().toString())
-                .replace("{player.wis}", player.getWis().toString())
-                .replace("{player.luck}", player.getLuck().toString())
-                .replace("{player.vision}", player.getVision().toString())
-                .replace("{player.maxHp}", player.getMaxHp().toString())
-                .replace("{player.strRate}", player.getStrRate().toString())
-                .replace("{player.exp}", player.getExp().toString());
+                .replace("{player.hp}", player.stat.hp.toString())
+                .replace("{player.mana}", player.stat.stamina.toString())
+                .replace("{player.stamina}", player.stat.stamina.toString())
+                .replace("{player.str}", player.stat.str.toString())
+                .replace("{player.dex}", player.stat.dex.toString())
+                .replace("{player.wis}", player.stat.wis.toString())
+                .replace("{player.luck}", player.stat.luck.toString())
+                .replace("{player.vision}", player.stat.vision.toString())
+                .replace("{player.maxHp}", player.stat.maxHp.toString())
+                .replace("{player.strRate}", player.stat.strrate.toString())
+                .replace("{player.exp}", player.exp.toString());
     }
 
     protected static String safe(String s) {

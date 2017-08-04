@@ -39,7 +39,7 @@ public class AttackProcessor extends Processor {
             Player player = State.instance.getPlayer();
             fight(player, monster);
             monsterFightBack(player, monsters);
-            if (player.getHp() <= 0) {
+            if (player.stat.hp <= 0) {
                 return new LostEvent();
             }
             if (monster.getStat().getHp() <= 0) {
@@ -80,7 +80,7 @@ public class AttackProcessor extends Processor {
             if (monster.getStat().hp > 0) {
                 if (!CombatFormula.instance.doge()) {
                     player.getHit(monster.getStat().getStrength());
-                    EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.getHp()));
+                    EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.stat.hp));
                 } else {
                     EventManager.pushUIMessage(String.format("%s attacked you but missed", monster.getName()));
                 }

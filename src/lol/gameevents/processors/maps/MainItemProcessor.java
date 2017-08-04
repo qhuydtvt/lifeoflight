@@ -17,7 +17,7 @@ public class MainItemProcessor extends Processor {
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
         Map map = State.instance.getMap();
         Player player = State.instance.getPlayer();
-        map.removeItem(player.getPosition());
+        map.removeItem(player.mapPosition);
         EventManager.pushUIMessage("You just collected a ;#0000FFmain item;");
         return null;
     }

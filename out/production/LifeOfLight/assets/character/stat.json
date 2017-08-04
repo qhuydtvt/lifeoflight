@@ -8,7 +8,7 @@
 	"dex++" : [
 		"base_luck += character_dex_rate+0.5",
 		"base_stamina += character_str_rate+1"
-	]
+	],
 	"wis++" : [
 		"base_Mdmg += charater_wis_rate+0.5",
 		"base_mana += charater_wis_rate+1"

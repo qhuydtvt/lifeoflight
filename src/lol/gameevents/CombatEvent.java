@@ -33,7 +33,7 @@ public class CombatEvent implements GameEvent {
         for (Monster monster : monsters) {
             EventManager.pushUIMessage(monster.getInfo());
         }
-        EventManager.pushUIMessage("You can ;#FF0000fight; or you can ;#FFC0CBflee;");
+        EventManager.pushUIMessage("You can ;#FF0000atk; or you can ;#FFC0CBflee;");
     }
 
     @Override

@@ -19,7 +19,7 @@ import java.util.Random;
 public class FleeProcessor extends Processor {
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
-        if (Utils.rollDice() < State.instance.getPlayer().getLuck()) {
+        if (Utils.rollDice() < State.instance.getPlayer().stat.luck) {
             EventManager.pushUIMessage("You escaped from combat");
             return new MainGameEvent();
         } else {
@@ -33,7 +33,7 @@ public class FleeProcessor extends Processor {
         Monster monster = monsters.get(new Random().nextInt(monsters.size()));
         if(Utils.rollDice() < monster.getStat().getLuck()) {
             player.getHit(monster.getStat().getStrength());
-            EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.getHp()));
+            EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.stat.hp));
         } else {
             EventManager.pushUIMessage(String.format("%s attacked you, but missed", monster.getName()));
         }
