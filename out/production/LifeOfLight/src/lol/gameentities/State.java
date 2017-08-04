@@ -104,4 +104,9 @@ public class State {
     private void loadPlayer(String url) {
         player = Player.parseFile(url);
     }
+
+    public void rebirth() {
+        player.rebirth();
+        player.mapPosition.set(map.getPlayerStartX(), map.getPlayerStartY());
+    }
 }

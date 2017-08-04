@@ -1,13 +1,11 @@
 package lol.gameevents.processors.combat;
 
-import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.formulas.CombatFormula;
 import lol.gameentities.State;
 import lol.gameentities.players.Player;
 import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
-import lol.gameevents.LostEvent;
 import lol.gameevents.MainGameEvent;
 import lol.gameevents.processors.Processor;
 import lol.monsters.Monster;
@@ -40,7 +38,7 @@ public class AttackProcessor extends Processor {
             fight(player, monster);
             monsterFightBack(player, monsters);
             if (player.stat.hp <= 0) {
-                return new LostEvent();
+                return new MainGameEvent();
             }
             if (monster.getStat().getHp() <= 0) {
                 EventManager.pushUIMessage(String.format("%s just died", monster.getName()));
@@ -48,7 +46,7 @@ public class AttackProcessor extends Processor {
                 player.changeExp(monster.getStat().getExp());
                 EventManager.pushUIMessage(String.format("Your EXP just increased by %s", monster.getStat().getExp()));
                 while(player.levelUp()) {
-                    EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel));
+                    EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel + 1));
                     EventManager.pushUIMessage(String.format("Your new stat: %s", "blah blah"));
                 }
                 if (monsters.size() == 0) {
@@ -85,6 +83,7 @@ public class AttackProcessor extends Processor {
                 if (!CombatFormula.instance.doge()) {
                     player.getHit(monster.getStat().getStrength());
                     EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.stat.hp));
+                    if (player.stat.hp <= 0) return;
                 } else {
                     EventManager.pushUIMessage(String.format("%s attacked you but missed", monster.getName()));
                 }

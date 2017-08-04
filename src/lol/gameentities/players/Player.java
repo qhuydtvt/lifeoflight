@@ -95,6 +95,11 @@ public class Player {
         if (this.stat.hp < 0) this.stat.hp = 0;
     }
 
+    public void rebirth() {
+        this.stat.hp = this.stat.maxHp;
+        this.exp = this.exp * 75 / 100;
+    }
+
     public static Player parseFile(String url) {
         Type playerListType = new TypeToken<List<Player>>(){}.getType();
         List<Player> playerConfigs = new Gson().fromJson(Utils.loadFileContent(url), playerListType);

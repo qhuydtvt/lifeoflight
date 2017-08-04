@@ -24,7 +24,11 @@ public class FleeProcessor extends Processor {
             return new MainGameEvent();
         } else {
             EventManager.pushUIMessage("You tried to flee but failed");
-            fight(State.instance.getPlayer(), ((CombatEvent)currentEvent).getMonsters());
+            Player player = State.instance.getPlayer();
+            fight(player, ((CombatEvent)currentEvent).getMonsters());
+            if (player.stat.hp <= 0) {
+                return new MainGameEvent();
+            }
             return null;
         }
     }

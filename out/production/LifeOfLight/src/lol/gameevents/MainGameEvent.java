@@ -1,9 +1,12 @@
 package lol.gameevents;
 
+import lol.gameentities.State;
+import lol.gameentities.players.Player;
 import lol.gameevents.processors.Processor;
 import lol.gameevents.processors.normal.MapProcessor;
 import lol.gameevents.processors.normal.MoveProcessor;
 import lol.events.EventManager;
+import lol.gameevents.processors.normal.RebirthProcessor;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,16 +19,12 @@ public class MainGameEvent implements GameEvent {
 
     private HashMap<String, Processor> commandProcessors;
 
-    private Random random;
-
-    private int monsterPercent = 10;
-
     public MainGameEvent() {
         commandProcessors = new HashMap<String, Processor>() {{
             put("MOVE", new MoveProcessor());
             put("MAP", new MapProcessor());
+            put("REBIRTH", new RebirthProcessor());
         }};
-        random = new Random();
     }
 
     @Override
@@ -41,12 +40,16 @@ public class MainGameEvent implements GameEvent {
 
         String mainCommand = commands.get(0);
 
-        if (commandProcessors.containsKey(mainCommand)) {
-            GameEvent nextEvent = Processor.forward(commands, commandProcessors.get(mainCommand), this);
-            if (nextEvent != null) return nextEvent;
-            return null;
+        if (State.instance.getPlayer().stat.hp <= 0 && !mainCommand.equals("REBIRTH")) {
+            EventManager.pushUIMessage("You're dead, type ;#FF0000rebirth; to play again");
         } else {
-            EventManager.pushUIMessage("Command not found, type ;#FF0000help; to get support");
+            if (commandProcessors.containsKey(mainCommand)) {
+                GameEvent nextEvent = Processor.forward(commands, commandProcessors.get(mainCommand), this);
+                if (nextEvent != null) return nextEvent;
+                return null;
+            } else {
+                EventManager.pushUIMessage("Command not found, type ;#FF0000help; to get support");
+            }
         }
 
         return null;
