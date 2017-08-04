@@ -26,7 +26,7 @@ public class MapProcessor extends Processor {
             for(int x = 0; x < block.get(0).size(); x ++) {
                 MapItem item = block.get(y).get(x);
                 if (x == block.size() / 2 && y == block.get(0).size() / 2) {
-                    rowMessage.append("⚇ ");
+                    rowMessage.append("⦿ ");
                 } else if (item == null) {
                     rowMessage.append("☢ ");
                 } else {
