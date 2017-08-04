@@ -6,23 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lol/gameevents/processors/normal/RebirthProcessor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/LostEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lol/gameevents/LostEvent.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/main_data.json" afterPath="$PROJECT_DIR$/data/main_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/State.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/State.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/players/Player.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/players/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/MainGameEvent.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/MainGameEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/processors/combat/AttackProcessor.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/processors/combat/AttackProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/processors/combat/FleeProcessor.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/processors/combat/FleeProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/State.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/State.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameevents/MainGameEvent.java" afterPath="$PROJECT_DIR$/src/lol/gameevents/MainGameEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java" afterPath="$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameevents/processors/combat/FleeProcessor.java" afterPath="$PROJECT_DIR$/src/lol/gameevents/processors/combat/FleeProcessor.java" />
-    </list>
+    <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -873,7 +857,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48418158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48418158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

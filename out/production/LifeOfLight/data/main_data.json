@@ -5725,7 +5725,7 @@
       "name": "Sáng",
       "min_exp": 0,
       "max_hp": 17,
-      "hp": 0,
+      "hp": 17,
       "mana": 10,
       "stamina": 10,
       "strRate": 0.5,
@@ -5737,7 +5737,7 @@
       "luck": 1,
       "vision": 2
     },
-    "exp": 0,
+    "exp": 3,
     "inventory": [],
     "current_level": 0,
     "level_stats": [
@@ -5775,7 +5775,7 @@
       }
     ],
     "mapPosition": {
-      "x": 19,
+      "x": 1,
       "y": 10
     }
   },
