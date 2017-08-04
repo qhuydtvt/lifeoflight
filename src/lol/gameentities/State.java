@@ -7,6 +7,8 @@ import lol.bases.Utils;
 import lol.gameentities.players.Player;
 import lol.gameentities.maps.Map;
 
+import java.io.File;
+
 /**
  * Created by huynq on 7/30/17.
  */
@@ -24,6 +26,7 @@ public class State {
 
     private static final String PLAYER_DATA_URL = "data/player.json";
     private static final String DATA_URL = "data/main_data.json";
+    private static final String DATA_FOLDER = "data";
 
     public static final State instance = new State();
 
@@ -46,6 +49,9 @@ public class State {
 
 
     public void save() {
+        if (!Utils.fileExists(DATA_FOLDER)) {
+            new File(DATA_FOLDER).mkdir();
+        }
         Utils.saveFileContent(DATA_URL, new GsonBuilder()
                 .setPrettyPrinting()
                 .create()
