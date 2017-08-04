@@ -1885,8 +1885,8 @@
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "✩",
+          "type": "MAIN"
         },
         {
           "symbol": " ",
@@ -3419,8 +3419,8 @@
           "type": "EMPTY"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "⚡",
+          "type": "EVENT"
         },
         {
           "symbol": " ",
@@ -4003,8 +4003,8 @@
           "type": "EMPTY"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "⚡",
+          "type": "EVENT"
         },
         {
           "symbol": " ",
@@ -4545,8 +4545,8 @@
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "⚡",
+          "type": "EVENT"
         },
         {
           "symbol": "☒",
@@ -5319,6 +5319,30 @@
           "type": "EMPTY"
         },
         {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "⚡",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "☒",
+          "type": "WALL"
+        },
+        {
           "symbol": " ",
           "type": "EMPTY"
         },
@@ -5343,32 +5367,8 @@
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "☒",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "⚡",
+          "type": "EVENT"
         },
         {
           "symbol": " ",
@@ -5718,23 +5718,23 @@
         }
       ]
     ],
-    "mainItemLeft": 1
+    "mainItemLeft": 2
   },
   "player": {
-    "hp": 5,
+    "hp": 15,
     "mana": 10,
     "stamina": 10,
     "strength": 5,
     "dex": 3,
     "wis": 4,
-    "luck": 3,
+    "luck": 2,
     "vision": 2,
-    "maxHp": 28,
+    "maxHp": 16,
     "strRate": 0.5,
-    "exp": 110,
+    "exp": 20,
     "mapPosition": {
-      "x": 22,
-      "y": 19
+      "x": 21,
+      "y": 11
     }
   },
   "current_level": 1

@@ -46,7 +46,7 @@ public class AttackProcessor extends Processor {
                 EventManager.pushUIMessage(String.format("%s just died", monster.getName()));
                 monsters.remove(monster);
                 player.changeExp(monster.getStat().getExp());
-                EventManager.pushUIMessage(String.format("Your EXP just increased by %s", monster.getStat().getExp()));
+                EventManager.pushUIMessage(String.format("Your EXP just increased by %s¡", monster.getStat().getExp()));
                 if (monsters.size() == 0) {
                     EventManager.pushUIMessage("All monsters were killed, you won the combat");
                     return new MainGameEvent();
@@ -78,7 +78,7 @@ public class AttackProcessor extends Processor {
     private void monsterFightBack(Player player, List<Monster> monsters) {
         for (Monster monster : monsters) {
             if (monster.getStat().hp > 0) {
-                if (CombatFormula.instance.doge()) {
+                if (!CombatFormula.instance.doge()) {
                     player.getHit(monster.getStat().getStrength());
                     EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.getHp()));
                 } else {

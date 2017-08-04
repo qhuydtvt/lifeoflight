@@ -19,14 +19,30 @@
     "current_level": 0,
     "levels": [
       {
-        "min_exp": "",
-        "hp": "",
-        "mana": "random() + 1",
-        "stamina": "",
-        "str": "",
-        "dex": "",
-        "wis": "",
-        "luck": ""
+        "min_exp": "0",
+        "hp": 15,
+        "mana": 10,
+        "stamina": 10,
+        "strRate": 0.5,
+        "dexRate": 0.25,
+        "wisRate": 0.25,
+        "str": 5,
+        "dex": 3,
+        "wis": 4,
+        "luck": 1
+      },
+      {
+        "min_exp": "100",
+        "hp": 20,
+        "mana": 15,
+        "stamina": 15,
+        "strRate": 0.5,
+        "dexRate": 0.25,
+        "wisRate": 0.25,
+        "str": 6,
+        "dex": 4,
+        "wis": 3,
+        "luck": 2
       }
     ]
   }
