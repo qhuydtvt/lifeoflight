@@ -25,17 +25,17 @@
     },
     "nextLevelFormula": {
       "nextLevelMinExp": "{nextLevelMinExp}*1.5",
-      "maxHP": "{maxHp}+1+(random()*2-1)",
-      "hp": "{hp}+1+(random()*3-1)",
-      "mana": "{mana}+1+(random()*2-1)",
-      "stamina": "{stamina}+1+(random()*2-1)",
+      "maxHP": "{maxHp}+1+(random()*2)",
+      "hp": "{hp}+1+(random()*3)",
+      "mana": "{mana}+1+(random()*2)",
+      "stamina": "{stamina}+1+(random()*2)",
       "strRate": "{strRate}",
       "dexRate": "{dexRate}",
       "wisRate": "{wisRate}",
-      "str": "{str}+(random()*4)-1",
-      "dex": "{dex}+(random()*3)-1",
-      "wis": "{wis}+(random()*3)-1",
-      "luck": "{luck}+(random()*2)-1+(random()*{dex}*{dexRate})",
+      "str": "{str}+(random()*4)",
+      "dex": "{dex}+(random()*3)",
+      "wis": "{wis}+(random()*3)",
+      "luck": "{luck}+(random()*2)+(random()*{dex}*{dexRate})",
       "vision": "{vision}"
     }
   }

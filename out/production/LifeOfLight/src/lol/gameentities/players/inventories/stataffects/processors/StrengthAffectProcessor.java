@@ -1,6 +1,6 @@
 package lol.gameentities.players.inventories.stataffects.processors;
 
-import lol.gameentities.players.PlayerStat;
+import lol.gameentities.CombatStat;
 import lol.gameentities.players.inventories.stataffects.operators.StatOperator;
 
 /**
@@ -16,7 +16,7 @@ public class StrengthAffectProcessor implements StatAffectProcessor {
     }
 
     @Override
-    public void affect(PlayerStat currentStat, PlayerStat originStat) {
+    public void affect(CombatStat currentStat, CombatStat originStat) {
         currentStat.str = (int)operator.op(currentStat.str, originStat.str, amount);
     }
 }

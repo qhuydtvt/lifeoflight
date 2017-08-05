@@ -5,7 +5,7 @@ import lol.events.EventManager;
 import lol.gameevents.processors.combat.AttackProcessor;
 import lol.gameevents.processors.Processor;
 import lol.gameevents.processors.combat.FleeProcessor;
-import lol.monsters.Monster;
+import lol.gameentities.monsters.Monster;
 
 import java.util.ArrayList;
 import java.util.HashMap;

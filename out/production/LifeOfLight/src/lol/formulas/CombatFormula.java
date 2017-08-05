@@ -3,6 +3,7 @@ package lol.formulas;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 import lol.bases.Utils;
+import lol.gameentities.CombatUnit;
 
 /**
  * Created by huynq on 8/3/17.
@@ -41,7 +42,7 @@ public class CombatFormula extends Formula {
         public int damage;
         public boolean isCriticalAttack;
 
-        public PhysicsAttackResult(int damage, boolean isCriticalAttack) {
+        PhysicsAttackResult(int damage, boolean isCriticalAttack) {
             this.damage = damage;
             this.isCriticalAttack = isCriticalAttack;
         }
@@ -55,19 +56,45 @@ public class CombatFormula extends Formula {
         }
     }
 
-    public PhysicsAttackResult physicsAttack() {
+    public PhysicsAttackResult physicsAttack(CombatUnit unit) {
         String critChanceTemplate = critchance.replace("{basePdmg}", safe(basepdmg));
-        Float critChance = evaluate(critChanceTemplate);
+        Float critChance = evaluate(render(critChanceTemplate, unit));
 
         String finalTemplate = patk
                 .replace("{critBonusDmg}", safe(critbonusdmg))
                 .replace("{critChance}", critChance.toString())
                 .replace("{basePdmg}", safe(basepdmg));
-        int damage = (int) evaluate(finalTemplate);
+        int damage = (int) evaluate(render(finalTemplate, unit));
         return new PhysicsAttackResult(damage, critChance == 1.0f);
     }
 
-    public boolean doge() {
-        return evaluate(dodgechance) == 1.0f;
+    public String render(String template, CombatUnit unit) {
+        return template
+                .replace("{player.hp}", statStr(unit.stat.hp))
+                .replace("{player.mana}", statStr(unit.stat.mana))
+                .replace("{player.stamina}", statStr(unit.stat.stamina))
+                .replace("{player.str}", statStr(unit.stat.str))
+                .replace("{player.dex}", statStr(unit.stat.dex))
+                .replace("{player.wis}", statStr(unit.stat.wis))
+                .replace("{player.luck}", statStr(unit.stat.luck))
+                .replace("{player.vision}", statStr(unit.stat.vision))
+                .replace("{player.maxHp}", statStr(unit.stat.maxHp))
+                .replace("{player.strRate}", statStr(unit.stat.strRate));
+    }
+
+//    public PhysicsAttackResult physicsAttack() {
+//        String critChanceTemplate = critchance.replace("{basePdmg}", safe(basepdmg));
+//        Float critChance = evaluate(critChanceTemplate);
+//
+//        String finalTemplate = patk
+//                .replace("{critBonusDmg}", safe(critbonusdmg))
+//                .replace("{critChance}", critChance.toString())
+//                .replace("{basePdmg}", safe(basepdmg));
+//        int damage = (int) evaluate(finalTemplate);
+//        return new PhysicsAttackResult(damage, critChance == 1.0f);
+//    }
+
+    public boolean doge(CombatUnit unit) {
+        return evaluate(render(dodgechance, unit)) == 1.0f;
     }
 }

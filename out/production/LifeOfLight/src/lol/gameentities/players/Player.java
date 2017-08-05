@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 import lol.bases.Utils;
+import lol.gameentities.CombatStat;
+import lol.gameentities.CombatUnit;
 import lol.gameentities.MapPosition;
 import lol.gameentities.players.inventories.InventoryItem;
 
@@ -13,7 +15,7 @@ import java.util.List;
 /**
  * Created by huynq on 7/30/17.
  */
-public class Player {
+public class Player extends CombatUnit {
 
     @SerializedName("exp")
     public Integer exp;
@@ -32,9 +34,6 @@ public class Player {
 
     @SerializedName("inventory")
     public List<InventoryItem> inventoryItems;
-
-    @SerializedName("stat")
-    public PlayerStat stat;
 
     @SerializedName("current_level")
     public int currentLevel;
@@ -87,7 +86,7 @@ public class Player {
     }
 
     public void use(InventoryItem item) {
-        PlayerStat newStat = this.stat.clone();
+        CombatStat newStat = this.stat.clone();
         // TODO: Handle weareable
         if (item.getType() == InventoryItem.TYPE_ONE_TIME) {
             item.affect(newStat, this.stat);

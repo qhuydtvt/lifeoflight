@@ -1,9 +1,10 @@
-package lol.monsters;
+package lol.gameentities.monsters;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 import lol.bases.Utils;
+import lol.gameentities.CombatUnit;
 
 import java.util.List;
 import java.lang.reflect.Type;
@@ -12,14 +13,12 @@ import java.util.Random;
 /**
  * Created by huynq on 8/1/17.
  */
-public class Monster implements Cloneable {
+public class Monster extends CombatUnit implements Cloneable {
 
     @SerializedName("name")
     private String name;
     @SerializedName("id")
     private int id;
-    @SerializedName("stat")
-    private MonsterStat stat;
 
     public String getName() {
         return name;
@@ -35,14 +34,6 @@ public class Monster implements Cloneable {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public MonsterStat getStat() {
-        return stat;
-    }
-
-    public void setStat(MonsterStat stat) {
-        this.stat = stat;
     }
 
     protected Monster clone() throws CloneNotSupportedException {
@@ -74,7 +65,7 @@ public class Monster implements Cloneable {
     }
 
     public String getInfo() {
-        return String.format("%s, hp=%s, str=%s", name, stat.getHp(), stat.getStrength());
+        return String.format("%s, hp=%s, str=%s", name, stat.hp, stat.str);
     }
 
     @Override

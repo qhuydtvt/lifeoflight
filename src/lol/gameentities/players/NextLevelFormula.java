@@ -3,6 +3,7 @@ package lol.gameentities.players;
 import com.google.gson.annotations.SerializedName;
 
 import com.udojava.evalex.Expression;
+import lol.gameentities.CombatStat;
 
 /**
  * Created by huynq on 8/6/17.
@@ -39,7 +40,7 @@ public class NextLevelFormula {
     public NextLevelFormula() {
     }
 
-    private float eval(String formula, PlayerStat stat) {
+    private float eval(String formula, CombatStat stat) {
         String formulaWithValues = formula
                 .replace("{nextLevelMinExp}", stat.nextLevelMinExp.toString())
                 .replace("{maxHp}", stat.maxHp.toString())
@@ -58,8 +59,8 @@ public class NextLevelFormula {
     }
 
 
-    public PlayerStat calculate(PlayerStat oldStat) {
-        PlayerStat stat = new PlayerStat();
+    public CombatStat calculate(CombatStat oldStat) {
+        CombatStat stat = new CombatStat();
         stat.nextLevelMinExp = (int) eval(nextLevelMinExp, oldStat);
         stat.maxHp = (int) eval(maxhp, oldStat);
         stat.hp = (int) eval(hp, oldStat);

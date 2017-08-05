@@ -10,7 +10,7 @@ import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
 import lol.gameevents.MainGameEvent;
 import lol.gameevents.processors.Processor;
-import lol.monsters.Monster;
+import lol.gameentities.monsters.Monster;
 
 import lol.formulas.CombatFormula.PhysicsAttackResult;
 
@@ -45,8 +45,8 @@ public class AttackProcessor extends Processor {
             if (monster.getStat().getHp() <= 0) {
                 EventManager.pushUIMessage(String.format("%s just died", monster.getName()));
                 monsters.remove(monster);
-                player.changeExp(monster.getStat().getExp());
-                EventManager.pushUIMessage(String.format("Your EXP just increased by %s", monster.getStat().getExp()));
+                player.changeExp(5);
+                EventManager.pushUIMessage(String.format("Your EXP just increased by %s", 5));
                 if (Utils.rollDice() > 4) { // TODO: ASk xeko about formula
                     InventoryItem noddle = InventoryItem.createNoddle();
                     player.collect(noddle);
@@ -77,7 +77,7 @@ public class AttackProcessor extends Processor {
     }
 
     private void fight(Player player, Monster monster) {
-        PhysicsAttackResult physicsAttackResult = CombatFormula.instance.physicsAttack();
+        PhysicsAttackResult physicsAttackResult = CombatFormula.instance.physicsAttack(player);
         if (physicsAttackResult.isCriticalAttack) {
             EventManager.pushUIMessage("Critical attack");
         }
@@ -90,8 +90,8 @@ public class AttackProcessor extends Processor {
     private void monsterFightBack(Player player, List<Monster> monsters) {
         for (Monster monster : monsters) {
             if (monster.getStat().hp > 0) {
-                if (!CombatFormula.instance.doge()) {
-                    player.getHit(monster.getStat().getStrength());
+                if (!CombatFormula.instance.doge(player)) {
+                    player.getHit(monster.getStat().str);
                     EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.stat.hp));
                     if (player.stat.hp <= 0) return;
                 } else {

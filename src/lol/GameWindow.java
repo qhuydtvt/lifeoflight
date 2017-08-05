@@ -43,7 +43,7 @@ public class GameWindow extends JFrame {
                 Settings.TEXT_SCREEN_SCREEN_WIDTH,
                 Settings.TEXT_SCREEN_SCREEN_HEIGHT);
         pack();
-        textScreenPanel.getOffsetText().set(getInsets().left + 20, getInsets().top + 40);
+        textScreenPanel.getOffsetText().set(getInsets().left + 20, getInsets().top + 20);
         GameObject.add(textScreenPanel);
 
 

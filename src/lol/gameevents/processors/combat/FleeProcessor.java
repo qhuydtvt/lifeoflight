@@ -8,7 +8,7 @@ import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
 import lol.gameevents.MainGameEvent;
 import lol.gameevents.processors.Processor;
-import lol.monsters.Monster;
+import lol.gameentities.monsters.Monster;
 
 import java.util.List;
 import java.util.Random;
@@ -36,7 +36,7 @@ public class FleeProcessor extends Processor {
     private void fight(Player player, List<Monster> monsters) {
         Monster monster = monsters.get(new Random().nextInt(monsters.size()));
         if(Utils.rollDice() < monster.getStat().getLuck()) {
-            player.getHit(monster.getStat().getStrength());
+            player.getHit(monster.getStat().str);
             EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.stat.hp));
         } else {
             EventManager.pushUIMessage(String.format("%s attacked you, but missed", monster.getName()));

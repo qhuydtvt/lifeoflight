@@ -1,6 +1,6 @@
 package lol.gameentities.players.inventories;
 
-import lol.gameentities.players.PlayerStat;
+import lol.gameentities.CombatStat;
 import lol.gameentities.players.inventories.stataffects.StatAffect;
 import lol.gameentities.players.inventories.stataffects.processors.StatAffectProcessor;
 
@@ -51,7 +51,7 @@ public class InventoryItem {
         return id;
     }
 
-    public void affect(PlayerStat currentStat, PlayerStat originStat) {
+    public void affect(CombatStat currentStat, CombatStat originStat) {
         generateProcessors();
         for (StatAffectProcessor processor : processors) {
             processor.affect(currentStat, originStat);
