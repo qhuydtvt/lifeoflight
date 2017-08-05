@@ -8,11 +8,12 @@
     "inventory": [],
     "current_level": 0,
     "exp": 0,
-
+    "next_level_min_exp": 0,
     "level_stats": [
       {
         "name": "Sáng",
-        "min_exp": 0,
+        "next_level_min_exp": 20,
+        "exp": 0,
         "max_hp": 15,
         "hp": 15,
         "mana": 10,
@@ -24,24 +25,23 @@
         "dex": 3,
         "wis": 4,
         "luck": 1,
-        "vision": 2
-		"next_level_formular" : {
-			{
-			"name_next": "{player.name}"
-			"min_exp_next": "{player.min_exp}*1.5",
-			"max_hp_next": "{player.max_hp}+1",
-			"hp_next": "{player.hp}+1",
-			"mana_next": "{player.mana}+1",
-			"stamina_next": "{player.stamina}+1",
-			"strRate_next": "{player.strRate}",
-			"dexRate_next": "{player.dexRate}",
-			"wisRate_next": "{player.wisRate}",
-			"str_next": "{player.str}+(roll()*4)-1",
-			"dex_next": "{player.dex}+(roll()*3)-1",
-			"wis_next": "{player.wis}+(roll()*3)-1",
-			"luck_next": "{player.luck}+(roll()*2)-1",
-			"vision_next": "player.vision"
-			}
+        "vision": 2,
+		"next_level_formula" : {
+			"name_next": "{name}",
+			"next_level_min_exp": "{next_level_min_exp}*1.5",
+            "exp": "0",
+			"max_hp_next": "{max_hp}+1",
+			"hp_next": "{hp}+1",
+			"mana_next": "{mana}+1",
+			"stamina_next": "{stamina}+1",
+			"strRate_next": "{strRate}",
+			"dexRate_next": "{dexRate}",
+			"wisRate_next": "{wisRate}",
+			"str_next": "{str}+(roll()*4)-1",
+			"dex_next": "{dex}+(roll()*3)-1",
+			"wis_next": "{wis}+(roll()*3)-1",
+			"luck_next": "{luck}+(roll()*2)-1",
+			"vision_next": "{vision}"
 		}
       }
     ]
