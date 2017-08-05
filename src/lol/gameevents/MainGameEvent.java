@@ -1,16 +1,14 @@
 package lol.gameevents;
 
 import lol.gameentities.State;
-import lol.gameentities.players.Player;
 import lol.gameevents.processors.Processor;
-import lol.gameevents.processors.normal.MapProcessor;
-import lol.gameevents.processors.normal.MoveProcessor;
+import lol.gameevents.processors.main.MapProcessor;
+import lol.gameevents.processors.main.MoveProcessor;
 import lol.events.EventManager;
-import lol.gameevents.processors.normal.RebirthProcessor;
+import lol.gameevents.processors.main.RebirthProcessor;
 
 import java.util.HashMap;
 import java.util.List;
-import java.util.Random;
 
 /**
  * Created by huynq on 8/1/17.

@@ -1,7 +1,7 @@
-package lol.gameentities.players.inventories.stataffects;
+package lol.gameentities.players.inventories.stataffects.processors;
 
 import lol.gameentities.players.PlayerStat;
-import lol.gameentities.players.inventories.stataffects.statoperators.StatOperator;
+import lol.gameentities.players.inventories.stataffects.operators.StatOperator;
 
 /**
  * Created by huynq on 8/5/17.
@@ -18,5 +18,8 @@ public class HPAffectProcessor implements StatAffectProcessor {
     @Override
     public void affect(PlayerStat currentStat, PlayerStat originStat) {
         currentStat.hp = (int)operator.op(currentStat.hp, originStat.hp, amount);
+        if (currentStat.hp > currentStat.maxHp) {
+            currentStat.hp = currentStat.maxHp;
+        }
     }
 }

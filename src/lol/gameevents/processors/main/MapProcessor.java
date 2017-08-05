@@ -1,4 +1,4 @@
-package lol.gameevents.processors.normal;
+package lol.gameevents.processors.main;
 
 import lol.events.EventManager;
 import lol.gameevents.GameEvent;

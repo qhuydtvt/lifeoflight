@@ -1,4 +1,4 @@
-package lol.gameentities.players.inventories.stataffects;
+package lol.gameentities.players.inventories.stataffects.processors;
 
 import lol.gameentities.players.PlayerStat;
 

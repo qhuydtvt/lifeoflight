@@ -1,9 +1,8 @@
-package lol.gameevents.processors.normal;
+package lol.gameevents.processors.main;
 
 import lol.events.EventManager;
 import lol.gameentities.State;
 import lol.gameevents.GameEvent;
-import lol.gameevents.MainGameEvent;
 import lol.gameevents.processors.Processor;
 
 import java.util.List;

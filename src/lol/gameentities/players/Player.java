@@ -68,6 +68,32 @@ public class Player {
         return false;
     }
 
+    public InventoryItem getItem(int id) {
+        for(InventoryItem item : this.inventoryItems) {
+            if (item.getId() == id) {
+                return item;
+            }
+        }
+        return null;
+    }
+
+    public void use(InventoryItem item) {
+        PlayerStat newStat = this.stat.clone();
+        // TODO: Handle weareable
+        if (item.getType() == InventoryItem.TYPE_ONE_TIME) {
+            item.affect(newStat, this.stat);
+            this.stat = newStat;
+            if (this.inventoryItems.contains(item)) {
+                this.inventoryItems.remove(item);
+            }
+        }
+    }
+
+    public void collect(InventoryItem item) {
+        // TODO: check max
+        this.inventoryItems.add(item);
+    }
+
     public int nextLevelEXP() {
         if (levelStats.size() > currentLevel + 1) {
             return levelStats.get(currentLevel + 1).minExp;

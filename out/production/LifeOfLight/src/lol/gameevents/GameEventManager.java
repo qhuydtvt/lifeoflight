@@ -2,10 +2,15 @@ package lol.gameevents;
 
 import lol.events.EventManager;
 import lol.gameentities.eventconfigs.EventConfig;
+import lol.gameevents.processors.Processor;
+import lol.gameevents.processors.global.InventoryProcessor;
+import lol.gameevents.processors.global.QuitProcessor;
+import lol.gameevents.processors.global.UseProcessor;
 import lol.inputs.CommandListener;
 import lol.gameentities.State;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -17,6 +22,12 @@ public class GameEventManager implements CommandListener {
     State state = State.instance;
 
     private GameEvent currentEvent;
+
+    private HashMap<String, Processor> globalCommandProcessors = new HashMap<String, Processor>() {{
+        put("INVENTORY", new InventoryProcessor());
+        put("QUIT", new QuitProcessor());
+        put("USE", new UseProcessor());
+    }};
 
     private GameEventManager() {
         currentEvent = new MainGameEvent();
@@ -40,17 +51,22 @@ public class GameEventManager implements CommandListener {
                 EventManager.pushClearUI();
                 return;
             }
-
-            if (commands.get(0).equals("QUIT")) {
-                System.exit(0);
-                return;
-            }
         }
 
-        GameEvent resultEvent = currentEvent.process(commands);
+        String mainCommand = commands.get(0);
+        GameEvent resultEvent;
+
+        if (globalCommandProcessors.containsKey(mainCommand)) {
+            Processor processor = globalCommandProcessors.get(mainCommand);
+            resultEvent = Processor.forward(commands, processor, currentEvent);
+        } else {
+            resultEvent = currentEvent.process(commands);
+        }
+
         if (resultEvent != null) {
             currentEvent = resultEvent;
         }
+
     }
 
     @Override

@@ -5722,24 +5722,51 @@
   },
   "player": {
     "stat": {
-      "name": "Sáng",
-      "min_exp": 0,
-      "max_hp": 17,
-      "hp": 17,
-      "mana": 10,
-      "stamina": 10,
+      "name": "Sáng siêu xay da",
+      "min_exp": 20,
+      "max_hp": 20,
+      "hp": 16,
+      "mana": 15,
+      "stamina": 15,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
-      "str": 5,
-      "dex": 3,
-      "wis": 4,
-      "luck": 1,
-      "vision": 2
+      "str": 6,
+      "dex": 4,
+      "wis": 3,
+      "luck": 2,
+      "vision": 3
     },
-    "exp": 3,
-    "inventory": [],
-    "current_level": 0,
+    "exp": 50,
+    "inventory": [
+      {
+        "id": 1,
+        "name": "Mỳ tôm trứng",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 5.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Mỳ tôm hảo hảo chua cay đập thêm quả trứng"
+      },
+      {
+        "id": 1,
+        "name": "Mỳ tôm trứng",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 5.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Mỳ tôm hảo hảo chua cay đập thêm quả trứng"
+      }
+    ],
+    "current_level": 1,
     "level_stats": [
       {
         "name": "Sáng",
@@ -5775,8 +5802,8 @@
       }
     ],
     "mapPosition": {
-      "x": 1,
-      "y": 10
+      "x": 46,
+      "y": 12
     }
   },
   "current_level": 1

@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 import lol.bases.Utils;
 import lol.gameentities.MapPosition;
+import lol.gameentities.players.inventories.InventoryItem;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -26,11 +27,16 @@ public class Player {
     @SerializedName("ability")
     public String ability;
     @SerializedName("inventory")
-    public List<Inventory> inventory;
+    public List<InventoryItem> inventoryItems;
     @SerializedName("current_level")
     public int currentLevel;
     @SerializedName("level_stats")
     public List<PlayerStat> levelStats;
+
+    public InventoryItem leftHandItem;
+    public InventoryItem rightHandItem;
+    public InventoryItem bodyItem;
+    public InventoryItem headItem;
 
     public MapPosition mapPosition;
 
@@ -62,6 +68,32 @@ public class Player {
         return false;
     }
 
+    public InventoryItem getItem(int id) {
+        for(InventoryItem item : this.inventoryItems) {
+            if (item.getId() == id) {
+                return item;
+            }
+        }
+        return null;
+    }
+
+    public void use(InventoryItem item) {
+        PlayerStat newStat = this.stat.clone();
+        // TODO: Handle weareable
+        if (item.getType() == InventoryItem.TYPE_ONE_TIME) {
+            item.affect(newStat, this.stat);
+            this.stat = newStat;
+            if (this.inventoryItems.contains(item)) {
+                this.inventoryItems.remove(item);
+            }
+        }
+    }
+
+    public void collect(InventoryItem item) {
+        // TODO: check max
+        this.inventoryItems.add(item);
+    }
+
     public int nextLevelEXP() {
         if (levelStats.size() > currentLevel + 1) {
             return levelStats.get(currentLevel + 1).minExp;
@@ -79,7 +111,7 @@ public class Player {
                 ", skill='" + skill + '\'' +
                 ", status='" + status + '\'' +
                 ", ability='" + ability + '\'' +
-                ", inventory=" + inventory +
+                ", inventory=" + inventoryItems +
                 ", currentLevel=" + currentLevel +
                 ", levelStats=" + levelStats +
                 ", mapPosition=" + mapPosition +

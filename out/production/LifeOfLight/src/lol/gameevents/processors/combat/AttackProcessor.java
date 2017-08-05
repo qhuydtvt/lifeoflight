@@ -1,9 +1,11 @@
 package lol.gameevents.processors.combat;
 
+import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.formulas.CombatFormula;
 import lol.gameentities.State;
 import lol.gameentities.players.Player;
+import lol.gameentities.players.inventories.InventoryItem;
 import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
 import lol.gameevents.MainGameEvent;
@@ -45,6 +47,14 @@ public class AttackProcessor extends Processor {
                 monsters.remove(monster);
                 player.changeExp(monster.getStat().getExp());
                 EventManager.pushUIMessage(String.format("Your EXP just increased by %s", monster.getStat().getExp()));
+                if (Utils.rollDice() > 4) { // TODO: ASk xeko about formula
+                    InventoryItem noddle = InventoryItem.createNoddle();
+                    player.collect(noddle);
+                    EventManager.pushUIMessage("You have just collected a noddle");
+                    EventManager.pushUIMessage(noddle.getName());
+                    EventManager.pushUIMessage(noddle.getDescription());
+                    EventManager.pushUIMessage(noddle.dialog());
+                }
                 while(player.levelUp()) {
                     EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel + 1));
                     EventManager.pushUIMessage(String.format("Your new stat: %s", "blah blah"));
