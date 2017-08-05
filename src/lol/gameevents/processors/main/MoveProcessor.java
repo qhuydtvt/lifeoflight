@@ -47,8 +47,10 @@ public class MoveProcessor extends Processor {
 
         MapPosition futurePosition = player.mapPosition.add(moveDirection);
         MapItem mapItem = map.getMapItem(futurePosition);
-
-        if (mapItem.getType() == WALL) {
+        if (mapItem == null) {
+            EventManager.pushUIMessage(";#6B2083Empty space;, can't go there");
+        }
+        else if (mapItem.getType() == WALL) {
             EventManager.pushUIMessage("You just hit the ;#6e7f89wall;, can't move there");
         } else {
             player.move(moveDirection.x, moveDirection.y);

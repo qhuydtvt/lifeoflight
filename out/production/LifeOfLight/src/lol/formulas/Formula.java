@@ -27,7 +27,7 @@ public class Formula {
                 .replace("{player.luck}", player.stat.luck.toString())
                 .replace("{player.vision}", player.stat.vision.toString())
                 .replace("{player.maxHp}", player.stat.maxHp.toString())
-                .replace("{player.strRate}", player.stat.strrate.toString())
+                .replace("{player.strRate}", player.stat.strRate.toString())
                 .replace("{player.exp}", player.exp.toString());
     }
 

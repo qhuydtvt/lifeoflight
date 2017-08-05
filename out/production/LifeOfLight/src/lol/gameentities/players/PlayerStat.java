@@ -8,11 +8,9 @@ import com.google.gson.annotations.SerializedName;
  */
 public class PlayerStat implements Cloneable {
 
-    @SerializedName("name")
-    public String name;
-    @SerializedName("min_exp")
-    public Integer minExp;
-    @SerializedName("max_hp")
+    @SerializedName("nextLevelMinExp")
+    public Integer nextLevelMinExp;
+    @SerializedName("maxHp")
     public Integer maxHp;
     @SerializedName("hp")
     public Integer hp;
@@ -21,11 +19,11 @@ public class PlayerStat implements Cloneable {
     @SerializedName("stamina")
     public Integer stamina;
     @SerializedName("strRate")
-    public Float strrate;
+    public Float strRate;
     @SerializedName("dexRate")
-    public Float dexrate;
+    public Float dexRate;
     @SerializedName("wisRate")
-    public Float wisrate;
+    public Float wisRate;
     @SerializedName("str")
     public Integer str;
     @SerializedName("dex")
@@ -49,15 +47,14 @@ public class PlayerStat implements Cloneable {
     @Override
     public String toString() {
         return "PlayerStat{" +
-                "name='" + name + '\'' +
-                ", minExp='" + minExp + '\'' +
+                "nextLevelMinExp=" + nextLevelMinExp +
                 ", maxHp=" + maxHp +
                 ", hp=" + hp +
                 ", mana=" + mana +
                 ", stamina=" + stamina +
-                ", strrate=" + strrate +
-                ", dexrate=" + dexrate +
-                ", wisrate=" + wisrate +
+                ", strRate=" + strRate +
+                ", dexRate=" + dexRate +
+                ", wisRate=" + wisRate +
                 ", str=" + str +
                 ", dex=" + dex +
                 ", wis=" + wis +

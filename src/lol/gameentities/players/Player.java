@@ -15,23 +15,32 @@ import java.util.List;
  */
 public class Player {
 
-    public PlayerStat stat;
+    @SerializedName("exp")
     public Integer exp;
 
     @SerializedName("item")
     public String item;
+
     @SerializedName("skill")
     public String skill;
+
     @SerializedName("status")
     public String status;
+
     @SerializedName("ability")
     public String ability;
+
     @SerializedName("inventory")
     public List<InventoryItem> inventoryItems;
+
+    @SerializedName("stat")
+    public PlayerStat stat;
+
     @SerializedName("current_level")
     public int currentLevel;
-    @SerializedName("level_stats")
-    public List<PlayerStat> levelStats;
+
+    @SerializedName("nextLevelFormula")
+    public NextLevelFormula nextLevelFormula;
 
     public InventoryItem leftHandItem;
     public InventoryItem rightHandItem;
@@ -57,11 +66,11 @@ public class Player {
     }
 
     public boolean levelUp() {
-        int nextLevelEXP = nextLevelEXP();
+        int nextLevelEXP = stat.nextLevelMinExp;
         if (nextLevelEXP != -1 && exp >= nextLevelEXP) {
             currentLevel++;
             exp -= nextLevelEXP;
-            loadStat(currentLevel);
+            stat = nextLevelFormula.calculate(stat);
             stat.init();
             return true;
         }
@@ -92,34 +101,6 @@ public class Player {
     public void collect(InventoryItem item) {
         // TODO: check max
         this.inventoryItems.add(item);
-    }
-
-    public int nextLevelEXP() {
-        if (levelStats.size() > currentLevel + 1) {
-            return levelStats.get(currentLevel + 1).minExp;
-        } else {
-            return -1;
-        }
-    }
-
-    @Override
-    public String toString() {
-        return "Player{" +
-                "stat=" + stat +
-                ", exp=" + exp +
-                ", item='" + item + '\'' +
-                ", skill='" + skill + '\'' +
-                ", status='" + status + '\'' +
-                ", ability='" + ability + '\'' +
-                ", inventory=" + inventoryItems +
-                ", currentLevel=" + currentLevel +
-                ", levelStats=" + levelStats +
-                ", mapPosition=" + mapPosition +
-                '}';
-    }
-
-    public void loadStat(int level) {
-        this.stat = levelStats.get(level).clone();
     }
 
     public void getHit(int damage) {

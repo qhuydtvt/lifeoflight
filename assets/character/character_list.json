@@ -8,39 +8,35 @@
     "inventory": [],
     "current_level": 0,
     "exp": 0,
-    "level_stats": [
-      {
-        "name": "Sáng",
-        "min_exp": 0,
-        "max_hp": 15,
-        "hp": 15,
-        "mana": 10,
-        "stamina": 10,
-        "strRate": 0.5,
-        "dexRate": 0.25,
-        "wisRate": 0.25,
-        "str": 5,
-        "dex": 3,
-        "wis": 4,
-        "luck": 1,
-        "vision": 2,
-        "next_level_formula": {
-          "name_next": "{name}",
-          "min_exp_next": "{min_exp}*1.5",
-          "max_hp_next": "{max_hp}+1+(random()*2-1)",
-          "hp_next": "{hp}+1+(random()*3-1)",
-          "mana_next": "{mana}+1+(random()*2-1)",
-          "stamina_next": "{stamina}+1+(random()*2-1)",
-          "strRate_next": "{strRate}",
-          "dexRate_next": "{dexRate}",
-          "wisRate_next": "{wisRate}",
-          "str_next": "{str}+(random()*4)-1",
-          "dex_next": "{dex}+(random()*3)-1",
-          "wis_next": "{wis}+(random()*3)-1",
-          "luck_next": "{luck}+(random()*2)-1+(random()*{dex}*dexRate)",
-          "vision_next": "vision"
-        }
-      }
-    ]
+    "stat": {
+      "nextLevelMinExp": 20,
+      "maxHp": 15,
+      "hp": 15,
+      "mana": 10,
+      "stamina": 10,
+      "strRate": 0.5,
+      "dexRate": 0.25,
+      "wisRate": 0.25,
+      "str": 5,
+      "dex": 3,
+      "wis": 4,
+      "luck": 1,
+      "vision": 2
+    },
+    "nextLevelFormula": {
+      "nextLevelMinExp": "{nextLevelMinExp}*1.5",
+      "maxHP": "{maxHp}+1+(random()*2-1)",
+      "hp": "{hp}+1+(random()*3-1)",
+      "mana": "{mana}+1+(random()*2-1)",
+      "stamina": "{stamina}+1+(random()*2-1)",
+      "strRate": "{strRate}",
+      "dexRate": "{dexRate}",
+      "wisRate": "{wisRate}",
+      "str": "{str}+(random()*4)-1",
+      "dex": "{dex}+(random()*3)-1",
+      "wis": "{wis}+(random()*3)-1",
+      "luck": "{luck}+(random()*2)-1+(random()*{dex}*{dexRate})",
+      "vision": "{vision}"
+    }
   }
 ]

@@ -98,7 +98,6 @@ public class State {
 
     private void loadInitialPlayer() {
         loadPlayer("assets/character/character_list.json");
-        player.loadStat(0);
     }
 
     private void loadPlayer(String url) {

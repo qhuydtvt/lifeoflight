@@ -5721,23 +5721,7 @@
     "mainItemLeft": 2
   },
   "player": {
-    "stat": {
-      "name": "Sáng siêu xay da",
-      "min_exp": 20,
-      "max_hp": 20,
-      "hp": 16,
-      "mana": 15,
-      "stamina": 15,
-      "strRate": 0.5,
-      "dexRate": 0.25,
-      "wisRate": 0.25,
-      "str": 6,
-      "dex": 4,
-      "wis": 3,
-      "luck": 2,
-      "vision": 3
-    },
-    "exp": 50,
+    "exp": 0,
     "inventory": [
       {
         "id": 1,
@@ -5751,59 +5735,41 @@
           }
         ],
         "description": "Mỳ tôm hảo hảo chua cay đập thêm quả trứng"
-      },
-      {
-        "id": 1,
-        "name": "Mỳ tôm trứng",
-        "type": 0,
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": 5.0,
-            "isMultiply": false
-          }
-        ],
-        "description": "Mỳ tôm hảo hảo chua cay đập thêm quả trứng"
       }
     ],
-    "current_level": 1,
-    "level_stats": [
-      {
-        "name": "Sáng",
-        "min_exp": 0,
-        "max_hp": 15,
-        "hp": 15,
-        "mana": 10,
-        "stamina": 10,
-        "strRate": 0.5,
-        "dexRate": 0.25,
-        "wisRate": 0.25,
-        "str": 5,
-        "dex": 3,
-        "wis": 4,
-        "luck": 1,
-        "vision": 2
-      },
-      {
-        "name": "Sáng siêu xay da",
-        "min_exp": 20,
-        "max_hp": 20,
-        "hp": 20,
-        "mana": 15,
-        "stamina": 15,
-        "strRate": 0.5,
-        "dexRate": 0.25,
-        "wisRate": 0.25,
-        "str": 6,
-        "dex": 4,
-        "wis": 3,
-        "luck": 2,
-        "vision": 3
-      }
-    ],
+    "stat": {
+      "nextLevelMinExp": 30,
+      "maxHp": 16,
+      "hp": 16,
+      "mana": 10,
+      "strRate": 0.5,
+      "dexRate": 0.25,
+      "wisRate": 0.25,
+      "str": 5,
+      "dex": 3,
+      "wis": 3,
+      "luck": 2,
+      "vision": 2
+    },
+    "current_level": 2,
+    "nextLevelFormula": {
+      "nextLevelMinExp": "{nextLevelMinExp}*1.5",
+      "maxHP": "{maxHp}+1+(random()*2-1)",
+      "hp": "{hp}+1+(random()*3-1)",
+      "mana": "{mana}+1+(random()*2-1)",
+      "stamina": "{stamina}+1+(random()*2-1)",
+      "strRate": "{strRate}",
+      "dexRate": "{dexRate}",
+      "wisRate": "{wisRate}",
+      "str": "{str}+(random()*4)-1",
+      "dex": "{dex}+(random()*3)-1",
+      "wis": "{wis}+(random()*3)-1",
+      "luck": "{luck}+(random()*2)-1+(random()*{dex}*{dexRate})",
+      "vision": "{vision}"
+    },
     "mapPosition": {
-      "x": 46,
-      "y": 12
+      "x": 17,
+      "y": 10
     }
   },
   "current_level": 1
