@@ -1,0 +1,250 @@
+[
+	{
+        "id": 1,
+        "name": "Mỳ tôm",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 5.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh."
+      },
+	  {
+        "id": 2,
+        "name": "Dung dịch Bò húc",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "MANA",
+            "amount": 5.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896 Lên Đỉnh; bị bò đực húc phải."
+      },
+	  {
+        "id": 3,
+        "name": "Cà Phê Pha",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "STAMINA",
+            "amount": 5.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê."
+      },
+	  {
+        "id": 5,
+        "name": "Trứng",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 1.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Trứng bán ở siêu thị Quý phái."
+      },
+	  {
+        "id": 6,
+        "name": "Xúc xích Đức_việt",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 2.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Xúc Xích ở siêu thị Quý phái."
+      },
+	  {
+        "id": 7,
+        "name": "Bò khô gia truyền",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 2.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Thông tin dinh dưỡng : Bò khô;Mỗi 100-gam;Calor : 410;Chất béo 26g~40% mỗi ngày;Cholesterol 48mg~16% mỗi ngày;Natri 2/081g~86% mỗi ngày;đường 9g;Protein 33g~66% mỗi ngày;Vitamin A~0%;Vitamin C~0%;Canxi~2% mỗi ngày;Sắt~30%;Vitamin D~2% mỗi ngày;Vitamin B-6~10% mỗi ngày;Vitamin B-12~16% mỗi ngày;Magiê~12% mỗi ngày."
+      },
+	  {
+        "id": 8,
+        "name": "Xôi xéo gà nấm",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 30.0,
+            "isMultiply": false
+          },
+		  {
+            "statName": "LUCK",
+            "amount": -1,
+            "isMultiply": false
+          }
+        ],
+        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen."
+      },
+	  {
+        "id": 9,
+        "name": "Bún đậu mắm tôm",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 7.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Ăn xong sẽ có nguy cơ ngộ độc thực phẩm 10%."
+      },
+	  {
+        "id": 10,
+        "name": "Trà sữa trân châu",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "STAMINA",
+            "amount": 7.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Trước đây, trà sữa trân châu là món ăn tủ của nhiều bạn trẻ.;Nhưng sau nhiều bài báo và tận mắt chứng kiến :;Mấy gói bột sữa, hạt trân châu bán trôi nổi trên thị trường thì nhiều người;Không còn tha thiết với trà sữa chân trâu nữa mặc dù vẫn thích uống."
+      },
+		{
+        "id": 10,
+        "name": "Trà đá phố cổ",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 4.0,
+            "isMultiply": false
+          },
+
+        ],
+        "description": "Chưa có thông tin."
+      },
+	  
+	  {
+        "id": 30,
+        "name": "Mì xào đặc biệt",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 3.0,
+            "isMultiply": false
+          },
+		  {
+            "statName": "STR",
+            "amount": 1.0,
+            "isMultiply": false
+          },
+		  {
+            "statName": "DEX",
+            "amount": 1.0,
+            "isMultiply": false
+          },
+		  {
+            "statName": "WIS",
+            "amount": 1.0,
+            "isMultiply": false
+          },
+        ],
+        "description": "Mì tự nấu đặc biệt."
+      },
+	  {
+        "id": 23,
+        "name": "Neptune",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": 1.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;."
+      },
+	  {
+        "id": 21,
+        "name": "Phô mai con bò cười",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "LUCK",
+            "amount": 1.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Xúc xích bán ở siêu thị Quý phái."
+      },
+	  {
+        "id": 22,
+        "name": "Dung dich Monsters",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": 1.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Quái vật;."
+      },
+	  {
+        "id": 23,
+        "name": "Neptune",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": 1.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;."
+      },
+	  {
+        "id": 24,
+        "name": "Dung Dịch Frishtie",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "WIS",
+            "amount": 1.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Cho trí tưởng tượng bay xa."
+      },
+	  {
+        "id": 25,
+        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": 1.0,
+            "isMultiply": false
+          }
+		  {
+            "statName": "STR",
+            "amount": -1.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Nhanh chưa chắc đã xịn."
+      }, 
+]
