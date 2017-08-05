@@ -1,0 +1,4 @@
+{
+	"rate" : "(random()*100)<20",
+	"which" : "((random()*3{player.current_level})"
+}
