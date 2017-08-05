@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 import lol.bases.Utils;
 import lol.gameentities.MapPosition;
+import lol.gameentities.players.inventories.InventoryItem;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -26,11 +27,16 @@ public class Player {
     @SerializedName("ability")
     public String ability;
     @SerializedName("inventory")
-    public List<Inventory> inventory;
+    public List<InventoryItem> inventoryItems;
     @SerializedName("current_level")
     public int currentLevel;
     @SerializedName("level_stats")
     public List<PlayerStat> levelStats;
+
+    public InventoryItem leftHandItem;
+    public InventoryItem rightHandItem;
+    public InventoryItem bodyItem;
+    public InventoryItem headItem;
 
     public MapPosition mapPosition;
 
@@ -79,7 +85,7 @@ public class Player {
                 ", skill='" + skill + '\'' +
                 ", status='" + status + '\'' +
                 ", ability='" + ability + '\'' +
-                ", inventory=" + inventory +
+                ", inventory=" + inventoryItems +
                 ", currentLevel=" + currentLevel +
                 ", levelStats=" + levelStats +
                 ", mapPosition=" + mapPosition +
