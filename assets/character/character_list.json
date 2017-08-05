@@ -29,17 +29,17 @@
 			{
 			"name_next": "{player.name}"
 			"min_exp_next": "{player.min_exp}*1.5",
-			"max_hp_next": "{player.max_hp}+1",
-			"hp_next": "{player.hp}+1",
-			"mana_next": "{player.mana}+1",
-			"stamina_next": "{player.stamina}+1",
+			"max_hp_next": "{player.max_hp}+1+(random()*2-1)",
+			"hp_next": "{player.hp}+1+(random()*3-1)",
+			"mana_next": "{player.mana}+1+(random()*2-1)",
+			"stamina_next": "{player.stamina}+1+(random()*2-1)",
 			"strRate_next": "{player.strRate}",
 			"dexRate_next": "{player.dexRate}",
 			"wisRate_next": "{player.wisRate}",
-			"str_next": "{player.str}+(roll()*4)-1",
-			"dex_next": "{player.dex}+(roll()*3)-1",
-			"wis_next": "{player.wis}+(roll()*3)-1",
-			"luck_next": "{player.luck}+(roll()*2)-1",
+			"str_next": "{player.str}+(random()*4)-1",
+			"dex_next": "{player.dex}+(random()*3)-1",
+			"wis_next": "{player.wis}+(random()*3)-1",
+			"luck_next": "{player.luck}+(random()*2)-1+(random()*{player.dex}*dexRate)",
 			"vision_next": "player.vision"
 			}
 		}
