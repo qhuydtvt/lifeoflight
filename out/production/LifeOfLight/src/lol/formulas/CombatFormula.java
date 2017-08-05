@@ -82,18 +82,6 @@ public class CombatFormula extends Formula {
                 .replace("{player.strRate}", statStr(unit.stat.strRate));
     }
 
-//    public PhysicsAttackResult physicsAttack() {
-//        String critChanceTemplate = critchance.replace("{basePdmg}", safe(basepdmg));
-//        Float critChance = evaluate(critChanceTemplate);
-//
-//        String finalTemplate = patk
-//                .replace("{critBonusDmg}", safe(critbonusdmg))
-//                .replace("{critChance}", critChance.toString())
-//                .replace("{basePdmg}", safe(basepdmg));
-//        int damage = (int) evaluate(finalTemplate);
-//        return new PhysicsAttackResult(damage, critChance == 1.0f);
-//    }
-
     public boolean doge(CombatUnit unit) {
         return evaluate(render(dodgechance, unit)) == 1.0f;
     }

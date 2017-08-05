@@ -50,12 +50,12 @@ public class AttackProcessor extends Processor {
                 if (Utils.rollDice() > 4) { // TODO: ASk xeko about formula
                     InventoryItem noddle = InventoryItem.createNoddle();
                     player.collect(noddle);
-                    EventManager.pushUIMessage("You have just collected a noddle");
+                    EventManager.pushUIMessage(String.format("You have just collected a %s", noddle.getName()));
                     EventManager.pushUIMessage(noddle.getName());
                     EventManager.pushUIMessage(noddle.getDescription());
                     EventManager.pushUIMessage(noddle.dialog());
                 }
-                while(player.levelUp()) {
+                while (player.levelUp()) {
                     EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel + 1));
                     EventManager.pushUIMessage(String.format("Your new stat: %s", "blah blah"));
                 }
@@ -67,8 +67,7 @@ public class AttackProcessor extends Processor {
             }
 
             EventManager.pushUIMessage(";");
-        }
-        catch (NumberFormatException | IndexOutOfBoundsException ex) {
+        } catch (NumberFormatException | IndexOutOfBoundsException ex) {
             EventManager.pushUIMessage("Again, which one?");
             return null;
         }
@@ -81,10 +80,14 @@ public class AttackProcessor extends Processor {
         if (physicsAttackResult.isCriticalAttack) {
             EventManager.pushUIMessage("Critical attack");
         }
-        monster.getHit(physicsAttackResult.damage);
-        EventManager.pushUIMessage(String.format("You hit %s with %s damage and now it has %s hp left", monster.getName(),
-                physicsAttackResult.damage,
-                monster.getStat().getHp()));
+        if (CombatFormula.instance.doge(monster)) {
+            EventManager.pushUIMessage(String.format("%s dodged your attack", monster.getName()));
+        } else {
+            monster.getHit(physicsAttackResult.damage);
+            EventManager.pushUIMessage(String.format("You hit %s with %s damage and now it has %s hp left", monster.getName(),
+                    physicsAttackResult.damage,
+                    monster.getStat().getHp()));
+        }
     }
 
     private void monsterFightBack(Player player, List<Monster> monsters) {

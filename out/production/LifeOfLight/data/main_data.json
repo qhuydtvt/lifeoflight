@@ -549,9 +549,36 @@
     "mainItemLeft": 1
   },
   "player": {
-    "exp": 5,
-    "inventory": [],
-    "current_level": 0,
+    "exp": 10,
+    "inventory": [
+      {
+        "id": 1,
+        "name": "Mỳ tôm trứng",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 5.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Mỳ tôm hảo hảo chua cay đập thêm quả trứng"
+      },
+      {
+        "id": 1,
+        "name": "Mỳ tôm trứng",
+        "type": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": 5.0,
+            "isMultiply": false
+          }
+        ],
+        "description": "Mỳ tôm hảo hảo chua cay đập thêm quả trứng"
+      }
+    ],
+    "current_level": 1,
     "nextLevelFormula": {
       "nextLevelMinExp": "{nextLevelMinExp}*1.5",
       "maxHP": "{maxHp}+1+(random()*2)",
@@ -568,22 +595,21 @@
       "vision": "{vision}"
     },
     "mapPosition": {
-      "x": 4,
+      "x": 7,
       "y": 1
     },
     "stat": {
-      "nextLevelMinExp": 20,
-      "maxHp": 15,
+      "nextLevelMinExp": 30,
+      "maxHp": 16,
       "hp": 15,
-      "mana": 10,
-      "stamina": 10,
+      "mana": 12,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
-      "str": 5,
+      "str": 7,
       "dex": 3,
-      "wis": 4,
-      "luck": 1,
+      "wis": 6,
+      "luck": 3,
       "vision": 2
     }
   },
