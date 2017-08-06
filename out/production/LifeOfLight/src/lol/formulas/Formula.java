@@ -4,6 +4,7 @@ import com.udojava.evalex.Expression;
 import lol.gameentities.State;
 import lol.gameentities.maps.Map;
 import lol.gameentities.players.Player;
+import lol.settings.Settings;
 
 /**
  * Created by huynq on 8/3/17.
@@ -39,7 +40,15 @@ public class Formula {
     }
 
     public static Float evaluate(String template) {
-        return new Expression(render(template)).eval().floatValue();
+        if (Settings.DEBUG) {
+            System.out.println(template);
+        }
+        return round(new Expression(render(template)).eval().floatValue());
+    }
+
+    private static float round(float f) {
+        int i = (int)(f * 10);
+        return (float)i / 10;
     }
 
     static String safe(String s) {

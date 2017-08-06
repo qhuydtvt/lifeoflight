@@ -145,6 +145,7 @@ public class EventConfig {
         if (eventConfigString != null) {
             Type configListType = new TypeToken<List<EventConfig>>(){}.getType();
             eventConfigs = new Gson().fromJson(eventConfigString, configListType);
+            System.out.println(eventConfigs);
         }
     }
 

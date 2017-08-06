@@ -20,4 +20,7 @@ public class Settings {
     public static final int STATS_SCREEN_HEIGHT = SCREEN_HEIGHT;
 
     public static Font DEFAULT_FONT = Utils.vnFont;
+
+    public static final boolean TEST = true;
+    public static final boolean DEBUG = true;
 }

@@ -18,6 +18,8 @@ public class State {
 
     private Map map = null;
 
+    private static final boolean TEST = true;
+
     @SerializedName("player")
     private Player player = null;
 
@@ -33,7 +35,11 @@ public class State {
     public static final State instance = new State();
 
     private State() {
-        currentLevel = 0;
+        if (TEST) {
+            currentLevel = 3;
+        } else {
+            currentLevel = 1;
+        }
         this.player = new Player();
     }
 

@@ -150,17 +150,17 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "STR",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "LUCK",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       }
     ],
@@ -173,17 +173,17 @@
     "statAffects": [
       {
         "statName": "STR",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "WIS",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "DEX",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       }
     ],
@@ -196,17 +196,17 @@
     "statAffects": [
       {
         "statName": "STR",
-        "amount": "3*{map.current_level}",
+        "amount": "3*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "HP",
-        "amount": "8*{map.current_level}",
+        "amount": "8*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "DEX",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       }
     ],
@@ -219,12 +219,12 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": "7*{map.current_level}",
+        "amount": "7*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "LUCK",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       }
     ],
@@ -237,17 +237,17 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": "5*{map.current_level}",
+        "amount": "5*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "LUCK",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "DEX",
-        "amount": "4*{map.current_level}",
+        "amount": "4*{map.currentLevel}",
         "isMultiply": false
       }
     ],

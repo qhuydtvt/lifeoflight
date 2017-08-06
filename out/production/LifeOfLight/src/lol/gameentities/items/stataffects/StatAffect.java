@@ -70,13 +70,13 @@ public class StatAffect implements Cloneable {
 
     public StatAffect solidify() {
         StatAffect solidifiedAffect = this.clone();
-        solidifiedAffect.amount =  Formula.evaluate(this.amount).toString();
+        solidifiedAffect.amount = Formula.evaluate(this.amount).toString();
         return solidifiedAffect;
     }
 
     @Override
     public int hashCode() {
-        return String.format("%s %s %s", statName, amount, isMultiply).hashCode();
+        return String.format("%s %s", statName, isMultiply).hashCode();
     }
 
     @Override
@@ -91,9 +91,9 @@ public class StatAffect implements Cloneable {
         return new Gson().fromJson(JSONString, StatAffect.class);
     }
 
-    public StatAffect add(StatAffect other) {
+    public StatAffect addFormula(StatAffect other) {
         StatAffect statAffect = this.clone();
-        statAffect.amount += other.amount;
+        statAffect.amount = String.format("(%s + %s)", statAffect.amount, other.amount);
         return statAffect;
     }
 

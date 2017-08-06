@@ -156,7 +156,7 @@ public class GameItem implements Cloneable {
                 item.statAffects.addAll(root.statAffects);
                 item.statAffects.addAll(suffix.statAffects);
 
-                return item.shortenStatAffects().solidifyStatAffects();
+                return item.mergeStatAffects().solidifyStatAffects();
             }
             loopCount++;
         }
@@ -171,13 +171,13 @@ public class GameItem implements Cloneable {
         return Utils.choice(eatableItems).solidifyStatAffects();
     }
 
-    public GameItem shortenStatAffects() {
+    public GameItem mergeStatAffects() {
         GameItem gameItem = Utils.clone(this, GameItem.class);
 
         HashMap<StatAffect, StatAffect> map = new HashMap<>();
         for (StatAffect statAffect : gameItem.statAffects) {
             if (map.containsKey(statAffect)) {
-                map.put(statAffect, map.get(statAffect).add(statAffect));
+                map.put(statAffect, map.get(statAffect).addFormula(statAffect));
             } else {
                 map.put(statAffect, statAffect);
             }
