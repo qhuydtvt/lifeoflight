@@ -1,0 +1,45 @@
+[
+  {
+    "name":"Gươm",
+    "id":"0",
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Khiên",
+    "id":"1",
+    "statAffects":[
+      {
+        "statName": "HP",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Giáp",
+    "id":"2",
+    "statAffects":[
+      {
+        "statName": "HP",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  }
+]

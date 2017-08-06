@@ -8,13 +8,12 @@ import lol.gameentities.players.Player;
  * Created by huynq on 8/3/17.
  */
 public class Formula {
-    private static State state = State.instance;
 
-    public static float evaluate(String formula) {
+    static float evaluate(String formula) {
         return new Expression(formula).eval().floatValue();
     }
 
-    protected static String statStr(Object i) {
+    static String statStr(Object i) {
         if (i == null) return "0";
         return i.toString();
     }
@@ -36,7 +35,7 @@ public class Formula {
 //                .replace("{player.exp}", player.exp.toString());
 //    }
 
-    protected static String safe(String s) {
+    static String safe(String s) {
         return String.format("(%s)", s);
     }
 }

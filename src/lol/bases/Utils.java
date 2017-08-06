@@ -1,8 +1,12 @@
 package lol.bases;
 
+import com.google.gson.Gson;
+import com.oracle.javafx.jmx.SGMXBean;
+
 import java.awt.Font;
 import java.awt.FontFormatException;
 import java.io.*;
+import java.lang.reflect.Type;
 import java.util.Random;
 import java.util.List;
 
@@ -47,6 +51,16 @@ public class Utils {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+    private static Gson gson = new Gson();
+
+    public static <T> T parseJSON(String url, Class<T> classz) {
+        return gson.fromJson(loadFileContent(url), classz);
+    }
+
+    public static <T> T parseJSON(String url, Type type) {
+        return gson.fromJson(loadFileContent(url), type);
     }
 
     public static boolean fileExists(String url) {

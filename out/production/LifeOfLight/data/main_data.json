@@ -1,9 +1,9 @@
 {
   "map": {
-    "width": 13,
-    "height": 10,
-    "characterStartX": 6,
-    "getCharacterStartY": 1,
+    "width": 59,
+    "height": 24,
+    "characterStartX": 1,
+    "getCharacterStartY": 10,
     "data": [
       [
         {
@@ -57,6 +57,1142 @@
         {
           "symbol": "O",
           "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "M",
+          "type": "MAIN"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
         }
       ],
       [
@@ -83,6 +1219,1176 @@
         {
           "symbol": " ",
           "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "M",
+          "type": "MAIN"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
         },
         {
           "symbol": " ",
@@ -109,6 +2415,1400 @@
           "type": "EMPTY"
         },
         {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
           "symbol": "O",
           "type": "WALL"
         }
@@ -163,26 +3863,20 @@
           "type": "EMPTY"
         },
         {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
           "symbol": "O",
           "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
         },
         {
           "symbol": " ",
@@ -219,90 +3913,6 @@
         {
           "symbol": "O",
           "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
         },
         {
           "symbol": " ",
@@ -327,9 +3937,23 @@
         {
           "symbol": "O",
           "type": "WALL"
-        }
-      ],
-      [
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
         {
           "symbol": "O",
           "type": "WALL"
@@ -341,6 +3965,38 @@
         {
           "symbol": " ",
           "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
         },
         {
           "symbol": " ",
@@ -351,24 +4007,36 @@
           "type": "EVENT"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
         },
         {
           "symbol": " ",
           "type": "EMPTY"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
         },
         {
           "symbol": " ",
@@ -397,20 +4065,92 @@
           "type": "EMPTY"
         },
         {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
           "symbol": " ",
           "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
         },
         {
           "symbol": " ",
@@ -435,90 +4175,1522 @@
         {
           "symbol": "O",
           "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
         },
         {
           "symbol": " ",
           "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "M",
-          "type": "MAIN"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
         },
         {
           "symbol": "#",
           "type": "EXIT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
         },
         {
           "symbol": "O",
@@ -546,10 +5718,10 @@
         }
       ]
     ],
-    "mainItemLeft": 1
+    "mainItemLeft": 2
   },
   "player": {
-    "exp": 10,
+    "exp": 15,
     "inventory": [
       {
         "id": 1,
@@ -595,12 +5767,12 @@
       "vision": "{vision}"
     },
     "mapPosition": {
-      "x": 7,
-      "y": 1
+      "x": 13,
+      "y": 10
     },
     "stat": {
       "nextLevelMinExp": 30,
-      "maxHp": 16,
+      "maxHp": 19,
       "hp": 15,
       "mana": 12,
       "strRate": 0.5,
@@ -613,5 +5785,5 @@
       "vision": 2
     }
   },
-  "current_level": 0
+  "current_level": 1
 }

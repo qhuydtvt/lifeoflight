@@ -1,9 +1,13 @@
 package lol.gameentities.players.inventories;
 
+import com.google.gson.annotations.SerializedName;
+import com.google.gson.reflect.TypeToken;
+import lol.bases.Utils;
 import lol.gameentities.CombatStat;
 import lol.gameentities.players.inventories.stataffects.StatAffect;
 import lol.gameentities.players.inventories.stataffects.processors.StatAffectProcessor;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,13 +23,27 @@ public class InventoryItem {
     public static final int TYPE_HEAD = 4;
     public static final int TYPE_FEET = 5;
 
+    @SerializedName("id")
     private int id;
+    @SerializedName("name")
     private String name;
+    @SerializedName("type")
     private int type;
+    @SerializedName("statAffects")
     private List<StatAffect> statAffects;
+    @SerializedName("description")
     private String description;
 
     private transient List<StatAffectProcessor> processors;
+
+    public static final List<InventoryItem> combatItems;
+    public static final List<InventoryItem> evenItems;
+
+    static {
+        Type combatItemsListType = new TypeToken<List<InventoryItem>>(){}.getType();
+        combatItems = Utils.parseJSON("assets/item/item_battle.json", combatItemsListType);
+        evenItems = Utils.parseJSON("assets/item/item_event.json", combatItemsListType);
+    }
 
     private void generateProcessors() {
         if (processors == null) {

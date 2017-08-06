@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Chí tôn",
+    "id": "1",
+    "affects": [
+      {
+        "amount": "random() * 5 + {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Siêu cấp",
+    "id": "2",
+    "affects": [
+      {
+        "amount": "random() * 5 + {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Thượng cấp",
+    "id": "3",
+    "affects": [
+      {
+        "amount": "random() * 5 + {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Trung cấp",
+    "id": "4",
+    "affects": [
+      {
+        "amount": "random() * 5 + {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Sơ cấp",
+    "id": "4",
+    "affects": [
+      {
+        "amount": "random() * 5 + {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Bá đạo",
+    "id": "5",
+    "affects": [
+      {
+        "amount": "random() * 5 + {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  }
+]

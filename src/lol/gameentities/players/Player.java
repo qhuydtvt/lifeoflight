@@ -36,7 +36,7 @@ public class Player extends CombatUnit {
     public List<InventoryItem> inventoryItems;
 
     @SerializedName("current_level")
-    public int currentLevel;
+    public Integer currentLevel;
 
     @SerializedName("nextLevelFormula")
     public NextLevelFormula nextLevelFormula;

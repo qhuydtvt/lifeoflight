@@ -1,140 +1,138 @@
 [
-	{
-		"id": 1,
-        "name": "Kính Hàn Quốc",
-        "type": 4,
-        "statAffects": [
-          {
-            "statName": "VISION",
-            "amount": 1.0,
-            "isMultiply": false
-          }
-        ],
-        "description": "Kính cận thị: Tăng tầm nhìn lên 1.;Cẩn thận đồ dễ vỡ."
-     },
-	 {
-		"id": 2,
-        "name": "Mũ Cối Cũ Nát",
-        "type": 4,
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": 4.0,
-            "isMultiply": false
-          }
-        ],
-        "description": "Mũ của ông hàng xóm tặng!;Không quá cần thiết nhưng che mua nắng cũng có chút tác dụng."
-     },
-	 {
-		"id": 3,
-        "name": "Bùa tình yêu",
-        "type": 4,
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "random()*3*{player.current_level}",
-            "isMultiply": false
-          },
-		  {
-            "statName": "STR",
-            "amount": "random()*{player.current_level}",
-            "isMultiply": false
-          },
-		  {
-            "statName": "LUCK",
-            "amount": "random()*{player.current_level}",
-            "isMultiply": false
-          }
-        ],
-        "description": "Bùa yêu, dùng để đi dạy học.;Tiện thể tăng 1 chút may mắn và độ liều lĩnh."
-     },
-	 {
-		"id": 4,
-        "name": "Thanh gươm bông hồng rực lửa.",
-        "type": 1,
-        "statAffects": [
-		  {
-            "statName": "STR",
-            "amount": "random()*{player.current_level}*5",
-            "isMultiply": false
-          },
-		  {
-            "statName": "WIS",
-            "amount": "random()*{player.current_level}*2",
-            "isMultiply": false
-          },
-		  {
-            "statName": "DEX",
-            "amount": "random()*{player.current_level}*3",
-            "isMultiply": false
-          }
-        ],
-        "description": "Thanh gươm của chiến thần 'HUY' để lại tràn thế.;Đã copy và bán phổ thông cho toàn xã hội.;Trong Khi thanh gươm xịn vẫn mất tích."
-     },
-	 {
-		"id": 5,
-        "name": "Khiên niềm tin.",
-        "type": 1,
-        "statAffects": [
-		  {
-            "statName": "STR",
-            "amount": "random()*{player.current_level}",
-            "isMultiply": false
-          },
-		  {
-            "statName": "HP",
-            "amount": "random()*{player.current_level}*5",
-            "isMultiply": false
-          },
-		  {
-            "statName": "DEX",
-            "amount": "random()*{player.current_level}",
-            "isMultiply": false
-          }
-        ],
-        "description": "Tấm khiên biến niềm tin của người sử dụng thành sức chống chịu."
-	 },
-	 {
-		"id": 6,
-        "name": "Áo cũ chưa giặt.",
-        "type": 3,
-        "statAffects": [
-
-		  {
-            "statName": "HP",
-            "amount": "random()*{player.current_level}*3",
-            "isMultiply": false
-          },
-		  {
-            "statName": "LUCK",
-            "amount": "random()*{player.current_level}",
-            "isMultiply": false
-          }
-        ],
-        "description": "Không dễ để tấn công người này.;Mùi hôi trên áo bảo vệ chủ nhân của nó trước mọi sự tấn công."
-	 },
-	 {
-		"id": 7,
-        "name": "Giầy bata Thượng Đình 30 ngàn.",
-        "type": 3,
-        "statAffects": [
-
-		  {
-            "statName": "HP",
-            "amount": "random()*{player.current_level}",
-            "isMultiply": false
-          },
-		  {
-            "statName": "LUCK",
-            "amount": "random()*{player.current_level*2}",
-            "isMultiply": false
-          },
-		  {
-            "statName": "DEX",
-            "amount": "random()*{player.current_level*3}",
-            "isMultiply": false
-          }
-        ],
-        "description": "Giày rẻ, giá cả phải chăng.;Người dùng hài lòng, tăng niềm tin vào xã hội."
-	 },
+  {
+    "id": 1,
+    "name": "Kính Hàn Quốc",
+    "type": 4,
+    "statAffects": [
+      {
+        "statName": "VISION",
+        "amount": 1.0,
+        "isMultiply": false
+      }
+    ],
+    "description": "Kính cận thị: Tăng tầm nhìn lên 1.;Cẩn thận đồ dễ vỡ."
+  },
+  {
+    "id": 2,
+    "name": "Mũ Cối Cũ Nát",
+    "type": 4,
+    "statAffects": [
+      {
+        "statName": "HP",
+        "amount": 4.0,
+        "isMultiply": false
+      }
+    ],
+    "description": "Mũ của ông hàng xóm tặng!;Không quá cần thiết nhưng che mua nắng cũng có chút tác dụng."
+  },
+  {
+    "id": 3,
+    "name": "Bùa tình yêu",
+    "type": 4,
+    "statAffects": [
+      {
+        "statName": "HP",
+        "amount": "random()*3*{player.current_level}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount": "random()*{player.current_level}",
+        "isMultiply": false
+      },
+      {
+        "statName": "LUCK",
+        "amount": "random()*{player.current_level}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Bùa yêu, dùng để đi dạy học.;Tiện thể tăng 1 chút may mắn và độ liều lĩnh."
+  },
+  {
+    "id": 4,
+    "name": "Thanh gươm bông hồng rực lửa.",
+    "type": 1,
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "random()*{player.current_level}*5",
+        "isMultiply": false
+      },
+      {
+        "statName": "WIS",
+        "amount": "random()*{player.current_level}*2",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": "random()*{player.current_level}*3",
+        "isMultiply": false
+      }
+    ],
+    "description": "Thanh gươm của chiến thần 'HUY' để lại tràn thế.;Đã copy và bán phổ thông cho toàn xã hội.;Trong Khi thanh gươm xịn vẫn mất tích."
+  },
+  {
+    "id": 5,
+    "name": "Khiên niềm tin.",
+    "type": 1,
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "random()*{player.current_level}",
+        "isMultiply": false
+      },
+      {
+        "statName": "HP",
+        "amount": "random()*{player.current_level}*5",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": "random()*{player.current_level}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Tấm khiên biến niềm tin của người sử dụng thành sức chống chịu."
+  },
+  {
+    "id": 6,
+    "name": "Áo cũ chưa giặt.",
+    "type": 3,
+    "statAffects": [
+      {
+        "statName": "HP",
+        "amount": "random()*{player.current_level}*3",
+        "isMultiply": false
+      },
+      {
+        "statName": "LUCK",
+        "amount": "random()*{player.current_level}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Không dễ để tấn công người này.;Mùi hôi trên áo bảo vệ chủ nhân của nó trước mọi sự tấn công."
+  },
+  {
+    "id": 7,
+    "name": "Giầy bata Thượng Đình 30 ngàn.",
+    "type": 3,
+    "statAffects": [
+      {
+        "statName": "HP",
+        "amount": "random()*{player.current_level}",
+        "isMultiply": false
+      },
+      {
+        "statName": "LUCK",
+        "amount": "random()*{player.current_level*2}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": "random()*{player.current_level*3}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Giày rẻ, giá cả phải chăng.;Người dùng hài lòng, tăng niềm tin vào xã hội."
+  }
 ]
