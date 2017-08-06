@@ -45,7 +45,10 @@ public class StatAffect implements Cloneable {
                 return new WisAffectProcessor(amount(), operator);
             case "LUCK":
                 return new LuckAffectProcessor(amount(), operator);
+            case "STAMINA":
+                return new StaminaAffectProcessor(amount(), operator);
         }
+        System.out.println(String.format("Processor is not implemented yet %s", statName));
         return null;
     }
 
@@ -67,7 +70,7 @@ public class StatAffect implements Cloneable {
 
     public StatAffect solidify() {
         StatAffect solidifiedAffect = this.clone();
-        solidifiedAffect.amount = Formula.render(this.amount);
+        solidifiedAffect.amount =  Formula.evaluate(this.amount).toString();
         return solidifiedAffect;
     }
 

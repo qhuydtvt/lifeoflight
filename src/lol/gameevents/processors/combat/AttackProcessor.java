@@ -85,7 +85,7 @@ public class AttackProcessor extends Processor {
                 player.collect(gameItem);
                 EventManager.pushUIMessage(String.format("Bạn vừa nhặt được %s", gameItem.name));
                 EventManager.pushUIMessage(gameItem.name);
-                EventManager.pushUIMessage(gameItem.description);
+                EventManager.pushUIMessage(gameItem.getDescription());
                 EventManager.pushUIMessage(gameItem.dialog());
             }
         }

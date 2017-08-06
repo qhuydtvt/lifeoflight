@@ -26,8 +26,4 @@ public class CombatItemFormula extends Formula {
     private boolean evalRate() {
         return evaluate(rate) == 1.0f;
     }
-
-    private int evalItemId(Player player) {
-        return (int)evaluate(which.replace("{player.current_level}", player.currentLevel.toString()));
-    }
 }

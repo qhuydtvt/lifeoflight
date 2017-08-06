@@ -38,7 +38,7 @@ public class Formula {
                 ;
     }
 
-    static float evaluate(String template) {
+    public static Float evaluate(String template) {
         return new Expression(render(template)).eval().floatValue();
     }
 

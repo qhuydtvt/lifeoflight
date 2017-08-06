@@ -54,7 +54,7 @@ public class GameItem implements Cloneable {
     @SerializedName("type")
     public Integer type;
     @SerializedName("description")
-    public String description;
+    private String description;
     @SerializedName("statAffects")
     public List<StatAffect> statAffects;
 
@@ -78,6 +78,11 @@ public class GameItem implements Cloneable {
         GameItem gameItem = Utils.clone(this, GameItem.class);
         gameItem.statAffects = StatAffect.solidify(gameItem.statAffects);
         return gameItem;
+    }
+
+    public String getDescription() {
+        if (description == null) return "...";
+        return description;
     }
 
     private void generateProcessors() {
@@ -151,7 +156,7 @@ public class GameItem implements Cloneable {
                 item.statAffects.addAll(root.statAffects);
                 item.statAffects.addAll(suffix.statAffects);
 
-                return item.solidifyStatAffects();
+                return item.shortenStatAffects().solidifyStatAffects();
             }
             loopCount++;
         }
@@ -166,15 +171,19 @@ public class GameItem implements Cloneable {
         return Utils.choice(eatableItems).solidifyStatAffects();
     }
 
-    private static List<StatAffect> shorten(List<StatAffect> affectList) {
+    public GameItem shortenStatAffects() {
+        GameItem gameItem = Utils.clone(this, GameItem.class);
+
         HashMap<StatAffect, StatAffect> map = new HashMap<>();
-        for (StatAffect statAffect : affectList) {
+        for (StatAffect statAffect : gameItem.statAffects) {
             if (map.containsKey(statAffect)) {
                 map.put(statAffect, map.get(statAffect).add(statAffect));
             } else {
                 map.put(statAffect, statAffect);
             }
         }
-        return new ArrayList<>(map.values());
+        gameItem.statAffects = new ArrayList<>(map.values());
+
+        return gameItem;
     }
 }

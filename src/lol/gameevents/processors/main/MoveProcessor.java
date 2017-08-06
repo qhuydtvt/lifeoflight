@@ -73,19 +73,19 @@ public class MoveProcessor extends Processor {
         switch (direction) {
             case "UP":
                 moveDirection.y = - 1;
-                message.append("You just go ;#00FF00up");
+                message.append("Bạn vừa đi ;#00FF00lên trên");
                 break;
             case "DOWN":
                 moveDirection.y = 1;
-                message.append("You just go ;#00FF00down");
+                message.append("Bạn vừa đi ;#00FF00xuống dưới");
                 break;
             case "RIGHT":
                 moveDirection.x = 1;
-                message.append("You just go ;#00FF00right");
+                message.append("Bạn vừa đi ;#00FF00sang phải");
                 break;
             case "LEFT":
                 moveDirection.x = -1;
-                message.append("You just go ;#00FF00left");
+                message.append("Bạn vừa đi ;#00FF00sang trái");
                 break;
         }
     }

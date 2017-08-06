@@ -61,6 +61,7 @@ public class State {
     }
 
     public boolean itemAlreadyUsed(String itemId) {
+        if (usedItemIds == null) return false;
         return usedItemIds.contains(itemId);
     }
 

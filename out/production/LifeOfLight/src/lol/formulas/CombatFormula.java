@@ -64,7 +64,7 @@ public class CombatFormula extends Formula {
                 .replace("{critBonusDmg}", safe(critbonusdmg))
                 .replace("{critChance}", critChance.toString())
                 .replace("{basePdmg}", safe(basepdmg));
-        int damage = (int) evaluate(render(finalTemplate, unit));
+        int damage = (int)((float)evaluate(render(finalTemplate, unit)));
         return new PhysicsAttackResult(damage, critChance == 1.0f);
     }
 
