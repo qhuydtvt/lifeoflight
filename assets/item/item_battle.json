@@ -6,7 +6,7 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": 5.0,
+        "amount": "5.0",
         "isMultiply": false
       }
     ],
@@ -19,7 +19,7 @@
     "statAffects": [
       {
         "statName": "MANA",
-        "amount": 5.0,
+        "amount": "5.0",
         "isMultiply": false
       }
     ],
@@ -32,7 +32,7 @@
     "statAffects": [
       {
         "statName": "STAMINA",
-        "amount": 5.0,
+        "amount": "5.0",
         "isMultiply": false
       }
     ],
@@ -45,7 +45,7 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       }
     ],
@@ -58,7 +58,7 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": 2.0,
+        "amount": "2.0",
         "isMultiply": false
       }
     ],
@@ -71,7 +71,7 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": 2.0,
+        "amount": "2.0",
         "isMultiply": false
       }
     ],
@@ -84,7 +84,7 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": 30.0,
+        "amount": "30.0",
         "isMultiply": false
       },
       {
@@ -102,7 +102,7 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": 7.0,
+        "amount": "7.0",
         "isMultiply": false
       }
     ],
@@ -115,7 +115,7 @@
     "statAffects": [
       {
         "statName": "STAMINA",
-        "amount": 7.0,
+        "amount": "7.0",
         "isMultiply": false
       }
     ],
@@ -128,7 +128,7 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": 4.0,
+        "amount": "4.0",
         "isMultiply": false
       }
     ],
@@ -141,22 +141,22 @@
     "statAffects": [
       {
         "statName": "HP",
-        "amount": 3.0,
+        "amount": "3.0",
         "isMultiply": false
       },
       {
         "statName": "STR",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       },
       {
         "statName": "DEX",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       },
       {
         "statName": "WIS",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       }
     ],
@@ -169,7 +169,7 @@
     "statAffects": [
       {
         "statName": "DEX",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       }
     ],
@@ -182,7 +182,7 @@
     "statAffects": [
       {
         "statName": "LUCK",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       }
     ],
@@ -195,7 +195,7 @@
     "statAffects": [
       {
         "statName": "STR",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       }
     ],
@@ -208,7 +208,7 @@
     "statAffects": [
       {
         "statName": "DEX",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       }
     ],
@@ -221,7 +221,7 @@
     "statAffects": [
       {
         "statName": "WIS",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       }
     ],
@@ -234,12 +234,12 @@
     "statAffects": [
       {
         "statName": "DEX",
-        "amount": 1.0,
+        "amount": "1.0",
         "isMultiply": false
       },
       {
         "statName": "STR",
-        "amount": -1.0,
+        "amount": "-1.0",
         "isMultiply": false
       }
     ],
