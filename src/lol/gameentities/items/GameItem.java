@@ -34,9 +34,9 @@ public class GameItem implements Cloneable {
         Type subItemListType = new TypeToken<List<GameItem>>() {
         }.getType();
 
-        prefixItems = Utils.parseJSON("assets/item/bases/item_prefix.json", subItemListType);
-        rootItems = Utils.parseJSON("assets/item/bases/item_root.json", subItemListType);
-        suffixItems = Utils.parseJSON("assets/item/bases/item_sufifx.json", subItemListType);
+        prefixItems = Utils.parseJSON("assets/item/normalitems/item_prefix.json", subItemListType);
+        rootItems = Utils.parseJSON("assets/item/normalitems/item_root.json", subItemListType);
+        suffixItems = Utils.parseJSON("assets/item/normalitems/item_sufifx.json", subItemListType);
         eatableItems = Utils.parseJSON("assets/item/item_battle.json", subItemListType);
 
     }
