@@ -1,62 +1,342 @@
 [
   {
-    "name": "Chí tôn",
+    "name": "Chí tôn cường",
     "id": "1",
-    "affects": [
+    "statAffects": [
       {
-        "amount": "random() * 5 + {map.currentLevel}",
+		"statName":"STR",
+        "amount": "random() * 5 + {map.currentLevel} - 3",
         "isMultiply": false
       }
     ]
   },
   {
-    "name": "Siêu cấp",
+    "name": "Chí tôn tinh",
     "id": "2",
-    "affects": [
-      {
-        "amount": "random() * 5 + {map.currentLevel}",
+    "statAffects": [
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 3",
         "isMultiply": false
-      }
+		}
     ]
   },
   {
-    "name": "Thượng cấp",
+    "name": "Chí tôn linh",
     "id": "3",
-    "affects": [
-      {
-        "amount": "random() * 5 + {map.currentLevel}",
+    "statAffects": [
+		{
+		"statName":"WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 3",
         "isMultiply": false
-      }
+		}
     ]
   },
   {
-    "name": "Trung cấp",
+    "name": "Cường hãn",
     "id": "4",
-    "affects": [
-      {
-        "amount": "random() * 5 + {map.currentLevel}",
+    "statAffects": [
+		{
+		"statName":"STR",
+        "amount": "random() * 5 + {map.currentLevel} - 4",
         "isMultiply": false
-      }
+		}
     ]
   },
   {
-    "name": "Sơ cấp",
-    "id": "4",
-    "affects": [
-      {
-        "amount": "random() * 5 + {map.currentLevel}",
-        "isMultiply": false
-      }
-    ]
-  },
-  {
-    "name": "Bá đạo",
+    "name": "Tinh xảo",
     "id": "5",
-    "affects": [
-      {
-        "amount": "random() * 5 + {map.currentLevel}",
+    "statAffects": [
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 4",
         "isMultiply": false
-      }
+		}
+    ]
+  },
+  {
+    "name": "Tinh thuần",
+    "id": "6",
+    "statAffects": [
+		{
+		"statName":"WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 4",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Vô hình",
+    "id": "7",
+    "statAffects": [
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 3",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Tuyệt thế",
+    "id": "8",
+    "statAffects": [
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 2",
+        "isMultiply": false
+		},
+		{
+		"statName":"STR",
+        "amount": "random() * 5 + {map.currentLevel} - 2",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Ngọa sơn",
+    "id": "9",
+    "statAffects": [
+		{
+		"statName":"HP",
+        "amount": "random() * 7 + {map.currentLevel} - 5",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Quả Phụ",
+    "id": "10",
+    "statAffects": [
+		{
+		"statName":"MANA",
+        "amount": "random() * 7 + {map.currentLevel} - 5",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Cô thân",
+    "id": "11",
+    "statAffects": [
+		{
+		"statName":"Stamina",
+        "amount": "random() * 7 + {map.currentLevel} - 5",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Kỳ lân",
+    "id": "12",
+    "statAffects": [
+		{
+		"statName":"HP",
+        "amount": "random() * 10 + {map.currentLevel} - 5",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Tân Tinh",
+    "id": "13",
+    "statAffects": [
+		{
+		"statName":"LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 5",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Trung phẩm",
+    "id": "14",
+    "statAffects": [
+		{
+		"statName":"LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 5",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Thượng phẩm",
+    "id": "15",
+    "statAffects": [
+		{
+		"statName":"LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 3",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Hạ phẩm",
+    "id": "16",
+    "statAffects": [
+		{
+		"statName":"LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Vô danh",
+    "id": "17",
+    "statAffects": [
+		{
+		"statName":"STR",
+        "amount": "random() * 5 + {map.currentLevel} - 9",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Tán cốt",
+    "id": "18",
+    "statAffects": [
+		{
+		"statName":"STR",
+        "amount": "random() * 5 + {map.currentLevel} - 4",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Kim xà",
+    "id": "19",
+    "statAffects": [
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Kim Quy",
+    "id": "20",
+    "statAffects": [
+		{
+		"statName":"HP",
+        "amount": "random() * 7 + {map.currentLevel} - 5",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Hỏa phụng",
+    "id": "21",
+    "statAffects": [
+		{
+		"statName":"WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Cuồng long",
+    "id": "22",
+    "statAffects": [
+		{
+		"statName":"STR",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		},
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Tích lịch",
+    "id": "23",
+    "statAffects": [
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Đại hà",
+    "id": "24",
+    "statAffects": [
+		{
+		"statName":"WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Song hỉ",
+    "id": "25",
+    "statAffects": [
+		{
+		"statName":"LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Hóa cốt",
+    "id": "26",
+    "statAffects": [
+		{
+		"statName":"LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Tiểu nhân",
+    "id": "27",
+    "statAffects": [
+		{
+		"statName":"LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Mỹ nhân",
+    "id": "28",
+    "statAffects": [
+		{
+		"statName":"HP",
+        "amount": "random() * 8 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Tình nhân",
+    "id": "29",
+    "statAffects": [
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
+    ]
+  },
+  {
+    "name": "Lực sĩ",
+    "id": "30",
+    "statAffects": [
+		{
+		"statName":"STR",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+		}
     ]
   }
 ]
