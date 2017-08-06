@@ -3,8 +3,8 @@ package lol.gameevents.processors.global;
 
 import lol.events.EventManager;
 import lol.gameentities.State;
+import lol.gameentities.items.GameItem;
 import lol.gameentities.players.Player;
-import lol.gameentities.players.inventories.InventoryItem;
 import lol.gameevents.GameEvent;
 import lol.gameevents.processors.Processor;
 
@@ -17,17 +17,17 @@ public class UseProcessor extends Processor {
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
         if (commands.size() == 0) return null;
-        int itemId = Integer.parseInt(commands.get(0));
+        String itemId = commands.get(0);
 
         Player player = State.instance.getPlayer();
 
-        InventoryItem item = player.getItem(itemId);
+        GameItem item = player.getItem(itemId);
 
         if (item == null) {
             EventManager.pushUIMessage("No such item");
         } else {
             player.use(item);
-            EventManager.pushUIMessage(String.format("%s was used", item.getName()));
+            EventManager.pushUIMessage(String.format("%s was used", item.name));
         }
 
         return null;

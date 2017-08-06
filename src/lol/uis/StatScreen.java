@@ -24,6 +24,7 @@ public class StatScreen extends TextView {
         setFontMetrics(g2d.getFontMetrics());
         addText(String.format("HP: %s/%s", player.stat.hp, player.stat.maxHp));
         addText(String.format("STR: %s", player.stat.str));
+        addText(String.format("WIS: %s", player.stat.wis));
         addText(String.format("EXP: %s/%s", player.exp, player.stat.nextLevelMinExp));
         addText(String.format("VISION: %s", player.stat.vision));
         super.render(g2d);

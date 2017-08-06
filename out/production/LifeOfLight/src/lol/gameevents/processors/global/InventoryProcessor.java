@@ -2,7 +2,7 @@ package lol.gameevents.processors.global;
 
 import lol.events.EventManager;
 import lol.gameentities.State;
-import lol.gameentities.players.inventories.InventoryItem;
+import lol.gameentities.items.GameItem;
 import lol.gameevents.GameEvent;
 import lol.gameevents.processors.Processor;
 
@@ -16,17 +16,17 @@ import java.util.Map;
 public class InventoryProcessor extends Processor {
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
-        HashMap<InventoryItem, Integer> hashMapItems = new HashMap<>();
-        for(InventoryItem inventoryItem: State.instance.getPlayer().inventoryItems) {
-            if (!hashMapItems.containsKey(inventoryItem)) {
-                hashMapItems.put(inventoryItem, 1);
+        HashMap<GameItem, Integer> hashMapItems = new HashMap<>();
+        for(GameItem gameItem: State.instance.getPlayer().gameItems) {
+            if (!hashMapItems.containsKey(gameItem)) {
+                hashMapItems.put(gameItem, 1);
             } else {
-                hashMapItems.put(inventoryItem, hashMapItems.get(inventoryItem) + 1);
+                hashMapItems.put(gameItem, hashMapItems.get(gameItem) + 1);
             }
         }
 
-        for(Map.Entry<InventoryItem, Integer> pair : hashMapItems.entrySet()) {
-            EventManager.pushUIMessage(String.format(" %s x %s (id=%s)",pair.getKey().getName(), pair.getValue(), pair.getKey().getId()));
+        for(Map.Entry<GameItem, Integer> pair : hashMapItems.entrySet()) {
+            EventManager.pushUIMessage(String.format(" %s x %s (id=%s)",pair.getKey().name, pair.getValue(), pair.getKey().id));
         }
         return null;
     }

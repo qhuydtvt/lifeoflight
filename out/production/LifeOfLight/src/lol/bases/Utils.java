@@ -79,4 +79,10 @@ public class Utils {
     }
 
     public static Font vnFont = new Font(Font.MONOSPACED, Font.PLAIN, 18);
+
+    public static <T extends Cloneable> T clone(T obj, Class<T> classz) {
+        Gson gson = new Gson();
+        String gsonString = gson.toJson(obj);
+        return gson.fromJson(gsonString, classz);
+    }
 }

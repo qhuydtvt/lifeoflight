@@ -6,13 +6,10 @@ import lol.gameentities.items.stataffects.operators.StatOperator;
 /**
  * Created by huynq on 8/5/17.
  */
-public class HPAffectProcessor implements StatAffectProcessor {
-    private float amount;
-    private StatOperator operator;
+public class HpAffectProcessor extends StatAffectProcessor {
 
-    public HPAffectProcessor(float amount, StatOperator operator) {
-        this.amount = amount;
-        this.operator = operator;
+    public HpAffectProcessor(float amount, StatOperator operator) {
+        super(amount, operator);
     }
 
     @Override

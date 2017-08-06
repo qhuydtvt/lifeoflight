@@ -2,6 +2,7 @@ import com.udojava.evalex.Expression;
 import lol.GameWindow;
 import lol.formulas.CombatFormula;
 import lol.gameentities.State;
+import lol.gameentities.items.GameItem;
 import lol.gameevents.GameEventManager;
 
 /**

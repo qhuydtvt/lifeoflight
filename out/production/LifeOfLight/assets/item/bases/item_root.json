@@ -1,0 +1,461 @@
+[
+  {
+    "name":"Gươm",
+    "id":"0",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Kiếm",
+    "id":"1",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Đao",
+    "id":"2",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Thương",
+    "id":"3",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Đinh ba",
+    "id":"4",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Trường côn",
+    "id":"5",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Roi",
+    "id":"6",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 6 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Xà mâu",
+    "id":"7",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 6 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 1 * {map.currentLevel} - 2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Khiên",
+    "id":"8",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "HP",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Đại đao",
+    "id":"9",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 5 * {map.currentLevel} - 9",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 9 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Trường kích",
+    "id":"10",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 5 * {map.currentLevel} - 3",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 7 * {map.currentLevel} - 1",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Đoản kích",
+    "id":"11",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel} - 1",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel} - 3",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Cung",
+    "id":"12",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 8 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Nỏ",
+    "id":"13",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 6 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Phi tiêu",
+    "id":"14",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 6 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Giáp da",
+    "id":"15",
+	"type": 3,
+    "statAffects":[
+      {
+        "statName": "HP",
+        "amount":"random() * 8 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Áo lụa",
+    "id":"16",
+	"type": 3,
+    "statAffects":[
+      {
+        "statName": "HP",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Đuốc",
+    "id":"17",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount":"random()*2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Đuốc",
+    "id":"18",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount":"random()*2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Đuốc",
+    "id":"19",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount":"random()*2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Đuốc",
+    "id":"20",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount":"random()*2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Nón",
+    "id":"21",
+	"type": 4,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "HP",
+        "amount":"random()* 5 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Mũ",
+    "id":"22",
+	"type": 4,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "HP",
+        "amount":"random()* 7 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Vương miện",
+    "id":"23",
+	"type": 4,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "HP",
+        "amount":"random()* 6 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Giày",
+    "id":"24",
+	"type": 5,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "HP",
+        "amount":"random()* 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Ủng",
+    "id":"25",
+	"type": 5,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "HP",
+        "amount":"random()* 2 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":"Dép cói",
+    "id":"26",
+	"type": 5,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "HP",
+        "amount":"random()* 2 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  }
+]

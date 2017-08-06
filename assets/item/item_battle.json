@@ -89,7 +89,7 @@
       },
       {
         "statName": "LUCK",
-        "amount": -1,
+        "amount": "-1",
         "isMultiply": false
       }
     ],

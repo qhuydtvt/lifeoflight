@@ -7,7 +7,7 @@ import lol.bases.Utils;
 import lol.gameentities.CombatStat;
 import lol.gameentities.CombatUnit;
 import lol.gameentities.MapPosition;
-import lol.gameentities.players.inventories.InventoryItem;
+import lol.gameentities.items.GameItem;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -33,7 +33,7 @@ public class Player extends CombatUnit {
     public String ability;
 
     @SerializedName("inventory")
-    public List<InventoryItem> inventoryItems;
+    public List<GameItem> gameItems;
 
     @SerializedName("current_level")
     public Integer currentLevel;
@@ -41,10 +41,10 @@ public class Player extends CombatUnit {
     @SerializedName("nextLevelFormula")
     public NextLevelFormula nextLevelFormula;
 
-    public InventoryItem leftHandItem;
-    public InventoryItem rightHandItem;
-    public InventoryItem bodyItem;
-    public InventoryItem headItem;
+    public GameItem leftHandItem;
+    public GameItem rightHandItem;
+    public GameItem bodyItem;
+    public GameItem headItem;
 
     public MapPosition mapPosition;
 
@@ -76,30 +76,30 @@ public class Player extends CombatUnit {
         return false;
     }
 
-    public InventoryItem getItem(int id) {
-        for(InventoryItem item : this.inventoryItems) {
-            if (item.getId() == id) {
+    public GameItem getItem(String id) {
+        for(GameItem item : this.gameItems) {
+            if (item.id.equals(id)) {
                 return item;
             }
         }
         return null;
     }
 
-    public void use(InventoryItem item) {
+    public void use(GameItem item) {
         CombatStat newStat = this.stat.clone();
         // TODO: Handle weareable
-        if (item.getType() == InventoryItem.TYPE_ONE_TIME) {
+        if (item.type == GameItem.TYPE_ONE_TIME) {
             item.affect(newStat, this.stat);
             this.stat = newStat;
-            if (this.inventoryItems.contains(item)) {
-                this.inventoryItems.remove(item);
+            if (this.gameItems.contains(item)) {
+                this.gameItems.remove(item);
             }
         }
     }
 
-    public void collect(InventoryItem item) {
+    public void collect(GameItem item) {
         // TODO: check max
-        this.inventoryItems.add(item);
+        this.gameItems.add(item);
     }
 
     public void getHit(int damage) {

@@ -103,7 +103,7 @@
       "luck": 3,
       "exp": 5
     }
-  }
+  },
   {
     "name": "Quái thạch rau câu",
     "id": 8,
@@ -118,7 +118,7 @@
       "luck": 10,
       "exp": 5
     }
-  }
+  },
   {
     "name": "Quái thạch rau câu vị vải",
     "id": 9,
@@ -133,7 +133,7 @@
       "luck": 10,
       "exp": 5
     }
-  }
+  },
   {
     "name": "Muỗi đầm lầy",
     "id": 10,
@@ -148,7 +148,7 @@
       "luck": 40,
       "exp": 5
     }
-  }
+  },
   {
     "name": "Muỗi đầm lầy khỏe mạnh",
     "id": 11,
@@ -163,7 +163,7 @@
       "luck": 40,
       "exp": 5
     }
-  }
+  },
   {
     "name": "Muỗi đầm lầy nhiễm bệnh",
     "id": 12,
@@ -178,7 +178,7 @@
       "luck": 41,
       "exp": 5
     }
-  }
+  },
   {
     "name": "Muỗi cổ đại",
     "id": 13,
@@ -193,7 +193,7 @@
       "luck": 30,
       "exp": 5
     }
-  }
+  },
   {
     "name": "Bậc thầy nuôi muỗi",
     "id": 14,
@@ -208,7 +208,7 @@
       "luck": 10,
       "exp": 5
     }
-  }
+  },
   {
     "name": "đệ tử mới nhập môn",
     "id": 15,
@@ -223,7 +223,7 @@
       "luck": 10,
       "exp": 5
     }
-  }
+  },
   {
     "name": "đệ tử lười nhác",
     "id": 15,
@@ -238,9 +238,9 @@
       "luck": 8,
       "exp": 5
     }
-  }
+  },
   {
-    "name": "đệ tử chăm chỉ",
+    "name": "Đệ tử chăm chỉ",
     "id": 15,
 	"level" : 5,
     "stat": {
@@ -253,7 +253,7 @@
       "luck": 13,
       "exp": 5
     }
-  }
+  },
   {
     "name": "Sư phụ",
     "id": 15,

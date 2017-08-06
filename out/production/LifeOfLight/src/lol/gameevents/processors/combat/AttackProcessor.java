@@ -4,8 +4,8 @@ import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.formulas.CombatFormula;
 import lol.gameentities.State;
+import lol.gameentities.items.GameItem;
 import lol.gameentities.players.Player;
-import lol.gameentities.players.inventories.InventoryItem;
 import lol.gameevents.CombatEvent;
 import lol.gameevents.GameEvent;
 import lol.gameevents.MainGameEvent;
@@ -48,12 +48,12 @@ public class AttackProcessor extends Processor {
                 player.changeExp(5);
                 EventManager.pushUIMessage(String.format("Your EXP just increased by %s", 5));
                 if (Utils.rollDice() > 4) { // TODO: ASk xeko about formula
-                    InventoryItem noddle = InventoryItem.createNoddle();
-                    player.collect(noddle);
-                    EventManager.pushUIMessage(String.format("You have just collected a %s", noddle.getName()));
-                    EventManager.pushUIMessage(noddle.getName());
-                    EventManager.pushUIMessage(noddle.getDescription());
-                    EventManager.pushUIMessage(noddle.dialog());
+                    GameItem gameItem = GameItem.randomFromCombat();
+                    player.collect(gameItem);
+                    EventManager.pushUIMessage(String.format("You have just collected a %s", gameItem.name));
+                    EventManager.pushUIMessage(gameItem.name);
+                    EventManager.pushUIMessage(gameItem.description);
+                    EventManager.pushUIMessage(gameItem.dialog());
                 }
                 while (player.levelUp()) {
                     EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel + 1));
