@@ -1,20 +1,104 @@
 [
-  {
-    "id": 1,
-    "name": "Kính Hàn Quốc",
-    "type": 4,
-    "statAffects": [
+	{
+    "name":";#78fecfTrường Cung Lông Bạc; của Thần ;#B42EC9AVAVT;",
+    "id":"0",
+	"type": 2,
+    "statAffects":[
       {
+        "statName": "STR",
+        "amount": "8 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":" 13 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "WIS",
+        "amount":"6 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "HP",
+        "amount":"4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "MANA",
+        "amount":"3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "STAMINA",
+        "amount":"4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "LUCK",
+        "amount":"3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
         "statName": "VISION",
-        "amount": 1.0,
+        "amount":"1",
         "isMultiply": false
       }
     ],
-    "description": "Kính cận thị: Tăng tầm nhìn lên 1.;Cẩn thận đồ dễ vỡ."
+	"description":"Thời kỳ hỗn mang, anh Đ** tiền thân của thần ;#B42EC9AVAVT; là một tiễn thủ trứ danh.; Sử dụng cây ;#78fecfTrường Cung Lông Bạc;.;Những chiếc lông bạc bí ẩn điều khiển phong nguyên tố.;Một đời anh Đ** chỉ có duy nhất 2 kẻ bị anh bắn mà không chết.;Kẻ thứ nhất là cái chết.; Kẻ thứ 2 là thời gian."
   },
   {
-    "id": 2,
-    "name": "Mũ Cối Cũ Nát",
+    "id": 1,
+    "name": ";#f1e694Vợt Bóng Bàn; thần ;#a8e4b1Huy; dùng mua của đồng nát",
+    "type": 1,
+    "statAffects": [
+      "statAffects":[
+      {
+        "statName": "STR",
+        "amount": "5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":" 7 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "WIS",
+        "amount":"5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "HP",
+        "amount":"17 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "MANA",
+        "amount":"5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "STAMINA",
+        "amount":"8 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "LUCK",
+        "amount":"4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "VISION",
+        "amount":"1",
+        "isMultiply": false
+      }
+    ],
+    "description": "Vợt xịn cốt sừng bò húc ngàn tuổi , mặt vợt làm từ gỗ cây cà phê ngàn năm.; Mùi hương cà phê phảng phất giúp cho người sử dụng tỉnh táo hoàn toàn.;Tập trung cao độ trong trận chiến.;Trong khi đó tinh chất từ sừng bò thấm vào máu lại tạo sự hưng phấn; bền bỉ cho người sử dụng. Thắng thua trong một trận chiến cách nhau chỉ 1 điểm.;Chính vậy nếu không mất điểm thì không thể thua. Cho đến ngày nay, vẫn chưa có cái gì lọt qua tấm vợt này."
+  },
+  {
+    "id": 3,
+    "name": "Giày Cũ ",
     "type": 4,
     "statAffects": [
       {

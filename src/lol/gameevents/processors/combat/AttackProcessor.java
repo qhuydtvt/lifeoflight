@@ -3,6 +3,7 @@ package lol.gameevents.processors.combat;
 import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.formulas.CombatFormula;
+import lol.formulas.CombatItemRateFormula;
 import lol.gameentities.State;
 import lol.gameentities.items.GameItem;
 import lol.gameentities.players.Player;
@@ -20,6 +21,12 @@ import java.util.List;
  * Created by huynq on 8/1/17.
  */
 public class AttackProcessor extends Processor {
+
+    private CombatItemRateFormula combatItemRateFormula;
+
+    public AttackProcessor(CombatItemRateFormula combatItemRateFormula) {
+        this.combatItemRateFormula = combatItemRateFormula;
+    }
 
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
@@ -48,7 +55,7 @@ public class AttackProcessor extends Processor {
                 monsters.remove(monster);
                 player.changeExp(5);
                 EventManager.pushUIMessage(String.format("Your EXP just increased by %s", 5));
-                if (Utils.rollDice() > 4) { // TODO: ASk xeko about formula
+                if (combatItemRateFormula.generate()) {
                     GameItem gameItem = GameItem.randomFromCombat();
                     player.collect(gameItem);
                     EventManager.pushUIMessage(String.format("You have just collected a %s", gameItem.name));

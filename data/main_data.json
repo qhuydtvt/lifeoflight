@@ -5721,8 +5721,22 @@
     "mainItemLeft": 2
   },
   "player": {
-    "exp": 10,
-    "inventory": [],
+    "exp": 17,
+    "inventory": [
+      {
+        "name": "Mỳ tôm",
+        "id": "1",
+        "type": 0,
+        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      }
+    ],
     "current_level": 0,
     "nextLevelFormula": {
       "nextLevelMinExp": "{nextLevelMinExp}*1.5",
@@ -5740,13 +5754,13 @@
       "vision": "{vision}"
     },
     "mapPosition": {
-      "x": 13,
+      "x": 3,
       "y": 10
     },
     "stat": {
       "nextLevelMinExp": 20,
       "maxHp": 18,
-      "hp": 13,
+      "hp": 12,
       "mana": 10,
       "stamina": 10,
       "strRate": 0.5,

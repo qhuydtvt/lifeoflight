@@ -1,6 +1,5 @@
 package lol.formulas;
 
-import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 import lol.bases.Utils;
 import lol.gameentities.players.Player;
@@ -18,7 +17,7 @@ public class CombatItemFormula extends Formula {
     public static final CombatItemFormula instance;
 
     static {
-        instance = Utils.parseJSON("assets/item/item_battle_rate.json", CombatItemFormula.class);
+        instance = Utils.parseJSON("assets/item/rate/item_battle_rate.json", CombatItemFormula.class);
     }
 
     private CombatItemFormula() {

@@ -7,14 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/item/bases/item_from_event.json" afterPath="$PROJECT_DIR$/assets/item/rate/item_event_rate.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/item/bases/item_prefix.json" afterPath="$PROJECT_DIR$/assets/item/normalitems/item_prefix.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/item/bases/item_root.json" afterPath="$PROJECT_DIR$/assets/item/normalitems/item_root.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/item/bases/item_sufifx.json" afterPath="$PROJECT_DIR$/assets/item/normalitems/item_sufifx.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/item/item_battle_rate.json" afterPath="$PROJECT_DIR$/assets/item/rate/item_battle_rate.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/item/item_legendary.json" afterPath="$PROJECT_DIR$/assets/item/lengedary/item_legendary.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/formulas/CombatItemFormula.java" afterPath="$PROJECT_DIR$/src/lol/formulas/CombatItemFormula.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/items/GameItem.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/items/GameItem.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/bases/item_prefix.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/bases/item_root.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/bases/item_sufifx.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/item_battle_rate.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/item_event.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/main_data.json" afterPath="$PROJECT_DIR$/data/main_data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/formulas/CombatItemFormula.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/formulas/CombatItemFormula.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/items/GameItem.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/items/GameItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/CombatEvent.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/CombatEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/processors/combat/AttackProcessor.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameevents/processors/combat/AttackProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/formulas/CombatItemRateFormula.java" afterPath="$PROJECT_DIR$/src/lol/formulas/CombatItemRateFormula.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameevents/CombatEvent.java" afterPath="$PROJECT_DIR$/src/lol/gameevents/CombatEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java" afterPath="$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,19 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StatAffect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lol/gameentities/items/stataffects/StatAffect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-              <folding>
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GameItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/gameentities/items/GameItem.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttackProcessor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AttackProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="50" column="75" lean-forward="true" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+            <state relative-caret-position="137">
+              <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_battle_rate.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/item/rate/item_battle_rate.json">
+      <file leaf-file-name="CombatEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lol/gameevents/CombatEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="-335">
+              <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -84,9 +77,26 @@
       <file leaf-file-name="CombatItemRateFormula.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/formulas/CombatItemRateFormula.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="243">
+              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Formula.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lol/formulas/Formula.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding>
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +106,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_battle_rate.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/item/rate/item_battle_rate.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -131,20 +151,6 @@
                 <element signature="e#1718#1719#0" expanded="true" />
                 <element signature="e#2478#2479#0" expanded="true" />
                 <element signature="e#2513#2514#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LuckAffectProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lol/gameentities/items/stataffects/processors/LuckAffectProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lol/gameentities/maps/Map.java" />
         <option value="$PROJECT_DIR$/src/lol/gameevents/processors/main/MoveProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/players/NextLevelFormula.java" />
         <option value="$PROJECT_DIR$/data/main_data.json" />
@@ -253,7 +258,6 @@
         <option value="$PROJECT_DIR$/src/lol/gameevents/processors/global/UseProcessor.java" />
         <option value="$PROJECT_DIR$/src/Program.java" />
         <option value="$PROJECT_DIR$/assets/monster/monsters.json" />
-        <option value="$PROJECT_DIR$/src/lol/gameevents/CombatEvent.java" />
         <option value="$PROJECT_DIR$/src/lol/uis/StatScreen.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/items/stataffects/processors/StatAffectProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/items/stataffects/processors/HPAffectProcessor.java" />
@@ -265,9 +269,11 @@
         <option value="$PROJECT_DIR$/src/lol/gameentities/items/stataffects/processors/LuckAffectProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/items/stataffects/StatAffect.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/State.java" />
-        <option value="$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/items/GameItem.java" />
+        <option value="$PROJECT_DIR$/assets/item/rate/item_battle_rate.json" />
         <option value="$PROJECT_DIR$/src/lol/formulas/CombatItemRateFormula.java" />
+        <option value="$PROJECT_DIR$/src/lol/gameevents/CombatEvent.java" />
+        <option value="$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java" />
       </list>
     </option>
   </component>
@@ -1212,19 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lol/formulas/Formula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-          <folding>
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="e#1793#1794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/item/normalitems/item_prefix.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3008">
@@ -1319,14 +1312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lol/gameevents/CombatEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="33" column="58" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lol/uis/StatScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1379,8 +1364,8 @@
         <state relative-caret-position="153">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1411,9 +1396,9 @@
         <state relative-caret-position="255">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1462,28 +1447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="50" column="75" lean-forward="true" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lol/formulas/CombatFormula.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lol/formulas/CombatItemRateFormula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1502,14 +1469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/item/rate/item_event_rate.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/item/item_battle.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1518,11 +1477,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/item/rate/item_event_rate.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/item/rate/item_battle_rate.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/formulas/Formula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/gameevents/CombatEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/formulas/CombatItemRateFormula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/combat/AttackProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
