@@ -8,6 +8,8 @@ import lol.gameentities.players.Player;
 import lol.gameentities.maps.Map;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by huynq on 7/30/17.
@@ -22,9 +24,9 @@ public class State {
     @SerializedName("current_level")
     private int currentLevel;
 
-    private static final String STATE_URL = "data/state.json";
+    @SerializedName("usedItemIds")
+    private List<String> usedItemIds;
 
-    private static final String PLAYER_DATA_URL = "data/player.json";
     private static final String DATA_URL = "data/main_data.json";
     private static final String DATA_FOLDER = "data";
 
@@ -47,6 +49,20 @@ public class State {
         }
     }
 
+    public void addUsedItem(String itemId) {
+        if (usedItemIds == null) {
+            usedItemIds = new ArrayList<>();
+        }
+        if (usedItemIds.contains(itemId)) {
+            System.out.println("Item already added");
+        } else {
+            usedItemIds.add(itemId);
+        }
+    }
+
+    public boolean itemAlreadyUsed(String itemId) {
+        return usedItemIds.contains(itemId);
+    }
 
     public void save() {
         if (!Utils.fileExists(DATA_FOLDER)) {

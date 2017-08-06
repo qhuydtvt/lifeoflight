@@ -5721,22 +5721,8 @@
     "mainItemLeft": 2
   },
   "player": {
-    "exp": 5,
-    "inventory": [
-      {
-        "name": "Dung Dịch Fristi",
-        "id": "24",
-        "type": 0,
-        "description": "Cho trí tưởng tượng bay xa.",
-        "statAffects": [
-          {
-            "statName": "WIS",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      }
-    ],
+    "exp": 10,
+    "inventory": [],
     "current_level": 0,
     "nextLevelFormula": {
       "nextLevelMinExp": "{nextLevelMinExp}*1.5",
@@ -5754,13 +5740,13 @@
       "vision": "{vision}"
     },
     "mapPosition": {
-      "x": 21,
+      "x": 13,
       "y": 10
     },
     "stat": {
       "nextLevelMinExp": 20,
       "maxHp": 18,
-      "hp": 15,
+      "hp": 13,
       "mana": 10,
       "stamina": 10,
       "strRate": 0.5,
@@ -5768,7 +5754,7 @@
       "wisRate": 0.25,
       "str": 5,
       "dex": 3,
-      "wis": 4,
+      "wis": 5,
       "luck": 1,
       "vision": 2
     }

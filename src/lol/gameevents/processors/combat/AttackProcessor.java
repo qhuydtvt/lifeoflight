@@ -23,6 +23,7 @@ public class AttackProcessor extends Processor {
 
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
+        State state = State.instance;
         CombatEvent combatEvent = (CombatEvent) currentEvent;
         List<Monster> monsters = combatEvent.getMonsters();
         if (commands.size() == 0) {

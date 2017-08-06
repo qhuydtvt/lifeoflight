@@ -23,6 +23,7 @@ public class AttackProcessor extends Processor {
 
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
+        State state = State.instance;
         CombatEvent combatEvent = (CombatEvent) currentEvent;
         List<Monster> monsters = combatEvent.getMonsters();
         if (commands.size() == 0) {
@@ -48,7 +49,7 @@ public class AttackProcessor extends Processor {
                 player.changeExp(5);
                 EventManager.pushUIMessage(String.format("Your EXP just increased by %s", 5));
                 if (Utils.rollDice() > 4) { // TODO: ASk xeko about formula
-                    GameItem gameItem = GameItem.randomFromCombat();
+                    GameItem gameItem = GameItem.randomFromCombat(state);
                     player.collect(gameItem);
                     EventManager.pushUIMessage(String.format("You have just collected a %s", gameItem.name));
                     EventManager.pushUIMessage(gameItem.name);

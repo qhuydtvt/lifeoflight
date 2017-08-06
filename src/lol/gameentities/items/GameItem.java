@@ -4,6 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 import lol.bases.Utils;
 import lol.gameentities.CombatStat;
+import lol.gameentities.State;
 import lol.gameentities.items.stataffects.StatAffect;
 import lol.gameentities.items.stataffects.processors.StatAffectProcessor;
 
@@ -101,22 +102,34 @@ public class GameItem implements Cloneable {
                 '}';
     }
 
-    public static GameItem randomFromEvent() {
-        GameItem prefix = Utils.choice(prefixItems);
-        GameItem suffix = Utils.choice(suffixItems);
-        GameItem root = Utils.choice(rootItems);
+    public static GameItem randomFromEvent(State state) {
+        long loopCount = 0;
 
-        GameItem item = new GameItem();
+        do {
+            GameItem prefix = Utils.choice(prefixItems);
+            GameItem suffix = Utils.choice(suffixItems);
+            GameItem root = Utils.choice(rootItems);
+            String id = String.format("%s-%s-%s", prefix.id, root.id, suffix.id);
+            if (!state.itemAlreadyUsed(id)) {
+                GameItem item = new GameItem();
 
-        item.name = String.format("%s %s %s", prefix.name, root.name, suffix.name);
-        item.id = String.format("%s-%s-%s", prefix.id, root.id, suffix.id);
-        item.type = root.type;
+                item.name = String.format("%s %s %s", prefix.name, root.name, suffix.name);
+                item.id = id;
+                item.type = root.type;
 
-        item.statAffects.addAll(prefix.statAffects);
-        item.statAffects.addAll(root.statAffects);
-        item.statAffects.addAll(suffix.statAffects);
+                item.statAffects.addAll(prefix.statAffects);
+                item.statAffects.addAll(root.statAffects);
+                item.statAffects.addAll(suffix.statAffects);
 
-        return item.solidifyStatAffects();
+                return item.solidifyStatAffects();
+            }
+            loopCount++;
+        }
+        while (loopCount < 50000);
+
+        System.out.println("Could not found item");
+
+        return null;
     }
 
     public static GameItem randomFromCombat() {
