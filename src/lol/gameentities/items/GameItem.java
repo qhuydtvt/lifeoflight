@@ -22,6 +22,7 @@ public class GameItem implements Cloneable {
     private static final List<GameItem> suffixItems;
 
     private static final List<GameItem> eatableItems;
+    private static final List<GameItem> legendaryItems;
 
     public static final int TYPE_ONE_TIME = 0;
     public static final int TYPE_ONE_HAND = 1;
@@ -29,6 +30,11 @@ public class GameItem implements Cloneable {
     public static final int TYPE_BODY = 3;
     public static final int TYPE_HEAD = 4;
     public static final int TYPE_FEET = 5;
+
+    public static final int TYPE_NULL = -1;
+    public static final int TYPE_EATABLE = 0;
+    public static final int TYPE_EQUIPABLE = 1;
+    public static final int TYPE_LEGENDARY = 2;
 
     static {
         Type subItemListType = new TypeToken<List<GameItem>>() {
@@ -38,7 +44,7 @@ public class GameItem implements Cloneable {
         rootItems = Utils.parseJSON("assets/item/normalitems/item_root.json", subItemListType);
         suffixItems = Utils.parseJSON("assets/item/normalitems/item_sufifx.json", subItemListType);
         eatableItems = Utils.parseJSON("assets/item/item_battle.json", subItemListType);
-
+        legendaryItems = Utils.parseJSON("assets/item/lengedary/item_legendary.json", subItemListType);
     }
 
     @SerializedName("name")
@@ -102,7 +108,31 @@ public class GameItem implements Cloneable {
                 '}';
     }
 
-    public static GameItem randomFromEvent(State state) {
+    public static GameItem random(int itemType, State state) {
+        switch (itemType) {
+            case TYPE_NULL: return null;
+            case TYPE_EATABLE: return randomEatable();
+            case TYPE_EQUIPABLE: return randomEquiptable(state);
+            case TYPE_LEGENDARY: return randomLegendary(state);
+        }
+        return null;
+    }
+
+    private static GameItem randomLegendary(State state) {
+        final long MAX_LOOP_DOWN = legendaryItems.size() * 20;
+        long loopCount = 0;
+        while(loopCount < MAX_LOOP_DOWN) {
+            GameItem gameItem = Utils.choice(legendaryItems);
+            if (!state.itemAlreadyUsed(gameItem.id)) {
+                return gameItem.solidifyStatAffects();
+            }
+            loopCount++;
+        }
+        System.out.println("Legendary item not found");
+        return null;
+    }
+
+    private static GameItem randomEquiptable(State state) {
         long loopCount = 0;
 
         do {
@@ -132,7 +162,7 @@ public class GameItem implements Cloneable {
         return null;
     }
 
-    public static GameItem randomFromCombat() {
+    private static GameItem randomEatable() {
         return Utils.choice(eatableItems).solidifyStatAffects();
     }
 

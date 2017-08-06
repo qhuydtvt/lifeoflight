@@ -1,9 +1,8 @@
 package lol.gameevents.processors.combat;
 
-import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.formulas.CombatFormula;
-import lol.formulas.CombatItemRateFormula;
+import lol.formulas.ItemRateFormula;
 import lol.gameentities.State;
 import lol.gameentities.items.GameItem;
 import lol.gameentities.players.Player;
@@ -22,10 +21,10 @@ import java.util.List;
  */
 public class AttackProcessor extends Processor {
 
-    private CombatItemRateFormula combatItemRateFormula;
+    private ItemRateFormula itemRateFormula;
 
-    public AttackProcessor(CombatItemRateFormula combatItemRateFormula) {
-        this.combatItemRateFormula = combatItemRateFormula;
+    public AttackProcessor(ItemRateFormula itemRateFormula) {
+        this.itemRateFormula = itemRateFormula;
     }
 
     @Override
@@ -55,14 +54,7 @@ public class AttackProcessor extends Processor {
                 monsters.remove(monster);
                 player.changeExp(5);
                 EventManager.pushUIMessage(String.format("Your EXP just increased by %s", 5));
-                if (combatItemRateFormula.generate()) {
-                    GameItem gameItem = GameItem.randomFromCombat();
-                    player.collect(gameItem);
-                    EventManager.pushUIMessage(String.format("You have just collected a %s", gameItem.name));
-                    EventManager.pushUIMessage(gameItem.name);
-                    EventManager.pushUIMessage(gameItem.description);
-                    EventManager.pushUIMessage(gameItem.dialog());
-                }
+                generateRandomItem();
                 while (player.levelUp()) {
                     EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel + 1));
                     EventManager.pushUIMessage(String.format("Your new stat: %s", "blah blah"));
@@ -81,6 +73,22 @@ public class AttackProcessor extends Processor {
         }
 
         return null;
+    }
+
+    private void generateRandomItem() {
+        State state = State.instance;
+        Player player = state.getPlayer();
+        int type = itemRateFormula.randomItemType();
+        if (type != GameItem.TYPE_NULL) {
+            GameItem gameItem = GameItem.random(type, state);
+            if (gameItem != null) {
+                player.collect(gameItem);
+                EventManager.pushUIMessage(String.format("Bạn vừa nhặt được %s", gameItem.name));
+                EventManager.pushUIMessage(gameItem.name);
+                EventManager.pushUIMessage(gameItem.description);
+                EventManager.pushUIMessage(gameItem.dialog());
+            }
+        }
     }
 
     private void fight(Player player, Monster monster) {

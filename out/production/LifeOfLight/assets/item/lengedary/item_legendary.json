@@ -1,96 +1,95 @@
 [
-	{
-    "name":";#78fecfTrường Cung Lông Bạc; của Thần ;#B42EC9AVAVT;",
-    "id":"0",
-	"type": 2,
-    "statAffects":[
+  {
+    "name": ";#78fecfTrường Cung Lông Bạc; của Thần ;#B42EC9AVAVT;",
+    "id": "0",
+    "type": 2,
+    "statAffects": [
       {
         "statName": "STR",
         "amount": "8 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "DEX",
-        "amount":" 13 * {map.currentLevel}",
+        "amount": " 13 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "WIS",
-        "amount":"6 * {map.currentLevel}",
+        "amount": "6 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "HP",
-        "amount":"4 * {map.currentLevel}",
+        "amount": "4 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "MANA",
-        "amount":"3 * {map.currentLevel}",
+        "amount": "3 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "STAMINA",
-        "amount":"4 * {map.currentLevel}",
+        "amount": "4 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "LUCK",
-        "amount":"3 * {map.currentLevel}",
+        "amount": "3 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "VISION",
-        "amount":"1",
+        "amount": "1",
         "isMultiply": false
       }
     ],
-	"description":"Thời kỳ hỗn mang, anh Đ** tiền thân của thần ;#B42EC9AVAVT; là một tiễn thủ trứ danh.; Sử dụng cây ;#78fecfTrường Cung Lông Bạc;.;Những chiếc lông bạc bí ẩn điều khiển phong nguyên tố.;Một đời anh Đ** chỉ có duy nhất 2 kẻ bị anh bắn mà không chết.;Kẻ thứ nhất là cái chết.; Kẻ thứ 2 là thời gian."
+    "description": "Thời kỳ hỗn mang, anh Đ** tiền thân của thần ;#B42EC9AVAVT; là một tiễn thủ trứ danh.; Sử dụng cây ;#78fecfTrường Cung Lông Bạc;.;Những chiếc lông bạc bí ẩn điều khiển phong nguyên tố.;Một đời anh Đ** chỉ có duy nhất 2 kẻ bị anh bắn mà không chết.;Kẻ thứ nhất là cái chết.; Kẻ thứ 2 là thời gian."
   },
   {
     "id": 1,
     "name": ";#f1e694Vợt Bóng Bàn; thần ;#a8e4b1Huy; dùng mua của đồng nát",
     "type": 1,
     "statAffects": [
-      "statAffects":[
       {
         "statName": "STR",
         "amount": "5 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "DEX",
-        "amount":" 7 * {map.currentLevel}",
+        "amount": " 7 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "WIS",
-        "amount":"5 * {map.currentLevel}",
+        "amount": "5 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "HP",
-        "amount":"17 * {map.currentLevel}",
+        "amount": "17 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "MANA",
-        "amount":"5 * {map.currentLevel}",
+        "amount": "5 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "STAMINA",
-        "amount":"8 * {map.currentLevel}",
+        "amount": "8 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "LUCK",
-        "amount":"4 * {map.currentLevel}",
+        "amount": "4 * {map.currentLevel}",
         "isMultiply": false
       },
-	  {
+      {
         "statName": "VISION",
-        "amount":"1",
+        "amount": "1",
         "isMultiply": false
       }
     ],
@@ -208,12 +207,12 @@
       },
       {
         "statName": "LUCK",
-        "amount": "random()*{player.current_level*2}",
+        "amount": "random()*{player.current_level}*2",
         "isMultiply": false
       },
       {
         "statName": "DEX",
-        "amount": "random()*{player.current_level*3}",
+        "amount": "random()*{player.current_level}*3",
         "isMultiply": false
       }
     ],

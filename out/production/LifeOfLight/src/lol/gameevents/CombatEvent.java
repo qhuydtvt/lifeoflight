@@ -2,7 +2,7 @@ package lol.gameevents;
 
 import lol.bases.Utils;
 import lol.events.EventManager;
-import lol.formulas.CombatItemRateFormula;
+import lol.formulas.ItemRateFormula;
 import lol.gameevents.processors.combat.AttackProcessor;
 import lol.gameevents.processors.Processor;
 import lol.gameevents.processors.combat.FleeProcessor;
@@ -20,7 +20,7 @@ public class CombatEvent implements GameEvent {
     private List<Monster> monsters;
 
     HashMap<String, Processor> commandProcessors = new HashMap<String, Processor>() {{
-        put("ATK", new AttackProcessor(CombatItemRateFormula.instance));
+        put("ATK", new AttackProcessor(ItemRateFormula.combatInstance));
         put("FLEE", new FleeProcessor());
     }};
 

@@ -5721,23 +5721,28 @@
     "mainItemLeft": 2
   },
   "player": {
-    "exp": 17,
+    "exp": 10,
     "inventory": [
       {
-        "name": "Mỳ tôm",
-        "id": "1",
+        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
+        "id": "25",
         "type": 0,
-        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
+        "description": "Nhanh chưa chắc đã xịn.",
         "statAffects": [
           {
-            "statName": "HP",
-            "amount": "5.0",
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "-1.0",
             "isMultiply": false
           }
         ]
       }
     ],
-    "current_level": 0,
+    "current_level": 1,
     "nextLevelFormula": {
       "nextLevelMinExp": "{nextLevelMinExp}*1.5",
       "maxHP": "{maxHp}+1+(random()*2)",
@@ -5754,20 +5759,19 @@
       "vision": "{vision}"
     },
     "mapPosition": {
-      "x": 3,
+      "x": 18,
       "y": 10
     },
     "stat": {
-      "nextLevelMinExp": 20,
-      "maxHp": 18,
-      "hp": 12,
-      "mana": 10,
-      "stamina": 10,
+      "nextLevelMinExp": 30,
+      "maxHp": 20,
+      "hp": 19,
+      "mana": 11,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
-      "str": 5,
-      "dex": 3,
+      "str": 7,
+      "dex": 4,
       "wis": 5,
       "luck": 1,
       "vision": 2

@@ -17,7 +17,7 @@ public class CombatItemFormula extends Formula {
     public static final CombatItemFormula instance;
 
     static {
-        instance = Utils.parseJSON("assets/item/rate/item_battle_rate.json", CombatItemFormula.class);
+        instance = Utils.parseJSON("assets/item/rate/item_combat_rate.json", CombatItemFormula.class);
     }
 
     private CombatItemFormula() {

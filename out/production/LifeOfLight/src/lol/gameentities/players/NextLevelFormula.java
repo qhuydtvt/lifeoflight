@@ -54,7 +54,6 @@ public class NextLevelFormula {
                 .replace("{wis}", stat.wis.toString())
                 .replace("{luck}", stat.luck.toString())
                 .replace("{vision}", stat.vision.toString());
-        System.out.println(formulaWithValues);
         return new Expression(formulaWithValues).eval().floatValue();
     }
 
