@@ -1,4 +1,4 @@
-package lol.gameentities.players.inventories.stataffects.operators;
+package lol.gameentities.items.stataffects.operators;
 
 /**
  * Created by huynq on 8/5/17.

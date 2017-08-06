@@ -82,6 +82,10 @@ public class State {
         loadMap(mapUrl(currentLevel));
     }
 
+    public int getCurrentLevel() {
+        return currentLevel;
+    }
+
     public void removeItemAtPlayerPosition() {
         map.removeItem(player.mapPosition);
     }

@@ -2,6 +2,7 @@ package lol.formulas;
 
 import com.udojava.evalex.Expression;
 import lol.gameentities.State;
+import lol.gameentities.maps.Map;
 import lol.gameentities.players.Player;
 
 /**
@@ -9,31 +10,37 @@ import lol.gameentities.players.Player;
  */
 public class Formula {
 
-    static float evaluate(String formula) {
-        return new Expression(formula).eval().floatValue();
-    }
-
     static String statStr(Object i) {
         if (i == null) return "0";
         return i.toString();
     }
 
+    public static String render(String template) {
+        State state = State.instance;
+        Player player = State.instance.getPlayer();
+        return template
+                // Player stats
+                .replace("{player.hp}", statStr(player.stat.hp))
+                .replace("{player.mana}", statStr(player.stat.mana))
+                .replace("{player.stamina}", statStr(player.stat.stamina))
+                .replace("{player.str}", statStr(player.stat.str))
+                .replace("{player.dex}", statStr(player.stat.dex))
+                .replace("{player.wis}", statStr(player.stat.wis))
+                .replace("{player.luck}", statStr(player.stat.luck))
+                .replace("{player.vision}", statStr(player.stat.vision))
+                .replace("{player.maxHp}", statStr(player.stat.maxHp))
+                .replace("{player.strRate}", statStr(player.stat.strRate))
+                .replace("{player.dexRate}", statStr(player.stat.dexRate))
+                .replace("{player.wisRate}", statStr(player.stat.wisRate))
+                .replace("{player.exp}", statStr(player.exp.toString()))
+                // Map stats
+                .replace("{map.currentLevel}", statStr(state.getCurrentLevel()))
+                ;
+    }
 
-//    public static String render(String template) {
-//        Player player = state.getPlayer();
-//        return template
-//                .replace("{player.hp}", player.stat.hp.toString())
-//                .replace("{player.mana}", player.stat.mana.toString())
-//                .replace("{player.stamina}", player.stat.stamina.toString())
-//                .replace("{player.str}", player.stat.str.toString())
-//                .replace("{player.dex}", player.stat.dex.toString())
-//                .replace("{player.wis}", player.stat.wis.toString())
-//                .replace("{player.luck}", player.stat.luck.toString())
-//                .replace("{player.vision}", player.stat.vision.toString())
-//                .replace("{player.maxHp}", player.stat.maxHp.toString())
-//                .replace("{player.strRate}", player.stat.strRate.toString())
-//                .replace("{player.exp}", player.exp.toString());
-//    }
+    static float evaluate(String template) {
+        return new Expression(render(template)).eval().floatValue();
+    }
 
     static String safe(String s) {
         return String.format("(%s)", s);

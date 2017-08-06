@@ -1,16 +1,16 @@
-package lol.gameentities.players.inventories.stataffects.processors;
+package lol.gameentities.items.stataffects.processors;
 
 import lol.gameentities.CombatStat;
-import lol.gameentities.players.inventories.stataffects.operators.StatOperator;
+import lol.gameentities.items.stataffects.operators.StatOperator;
 
 /**
  * Created by huynq on 8/5/17.
  */
 public class StrengthAffectProcessor implements StatAffectProcessor {
-    private int amount;
+    private float amount;
     private StatOperator operator;
 
-    public StrengthAffectProcessor(int amount, StatOperator operator) {
+    public StrengthAffectProcessor(float amount, StatOperator operator) {
         this.amount = amount;
         this.operator = operator;
     }

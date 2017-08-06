@@ -17,7 +17,7 @@ public class InventoryProcessor extends Processor {
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
         HashMap<InventoryItem, Integer> hashMapItems = new HashMap<>();
-        for(InventoryItem inventoryItem: State.instance.getPlayer().inventoryItems) {
+        for(InventoryItem inventoryItem: State.instance.getPlayer().gameItems) {
             if (!hashMapItems.containsKey(inventoryItem)) {
                 hashMapItems.put(inventoryItem, 1);
             } else {
