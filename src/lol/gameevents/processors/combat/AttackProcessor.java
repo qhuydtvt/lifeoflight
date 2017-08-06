@@ -1,9 +1,8 @@
 package lol.gameevents.processors.combat;
 
-import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.formulas.CombatFormula;
-import lol.formulas.CombatItemRateFormula;
+import lol.formulas.ItemRateFormula;
 import lol.gameentities.State;
 import lol.gameentities.items.GameItem;
 import lol.gameentities.players.Player;
@@ -22,10 +21,10 @@ import java.util.List;
  */
 public class AttackProcessor extends Processor {
 
-    private CombatItemRateFormula combatItemRateFormula;
+    private ItemRateFormula itemRateFormula;
 
-    public AttackProcessor(CombatItemRateFormula combatItemRateFormula) {
-        this.combatItemRateFormula = combatItemRateFormula;
+    public AttackProcessor(ItemRateFormula itemRateFormula) {
+        this.itemRateFormula = itemRateFormula;
     }
 
     @Override
@@ -55,7 +54,7 @@ public class AttackProcessor extends Processor {
                 monsters.remove(monster);
                 player.changeExp(5);
                 EventManager.pushUIMessage(String.format("Your EXP just increased by %s", 5));
-                if (combatItemRateFormula.generate()) {
+                if (itemRateFormula.generate()) {
                     GameItem gameItem = GameItem.randomFromCombat();
                     player.collect(gameItem);
                     EventManager.pushUIMessage(String.format("You have just collected a %s", gameItem.name));
