@@ -62,9 +62,9 @@ public class StatAffect implements Cloneable {
     }
 
     public StatAffect solidify() {
-        StatAffect newAffect = this.clone();
-        newAffect.amount = Formula.render(this.amount);
-        return newAffect;
+        StatAffect solidifiedAffect = this.clone();
+        solidifiedAffect.amount = Formula.render(this.amount);
+        return solidifiedAffect;
     }
 
     @Override
