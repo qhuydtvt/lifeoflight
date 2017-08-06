@@ -51,11 +51,7 @@
     "id": 1,
     "name": ";#f1e694Vợt Bóng Bàn; thần ;#a8e4b1Huy; dùng mua của đồng nát",
     "type": 1,
-<<<<<<< HEAD
     "statAffects": [
-=======
-      "statAffects":[
->>>>>>> 6617e621f52808bf27f886094e666d32ee1ffe18
       {
         "statName": "STR",
         "amount": "5 * {map.currentLevel}",
