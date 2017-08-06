@@ -242,20 +242,12 @@
       },
       {
         "statName": "LUCK",
-<<<<<<< HEAD
-        "amount": "random()*{player.current_level}*2",
-=======
         "amount": "4*{map.current_level}",
->>>>>>> 6617e621f52808bf27f886094e666d32ee1ffe18
         "isMultiply": false
       },
       {
         "statName": "DEX",
-<<<<<<< HEAD
-        "amount": "random()*{player.current_level}*3",
-=======
         "amount": "4*{map.current_level}",
->>>>>>> 6617e621f52808bf27f886094e666d32ee1ffe18
         "isMultiply": false
       }
     ],

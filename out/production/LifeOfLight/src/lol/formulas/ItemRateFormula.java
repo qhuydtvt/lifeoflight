@@ -24,8 +24,6 @@ public class ItemRateFormula extends Formula {
     public final static ItemRateFormula combatInstance;
     public final static ItemRateFormula eventInstance;
 
-
-
     static {
         combatInstance = Utils.parseJSON("assets/item/rate/item_combat_rate.json", ItemRateFormula.class);
         eventInstance = Utils.parseJSON("assets/item/rate/item_event_rate.json", ItemRateFormula.class);
