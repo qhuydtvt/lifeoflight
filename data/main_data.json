@@ -1243,25 +1243,56 @@
             "isMultiply": false
           }
         ]
-      }
-    ],
-    "current_level": 0,
-    "nextLevelFormula": {
-      "nextLevelMinExp": "{nextLevelMinExp}*1.5",
-      "maxHP": "{maxHp}+1+(random()*2)",
-      "hp": "{hp}+1+(random()*3)",
-      "mana": "{mana}+1+(random()*2)",
-      "stamina": "{stamina}+1+(random()*2)",
-      "strRate": "{strRate}",
-      "dexRate": "{dexRate}",
-      "wisRate": "{wisRate}",
-      "str": "{str}+(random()*4)",
-      "dex": "{dex}+(random()*3)",
-      "wis": "{wis}+(random()*3)",
-      "luck": "{luck}+(random()*2)+(random()*{dex}*{dexRate})",
-      "vision": "{vision}"
-    },
-    "handItems": [
+      },
+      {
+        "name": "Tình nhân ;#2090FFMũ; Vô tình",
+        "id": "29-22-29",
+        "type": 4,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "-0.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "3.6",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "2.6",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Cường hãn ;#2090FFGiáp da; Hòa nhã",
+        "id": "4-15-24",
+        "type": 3,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "2.7",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "6.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "-0.4",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "12.8",
+            "isMultiply": false
+          }
+        ]
+      },
       {
         "name": "Hóa cốt ;#2090FFĐoản kích; Thông thái",
         "id": "26-11-21",
@@ -1315,79 +1346,47 @@
             "isMultiply": false
           }
         ]
+      },
+      {
+        "name": "Quả Phụ ;#2090FFGiày; Trung nghĩa",
+        "id": "10-24-28",
+        "type": 5,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "2.8",
+            "isMultiply": false
+          },
+          {
+            "statName": "MANA",
+            "amount": "-0.6",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "8.1",
+            "isMultiply": false
+          }
+        ]
       }
     ],
-    "bodyItem": {
-      "name": "Cường hãn ;#2090FFGiáp da; Hòa nhã",
-      "id": "4-15-24",
-      "type": 3,
-      "statAffects": [
-        {
-          "statName": "STR",
-          "amount": "2.7",
-          "isMultiply": false
-        },
-        {
-          "statName": "DEX",
-          "amount": "6.1",
-          "isMultiply": false
-        },
-        {
-          "statName": "WIS",
-          "amount": "-0.4",
-          "isMultiply": false
-        },
-        {
-          "statName": "MAXHP",
-          "amount": "12.8",
-          "isMultiply": false
-        }
-      ]
+    "current_level": 0,
+    "nextLevelFormula": {
+      "nextLevelMinExp": "{nextLevelMinExp}*1.5",
+      "maxHP": "{maxHp}+1+(random()*2)",
+      "hp": "{hp}+1+(random()*3)",
+      "mana": "{mana}+1+(random()*2)",
+      "stamina": "{stamina}+1+(random()*2)",
+      "strRate": "{strRate}",
+      "dexRate": "{dexRate}",
+      "wisRate": "{wisRate}",
+      "str": "{str}+(random()*4)",
+      "dex": "{dex}+(random()*3)",
+      "wis": "{wis}+(random()*3)",
+      "luck": "{luck}+(random()*2)+(random()*{dex}*{dexRate})",
+      "vision": "{vision}"
     },
-    "headItem": {
-      "name": "Tình nhân ;#2090FFMũ; Vô tình",
-      "id": "29-22-29",
-      "type": 4,
-      "statAffects": [
-        {
-          "statName": "DEX",
-          "amount": "-0.1",
-          "isMultiply": false
-        },
-        {
-          "statName": "STR",
-          "amount": "3.6",
-          "isMultiply": false
-        },
-        {
-          "statName": "MAXHP",
-          "amount": "2.6",
-          "isMultiply": false
-        }
-      ]
-    },
-    "feetItem": {
-      "name": "Quả Phụ ;#2090FFGiày; Trung nghĩa",
-      "id": "10-24-28",
-      "type": 5,
-      "statAffects": [
-        {
-          "statName": "STR",
-          "amount": "2.8",
-          "isMultiply": false
-        },
-        {
-          "statName": "MANA",
-          "amount": "-0.6",
-          "isMultiply": false
-        },
-        {
-          "statName": "MAXHP",
-          "amount": "8.1",
-          "isMultiply": false
-        }
-      ]
-    },
+    "handItems": [],
     "mapPosition": {
       "x": 11,
       "y": 5

@@ -3,10 +3,7 @@ package lol.gameevents;
 import lol.events.EventManager;
 import lol.gameentities.eventconfigs.EventConfig;
 import lol.gameevents.processors.Processor;
-import lol.gameevents.processors.global.EquipmentProcessor;
-import lol.gameevents.processors.global.InventoryProcessor;
-import lol.gameevents.processors.global.QuitProcessor;
-import lol.gameevents.processors.global.UseProcessor;
+import lol.gameevents.processors.global.*;
 import lol.inputs.CommandListener;
 import lol.gameentities.State;
 
@@ -29,6 +26,7 @@ public class GameEventManager implements CommandListener {
         put("QUIT", new QuitProcessor());
         put("USE", new UseProcessor());
         put("EQUIPMENT", new EquipmentProcessor());
+        put("STORE", new StoreProcessor());
     }};
 
     private GameEventManager() {

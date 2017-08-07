@@ -12,6 +12,7 @@ import lol.settings.Settings;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
@@ -212,5 +213,37 @@ public class Player extends CombatUnit {
             System.out.println(playerConfigs.get(0));
             return playerConfigs.get(0);
         }
+    }
+
+    public GameItem store(String itemId) {
+        GameItem result = null;
+
+        if (headItem!= null &&headItem.id.equalsIgnoreCase(itemId)) {
+            this.gameItems.add(headItem);
+            result = headItem;
+            headItem = null;
+        } else if (bodyItem != null && bodyItem.id.equalsIgnoreCase(itemId)) {
+            this.gameItems.add(bodyItem);
+            result = bodyItem;
+            bodyItem = null;
+        } else if (feetItem != null && feetItem.id.equalsIgnoreCase(itemId)) {
+            this.gameItems.add(feetItem);
+            result = feetItem;
+            feetItem = null;
+        } else {
+            Iterator<GameItem> iterator = handItems.iterator();
+            while (iterator.hasNext()) {
+                GameItem gameItem = iterator.next();
+                if (gameItem.id.equalsIgnoreCase(itemId)) {
+                    gameItems.add(gameItem);
+                    result = gameItem;
+                    iterator.remove();
+                }
+            }
+        }
+
+        recalculateStat();
+
+        return result;
     }
 }

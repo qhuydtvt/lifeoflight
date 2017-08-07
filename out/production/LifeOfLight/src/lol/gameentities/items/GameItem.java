@@ -74,7 +74,7 @@ public class GameItem implements Cloneable {
         return result.toString();
     }
 
-    public  boolean isWearable() {
+    public boolean isWearable() {
         return this.type > 0;
     }
 
@@ -87,6 +87,10 @@ public class GameItem implements Cloneable {
     public String getDescription() {
         if (description == null) return "...";
         return description;
+    }
+
+    public String nameAndId() {
+        return String.format("%s (%s)", this.name, this.id);
     }
 
     private void generateProcessors() {
@@ -119,10 +123,14 @@ public class GameItem implements Cloneable {
 
     public static GameItem random(int itemType, State state) {
         switch (itemType) {
-            case TYPE_NULL: return null;
-            case TYPE_EATABLE: return randomEatable();
-            case TYPE_EQUIPABLE: return randomEquiptable(state);
-            case TYPE_LEGENDARY: return randomLegendary(state);
+            case TYPE_NULL:
+                return null;
+            case TYPE_EATABLE:
+                return randomEatable();
+            case TYPE_EQUIPABLE:
+                return randomEquiptable(state);
+            case TYPE_LEGENDARY:
+                return randomLegendary(state);
         }
         return null;
     }
@@ -130,7 +138,7 @@ public class GameItem implements Cloneable {
     private static GameItem randomLegendary(State state) {
         final long MAX_LOOP_DOWN = legendaryItems.size() * 20;
         long loopCount = 0;
-        while(loopCount < MAX_LOOP_DOWN) {
+        while (loopCount < MAX_LOOP_DOWN) {
             GameItem gameItem = Utils.choice(legendaryItems);
             if (!state.itemAlreadyUsed(gameItem.id)) {
                 return gameItem.solidifyStatAffects();

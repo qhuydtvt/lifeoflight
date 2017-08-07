@@ -12,4 +12,5 @@ public class CombatUnit {
     public CombatStat getStat() {
         return stat;
     }
+    
 }

@@ -7,7 +7,6 @@ import lol.gameentities.players.Player;
 import lol.gameevents.GameEvent;
 import lol.gameevents.processors.Processor;
 
-import java.awt.*;
 import java.util.List;
 
 /**
@@ -22,7 +21,7 @@ public class EquipmentProcessor extends Processor {
             EventManager.pushUIMessage("Đầu chưa đội gì");
         } else {
             EventManager.pushUIMessage("Đầu đội:");
-            EventManager.pushUIMessage(player.headItem.name);
+            EventManager.pushUIMessage(player.headItem.nameAndId());
         }
 
         EventManager.pushUIMessage(";#FFFF00*;");
@@ -30,8 +29,8 @@ public class EquipmentProcessor extends Processor {
         if (player.bodyItem == null) {
             EventManager.pushUIMessage("Đang cởi trần");
         } else {
-            EventManager.pushUIMessage("Đang mặc:");
-            EventManager.pushUIMessage(player.bodyItem.name);
+            EventManager.pushUIMessage("Người mặc:");
+            EventManager.pushUIMessage(player.bodyItem.nameAndId());
         }
 
         EventManager.pushUIMessage(";#FFFF00*;");
@@ -41,7 +40,7 @@ public class EquipmentProcessor extends Processor {
         } else {
             EventManager.pushUIMessage("Tay cầm:");
             for (GameItem item : player.handItems) {
-                EventManager.pushUIMessage(item.name);
+                EventManager.pushUIMessage(item.nameAndId());
             }
         }
 
@@ -51,7 +50,7 @@ public class EquipmentProcessor extends Processor {
             EventManager.pushUIMessage("Bàn chân trần trên cát");
         } else {
             EventManager.pushUIMessage("Chân đi:");
-            EventManager.pushUIMessage(player.feetItem.name);
+            EventManager.pushUIMessage(player.feetItem.nameAndId());
         }
 
         return null;
