@@ -64,11 +64,11 @@ public class GameItem implements Cloneable {
         statAffects = new ArrayList<>();
     }
 
-    public String text() {
+    public String statText() {
         StringBuilder result = new StringBuilder();
 
         for (StatAffect affect : statAffects) {
-            result.append(affect.dialog());
+            result.append(affect.dialog() + " ");
         }
 
         return result.toString();

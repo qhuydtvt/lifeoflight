@@ -274,6 +274,23 @@ public class Player extends CombatUnit {
         return result;
     }
 
+    public GameItem findInAllItems(String itemId) {
+        List<GameItem> tempGameItems = new ArrayList<>();
+        tempGameItems.addAll(gameItems);
+        tempGameItems.add(headItem);
+        tempGameItems.add(bodyItem);
+        tempGameItems.addAll(handItems);
+        tempGameItems.add(feetItem);
+
+        for (GameItem item : tempGameItems) {
+            if (item != null && item.id.equalsIgnoreCase(itemId)) {
+                return item;
+            }
+        }
+
+        return null;
+    }
+
     public int getNextLevelMinExp() {
         if (currentLevel == MAX_LEVEL) {
             return -1;

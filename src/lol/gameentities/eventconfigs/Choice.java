@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class Choice {
     @SerializedName("label")
     public String label;
-    @SerializedName("text")
+    @SerializedName("statText")
     public String text;
     @SerializedName("result")
     public int resultIndex;
@@ -18,7 +18,7 @@ public class Choice {
     public String toString() {
         return "Choice{" +
                 "label='" + label + '\'' +
-                ", text='" + text + '\'' +
+                ", statText='" + text + '\'' +
                 ", resultIndex=" + resultIndex +
                 '}';
     }
