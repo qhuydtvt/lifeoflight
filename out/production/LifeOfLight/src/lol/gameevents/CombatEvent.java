@@ -28,7 +28,12 @@ public class CombatEvent implements GameEvent {
     public CombatEvent() {
         monsters = new ArrayList<>();
         for(int i = 0; i < Utils.rollDice() % 2 + 1; i++) {
-            monsters.add(State.instance.randomMonster());
+            Monster monster = State.instance.randomMonster();
+            if (monster != null)
+                monsters.add(monster);
+        }
+        if (monsters.size() == 0) {
+            System.out.println("There are no monsters to generate");
         }
         EventManager.pushUIMessage("You have just entered a combat");
         EventManager.pushUIMessage(String.format("You met %s monsters", monsters.size()));

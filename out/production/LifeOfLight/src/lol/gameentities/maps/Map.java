@@ -25,6 +25,7 @@ public class Map {
     private ArrayList<ArrayList<MapItem>> data;
 
     private int mainItemLeft;
+    private Object currentLevel;
 
     public Map() {
         data = new ArrayList<>();

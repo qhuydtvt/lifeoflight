@@ -111,9 +111,23 @@ public class State {
         loadMap(mapUrl(currentLevel));
     }
 
-    public void loadNextMap() {
-        currentLevel++;
+    public void reset() {
+        currentLevel = 1;
         loadMap(mapUrl(currentLevel));
+    }
+
+    public boolean loadNextMap() {
+        currentLevel++;
+        if (!mapExists(currentLevel)) {
+            return false;
+        } else {
+            loadMap(mapUrl(currentLevel));
+            return true;
+        }
+    }
+
+    private boolean mapExists(int currentLevel) {
+        return new File(mapUrl(currentLevel)).exists();
     }
 
     public int getCurrentLevel() {
