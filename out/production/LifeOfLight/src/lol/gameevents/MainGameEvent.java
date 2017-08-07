@@ -2,10 +2,8 @@ package lol.gameevents;
 
 import lol.gameentities.State;
 import lol.gameevents.processors.Processor;
-import lol.gameevents.processors.main.MapProcessor;
-import lol.gameevents.processors.main.MoveProcessor;
+import lol.gameevents.processors.main.*;
 import lol.events.EventManager;
-import lol.gameevents.processors.main.RebirthProcessor;
 
 import java.util.HashMap;
 import java.util.List;
@@ -20,6 +18,7 @@ public class MainGameEvent implements GameEvent {
     public MainGameEvent() {
         commandProcessors = new HashMap<String, Processor>() {{
             put("MOVE", new MoveProcessor());
+            put("REST", new RestProcessor());
             put("MAP", new MapProcessor());
             put("REBIRTH", new RebirthProcessor());
         }};

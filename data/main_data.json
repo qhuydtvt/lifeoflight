@@ -5721,7 +5721,7 @@
     "mainItemLeft": 2
   },
   "player": {
-    "exp": 17,
+    "exp": 21,
     "inventory": [
       {
         "name": "Mì xào đặc biệt",
@@ -5996,7 +5996,7 @@
     },
     "handItems": [],
     "mapPosition": {
-      "x": 1,
+      "x": 17,
       "y": 10
     },
     "stat": {
@@ -6004,7 +6004,7 @@
       "maxHp": 16,
       "hp": 10,
       "mana": 11,
-      "stamina": 11,
+      "stamina": 5,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,

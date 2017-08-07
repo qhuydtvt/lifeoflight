@@ -280,4 +280,10 @@ public class Player extends CombatUnit {
         }
         return stat.nextLevelMinExp;
     }
+
+    public void changeStamina(int amount) {
+        stat.stamina += amount;
+        if (stat.stamina < 0) stat.stamina = 0;
+        recalculateStat();
+    }
 }

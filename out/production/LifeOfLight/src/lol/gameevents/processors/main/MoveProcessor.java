@@ -53,15 +53,25 @@ public class MoveProcessor extends Processor {
         else if (mapItem.getType() == WALL) {
             EventManager.pushUIMessage("You just hit the ;#6e7f89wall;, can't move there");
         } else {
-            player.move(moveDirection.x, moveDirection.y);
-            EventManager.pushUIMessage(message.toString());
-            if (newPositionProcessors.containsKey(mapItem.getType())) {
-                return newPositionProcessors.get(mapItem.getType())
-                        .process(subCommands, currentEvent);
+            if (player.getStat().stamina == 0) {
+                EventManager.pushUIMessage("Bạn đã hết sức lực, bạn cần nghỉ ngơi (;#FF0000rest;)");
+            } else {
+                player.move(moveDirection.x, moveDirection.y);
+                burnStamina();
+                EventManager.pushUIMessage(message.toString());
+                if (newPositionProcessors.containsKey(mapItem.getType())) {
+                    return newPositionProcessors.get(mapItem.getType())
+                            .process(subCommands, currentEvent);
+                }
+                return generateRandomEvent();
             }
-            return generateRandomEvent();
         }
         return null;
+    }
+
+    private void burnStamina() {
+        Player player = State.instance.getPlayer();
+        player.changeStamina(-1);
     }
 
     //TODO: Change combat possibilities here
