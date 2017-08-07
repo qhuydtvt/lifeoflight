@@ -54,11 +54,10 @@ public class AttackProcessor extends Processor {
                 monsters.remove(monster);
                 player.changeExp(5);
                 EventManager.pushUIMessage(String.format("Your EXP just increased by %s", 5));
+
                 generateRandomItem();
-                while (player.levelUp()) {
-                    EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel + 1));
-                    EventManager.pushUIMessage(String.format("Your new .getStat().: %s", "blah blah"));
-                }
+                levelUp();
+
                 if (monsters.size() == 0) {
                     EventManager.pushUIMessage("All monsters were killed, you won the combat");
                     return new MainGameEvent();
@@ -73,6 +72,26 @@ public class AttackProcessor extends Processor {
         }
 
         return null;
+    }
+
+    private void levelUp() {
+        Player player = State.instance.getPlayer();
+        boolean levelingUp = true;
+        do {
+            int levelUpStatus = player.levelUp();
+            if (levelUpStatus == Player.NO_LEVEL_UP) {
+                levelingUp = false;
+            }
+            else if (levelUpStatus == Player.LEVEL_REACHED_MAX) {
+                EventManager.pushUIMessage("Bạn đã đạt level cao nhất");
+                levelingUp = false;
+            }
+            else {
+                EventManager.pushUIMessage(String.format("Chúc mừng bạn đã lên level %s", player.currentLevel + 1));
+            }
+        }
+        while (levelingUp);
+
     }
 
     private void generateRandomItem() {

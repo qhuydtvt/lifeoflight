@@ -46,6 +46,7 @@ public class NextLevelFormula {
                 .replace("{maxHp}", stat.maxHp + "")
                 .replace("{hp}", stat.hp.toString())
                 .replace("{mana}", stat.mana.toString())
+                .replace("{stamina}", stat.stamina.toString())
                 .replace("{strRate}", stat.strRate.toString())
                 .replace("{dexRate}", stat.dexRate.toString())
                 .replace("{wisRate}", stat.wisRate.toString())
@@ -64,6 +65,7 @@ public class NextLevelFormula {
         stat.maxHp = (int) eval(maxhp, oldStat);
         stat.hp = (int) eval(hp, oldStat);
         stat.mana = (int) eval(mana, oldStat);
+        stat.stamina = (int) eval(stamina, oldStat);
         stat.strRate = eval(strrate, oldStat);
         stat.dexRate = eval(dexrate, oldStat);
         stat.wisRate = eval(wisRate, oldStat);

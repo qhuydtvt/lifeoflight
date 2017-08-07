@@ -741,53 +741,9 @@
             "isMultiply": false
           }
         ]
-      },
-      {
-        "name": "Trà đá phố cổ",
-        "id": "10",
-        "type": 0,
-        "description": "Chưa có thông tin.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "4.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
-        "id": "25",
-        "type": 0,
-        "description": "Nhanh chưa chắc đã xịn.",
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "-1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Xúc xích Đức_việt",
-        "id": "6",
-        "type": 0,
-        "description": "Xúc Xích ở siêu thị Quý phái.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "2.0",
-            "isMultiply": false
-          }
-        ]
       }
     ],
-    "current_level": 2,
+    "current_level": 1,
     "nextLevelFormula": {
       "nextLevelMinExp": "{nextLevelMinExp}*1.5",
       "maxHP": "{maxHp}+1+(random()*2)",
@@ -851,22 +807,22 @@
       }
     ],
     "mapPosition": {
-      "x": 8,
+      "x": 3,
       "y": 5
     },
     "stat": {
-      "nextLevelMinExp": 45,
-      "maxHp": 19,
-      "hp": 19,
-      "mana": 13,
-      "stamina": 13,
+      "nextLevelMinExp": 30,
+      "maxHp": 17,
+      "hp": 17,
+      "mana": 12,
+      "stamina": 11,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
       "str": 5,
-      "dex": 6,
+      "dex": 4,
       "wis": 6,
-      "luck": 2,
+      "luck": 1,
       "vision": 2
     }
   },

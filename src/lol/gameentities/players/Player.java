@@ -47,6 +47,12 @@ public class Player extends CombatUnit {
     @SerializedName("nextLevelFormula")
     public NextLevelFormula nextLevelFormula;
 
+    private static final int MAX_LEVEL = 2;
+
+    public static final int NO_LEVEL_UP = 0;
+    public static final int LEVELED_UP = 1;
+    public static final int LEVEL_REACHED_MAX = 2;
+
     public List<GameItem> handItems;
     public GameItem bodyItem;
     public GameItem headItem;
@@ -77,16 +83,27 @@ public class Player extends CombatUnit {
         this.exp += amount;
     }
 
-    public boolean levelUp() {
+
+
+    public int levelUp() {
+        if (currentLevel == MAX_LEVEL) {
+            return LEVEL_REACHED_MAX;
+        }
+
         int nextLevelEXP = stat.nextLevelMinExp;
+
         if (nextLevelEXP != -1 && exp >= nextLevelEXP) {
             currentLevel++;
             exp -= nextLevelEXP;
             stat = nextLevelFormula.calculate(stat);
             stat.init();
-            return true;
+            if (currentLevel == MAX_LEVEL) {
+                return LEVEL_REACHED_MAX;
+            } else {
+                return LEVELED_UP;
+            }
         }
-        return false;
+        return NO_LEVEL_UP;
     }
 
     public GameItem getItem(String id) {
@@ -169,7 +186,9 @@ public class Player extends CombatUnit {
         for (GameItem gameItem : items) {
             if (gameItem != null) {
                 if (Settings.DEBUG) {
-                    System.out.println(gameItem);
+                    System.out.println("gameItem" + gameItem);
+                    System.out.println("temporaryStat" + temporaryStat);
+                    System.out.println("stat" + stat);
                 }
                 gameItem.affect(temporaryStat, this.stat);
             }
@@ -245,5 +264,12 @@ public class Player extends CombatUnit {
         recalculateStat();
 
         return result;
+    }
+
+    public int getNextLevelMinExp() {
+        if (currentLevel == MAX_LEVEL) {
+            return -1;
+        }
+        return stat.nextLevelMinExp;
     }
 }

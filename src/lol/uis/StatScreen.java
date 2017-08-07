@@ -23,7 +23,8 @@ public class StatScreen extends TextView {
         Player player = State.instance.getPlayer();
         setFontMetrics(g2d.getFontMetrics());
         addText(String.format("HP: %s/%s", player.getStat().hp, player.getStat().maxHp));
-        addText(String.format("EXP: %s/%s", player.exp, player.getStat().nextLevelMinExp));
+        addText(String.format("LVL: %s", player.currentLevel + 1));
+        addText(String.format("EXP: %s/%s", player.exp, player.getNextLevelMinExp()));
         addText(String.format("STR: %s", player.getStat().str));
         addText(String.format("DEX: %s", player.getStat().dex));
         addText(String.format("WIS: %s", player.getStat().wis));

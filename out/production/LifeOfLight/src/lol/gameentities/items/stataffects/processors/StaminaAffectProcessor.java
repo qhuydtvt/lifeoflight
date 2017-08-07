@@ -14,7 +14,7 @@ public class StaminaAffectProcessor extends StatAffectProcessor {
     }
 
     @Override
-    public void affect(CombatStat currentStat, CombatStat originStat) {
+    public void affect(CombatStat currentStat, final CombatStat originStat) {
         currentStat.stamina = (int)operator.op(currentStat.stamina, originStat.stamina, amount);
     }
 }
