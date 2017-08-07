@@ -35,6 +35,9 @@ public class Monster extends CombatUnit implements Cloneable {
     @SerializedName("level")
     private int level;
 
+    @SerializedName("exp")
+    private int exp;
+
     public String getName() {
         return name;
     }
@@ -75,6 +78,10 @@ public class Monster extends CombatUnit implements Cloneable {
         if (stat.hp < 0) stat.hp = 0;
     }
 
+    public int getExp() {
+        return exp;
+    }
+
     public String getInfo() {
         return String.format("%s, hp=%s, str=%s", name, stat.hp, stat.str);
     }
@@ -85,6 +92,11 @@ public class Monster extends CombatUnit implements Cloneable {
                 "name='" + name + '\'' +
                 ", id=" + id +
                 ", level=" + level +
+                ", exp=" + exp +
                 '}';
+    }
+
+    public int getLevel() {
+        return level;
     }
 }

@@ -52,11 +52,9 @@ public class AttackProcessor extends Processor {
             if (monster.getStat().getHp() <= 0) {
                 EventManager.pushUIMessage(String.format("%s just died", monster.getName()));
                 monsters.remove(monster);
-                player.changeExp(5);
-                EventManager.pushUIMessage(String.format("Your EXP just increased by %s", 5));
 
+                addExp(monster);
                 generateRandomItem();
-                levelUp();
 
                 if (monsters.size() == 0) {
                     EventManager.pushUIMessage("All monsters were killed, you won the combat");
@@ -72,6 +70,19 @@ public class AttackProcessor extends Processor {
         }
 
         return null;
+    }
+
+    private void addExp(Monster monster) {
+        Player player = State.instance.getPlayer();
+
+        // TODO: Ask xeko about exp cap formula
+        int expToIncrease = monster.getExp() - (monster.getLevel() + player.currentLevel);
+
+        if (expToIncrease > 0) {
+            player.changeExp(expToIncrease);
+            EventManager.pushUIMessage(String.format("Your EXP just increased by %s", expToIncrease));
+            levelUp();
+        }
     }
 
     private void levelUp() {

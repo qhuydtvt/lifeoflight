@@ -47,7 +47,15 @@ public class Player extends CombatUnit {
     @SerializedName("nextLevelFormula")
     public NextLevelFormula nextLevelFormula;
 
-    private static final int MAX_LEVEL = 2;
+    private static final int MAX_LEVEL;
+
+    static {
+        if (Settings.DEBUG) {
+            MAX_LEVEL = 2;
+        } else {
+            MAX_LEVEL = 9;
+        }
+    }
 
     public static final int NO_LEVEL_UP = 0;
     public static final int LEVELED_UP = 1;
