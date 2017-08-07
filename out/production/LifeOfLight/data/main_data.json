@@ -119,44 +119,44 @@
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": " ",
@@ -552,280 +552,23 @@
     "exp": 0,
     "inventory": [
       {
-        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
-        "id": "25",
-        "type": 0,
-        "description": "Nhanh chưa chắc đã xịn.",
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "-1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Xúc xích Đức_việt",
-        "id": "6",
-        "type": 0,
-        "description": "Xúc Xích ở siêu thị Quý phái.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "2.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Bò khô gia truyền",
-        "id": "7",
-        "type": 0,
-        "description": "Thông tin dinh dưỡng : Bò khô;Mỗi 100-gam;Calor : 410;Chất béo 26g~40% mỗi ngày;Cholesterol 48mg~16% mỗi ngày;Natri 2/081g~86% mỗi ngày;đường 9g;Protein 33g~66% mỗi ngày;Vitamin A~0%;Vitamin C~0%;Canxi~2% mỗi ngày;Sắt~30%;Vitamin D~2% mỗi ngày;Vitamin B-6~10% mỗi ngày;Vitamin B-12~16% mỗi ngày;Magiê~12% mỗi ngày.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "2.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Xôi xéo gà nấm",
-        "id": "8",
-        "type": 0,
-        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "30.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "LUCK",
-            "amount": "-1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": ";#78fecfTrường Cung Lông Bạc; của Thần ;#B42EC9AVAVT;",
-        "id": "0",
-        "type": 2,
-        "description": "Thời kỳ hỗn mang, anh Đ** tiền thân của thần ;#B42EC9AVAVT; là một tiễn thủ trứ danh.; Sử dụng cây ;#78fecfTrường Cung Lông Bạc;.;Những chiếc lông bạc bí ẩn điều khiển phong nguyên tố.;Một đời anh Đ** chỉ có duy nhất 2 kẻ bị anh bắn mà không chết.;Kẻ thứ nhất là cái chết.; Kẻ thứ 2 là thời gian.",
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "24.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "39.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "WIS",
-            "amount": "18.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "12.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "MANA",
-            "amount": "9.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STAMINA",
-            "amount": "12.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "LUCK",
-            "amount": "9.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "VISION",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Kim Quy ;#2090FFKiếm; Bẩn thỉu",
-        "id": "20-1-3",
+        "name": "Song hỉ ;#2090FFPhi tiêu; Hàng hiệu",
+        "id": "25-14-15",
         "type": 1,
         "statAffects": [
           {
-            "statName": "STR",
-            "amount": "7.0",
-            "isMultiply": false
-          },
-          {
             "statName": "DEX",
-            "amount": "1.0",
+            "amount": "16.7",
             "isMultiply": false
           },
-          {
-            "statName": "WIS",
-            "amount": "-2.3",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "1.7",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Dung Dịch Fristi",
-        "id": "24",
-        "type": 0,
-        "description": "Cho trí tưởng tượng bay xa.",
-        "statAffects": [
-          {
-            "statName": "WIS",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Phô mai con bò cười",
-        "id": "21",
-        "type": 0,
-        "description": "Được làm từ thịt của loại bò tên là Mai có hàm răng Phô",
-        "statAffects": [
-          {
-            "statName": "LUCK",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Tiểu nhân ;#2090FFĐuốc; Khổng lồ",
-        "id": "27-18-20",
-        "type": 1,
-        "statAffects": [
           {
             "statName": "STR",
-            "amount": "3.4",
+            "amount": "7.7",
             "isMultiply": false
           },
           {
             "statName": "LUCK",
-            "amount": "1.8",
-            "isMultiply": false
-          },
-          {
-            "statName": "VISION",
-            "amount": "1.5",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "-1.7",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Mì xào đặc biệt",
-        "id": "30",
-        "type": 0,
-        "description": "Mì tự nấu đặc biệt.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "3.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "WIS",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Cà Phê Pha",
-        "id": "3",
-        "type": 0,
-        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê.",
-        "statAffects": [
-          {
-            "statName": "STAMINA",
-            "amount": "5.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": ";#80F800Giày Cũ hiệu Vty; của ;#FFFF00Xeko;",
-        "id": "3",
-        "type": 5,
-        "description": "Giày ngoại nhập, ;#FF6040Limited edittion; được đặc biệt chế tạo bởi thợ rèn trong truyền thuyết ;#FFFF00Xeko;.;Ngay cả cây ;#78fecfTrường Cung Lông Bạc; của thần ;#B42EC9AVAVT; và ;#f1e694Vợt Bóng Bàn; thần ;#a8e4b1Huy; dùng mua của đồng nát.;Đều được chế tác dưới đôi tay của ngài.",
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "12.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "45.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "WIS",
-            "amount": "9.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "15.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "MANA",
-            "amount": "15.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STAMINA",
-            "amount": "27.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "LUCK",
-            "amount": "21.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "VISION",
-            "amount": "1.0",
+            "amount": "1.2",
             "isMultiply": false
           }
         ]
@@ -844,61 +587,35 @@
         ]
       },
       {
-        "name": "Tán cốt ;#2090FFDép cói; Lấp lánh",
-        "id": "18-26-1",
-        "type": 5,
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "8.7",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "1.5",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Bún đậu mắm tôm",
-        "id": "9",
-        "type": 0,
-        "description": "Ăn xong sẽ có nguy cơ ngộ độc thực phẩm 10%.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "7.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Neptune",
-        "id": "23",
-        "type": 0,
-        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "name": "Kim xà ;#2090FFĐao; Khủng khiếp",
+        "id": "19-2-22",
+        "type": 1,
         "statAffects": [
           {
             "statName": "DEX",
-            "amount": "1.0",
+            "amount": "7.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "2.6",
             "isMultiply": false
           }
         ]
       },
       {
-        "name": "Chí tôn cường ;#2090FFRoi; Nóng nảy",
-        "id": "1-6-23",
+        "name": "Kỳ lân ;#2090FFKhiên; Đầy đặn",
+        "id": "12-8-9",
         "type": 1,
         "statAffects": [
           {
             "statName": "STR",
-            "amount": "6.5",
+            "amount": "7.1",
             "isMultiply": false
           },
           {
-            "statName": "DEX",
-            "amount": "5.9",
+            "statName": "MAXHP",
+            "amount": "4.9",
             "isMultiply": false
           }
         ]
@@ -917,14 +634,94 @@
         ]
       },
       {
-        "name": "Trà đá phố cổ",
-        "id": "10",
+        "name": "Dung dịch Bò húc",
+        "id": "2",
         "type": 0,
-        "description": "Chưa có thông tin.",
+        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896 Lên Đỉnh; bị bò đực húc phải.",
         "statAffects": [
           {
-            "statName": "HP",
-            "amount": "4.0",
+            "statName": "MANA",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Chí tôn linh ;#2090FFVương miện; Tinh xảo",
+        "id": "3-23-5",
+        "type": 4,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "3.3",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "3.3",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "4.6",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "5.5",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Tích lịch ;#2090FFĐuốc; Lấp lánh",
+        "id": "23-18-1",
+        "type": 1,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.2",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "3.5",
+            "isMultiply": false
+          },
+          {
+            "statName": "VISION",
+            "amount": "1.4",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
+        "id": "25",
+        "type": 0,
+        "description": "Nhanh chưa chắc đã xịn.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "-1.0",
             "isMultiply": false
           }
         ]
@@ -948,42 +745,42 @@
     },
     "handItems": [
       {
-        "name": "Thượng phẩm ;#2090FFKhiên; Khổng lồ",
-        "id": "15-8-20",
-        "type": 1,
+        "name": "Hạ phẩm ;#2090FFĐại đao; Hàng hiệu",
+        "id": "16-9-15",
+        "type": 2,
         "statAffects": [
           {
+            "statName": "DEX",
+            "amount": "5.0",
+            "isMultiply": false
+          },
+          {
             "statName": "STR",
-            "amount": "1.6",
+            "amount": "7.0",
             "isMultiply": false
           },
           {
             "statName": "LUCK",
-            "amount": "0.2",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "12.7",
+            "amount": "1.0",
             "isMultiply": false
           }
         ]
       }
     ],
     "mapPosition": {
-      "x": 11,
-      "y": 3
+      "x": 6,
+      "y": 1
     },
     "stat": {
       "nextLevelMinExp": 20,
-      "maxHp": 27,
+      "maxHp": 15,
       "hp": 15,
-      "mana": 10,
-      "stamina": 15,
+      "mana": 15,
+      "stamina": 17,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
-      "str": 7,
+      "str": 5,
       "dex": 4,
       "wis": 4,
       "luck": 1,

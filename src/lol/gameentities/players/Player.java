@@ -197,6 +197,7 @@ public class Player extends CombatUnit {
     public void rebirth() {
         this.stat.hp = this.stat.maxHp;
         this.exp = this.exp * 75 / 100;
+        recalculateStat();
     }
 
     public static Player parseFile(String url) {

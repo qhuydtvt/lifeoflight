@@ -113,6 +113,7 @@ public class AttackProcessor extends Processor {
                     player.getHit(monster.getStat().str);
                     EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.getStat().hp));
                     if (player.getStat().hp <= 0) return;
+                    // TODO: MainEvent
                 } else {
                     EventManager.pushUIMessage(String.format("%s attacked you but missed", monster.getName()));
                 }
