@@ -69,6 +69,7 @@ public class Utils {
     }
 
     public static <T> T choice(List<T> choices) {
+        if (choices.size() == 0) return null;
         return choices.get(random.nextInt(choices.size()));
     }
 

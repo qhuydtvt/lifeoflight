@@ -18,7 +18,7 @@ public class EquipmentProcessor extends Processor {
         Player player = State.instance.getPlayer();
 
         if(player.headItem == null) {
-            EventManager.pushUIMessage("Đầu chưa đội gì");
+            EventManager.pushUIMessage("Đầu không đội gì");
         } else {
             EventManager.pushUIMessage("Đầu đội:");
             EventManager.pushUIMessage(player.headItem.nameAndId());

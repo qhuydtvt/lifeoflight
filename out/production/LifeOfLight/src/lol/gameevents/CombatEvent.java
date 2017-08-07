@@ -3,6 +3,7 @@ package lol.gameevents;
 import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.formulas.ItemRateFormula;
+import lol.gameentities.State;
 import lol.gameevents.processors.combat.AttackProcessor;
 import lol.gameevents.processors.Processor;
 import lol.gameevents.processors.combat.FleeProcessor;
@@ -27,7 +28,7 @@ public class CombatEvent implements GameEvent {
     public CombatEvent() {
         monsters = new ArrayList<>();
         for(int i = 0; i < Utils.rollDice() % 2 + 1; i++) {
-            monsters.add(Monster.randomMonster());
+            monsters.add(State.instance.randomMonster());
         }
         EventManager.pushUIMessage("You have just entered a combat");
         EventManager.pushUIMessage(String.format("You met %s monsters", monsters.size()));

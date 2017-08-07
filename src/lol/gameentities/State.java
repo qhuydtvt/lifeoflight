@@ -4,8 +4,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.annotations.SerializedName;
 import lol.bases.Utils;
+import lol.gameentities.monsters.Monster;
 import lol.gameentities.players.Player;
 import lol.gameentities.maps.Map;
+import lol.settings.Settings;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -18,8 +20,6 @@ public class State {
 
     private Map map = null;
 
-    private static final boolean TEST = true;
-
     @SerializedName("player")
     private Player player = null;
 
@@ -29,17 +29,20 @@ public class State {
     @SerializedName("usedItemIds")
     private List<String> usedItemIds;
 
+    private transient List<Monster> monstersInMap;
+
     private static final String DATA_URL = "data/main_data.json";
     private static final String DATA_FOLDER = "data";
 
     public static final State instance = new State();
 
     private State() {
-        if (TEST) {
+        if (Settings.TEST) {
             currentLevel = 3;
         } else {
             currentLevel = 1;
         }
+        monstersInMap = new ArrayList<>();
         this.player = new Player();
     }
 
@@ -50,10 +53,17 @@ public class State {
             instance.player.init();
             instance.currentLevel = savedState.currentLevel;
             instance.map = savedState.map;
+            instance.loadMonsterInMap();
         } else {
             instance.loadInitialPlayer();
             instance.loadInitialMap();
         }
+    }
+
+    private void loadMonsterInMap() {
+        System.out.println("Loading monsters in map");
+        monstersInMap = Monster.monsterInLevel(currentLevel);
+        System.out.println(monstersInMap);
     }
 
     public void addUsedItem(String itemId) {
@@ -120,8 +130,13 @@ public class State {
 
     private void loadMap(String url) {
         map = Map.parseFile(url);
-        assert map != null;
         player.mapPosition.set(map.getPlayerStartX(), map.getPlayerStartY());
+        loadMonsterInMap();
+    }
+
+    public Monster randomMonster() {
+        Monster monster = Utils.choice(monstersInMap);
+        return Utils.clone(monster, Monster.class);
     }
 
     private void loadInitialPlayer() {
