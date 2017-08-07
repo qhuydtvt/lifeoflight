@@ -35,7 +35,7 @@ public class WordEventItemProcessor extends Processor {
                 State.instance.getPlayer().collect(gameItem);
                 EventManager.pushUIMessage(gameItem.name);
                 EventManager.pushUIMessage(gameItem.getDescription());
-                EventManager.pushUIMessage(gameItem.dialog());
+                EventManager.pushUIMessage(gameItem.text());
             }
         }
         return null;

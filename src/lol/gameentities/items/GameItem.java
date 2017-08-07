@@ -64,7 +64,7 @@ public class GameItem implements Cloneable {
         statAffects = new ArrayList<>();
     }
 
-    public String dialog() {
+    public String text() {
         StringBuilder result = new StringBuilder();
 
         for (StatAffect affect : statAffects) {

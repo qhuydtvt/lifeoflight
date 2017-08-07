@@ -183,6 +183,7 @@ public class Player extends CombatUnit {
     public void getHit(int damage) {
         stat.hp -= damage;
         if (this.stat.hp < 0) stat.hp = 0;
+        recalculateStat();
     }
 
     @Override

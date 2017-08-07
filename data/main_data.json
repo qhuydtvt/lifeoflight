@@ -65,12 +65,12 @@
           "type": "WALL"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
@@ -155,8 +155,224 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
@@ -227,58 +443,20 @@
           "type": "WALL"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
           "type": "EMPTY"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
@@ -305,186 +483,8 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "M",
-          "type": "MAIN"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": "O",
@@ -546,29 +546,165 @@
         }
       ]
     ],
-    "mainItemLeft": 1
+    "mainItemLeft": 0
   },
   "player": {
-    "exp": 0,
+    "exp": 2,
     "inventory": [
       {
-        "name": "Song hỉ ;#2090FFPhi tiêu; Hàng hiệu",
-        "id": "25-14-15",
-        "type": 1,
+        "name": "Phô mai con bò cười",
+        "id": "21",
+        "type": 0,
+        "description": "Được làm từ thịt của loại bò tên là Mai có hàm răng Phô",
+        "statAffects": [
+          {
+            "statName": "LUCK",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Dung dịch Bò húc",
+        "id": "2",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896 Lên Đỉnh; bị bò đực húc phải.",
+        "statAffects": [
+          {
+            "statName": "MANA",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Hóa cốt ;#2090FFCung; Hư hỏng",
+        "id": "26-12-8",
+        "type": 2,
         "statAffects": [
           {
             "statName": "DEX",
-            "amount": "16.7",
+            "amount": "13.1",
             "isMultiply": false
           },
           {
             "statName": "STR",
-            "amount": "7.7",
+            "amount": "-1.0",
             "isMultiply": false
           },
           {
             "statName": "LUCK",
-            "amount": "1.2",
+            "amount": "-2.9",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Xúc xích Đức_việt",
+        "id": "6",
+        "type": 0,
+        "description": "Xúc Xích ở siêu thị Quý phái.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "2.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Chí tôn cường ;#2090FFRoi; Nhanh nhẹn",
+        "id": "1-6-2",
+        "type": 1,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "3.4",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "19.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Cà Phê Pha",
+        "id": "3",
+        "type": 0,
+        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê.",
+        "statAffects": [
+          {
+            "statName": "STAMINA",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Dung Dịch Fristi",
+        "id": "24",
+        "type": 0,
+        "description": "Cho trí tưởng tượng bay xa.",
+        "statAffects": [
+          {
+            "statName": "WIS",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Mì xào đặc biệt",
+        "id": "30",
+        "type": 0,
+        "description": "Mì tự nấu đặc biệt.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "3.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "1.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trứng",
+        "id": "5",
+        "type": 0,
+        "description": "Trứng bán ở siêu thị Quý phái.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trứng",
+        "id": "5",
+        "type": 0,
+        "description": "Trứng bán ở siêu thị Quý phái.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "1.0",
             "isMultiply": false
           }
         ]
@@ -582,40 +718,6 @@
           {
             "statName": "HP",
             "amount": "7.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Kim xà ;#2090FFĐao; Khủng khiếp",
-        "id": "19-2-22",
-        "type": 1,
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "7.1",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "2.6",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Kỳ lân ;#2090FFKhiên; Đầy đặn",
-        "id": "12-8-9",
-        "type": 1,
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "7.1",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "4.9",
             "isMultiply": false
           }
         ]
@@ -647,80 +749,44 @@
         ]
       },
       {
-        "name": "Chí tôn linh ;#2090FFVương miện; Tinh xảo",
-        "id": "3-23-5",
-        "type": 4,
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "3.3",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "3.3",
-            "isMultiply": false
-          },
-          {
-            "statName": "WIS",
-            "amount": "4.6",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "5.5",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Neptune",
-        "id": "23",
+        "name": "Dung dịch Bò húc",
+        "id": "2",
         "type": 0,
-        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896 Lên Đỉnh; bị bò đực húc phải.",
         "statAffects": [
           {
-            "statName": "DEX",
-            "amount": "1.0",
+            "statName": "MANA",
+            "amount": "5.0",
             "isMultiply": false
           }
         ]
       },
       {
-        "name": "Tích lịch ;#2090FFĐuốc; Lấp lánh",
-        "id": "23-18-1",
-        "type": 1,
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "1.2",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "3.5",
-            "isMultiply": false
-          },
-          {
-            "statName": "VISION",
-            "amount": "1.4",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
-        "id": "25",
+        "name": "Trà đá phố cổ",
+        "id": "10",
         "type": 0,
-        "description": "Nhanh chưa chắc đã xịn.",
+        "description": "Chưa có thông tin.",
         "statAffects": [
           {
-            "statName": "DEX",
-            "amount": "1.0",
+            "statName": "HP",
+            "amount": "4.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Xôi xéo gà nấm",
+        "id": "8",
+        "type": 0,
+        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "30.0",
             "isMultiply": false
           },
           {
-            "statName": "STR",
+            "statName": "LUCK",
             "amount": "-1.0",
             "isMultiply": false
           }
@@ -740,18 +806,14 @@
         ]
       },
       {
-        "name": "Vô danh ;#2090FFTrường côn; Nhanh nhẹn",
-        "id": "17-5-2",
-        "type": 2,
+        "name": "Bò khô gia truyền",
+        "id": "7",
+        "type": 0,
+        "description": "Thông tin dinh dưỡng : Bò khô;Mỗi 100-gam;Calor : 410;Chất béo 26g~40% mỗi ngày;Cholesterol 48mg~16% mỗi ngày;Natri 2/081g~86% mỗi ngày;đường 9g;Protein 33g~66% mỗi ngày;Vitamin A~0%;Vitamin C~0%;Canxi~2% mỗi ngày;Sắt~30%;Vitamin D~2% mỗi ngày;Vitamin B-6~10% mỗi ngày;Vitamin B-12~16% mỗi ngày;Magiê~12% mỗi ngày.",
         "statAffects": [
           {
-            "statName": "STR",
-            "amount": "8.4",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "11.2",
+            "statName": "HP",
+            "amount": "2.0",
             "isMultiply": false
           }
         ]
@@ -783,23 +845,27 @@
         ]
       },
       {
-        "name": "Tích lịch ;#2090FFTrường kích; Hàng hiệu",
-        "id": "23-10-15",
-        "type": 2,
+        "name": "Dung dịch Bò húc",
+        "id": "2",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896 Lên Đỉnh; bị bò đực húc phải.",
         "statAffects": [
           {
-            "statName": "DEX",
-            "amount": "6.7",
+            "statName": "MANA",
+            "amount": "5.0",
             "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "4.3",
-            "isMultiply": false
-          },
+          }
+        ]
+      },
+      {
+        "name": "Phô mai con bò cười",
+        "id": "21",
+        "type": 0,
+        "description": "Được làm từ thịt của loại bò tên là Mai có hàm răng Phô",
+        "statAffects": [
           {
             "statName": "LUCK",
-            "amount": "0.5",
+            "amount": "1.0",
             "isMultiply": false
           }
         ]
@@ -818,14 +884,84 @@
         ]
       },
       {
-        "name": "Neptune",
-        "id": "23",
+        "name": "Trà đá phố cổ",
+        "id": "10",
         "type": 0,
-        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "description": "Chưa có thông tin.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "4.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trà sữa trân châu",
+        "id": "10",
+        "type": 0,
+        "description": "Trước đây, trà sữa trân châu là món ăn tủ của nhiều bạn trẻ.;Nhưng sau nhiều bài báo và tận mắt chứng kiến :;Mấy gói bột sữa, hạt trân châu bán trôi nổi trên thị trường thì nhiều người;Không còn tha thiết với trà sữa chân trâu nữa mặc dù vẫn thích uống.",
+        "statAffects": [
+          {
+            "statName": "STAMINA",
+            "amount": "7.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Kim xà ;#2090FFKhiên; Hư hỏng",
+        "id": "19-8-8",
+        "type": 1,
         "statAffects": [
           {
             "statName": "DEX",
-            "amount": "1.0",
+            "amount": "-3.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "-1.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "7.7",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Song hỉ ;#2090FFCung; Cũ kĩ",
+        "id": "25-12-4",
+        "type": 2,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "0.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "-0.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "0.9",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Mỳ tôm",
+        "id": "1",
+        "type": 0,
+        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "5.0",
             "isMultiply": false
           }
         ]
@@ -844,6 +980,19 @@
         ]
       },
       {
+        "name": "Mỳ tôm",
+        "id": "1",
+        "type": 0,
+        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
         "name": "Neptune",
         "id": "23",
         "type": 0,
@@ -857,14 +1006,32 @@
         ]
       },
       {
-        "name": "Cà Phê Pha",
-        "id": "3",
+        "name": "Neptune",
+        "id": "23",
         "type": 0,
-        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê.",
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
         "statAffects": [
           {
-            "statName": "STAMINA",
-            "amount": "5.0",
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
+        "id": "25",
+        "type": 0,
+        "description": "Nhanh chưa chắc đã xịn.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "-1.0",
             "isMultiply": false
           }
         ]
@@ -878,6 +1045,201 @@
           {
             "statName": "HP",
             "amount": "7.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Dung Dịch Fristi",
+        "id": "24",
+        "type": 0,
+        "description": "Cho trí tưởng tượng bay xa.",
+        "statAffects": [
+          {
+            "statName": "WIS",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Bún đậu mắm tôm",
+        "id": "9",
+        "type": 0,
+        "description": "Ăn xong sẽ có nguy cơ ngộ độc thực phẩm 10%.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "7.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Phô mai con bò cười",
+        "id": "21",
+        "type": 0,
+        "description": "Được làm từ thịt của loại bò tên là Mai có hàm răng Phô",
+        "statAffects": [
+          {
+            "statName": "LUCK",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trà sữa trân châu",
+        "id": "10",
+        "type": 0,
+        "description": "Trước đây, trà sữa trân châu là món ăn tủ của nhiều bạn trẻ.;Nhưng sau nhiều bài báo và tận mắt chứng kiến :;Mấy gói bột sữa, hạt trân châu bán trôi nổi trên thị trường thì nhiều người;Không còn tha thiết với trà sữa chân trâu nữa mặc dù vẫn thích uống.",
+        "statAffects": [
+          {
+            "statName": "STAMINA",
+            "amount": "7.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Mì xào đặc biệt",
+        "id": "30",
+        "type": 0,
+        "description": "Mì tự nấu đặc biệt.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "3.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "1.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Dung Dịch Fristi",
+        "id": "24",
+        "type": 0,
+        "description": "Cho trí tưởng tượng bay xa.",
+        "statAffects": [
+          {
+            "statName": "WIS",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Hạ phẩm ;#2090FFỦng; Bẩn thỉu",
+        "id": "16-25-3",
+        "type": 5,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "0.6",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "-4.6",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-3.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "0.3",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Bún đậu mắm tôm",
+        "id": "9",
+        "type": 0,
+        "description": "Ăn xong sẽ có nguy cơ ngộ độc thực phẩm 10%.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "7.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Tuyệt thế ;#2090FFTrường kích; Trung nghĩa",
+        "id": "8-10-28",
+        "type": 2,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "6.2",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "21.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "-0.9",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Xôi xéo gà nấm",
+        "id": "8",
+        "type": 0,
+        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "30.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Cuồng long ;#2090FFÁo lụa; Tinh xảo",
+        "id": "22-16-5",
+        "type": 3,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "0.3",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "11.3",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "11.7",
             "isMultiply": false
           }
         ]
@@ -901,43 +1263,146 @@
     },
     "handItems": [
       {
-        "name": "Hạ phẩm ;#2090FFĐại đao; Hàng hiệu",
-        "id": "16-9-15",
-        "type": 2,
+        "name": "Hóa cốt ;#2090FFĐoản kích; Thông thái",
+        "id": "26-11-21",
+        "type": 1,
         "statAffects": [
           {
             "statName": "DEX",
-            "amount": "5.0",
+            "amount": "1.2",
             "isMultiply": false
           },
           {
             "statName": "STR",
-            "amount": "7.0",
+            "amount": "6.7",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "-2.7",
             "isMultiply": false
           },
           {
             "statName": "LUCK",
-            "amount": "1.0",
+            "amount": "-1.1",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trung phẩm ;#2090FFĐao; Thông thái",
+        "id": "14-2-21",
+        "type": 1,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "10.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "0.7",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "0.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "0.1",
             "isMultiply": false
           }
         ]
       }
     ],
+    "bodyItem": {
+      "name": "Cường hãn ;#2090FFGiáp da; Hòa nhã",
+      "id": "4-15-24",
+      "type": 3,
+      "statAffects": [
+        {
+          "statName": "STR",
+          "amount": "2.7",
+          "isMultiply": false
+        },
+        {
+          "statName": "DEX",
+          "amount": "6.1",
+          "isMultiply": false
+        },
+        {
+          "statName": "WIS",
+          "amount": "-0.4",
+          "isMultiply": false
+        },
+        {
+          "statName": "MAXHP",
+          "amount": "12.8",
+          "isMultiply": false
+        }
+      ]
+    },
+    "headItem": {
+      "name": "Tình nhân ;#2090FFMũ; Vô tình",
+      "id": "29-22-29",
+      "type": 4,
+      "statAffects": [
+        {
+          "statName": "DEX",
+          "amount": "-0.1",
+          "isMultiply": false
+        },
+        {
+          "statName": "STR",
+          "amount": "3.6",
+          "isMultiply": false
+        },
+        {
+          "statName": "MAXHP",
+          "amount": "2.6",
+          "isMultiply": false
+        }
+      ]
+    },
+    "feetItem": {
+      "name": "Quả Phụ ;#2090FFGiày; Trung nghĩa",
+      "id": "10-24-28",
+      "type": 5,
+      "statAffects": [
+        {
+          "statName": "STR",
+          "amount": "2.8",
+          "isMultiply": false
+        },
+        {
+          "statName": "MANA",
+          "amount": "-0.6",
+          "isMultiply": false
+        },
+        {
+          "statName": "MAXHP",
+          "amount": "8.1",
+          "isMultiply": false
+        }
+      ]
+    },
     "mapPosition": {
-      "x": 1,
+      "x": 11,
       "y": 5
     },
     "stat": {
       "nextLevelMinExp": 20,
       "maxHp": 18,
-      "hp": 15,
-      "mana": 15,
-      "stamina": 17,
+      "hp": 18,
+      "mana": 10,
+      "stamina": 10,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
       "str": 5,
-      "dex": 4,
+      "dex": 3,
       "wis": 4,
       "luck": 1,
       "vision": 2
