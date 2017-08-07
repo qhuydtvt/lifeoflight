@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class CombatUnit {
     @SerializedName("stat")
-    public CombatStat stat;
+    protected CombatStat stat;
 
     public CombatStat getStat() {
         return stat;

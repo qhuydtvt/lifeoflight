@@ -97,7 +97,7 @@
     "id": "9",
     "statAffects": [
 		{
-		"statName":"HP",
+		"statName":"MAXHP",
         "amount": "random() * 7 + {map.currentLevel} - 5",
         "isMultiply": false
 		}
@@ -130,7 +130,7 @@
     "id": "12",
     "statAffects": [
 		{
-		"statName":"HP",
+		"statName":"MAXHP",
         "amount": "random() * 10 + {map.currentLevel} - 5",
         "isMultiply": false
 		}
@@ -218,7 +218,7 @@
     "id": "20",
     "statAffects": [
 		{
-		"statName":"HP",
+		"statName":"MAXHP",
         "amount": "random() * 7 + {map.currentLevel} - 5",
         "isMultiply": false
 		}
@@ -311,7 +311,7 @@
     "id": "28",
     "statAffects": [
 		{
-		"statName":"HP",
+		"statName":"MAXHP",
         "amount": "random() * 8 + {map.currentLevel} - 6",
         "isMultiply": false
 		}

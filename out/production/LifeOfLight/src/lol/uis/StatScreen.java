@@ -22,15 +22,15 @@ public class StatScreen extends TextView {
         clear();
         Player player = State.instance.getPlayer();
         setFontMetrics(g2d.getFontMetrics());
-        addText(String.format("HP: %s/%s", player.stat.hp, player.stat.maxHp));
-        addText(String.format("EXP: %s/%s", player.exp, player.stat.nextLevelMinExp));
-        addText(String.format("STR: %s", player.stat.str));
-        addText(String.format("DEX: %s", player.stat.dex));
-        addText(String.format("WIS: %s", player.stat.wis));
-        addText(String.format("STAMINA: %s", player.stat.stamina));
-        addText(String.format("MANA: %s", player.stat.mana));
-        addText(String.format("LUCK: %s", player.stat.luck));
-        addText(String.format("VISION: %s", player.stat.vision));
+        addText(String.format("HP: %s/%s", player.getStat().hp, player.getStat().maxHp));
+        addText(String.format("EXP: %s/%s", player.exp, player.getStat().nextLevelMinExp));
+        addText(String.format("STR: %s", player.getStat().str));
+        addText(String.format("DEX: %s", player.getStat().dex));
+        addText(String.format("WIS: %s", player.getStat().wis));
+        addText(String.format("STAMINA: %s", player.getStat().stamina));
+        addText(String.format("MANA: %s", player.getStat().mana));
+        addText(String.format("LUCK: %s", player.getStat().luck));
+        addText(String.format("VISION: %s", player.getStat().vision));
         super.render(g2d);
     }
 }

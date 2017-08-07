@@ -32,7 +32,7 @@ public class StatAffect implements Cloneable {
         return Float.parseFloat(amount);
     }
 
-    public StatAffectProcessor getProcessor() {
+    public StatAffectProcessor  getProcessor() {
         StatOperator operator = isMultiply ? new MulStatOperator() : new AddStatOperator();
         switch (statName.toUpperCase()) {
             case "HP":
@@ -47,6 +47,12 @@ public class StatAffect implements Cloneable {
                 return new LuckAffectProcessor(amount(), operator);
             case "STAMINA":
                 return new StaminaAffectProcessor(amount(), operator);
+            case "VISION":
+                return new VisionAffectProcessor(amount(), operator);
+            case "MAXHP":
+                return new MaxHpAffectProcessor(amount(), operator);
+            case "MANA":
+                return new ManaAffectProcessor(amount(), operator);
         }
         System.out.println(String.format("Processor is not implemented yet %s", statName));
         return null;

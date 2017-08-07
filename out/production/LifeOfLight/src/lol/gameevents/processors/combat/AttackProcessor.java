@@ -46,7 +46,7 @@ public class AttackProcessor extends Processor {
             Player player = State.instance.getPlayer();
             fight(player, monster);
             monsterFightBack(player, monsters);
-            if (player.stat.hp <= 0) {
+            if (player.getStat().hp <= 0) {
                 return new MainGameEvent();
             }
             if (monster.getStat().getHp() <= 0) {
@@ -57,7 +57,7 @@ public class AttackProcessor extends Processor {
                 generateRandomItem();
                 while (player.levelUp()) {
                     EventManager.pushUIMessage(String.format("Congrats, you just leveled up to %s", player.currentLevel + 1));
-                    EventManager.pushUIMessage(String.format("Your new stat: %s", "blah blah"));
+                    EventManager.pushUIMessage(String.format("Your new .getStat().: %s", "blah blah"));
                 }
                 if (monsters.size() == 0) {
                     EventManager.pushUIMessage("All monsters were killed, you won the combat");
@@ -111,8 +111,8 @@ public class AttackProcessor extends Processor {
             if (monster.getStat().hp > 0) {
                 if (!CombatFormula.instance.doge(player)) {
                     player.getHit(monster.getStat().str);
-                    EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.stat.hp));
-                    if (player.stat.hp <= 0) return;
+                    EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.getStat().hp));
+                    if (player.getStat().hp <= 0) return;
                 } else {
                     EventManager.pushUIMessage(String.format("%s attacked you but missed", monster.getName()));
                 }

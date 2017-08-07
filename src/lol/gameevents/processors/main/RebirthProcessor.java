@@ -14,7 +14,7 @@ public class RebirthProcessor extends Processor {
 
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
-        if (State.instance.getPlayer().stat.hp <= 0) {
+        if (State.instance.getPlayer().getStat().hp <= 0) {
             State.instance.rebirth();
             EventManager.pushUIMessage("You are born again, you EXP decreased by 25%");
         }

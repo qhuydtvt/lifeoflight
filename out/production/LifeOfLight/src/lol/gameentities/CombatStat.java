@@ -11,7 +11,7 @@ public class CombatStat implements Cloneable {
     @SerializedName("nextLevelMinExp")
     public Integer nextLevelMinExp;
     @SerializedName("maxHp")
-    public Integer maxHp;
+    public int maxHp;
     @SerializedName("hp")
     public Integer hp;
     @SerializedName("mana")

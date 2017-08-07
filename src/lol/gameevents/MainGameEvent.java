@@ -38,7 +38,7 @@ public class MainGameEvent implements GameEvent {
 
         String mainCommand = commands.get(0);
 
-        if (State.instance.getPlayer().stat.hp <= 0 && !mainCommand.equals("REBIRTH")) {
+        if (State.instance.getPlayer().getStat().hp <= 0 && !mainCommand.equals("REBIRTH")) {
             EventManager.pushUIMessage("You're dead, type ;#FF0000rebirth; to play again");
         } else {
             if (commandProcessors.containsKey(mainCommand)) {

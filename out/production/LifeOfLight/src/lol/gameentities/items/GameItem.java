@@ -74,6 +74,10 @@ public class GameItem implements Cloneable {
         return result.toString();
     }
 
+    public  boolean isWearable() {
+        return this.type > 0;
+    }
+
     public GameItem solidifyStatAffects() {
         GameItem gameItem = Utils.clone(this, GameItem.class);
         gameItem.statAffects = StatAffect.solidify(gameItem.statAffects);
@@ -94,7 +98,7 @@ public class GameItem implements Cloneable {
         }
     }
 
-    public void affect(CombatStat currentStat, CombatStat originStat) {
+    public void affect(CombatStat currentStat, final CombatStat originStat) {
         generateProcessors();
         for (StatAffectProcessor processor : processors) {
             processor.affect(currentStat, originStat);

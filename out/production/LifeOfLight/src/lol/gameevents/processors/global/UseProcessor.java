@@ -26,8 +26,11 @@ public class UseProcessor extends Processor {
         if (item == null) {
             EventManager.pushUIMessage("No such item");
         } else {
-            player.use(item);
-            EventManager.pushUIMessage(String.format("%s was used", item.name));
+            if (player.use(item)) {
+                EventManager.pushUIMessage(String.format("%s was used", item.name));
+            } else {
+                EventManager.pushUIMessage(String.format("Can't use %s", item.name));
+            }
         }
 
         return null;

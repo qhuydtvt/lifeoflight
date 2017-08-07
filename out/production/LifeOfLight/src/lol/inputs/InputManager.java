@@ -56,7 +56,7 @@ public class InputManager implements KeyListener {
 
     private boolean isValidInput(char c) {
         List<Character> allowedSpecialCharacters =
-                java.util.Arrays.asList('#', ';', '_');
+                java.util.Arrays.asList('#', ';', '_', '-');
 
         return Character.isDigit(c)
                 || Character.isSpaceChar(c)
@@ -75,7 +75,7 @@ public class InputManager implements KeyListener {
                 oldCommandCurrentIndex--;
                 changeCommand(oldCommands.get(oldCommandCurrentIndex));
             }
-        } else if(e.getKeyCode() == KeyEvent.VK_DOWN) {
+        } else if (e.getKeyCode() == KeyEvent.VK_DOWN) {
             if (oldCommandCurrentIndex < oldCommands.size() - 1) {
                 oldCommandCurrentIndex++;
                 changeCommand(oldCommands.get(oldCommandCurrentIndex));
@@ -101,8 +101,7 @@ public class InputManager implements KeyListener {
             }
             command = "";
             commandFinished = false;
-        }
-        else if (commandChanged) {
+        } else if (commandChanged) {
             for (CommandListener cmdListener : commandListeners) {
                 cmdListener.commandChanged(command);
             }

@@ -47,6 +47,7 @@ public class State {
         if (Utils.fileExists(DATA_URL)) {
             State savedState = new Gson().fromJson(Utils.loadFileContent(DATA_URL), State.class);
             instance.player = savedState.player;
+            instance.player.init();
             instance.currentLevel = savedState.currentLevel;
             instance.map = savedState.map;
         } else {
@@ -129,6 +130,7 @@ public class State {
 
     private void loadPlayer(String url) {
         player = Player.parseFile(url);
+        player.init();
     }
 
     public void rebirth() {

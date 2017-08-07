@@ -70,16 +70,16 @@ public class CombatFormula extends Formula {
 
     public String render(String template, CombatUnit unit) {
         return template
-                .replace("{player.hp}", statStr(unit.stat.hp))
-                .replace("{player.mana}", statStr(unit.stat.mana))
-                .replace("{player.stamina}", statStr(unit.stat.stamina))
-                .replace("{player.str}", statStr(unit.stat.str))
-                .replace("{player.dex}", statStr(unit.stat.dex))
-                .replace("{player.wis}", statStr(unit.stat.wis))
-                .replace("{player.luck}", statStr(unit.stat.luck))
-                .replace("{player.vision}", statStr(unit.stat.vision))
-                .replace("{player.maxHp}", statStr(unit.stat.maxHp))
-                .replace("{player.strRate}", statStr(unit.stat.strRate));
+                .replace("{player.hp}", statStr(unit.getStat().hp))
+                .replace("{player.mana}", statStr(unit.getStat().mana))
+                .replace("{player.stamina}", statStr(unit.getStat().stamina))
+                .replace("{player.str}", statStr(unit.getStat().str))
+                .replace("{player.dex}", statStr(unit.getStat().dex))
+                .replace("{player.wis}", statStr(unit.getStat().wis))
+                .replace("{player.luck}", statStr(unit.getStat().luck))
+                .replace("{player.vision}", statStr(unit.getStat().vision))
+                .replace("{player.maxHp}", statStr(unit.getStat().maxHp))
+                .replace("{player.strRate}", statStr(unit.getStat().strRate));
     }
 
     public boolean doge(CombatUnit unit) {

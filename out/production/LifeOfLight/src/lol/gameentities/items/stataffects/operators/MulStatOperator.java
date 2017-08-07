@@ -5,7 +5,7 @@ package lol.gameentities.items.stataffects.operators;
  */
 public class MulStatOperator implements StatOperator {
     @Override
-    public float op(float currentValue, float originValue, float amount) {
+    public float op(float currentValue, final float originValue, float amount) {
         return currentValue + (originValue * amount);
     }
 }

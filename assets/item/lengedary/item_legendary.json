@@ -20,7 +20,7 @@
         "isMultiply": false
       },
       {
-        "statName": "HP",
+        "statName": "MAXHP",
         "amount": "4 * {map.currentLevel}",
         "isMultiply": false
       },
@@ -68,7 +68,7 @@
         "isMultiply": false
       },
       {
-        "statName": "HP",
+        "statName": "MAXHP",
         "amount": "17 * {map.currentLevel}",
         "isMultiply": false
       },
@@ -116,7 +116,7 @@
         "isMultiply": false
       },
 	  {
-        "statName": "HP",
+        "statName": "MAXHP",
         "amount":"5 * {map.currentLevel}",
         "isMultiply": false
       },
@@ -149,7 +149,7 @@
     "type": 4,
     "statAffects": [
       {
-        "statName": "HP",
+        "statName": "MAXHP",
         "amount": "4*{map.currentLevel}",
         "isMultiply": false
       },
@@ -200,7 +200,7 @@
         "isMultiply": false
       },
       {
-        "statName": "HP",
+        "statName": "MAXHP",
         "amount": "8*{map.currentLevel}",
         "isMultiply": false
       },
@@ -218,7 +218,7 @@
     "type": 3,
     "statAffects": [
       {
-        "statName": "HP",
+        "statName": "MAXHP",
         "amount": "7*{map.currentLevel}",
         "isMultiply": false
       },
@@ -236,7 +236,7 @@
     "type": 5,
     "statAffects": [
       {
-        "statName": "HP",
+        "statName": "MAXHP",
         "amount": "5*{map.currentLevel}",
         "isMultiply": false
       },

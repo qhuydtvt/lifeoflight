@@ -15,5 +15,5 @@ public abstract class StatAffectProcessor {
         this.operator = operator;
     }
 
-    public abstract void affect(CombatStat currentStat, CombatStat originStat);
+    public abstract void affect(CombatStat currentStat, final CombatStat originStat);
 }

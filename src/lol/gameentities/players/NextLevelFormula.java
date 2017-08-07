@@ -43,7 +43,7 @@ public class NextLevelFormula {
     private float eval(String formula, CombatStat stat) {
         String formulaWithValues = formula
                 .replace("{nextLevelMinExp}", stat.nextLevelMinExp.toString())
-                .replace("{maxHp}", stat.maxHp.toString())
+                .replace("{maxHp}", stat.maxHp + "")
                 .replace("{hp}", stat.hp.toString())
                 .replace("{mana}", stat.mana.toString())
                 .replace("{strRate}", stat.strRate.toString())

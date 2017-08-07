@@ -8,9 +8,14 @@ import lol.gameentities.CombatStat;
 import lol.gameentities.CombatUnit;
 import lol.gameentities.MapPosition;
 import lol.gameentities.items.GameItem;
+import lol.settings.Settings;
 
 import java.lang.reflect.Type;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+
+import static lol.gameentities.items.GameItem.*;
 
 /**
  * Created by huynq on 7/30/17.
@@ -41,19 +46,26 @@ public class Player extends CombatUnit {
     @SerializedName("nextLevelFormula")
     public NextLevelFormula nextLevelFormula;
 
-    public GameItem leftHandItem;
-    public GameItem rightHandItem;
+    public List<GameItem> handItems;
     public GameItem bodyItem;
     public GameItem headItem;
+    public GameItem feetItem;
 
     public MapPosition mapPosition;
 
+    private transient CombatStat temporaryStat;
+
     public Player() {
         mapPosition = new MapPosition();
+        handItems = new ArrayList<>();
+    }
+
+    public void init() {
+        recalculateStat();
     }
 
     public void changeMaxHP(int amount) {
-        this.stat.maxHp += amount;
+        stat.maxHp += amount;
     }
 
     public void move(int dx, int dy) {
@@ -77,7 +89,7 @@ public class Player extends CombatUnit {
     }
 
     public GameItem getItem(String id) {
-        for(GameItem item : this.gameItems) {
+        for (GameItem item : this.gameItems) {
             if (item.id.equals(id)) {
                 return item;
             }
@@ -85,26 +97,101 @@ public class Player extends CombatUnit {
         return null;
     }
 
-    public void use(GameItem item) {
-        CombatStat newStat = this.stat.clone();
-        // TODO: Handle weareable
+    //TODO: Message
+    public boolean use(GameItem item) {
+        if (!this.gameItems.contains(item)) return false;
         if (item.type == GameItem.TYPE_ONE_TIME) {
+            CombatStat newStat = this.stat.clone();
             item.affect(newStat, this.stat);
+            if (Settings.DEBUG) {
+                System.out.println(item);
+            }
             this.stat = newStat;
-            if (this.gameItems.contains(item)) {
-                this.gameItems.remove(item);
+            this.gameItems.remove(item);
+            recalculateStat();
+            return true;
+        } else if (item.isWearable()) {
+            switch (item.type) {
+                case TYPE_ONE_HAND:
+                    if (handsBusy(1)) {
+                        return false;
+                    } else {
+                        handItems.add(item);
+                        this.gameItems.remove(item);
+                    }
+                    break;
+                case TYPE_TWO_HAND:
+                    if (handsBusy(2)) {
+                        return false;
+                    } else {
+                        handItems.add(item);
+                        this.gameItems.remove(item);
+                    }
+                    break;
+                case TYPE_BODY:
+                    if (bodyItem != null) return false;
+                    bodyItem = item;
+                    this.gameItems.remove(item);
+                    break;
+                case TYPE_HEAD:
+                    if (headItem != null) return false;
+                    headItem = item;
+                    this.gameItems.remove(item);
+                    break;
+                case TYPE_FEET:
+                    if (feetItem != null) return false;
+                    feetItem = item;
+                    this.gameItems.remove(item);
+                    break;
+            }
+            recalculateStat();
+            return true;
+        }
+        return false;
+    }
+
+    private boolean handsBusy(int more) {
+        return handItems.size() != 0 && (handItems.get(0).type == TYPE_TWO_HAND ||
+                handItems.size() == 2 ||
+                (handItems.size() + more > 2));
+    }
+
+    private void recalculateStat() {
+        System.out.println("Recalculating stats");
+        temporaryStat = stat.clone();
+
+        List<GameItem> items = new ArrayList<>();
+        items.addAll(handItems);
+        items.add(bodyItem);
+        items.add(headItem);
+        items.add(feetItem);
+        for (GameItem gameItem : items) {
+            if (gameItem != null) {
+                if (Settings.DEBUG) {
+                    System.out.println(gameItem);
+                }
+                gameItem.affect(temporaryStat, this.stat);
             }
         }
     }
 
     public void collect(GameItem item) {
-        // TODO: check max
+        // TODO: check inventory capacity
         this.gameItems.add(item);
     }
 
     public void getHit(int damage) {
-        this.stat.hp -= damage;
-        if (this.stat.hp < 0) this.stat.hp = 0;
+        stat.hp -= damage;
+        if (this.stat.hp < 0) stat.hp = 0;
+    }
+
+    @Override
+    public CombatStat getStat() {
+        return temporaryStat;
+    }
+
+    public CombatStat getOriginStat() {
+        return stat;
     }
 
     public void rebirth() {
@@ -113,7 +200,8 @@ public class Player extends CombatUnit {
     }
 
     public static Player parseFile(String url) {
-        Type playerListType = new TypeToken<List<Player>>(){}.getType();
+        Type playerListType = new TypeToken<List<Player>>() {
+        }.getType();
         List<Player> playerConfigs = new Gson().fromJson(Utils.loadFileContent(url), playerListType);
         if (playerConfigs.size() == 0) {
             System.out.println("Player config file is empty or there was problem with loading this file");
