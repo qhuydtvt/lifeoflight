@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Lấp lánh",
+    "id": "1",
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "random() * 5 + {map.currentLevel} - 3",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Nhanh nhẹn",
+    "id": "2",
+    "statAffects": [
+      {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 3",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Bẩn thỉu",
+    "id": "3",
+    "statAffects": [
+      {
+        "statName": "WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Cũ kĩ",
+    "id": "4",
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Tinh xảo",
+    "id": "5",
+    "statAffects": [
+      {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 4",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Rực rỡ",
+    "id": "6",
+    "statAffects": [
+      {
+        "statName": "WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 4",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Láu lỉnh",
+    "id": "7",
+    "statAffects": [
+      {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 5",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Hư hỏng",
+    "id": "8",
+    "statAffects": [
+      {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 9",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount": "random() * 5 + {map.currentLevel} - 9",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Đầy đặn",
+    "id": "9",
+    "statAffects": [
+      {
+        "statName": "MAXHP",
+        "amount": "random() * 7 + {map.currentLevel} - 7",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Vừa vặn",
+    "id": "10",
+    "statAffects": [
+      {
+        "statName": "MANA",
+        "amount": "random() * 7 + {map.currentLevel} - 7",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Bền bỉ",
+    "id": "11",
+    "statAffects": [
+      {
+        "statName": "Stamina",
+        "amount": "random() * 7 + {map.currentLevel} - 5",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Dẻo dai",
+    "id": "12",
+    "statAffects": [
+      {
+        "statName": "MAXHP",
+        "amount": "random() * 10 + {map.currentLevel} - 5",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "May mắn",
+    "id": "13",
+    "statAffects": [
+      {
+        "statName": "LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 5",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Cáu kỉnh",
+    "id": "14",
+    "statAffects": [
+      {
+        "statName": "LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Hàng hiệu",
+    "id": "15",
+    "statAffects": [
+      {
+        "statName": "LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 3",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Giá rẻ",
+    "id": "16",
+    "statAffects": [
+      {
+        "statName": "LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Gắn tạ",
+    "id": "17",
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "random() * 5 + {map.currentLevel} - 9",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Lõi giấy",
+    "id": "18",
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Tí hon",
+    "id": "19",
+    "statAffects": [
+      {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Khổng lồ",
+    "id": "20",
+    "statAffects": [
+      {
+        "statName": "MAXHP",
+        "amount": "random() * 7 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Thông thái",
+    "id": "21",
+    "statAffects": [
+      {
+        "statName": "WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 7",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Khủng khiếp",
+    "id": "22",
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "random() * 5 + {map.currentLevel} - 7",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 7",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Nóng nảy",
+    "id": "23",
+    "statAffects": [
+      {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 7",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Hòa nhã",
+    "id": "24",
+    "statAffects": [
+      {
+        "statName": "WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 7",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Yểm bùa",
+    "id": "25",
+    "statAffects": [
+      {
+        "statName": "LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 7",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Lá lốt",
+    "id": "26",
+    "statAffects": [
+      {
+        "statName": "LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 9",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Hèn hạ",
+    "id": "27",
+    "statAffects": [
+      {
+        "statName": "LUCK",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Trung nghĩa",
+    "id": "28",
+    "statAffects": [
+      {
+        "statName": "MAXHP",
+        "amount": "random() * 8 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Vô tình",
+    "id": "29",
+    "statAffects": [
+      {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name": "Lấm lét",
+    "id": "30",
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      }
+    ]
+  }
+]

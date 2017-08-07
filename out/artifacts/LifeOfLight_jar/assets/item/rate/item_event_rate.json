@@ -1,0 +1,7 @@
+{
+	"key" : "random()*100",
+	"null" : "{key}<5",
+	"eatAble" : "{key}>=5&&{key}<70",
+	"equipAble" : "{key}>70&&{key}<98",
+	"lengendary" : "{key}>98&&{key}<100"
+}

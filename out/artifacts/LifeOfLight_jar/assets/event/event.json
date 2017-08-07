@@ -1,16 +1,16 @@
 [
   {
     "id": "event",
-    "id_number": 90,
+    "id_number": 1,
     "type": "roll",
     "begin_text": "Một tia sáng chói lòa giáng thẳng xuống đầu bạn..; Không gượng nổi bạn quỳ sụp xuống nền đất và cố gắng tìm cách chống lại trong tuyệt vọng. Tất cả những gì bạn có thể làm chỉ là nghe được 1 giọng nói : ...;",
     "action": {
       "type": "roll",
-      "rate": 5,
+      "rate": 10,
       "max_rate": 100
     },
     "choices": null,
-    "affect": [
+    "statAffects": [
       "HP"
     ],
     "result": [
@@ -25,7 +25,7 @@
       1,
       2
     ],
-    "end_text_success": ["Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn."],
+    "end_text_success": ["Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;#ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn."],
     "end_text_fail": [
       "Ai cho tao lương thiện. Đoạn, 1 tên trần truồng cầm theo chiếc đèn pin và chạy mất.",
       "Các vị thần khuyên bạn nên đi sang hướng đông.",
@@ -43,7 +43,7 @@
   },
   {
     "id": "event",
-    "id_number": 89,
+    "id_number": 2,
     "type": "roll",
     "begin_text": ";Ai!;Ai giúp tôi vơi!;... Anh đẹp zai, cao ráo ơi! Anh tìm giúp lão chiếc nhẫn lão làm rơi được không?;Lò mò ... lọ mọ tìm xung quanh;Cuối cùng thì bạn đã : ...",
     "action": {
@@ -52,7 +52,7 @@
       "max_rate": 100
     },
     "choices": null,
-    "affect": [
+    "statAffects": [
       "HP"
     ],
     "result": [
@@ -71,7 +71,7 @@
   },
   {
     "id": "event",
-    "id_number": 88,
+    "id_number": 3,
     "type": "roll",
     "begin_text": "",
     "action": {
@@ -80,7 +80,7 @@
       "max_rate": 100
     },
     "choices": null,
-    "affect": [
+    "statAffects": [
       "HP"
     ],
     "result": [
@@ -93,7 +93,7 @@
   },
   {
     "id": "event",
-    "id_number": 10,
+    "id_number": 4,
     "type": "choice",
     "begin_text": "Bạn nhặt được một quyển sách.",
     "action": null,
@@ -109,7 +109,7 @@
         "result": 1
       }
     ],
-    "affect": [
+    "statAffects": [
       "HP"
     ],
     "result": [
@@ -122,5 +122,437 @@
     ],
     "end_text_fail": [
     ]
+  },
+  {
+    "id": "event",
+    "id_number": 10,
+    "type": "item",
+    "begin_text": "Bạn tìm thấy một cái xác khô nằm ven đường. và bạn đã tìm thấy : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 11,
+    "type": "item",
+    "begin_text": "Vô tình bạn ngã vào bụi cây, và thấy : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 12,
+    "type": "item",
+    "begin_text": "Bạn cứu được con mèo của thần ;#ff9391AVAVT;, ngài thưởng cho bạn : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 13,
+    "type": "item",
+    "begin_text": "Bạn cứu được con mèo của thần ;#ff9391Huy;, ngài thưởng cho bạn : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 14,
+    "type": "item",
+    "begin_text": "Bạn cứu được con mèo của thần ;#ff9391Xeko;, ngài thưởng cho bạn : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 15,
+    "type": "item",
+    "begin_text": "Bạn tự chế tạo được : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 16,
+    "type": "item",
+    "begin_text": "Tranh thủ không ai để ý, bạn trộm được : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 17,
+    "type": "roll",
+    "begin_text": "Một tia sáng chói lòa giáng thẳng xuống đầu bạn..; Không gượng nổi bạn quỳ sụp xuống nền đất và cố gắng tìm cách chống lại trong tuyệt vọng. Tất cả những gì bạn có thể làm chỉ là nghe được 1 giọng nói : ...;",
+    "action": {
+      "type": "roll",
+      "rate": 10,
+      "max_rate": 100
+    },
+    "choices": null,
+    "statAffects": [
+      "LUCK"
+    ],
+    "result": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "end_text_success": ["Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;#ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn."],
+    "end_text_fail": [
+      "Ai cho tao lương thiện. Đoạn, 1 tên trần truồng cầm theo chiếc đèn pin và chạy mất.",
+      "Các vị thần khuyên bạn nên đi sang hướng đông.",
+      "Các vị thần khuyên bạn nên đi sang hướng tây.",
+      "Các vị thần khuyên bạn nên đi sang hướng nam.",
+      "Các vị thần khuyên bạn nên đi sang hướng bắc.",
+      "Đứng nguyên tại vị trí hiện tại, và ;#ff9391nói (say); 'cam on than Huy' 3 lần.",
+      "Lần sau nghỉ việc nhớ post cảm ơn nhé.",
+      "Không nghe rõ tiếng nói đó nhưng tất cả những gì bạn biết hiện tại chỉ là : Bạn vẫn ở nguyên chỗ cũ và lăn lóc bên cạnh là những vỏ chai rượu.",
+      "Phía đông của kinh thành ;#ff9391Thăng Long; có chôn một kho báu ngàn tuổi chứa đựng sức mạnh của rồng. Tìm thợ rèn huyền thoại ;#ff9391Xeko; để hỏi rõ thêm chi tiết.",
+      "Góc đông bắc của hang động này có giấu tấm bản đồ của nó.",
+      "Lối vào chính là lối ra.",
+      "Tìm kĩ các vết nứt trên tường, không gì là không thể!"
+    ]
+  },
+  {
+    "id": "event",
+    "id_number": 18,
+    "type": "roll",
+    "begin_text": "Một tia sáng chói lòa giáng thẳng xuống đầu bạn..; Không gượng nổi bạn quỳ sụp xuống nền đất và cố gắng tìm cách chống lại trong tuyệt vọng. Tất cả những gì bạn có thể làm chỉ là nghe được 1 giọng nói : ...;",
+    "action": {
+      "type": "roll",
+      "rate": 10,
+      "max_rate": 100
+    },
+    "choices": null,
+    "statAffects": [
+      "DEX"
+    ],
+    "result": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "end_text_success": ["Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;#ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn."],
+    "end_text_fail": [
+      "Ai cho tao lương thiện. Đoạn, 1 tên trần truồng cầm theo chiếc đèn pin và chạy mất.",
+      "Các vị thần khuyên bạn nên đi sang hướng đông.",
+      "Các vị thần khuyên bạn nên đi sang hướng tây.",
+      "Các vị thần khuyên bạn nên đi sang hướng nam.",
+      "Các vị thần khuyên bạn nên đi sang hướng bắc.",
+      "Đứng nguyên tại vị trí hiện tại, và ;#ff9391nói (say); 'cam on than Huy' 3 lần.",
+      "Lần sau nghỉ việc nhớ post cảm ơn nhé.",
+      "Không nghe rõ tiếng nói đó nhưng tất cả những gì bạn biết hiện tại chỉ là : Bạn vẫn ở nguyên chỗ cũ và lăn lóc bên cạnh là những vỏ chai rượu.",
+      "Phía đông của kinh thành ;#ff9391Thăng Long; có chôn một kho báu ngàn tuổi chứa đựng sức mạnh của rồng. Tìm thợ rèn huyền thoại ;#ff9391Xeko; để hỏi rõ thêm chi tiết.",
+      "Góc đông bắc của hang động này có giấu tấm bản đồ của nó.",
+      "Lối vào chính là lối ra.",
+      "Tìm kĩ các vết nứt trên tường, không gì là không thể!"
+    ]
+  },
+  {
+    "id": "event",
+    "id_number": 19,
+    "type": "roll",
+    "begin_text": "Một tia sáng chói lòa giáng thẳng xuống đầu bạn..; Không gượng nổi bạn quỳ sụp xuống nền đất và cố gắng tìm cách chống lại trong tuyệt vọng. Tất cả những gì bạn có thể làm chỉ là nghe được 1 giọng nói : ...;",
+    "action": {
+      "type": "roll",
+      "rate": 10,
+      "max_rate": 100
+    },
+    "choices": null,
+    "statAffects": [
+      "STR"
+    ],
+    "result": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "end_text_success": ["Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;#ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn."],
+    "end_text_fail": [
+      "Ai cho tao lương thiện. Đoạn, 1 tên trần truồng cầm theo chiếc đèn pin và chạy mất.",
+      "Các vị thần khuyên bạn nên đi sang hướng đông.",
+      "Các vị thần khuyên bạn nên đi sang hướng tây.",
+      "Các vị thần khuyên bạn nên đi sang hướng nam.",
+      "Các vị thần khuyên bạn nên đi sang hướng bắc.",
+      "Đứng nguyên tại vị trí hiện tại, và ;#ff9391nói (say); 'cam on than Huy' 3 lần.",
+      "Lần sau nghỉ việc nhớ post cảm ơn nhé.",
+      "Không nghe rõ tiếng nói đó nhưng tất cả những gì bạn biết hiện tại chỉ là : Bạn vẫn ở nguyên chỗ cũ và lăn lóc bên cạnh là những vỏ chai rượu.",
+      "Phía đông của kinh thành ;#ff9391Thăng Long; có chôn một kho báu ngàn tuổi chứa đựng sức mạnh của rồng. Tìm thợ rèn huyền thoại ;#ff9391Xeko; để hỏi rõ thêm chi tiết.",
+      "Góc đông bắc của hang động này có giấu tấm bản đồ của nó.",
+      "Lối vào chính là lối ra.",
+      "Tìm kĩ các vết nứt trên tường, không gì là không thể!"
+    ]
+  },
+  {
+    "id": "event",
+    "id_number": 20,
+    "type": "roll",
+    "begin_text": "Một tia sáng chói lòa giáng thẳng xuống đầu bạn..; Không gượng nổi bạn quỳ sụp xuống nền đất và cố gắng tìm cách chống lại trong tuyệt vọng. Tất cả những gì bạn có thể làm chỉ là nghe được 1 giọng nói : ...;",
+    "action": {
+      "type": "roll",
+      "rate": 10,
+      "max_rate": 100
+    },
+    "choices": null,
+    "statAffects": [
+      "WIS"
+    ],
+    "result": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "end_text_success": ["Chu oa thánh thần thiên địa ơi, mẹ của tất cả các vị thần ơi. Thần lửa ;#ff9391AVAVT;, người đã rèn ra thanh ;#ffe896 kiếm thịt; huyền thoại đã ban cho bạn;#48ff30{result} HP; vĩnh viễn. Biết đâu sau này chính ơn huệ này sẽ cứu sống bạn."],
+    "end_text_fail": [
+      "Ai cho tao lương thiện. Đoạn, 1 tên trần truồng cầm theo chiếc đèn pin và chạy mất.",
+      "Các vị thần khuyên bạn nên đi sang hướng đông.",
+      "Các vị thần khuyên bạn nên đi sang hướng tây.",
+      "Các vị thần khuyên bạn nên đi sang hướng nam.",
+      "Các vị thần khuyên bạn nên đi sang hướng bắc.",
+      "Đứng nguyên tại vị trí hiện tại, và ;#ff9391nói (say); 'cam on than Huy' 3 lần.",
+      "Lần sau nghỉ việc nhớ post cảm ơn nhé.",
+      "Không nghe rõ tiếng nói đó nhưng tất cả những gì bạn biết hiện tại chỉ là : Bạn vẫn ở nguyên chỗ cũ và lăn lóc bên cạnh là những vỏ chai rượu.",
+      "Phía đông của kinh thành ;#ff9391Thăng Long; có chôn một kho báu ngàn tuổi chứa đựng sức mạnh của rồng. Tìm thợ rèn huyền thoại ;#ff9391Xeko; để hỏi rõ thêm chi tiết.",
+      "Góc đông bắc của hang động này có giấu tấm bản đồ của nó.",
+      "Lối vào chính là lối ra.",
+      "Tìm kĩ các vết nứt trên tường, không gì là không thể!"
+    ]
+  },
+  {
+    "id": "event",
+    "id_number": 21,
+    "type": "item",
+    "begin_text": "Bạn tham gia cuộc thi vật tay toàn quốc và giành được giải an ủi : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 22,
+    "type": "item",
+    "begin_text": "Đang nằm bỗng cốp 1 cái, tuy đầu bị đau điếng nhưng bạn vẫn kịp nhận ra : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 23,
+    "type": "item",
+    "begin_text": "Bạn đạt được huân chương cống hiến hạng 2 và có phần thưởng : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 24,
+    "type": "item",
+    "begin_text": "Bạn cứu được con gián của thần ;#ff9391AVAVT;, ngài thưởng cho bạn : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 25,
+    "type": "item",
+    "begin_text": "Bạn cúng bái thần ;#ff9391Xeko;, ngài hài lòng và thưởng cho bạn : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 26,
+    "type": "item",
+    "begin_text": "Bạn tự chế tạo được : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 27,
+    "type": "item",
+    "begin_text": "Bạn cúng bái thần ;#ff9391Huy;, ngài hài lòng và thưởng cho bạn : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 28,
+    "type": "item",
+    "begin_text": "Bạn gặp 1 tay bán rong và mua cho mình : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 29,
+    "type": "item",
+    "begin_text": "Bạn gặp 1 mụ phù thủy và mua cho mình : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 30,
+    "type": "item",
+    "begin_text": "Bạn gặp 1 tay bán rong và mua cho mình : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 31,
+    "type": "item",
+    "begin_text": "Bạn gặp 1 mụ phù thủy và mua cho mình : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 32,
+    "type": "item",
+    "begin_text": "Bạn tán tỉnh cô bé học trên tổ chim và lừa lấy : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 33,
+    "type": "item",
+    "begin_text": "Bạn cho bạn bè vay hơn 3 triệu. Sau 6 tháng bạn nhận được : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 34,
+    "type": "item",
+    "begin_text": "Bạn giết được quái thú và lấy trong bụng nó : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
+  },
+  {
+    "id": "event",
+    "id_number": 35,
+    "type": "item",
+    "begin_text": "Bạn được gửi nhầm bưu phẩm có chứa : ",
+    "action": null,
+    "choices": null,
+    "statAffects": null,
+    "result": null,
+    "end_text_success": null,
+    "end_text_fail": null
   }
 ]

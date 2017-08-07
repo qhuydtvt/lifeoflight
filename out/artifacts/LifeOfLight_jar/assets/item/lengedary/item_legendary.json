@@ -1,0 +1,256 @@
+[
+  {
+    "name": ";#78fecfTrường Cung Lông Bạc; của Thần ;#B42EC9AVAVT;",
+    "id": "0",
+    "type": 2,
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "8 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": " 13 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "WIS",
+        "amount": "6 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount": "4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MANA",
+        "amount": "3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STAMINA",
+        "amount": "4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "LUCK",
+        "amount": "3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount": "1",
+        "isMultiply": false
+      }
+    ],
+    "description": "Thời kỳ hỗn mang, anh Đ** tiền thân của thần ;#B42EC9AVAVT; là một tiễn thủ trứ danh.; Sử dụng cây ;#78fecfTrường Cung Lông Bạc;.;Những chiếc lông bạc bí ẩn điều khiển phong nguyên tố.;Một đời anh Đ** chỉ có duy nhất 2 kẻ bị anh bắn mà không chết.;Kẻ thứ nhất là cái chết.; Kẻ thứ 2 là thời gian."
+  },
+  {
+    "id": 1,
+    "name": ";#f1e694Vợt Bóng Bàn; thần ;#a8e4b1Huy; dùng mua của đồng nát",
+    "type": 1,
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": " 7 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "WIS",
+        "amount": "5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount": "17 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MANA",
+        "amount": "5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STAMINA",
+        "amount": "8 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "LUCK",
+        "amount": "4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount": "1",
+        "isMultiply": false
+      }
+    ],
+    "description": "Vợt xịn cốt sừng bò húc ngàn tuổi , mặt vợt làm từ gỗ cây cà phê ngàn năm.; Mùi hương cà phê phảng phất giúp cho người sử dụng tỉnh táo hoàn toàn.;Tập trung cao độ trong trận chiến.;Trong khi đó tinh chất từ sừng bò thấm vào máu lại tạo sự hưng phấn; bền bỉ cho người sử dụng. Thắng thua trong một trận chiến cách nhau chỉ 1 điểm.;Chính vậy nếu không mất điểm thì không thể thua. Cho đến ngày nay, vẫn chưa có cái gì lọt qua tấm vợt này."
+  },
+  {
+    "id": 3,
+    "name": ";#80F800Giày Cũ hiệu Vty; của ;#FFFF00Xeko;",
+    "type": 5,
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":" 15 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "WIS",
+        "amount":"3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "MAXHP",
+        "amount":"5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "MANA",
+        "amount":"5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "STAMINA",
+        "amount":"9 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "LUCK",
+        "amount":"7 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "VISION",
+        "amount":"1",
+        "isMultiply": false
+      }
+    ],
+    "description": "Giày ngoại nhập, ;#FF6040Limited edittion; được đặc biệt chế tạo bởi thợ rèn trong truyền thuyết ;#FFFF00Xeko;.;Ngay cả cây ;#78fecfTrường Cung Lông Bạc; của thần ;#B42EC9AVAVT; và ;#f1e694Vợt Bóng Bàn; thần ;#a8e4b1Huy; dùng mua của đồng nát.;Đều được chế tác dưới đôi tay của ngài."
+  },
+  {
+    "id": 4,
+    "name": "Bùa tình yêu",
+    "type": 4,
+    "statAffects": [
+      {
+        "statName": "MAXHP",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "LUCK",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Bùa yêu, dùng để đi dạy học.;Tiện thể tăng 1 chút may mắn và độ liều lĩnh."
+  },
+  {
+    "id": 5,
+    "name": "Thanh gươm bông hồng rực lửa.",
+    "type": 1,
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "WIS",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Đang đợi cập nhật thông tin."
+  },
+  {
+    "id": 6,
+    "name": "Khiên niềm tin.",
+    "type": 1,
+    "statAffects": [
+      {
+        "statName": "STR",
+        "amount": "3*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount": "8*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Tấm khiên biến niềm tin của người sử dụng thành sức chống chịu."
+  },
+  {
+    "id": 6,
+    "name": "Áo cũ chưa giặt.",
+    "type": 3,
+    "statAffects": [
+      {
+        "statName": "MAXHP",
+        "amount": "7*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "LUCK",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Không dễ để tấn công người này.;Mùi hôi trên áo bảo vệ chủ nhân của nó trước mọi sự tấn công."
+  },
+  {
+    "id": 7,
+    "name": "Giầy bata Thượng Đình 30 ngàn.",
+    "type": 5,
+    "statAffects": [
+      {
+        "statName": "MAXHP",
+        "amount": "5*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "LUCK",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount": "4*{map.currentLevel}",
+        "isMultiply": false
+      }
+    ],
+    "description": "Giày rẻ, giá cả phải chăng.;Người dùng hài lòng, tăng niềm tin vào xã hội."
+  }
+]

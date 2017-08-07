@@ -1,0 +1,461 @@
+[
+  {
+    "name":";#2090FFGươm;",
+    "id":"0",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFKiếm;",
+    "id":"1",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFĐao;",
+    "id":"2",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFThương;",
+    "id":"3",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFĐinh ba;",
+    "id":"4",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFTrường côn;",
+    "id":"5",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFRoi;",
+    "id":"6",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 6 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFXà mâu;",
+    "id":"7",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 6 * {map.currentLevel}",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount":"random() * 1 * {map.currentLevel} - 2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFKhiên;",
+    "id":"8",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "MAXHP",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFĐại đao;",
+    "id":"9",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 5 * {map.currentLevel} - 9",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 9 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFTrường kích;",
+    "id":"10",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 5 * {map.currentLevel} - 3",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 7 * {map.currentLevel} - 1",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFĐoản kích;",
+    "id":"11",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel} - 1",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel} - 3",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFCung;",
+    "id":"12",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 8 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFNỏ;",
+    "id":"13",
+	"type": 2,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 6 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFPhi tiêu;",
+    "id":"14",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "DEX",
+        "amount":"random() * 6 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "STR",
+        "amount":"random() * 5 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFGiáp da;",
+    "id":"15",
+	"type": 3,
+    "statAffects":[
+      {
+        "statName": "MAXHP",
+        "amount":"random() * 8 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFÁo lụa;",
+    "id":"16",
+	"type": 3,
+    "statAffects":[
+      {
+        "statName": "MAXHP",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFĐuốc;",
+    "id":"17",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount":"random()*2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFĐuốc;",
+    "id":"18",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount":"random()*2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFĐuốc;",
+    "id":"19",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount":"random()*2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFĐuốc;",
+    "id":"20",
+	"type": 1,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "VISION",
+        "amount":"random()*2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFNón;",
+    "id":"21",
+	"type": 4,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount":"random()* 5 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFMũ;",
+    "id":"22",
+	"type": 4,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 3 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount":"random()* 7 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFVương miện;",
+    "id":"23",
+	"type": 4,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount":"random()* 6 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFGiày;",
+    "id":"24",
+	"type": 5,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount":"random()* 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFỦng;",
+    "id":"25",
+	"type": 5,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount":"random()* 2 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFDép cói;",
+    "id":"26",
+	"type": 5,
+    "statAffects":[
+      {
+        "statName": "STR",
+        "amount":"random() * 2 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "MAXHP",
+        "amount":"random()* 2 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  }
+]

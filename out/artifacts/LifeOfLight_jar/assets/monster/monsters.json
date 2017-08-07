@@ -2,6 +2,7 @@
   {
     "name": "yêu tinh ngơ ngác",
     "id": 1,
+    "level": 2,
     "stat": {
       "hp": 4,
       "mana": 0,
@@ -9,13 +10,14 @@
       "str": 2,
       "dex": 2,
       "wis": 2,
-      "luck": 5,
-      "exp": 5
-    }
+      "luck": 5
+    },
+    "exp": 5
   },
   {
     "name": "yêu tinh",
     "id": 2,
+    "level": 2,
     "stat": {
       "hp": 6,
       "mana": 0,
@@ -23,13 +25,14 @@
       "str": 4,
       "dex": 3,
       "wis": 2,
-      "luck": 4,
-      "exp": 5
-    }
+      "luck": 4
+    },
+    "exp": 5
   },
   {
     "name": "yêu tinh già",
     "id": 3,
+    "level": 2,
     "stat": {
       "hp": 3,
       "mana": 0,
@@ -37,13 +40,14 @@
       "str": 3,
       "dex": 2,
       "wis": 2,
-      "luck": 10,
-      "exp": 5
-    }
+      "luck": 10
+    },
+    "exp": 5
   },
   {
     "name": "chuột",
     "id": 4,
+    "level": 1,
     "stat": {
       "hp": 2,
       "mana": 0,
@@ -51,13 +55,14 @@
       "str": 1,
       "dex": 1,
       "wis": 1,
-      "luck": 1,
-      "exp": 5
-    }
+      "luck": 1
+    },
+    "exp": 5
   },
   {
     "name": "chuột hầm mộ",
     "id": 5,
+    "level": 1,
     "stat": {
       "hp": 4,
       "mana": 0,
@@ -65,13 +70,14 @@
       "str": 1,
       "dex": 1,
       "wis": 1,
-      "luck": 1,
-      "exp": 5
-    }
+      "luck": 1
+    },
+    "exp": 5
   },
   {
     "name": "hòn đá",
     "id": 6,
+    "level": 1,
     "stat": {
       "hp": 20,
       "mana": 0,
@@ -79,13 +85,14 @@
       "str": 1,
       "dex": 1,
       "wis": 1,
-      "luck": 1,
-      "exp": 5
-    }
+      "luck": 1
+    },
+    "exp": 5
   },
   {
     "name": "đạo tặc",
     "id": 7,
+    "level": 3,
     "stat": {
       "hp": 8,
       "mana": 0,
@@ -93,8 +100,173 @@
       "str": 3,
       "dex": 2,
       "wis": 1,
-      "luck": 3,
-      "exp": 5
-    }
+      "luck": 3
+    },
+    "exp": 5
+  },
+  {
+    "name": "Quái thạch rau câu",
+    "id": 8,
+    "level": 3,
+    "stat": {
+      "hp": 10,
+      "mana": 0,
+      "stamina": 5,
+      "str": 3,
+      "dex": 1,
+      "wis": 4,
+      "luck": 10
+    },
+    "exp": 5
+  },
+  {
+    "name": "Quái thạch rau câu vị vải",
+    "id": 9,
+    "level": 3,
+    "stat": {
+      "hp": 8,
+      "mana": 0,
+      "stamina": 0,
+      "str": 3,
+      "dex": 10,
+      "wis": 1,
+      "luck": 10
+    },
+    "exp": 5
+  },
+  {
+    "name": "Muỗi đầm lầy",
+    "id": 10,
+    "level": 4,
+    "stat": {
+      "hp": 1,
+      "mana": 0,
+      "stamina": 0,
+      "str": 1,
+      "dex": 40,
+      "wis": 1,
+      "luck": 40
+    },
+    "exp": 5
+  },
+  {
+    "name": "Muỗi đầm lầy khỏe mạnh",
+    "id": 11,
+    "level": 4,
+    "stat": {
+      "hp": 1,
+      "mana": 0,
+      "stamina": 0,
+      "str": 1,
+      "dex": 40,
+      "wis": 1,
+      "luck": 40
+    },
+    "exp": 5
+  },
+  {
+    "name": "Muỗi đầm lầy nhiễm bệnh",
+    "id": 12,
+    "level": 4,
+    "stat": {
+      "hp": 1,
+      "mana": 0,
+      "stamina": 0,
+      "str": 1,
+      "dex": 41,
+      "wis": 1,
+      "luck": 41
+    },
+    "exp": 5
+  },
+  {
+    "name": "Muỗi cổ đại",
+    "id": 13,
+    "level": 4,
+    "stat": {
+      "hp": 1,
+      "mana": 0,
+      "stamina": 0,
+      "str": 2,
+      "dex": 30,
+      "wis": 1,
+      "luck": 30
+    },
+    "exp": 5
+  },
+  {
+    "name": "Bậc thầy nuôi muỗi",
+    "id": 14,
+    "level": 4,
+    "stat": {
+      "hp": 20,
+      "mana": 0,
+      "stamina": 0,
+      "str": 8,
+      "dex": 10,
+      "wis": 1,
+      "luck": 10
+    },
+    "exp": 5
+  },
+  {
+    "name": "đệ tử mới nhập môn",
+    "id": 15,
+    "level": 5,
+    "stat": {
+      "hp": 32,
+      "mana": 0,
+      "stamina": 0,
+      "str": 9,
+      "dex": 10,
+      "wis": 1,
+      "luck": 10
+    },
+    "exp": 5
+  },
+  {
+    "name": "đệ tử lười nhác",
+    "id": 15,
+    "level": 5,
+    "stat": {
+      "hp": 30,
+      "mana": 0,
+      "stamina": 0,
+      "str": 8,
+      "dex": 8,
+      "wis": 1,
+      "luck": 8
+    },
+    "exp": 5
+  },
+  {
+    "name": "Đệ tử chăm chỉ",
+    "id": 15,
+    "level": 5,
+    "stat": {
+      "hp": 28,
+      "mana": 0,
+      "stamina": 0,
+      "str": 12,
+      "dex": 11,
+      "wis": 1,
+      "luck": 13
+    },
+    "exp": 5
+  },
+  {
+    "name": "Sư phụ",
+    "id": 15,
+    "level": 6,
+    "stat": {
+      "hp": 47,
+      "mana": 0,
+      "stamina": 0,
+      "str": 14,
+      "dex": 11,
+      "wis": 1,
+      "luck": 13
+    },
+    "exp": 5
   }
 ]
