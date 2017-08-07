@@ -98,8 +98,7 @@ public class TextView extends GamePanel {
 
             for (String words : str.split(";")) {
                 if (words.length() > 0) {
-                    WordsRenderer wordsRenderer = WordsRenderer.parse(words);
-                    wordsRenderers.add(wordsRenderer);
+                    wordsRenderers.addAll(WordsRenderer.parse(words));
                 }
             }
 

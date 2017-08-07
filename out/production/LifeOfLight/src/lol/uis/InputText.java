@@ -12,7 +12,7 @@ public class InputText extends TextView {
     public InputText() {
         super();
         this.lineRenderers.add(new
-                LineRenderer().add(WordsRenderer.parse(">> ")));
+                LineRenderer().add(WordsRenderer.parse(">> ").get(0)));
 
         InputManager.instance.addCommandListener(new CommandListener() {
             @Override

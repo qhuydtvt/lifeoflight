@@ -28,6 +28,7 @@ public class LineRenderer {
         wordsRendererList.add(wordsRenderer);
         return this;
     }
+    
 
     public void render(Graphics2D g2d, final Vector2D position) {
         Vector2D wordPosition = position.clone();

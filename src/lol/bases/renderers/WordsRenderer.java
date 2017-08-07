@@ -1,8 +1,12 @@
 package lol.bases.renderers;
 
+import com.sun.istack.internal.NotNull;
 import lol.bases.Vector2D;
 
-import java.awt.*;
+import java.awt.Color;
+import java.awt.FontMetrics;
+import java.awt.Graphics2D;
+import java.util.*;
 
 /**
  * Created by huynq on 7/30/17.
@@ -17,6 +21,14 @@ public class WordsRenderer {
         g2d.drawString(plainText, position.x, position.y);
     }
 
+    public WordsRenderer(String plainText, Color color) {
+        this.plainText = plainText;
+        this.color = color;
+    }
+
+    public WordsRenderer() {
+    }
+
     public String getPlainText() {
         return plainText;
     }
@@ -29,28 +41,26 @@ public class WordsRenderer {
         return fontMetrics.stringWidth(plainText);
     }
 
-    public static WordsRenderer parse(String coloredText) {
-        if (coloredText.startsWith("#")) {
-            if (coloredText.length() < HEX_NUMBER_OF_CHAR) {
-                System.out.println("Xeko lao: " + coloredText);
-                return null;
-            } else {
-                String hexColor = coloredText.substring(0, HEX_NUMBER_OF_CHAR);
-                String plainText = coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
+    public static List<WordsRenderer> parse(String coloredText) {
+        ArrayList<WordsRenderer> wordsRenderers = new ArrayList<>();
+        Color color = Color.WHITE;
+        String allPlainText = null;
 
-                WordsRenderer wordsRenderer =  new WordsRenderer();
-                wordsRenderer.plainText = plainText;
-                wordsRenderer.color = Color.decode(hexColor);
-                return wordsRenderer;
-            }
+        if (coloredText.startsWith("#") && coloredText.length() >= HEX_NUMBER_OF_CHAR) {
+             color = Color.decode(coloredText.substring(0, HEX_NUMBER_OF_CHAR));
+            allPlainText = coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
         } else {
-            WordsRenderer wordsRenderer =  new WordsRenderer();
-            wordsRenderer.plainText = coloredText;
-            wordsRenderer.color = Color.white;
-            return wordsRenderer;
+            color = Color.WHITE;
+            allPlainText = coloredText;
         }
-    }
 
+        for (String plainText : allPlainText.split(" ")) {
+            wordsRenderers.add(new WordsRenderer(plainText + " ", color));
+        }
+
+        return wordsRenderers;
+    }
+    
     @Override
     public String toString() {
         return "WordsRenderer{" +
