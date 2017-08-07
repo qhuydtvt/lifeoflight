@@ -47,15 +47,19 @@ public class WordsRenderer {
         String allPlainText = null;
 
         if (coloredText.startsWith("#") && coloredText.length() >= HEX_NUMBER_OF_CHAR) {
-             color = Color.decode(coloredText.substring(0, HEX_NUMBER_OF_CHAR));
-            allPlainText = coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
+            color = Color.decode(coloredText.substring(0, HEX_NUMBER_OF_CHAR));
+            allPlainText = " " +coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
         } else {
             color = Color.WHITE;
             allPlainText = coloredText;
         }
 
-        for (String plainText : allPlainText.split(" ")) {
-            wordsRenderers.add(new WordsRenderer(plainText + " ", color));
+        String[] plainTexts = allPlainText.split(" ");
+
+        for (int i = 0; i < plainTexts.length; i++) {
+            String plainText = plainTexts[i];
+            String suffix = i < plainTexts.length - 1 ? " " : "";
+            wordsRenderers.add(new WordsRenderer(plainText + suffix, color));
         }
 
         return wordsRenderers;

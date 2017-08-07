@@ -1,9 +1,9 @@
 {
   "map": {
-    "width": 59,
-    "height": 24,
-    "characterStartX": 1,
-    "getCharacterStartY": 10,
+    "width": 13,
+    "height": 10,
+    "characterStartX": 6,
+    "getCharacterStartY": 1,
     "data": [
       [
         {
@@ -57,447 +57,9 @@
         {
           "symbol": "O",
           "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
         }
       ],
       [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "M",
-          "type": "MAIN"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
         {
           "symbol": "O",
           "type": "WALL"
@@ -505,1288 +67,6 @@
         {
           "symbol": "$",
           "type": "EVENT"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
         },
         {
           "symbol": "$",
@@ -1801,594 +81,8 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
           "symbol": " ",
           "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "M",
-          "type": "MAIN"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
         },
         {
           "symbol": " ",
@@ -2407,216 +101,12 @@
           "type": "EMPTY"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": "O",
@@ -2629,480 +119,12 @@
           "type": "WALL"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": "$",
@@ -3141,198 +163,6 @@
           "type": "EMPTY"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
           "symbol": "O",
           "type": "WALL"
         }
@@ -3343,80 +173,8 @@
           "type": "WALL"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": "$",
@@ -3431,620 +189,32 @@
           "type": "EMPTY"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": "$",
           "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": "$",
           "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": "O",
@@ -4057,72 +227,8 @@
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
           "symbol": "O",
           "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
         },
         {
           "symbol": "O",
@@ -4141,1556 +247,278 @@
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
         },
         {
           "symbol": "O",
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "M",
+          "type": "MAIN"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
+        },
+        {
+          "symbol": "O",
+          "type": "WALL"
         },
         {
           "symbol": "#",
           "type": "EXIT"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "O",
-          "type": "WALL"
         },
         {
           "symbol": "O",
@@ -5718,47 +546,169 @@
         }
       ]
     ],
-    "mainItemLeft": 2
+    "mainItemLeft": 1
   },
   "player": {
-    "exp": 21,
+    "exp": 4,
     "inventory": [
       {
-        "name": "Mì xào đặc biệt",
-        "id": "30",
+        "name": "Neptune",
+        "id": "23",
         "type": 0,
-        "description": "Mì tự nấu đặc biệt.",
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896Hạt Lạc;.",
         "statAffects": [
           {
-            "statName": "HP",
-            "amount": "3.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
             "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "WIS",
             "amount": "1.0",
             "isMultiply": false
           }
         ]
       },
       {
-        "name": "Chí tôn tinh ;#2090FFĐoản kích; Thông thái",
-        "id": "2-11-21",
+        "name": "Cuồng long ;#2090FFMũ; Lõi giấy",
+        "id": "22-22-18",
+        "type": 4,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "2.7",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "0.5",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "2.5",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Bún đậu mắm tôm",
+        "id": "9",
+        "type": 0,
+        "description": "Ăn xong sẽ có nguy cơ ngộ độc thực phẩm 10%.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "7.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Xôi xéo gà nấm",
+        "id": "8",
+        "type": 0,
+        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "30.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
+        "id": "25",
+        "type": 0,
+        "description": "Nhanh chưa chắc đã xịn.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "-1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trà sữa trân châu",
+        "id": "10",
+        "type": 0,
+        "description": "Trước đây, trà sữa trân châu là món ăn tủ của nhiều bạn trẻ.;Nhưng sau nhiều bài báo và tận mắt chứng kiến :;Mấy gói bột sữa, hạt trân châu bán trôi nổi trên thị trường thì nhiều người;Không còn tha thiết với trà sữa chân trâu nữa mặc dù vẫn thích uống.",
+        "statAffects": [
+          {
+            "statName": "STAMINA",
+            "amount": "7.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Phô mai con bò cười",
+        "id": "21",
+        "type": 0,
+        "description": "Được làm từ thịt của loại bò tên là Mai có hàm răng Phô",
+        "statAffects": [
+          {
+            "statName": "LUCK",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Tiểu nhân ;#2090FFĐuốc; Bẩn thỉu",
+        "id": "27-19-3",
+        "type": 1,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "0.7",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "-3.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-2.6",
+            "isMultiply": false
+          },
+          {
+            "statName": "VISION",
+            "amount": "1.7",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Tinh xảo ;#2090FFĐuốc; May mắn",
+        "id": "5-17-13",
         "type": 1,
         "statAffects": [
           {
             "statName": "DEX",
-            "amount": "-0.6",
+            "amount": "2.1",
             "isMultiply": false
           },
           {
@@ -5767,25 +717,8 @@
             "isMultiply": false
           },
           {
-            "statName": "WIS",
-            "amount": "-3.7",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Hạ phẩm ;#2090FFĐuốc; Cũ kĩ",
-        "id": "16-18-4",
-        "type": 1,
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "-2.3",
-            "isMultiply": false
-          },
-          {
             "statName": "LUCK",
-            "amount": "-5.6",
+            "amount": "2.2",
             "isMultiply": false
           },
           {
@@ -5796,14 +729,18 @@
         ]
       },
       {
-        "name": "Dung dich Monsters",
-        "id": "22",
-        "type": 0,
-        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Quái vật;.",
+        "name": "Tinh xảo ;#2090FFTrường kích; Nóng nảy",
+        "id": "5-10-23",
+        "type": 2,
         "statAffects": [
           {
+            "statName": "DEX",
+            "amount": "3.8",
+            "isMultiply": false
+          },
+          {
             "statName": "STR",
-            "amount": "1.0",
+            "amount": "15.6",
             "isMultiply": false
           }
         ]
@@ -5835,150 +772,20 @@
         ]
       },
       {
-        "name": "Neptune",
-        "id": "23",
+        "name": "Dung dịch Bò húc",
+        "id": "2",
         "type": 0,
-        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896Lên Đỉnh; bị bò đực húc phải.",
         "statAffects": [
           {
-            "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Cà Phê Pha",
-        "id": "3",
-        "type": 0,
-        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê.",
-        "statAffects": [
-          {
-            "statName": "STAMINA",
+            "statName": "MANA",
             "amount": "5.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Mì xào đặc biệt",
-        "id": "30",
-        "type": 0,
-        "description": "Mì tự nấu đặc biệt.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "3.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "WIS",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Khiên niềm tin.",
-        "id": "6",
-        "type": 1,
-        "description": "Tấm khiên biến niềm tin của người sử dụng thành sức chống chịu.",
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "3.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "8.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "4.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Dung Dịch Fristi",
-        "id": "24",
-        "type": 0,
-        "description": "Cho trí tưởng tượng bay xa.",
-        "statAffects": [
-          {
-            "statName": "WIS",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Mỳ tôm",
-        "id": "1",
-        "type": 0,
-        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "5.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Kỳ lân ;#2090FFTrường côn; Nhanh nhẹn",
-        "id": "12-5-2",
-        "type": 2,
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "1.7",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "2.7",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "1.2",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Thời hạn chót nộp giáo trình cho ;#ff2b2bSan San;",
-        "id": "25",
-        "type": 0,
-        "description": "Nhanh chưa chắc đã xịn.",
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "-1.0",
             "isMultiply": false
           }
         ]
       }
     ],
-    "current_level": 1,
+    "current_level": 0,
     "nextLevelFormula": {
       "nextLevelMinExp": "{nextLevelMinExp}*1.5",
       "maxHP": "{maxHp}+1+(random()*2)",
@@ -5994,26 +801,49 @@
       "luck": "{luck}+(random()*2)+(random()*{dex}*{dexRate})",
       "vision": "{vision}"
     },
-    "handItems": [],
+    "handItems": [
+      {
+        "name": "Tiểu nhân ;#2090FFGươm; Vô tình",
+        "id": "27-0-29",
+        "type": 1,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "6.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "-3.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-0.9",
+            "isMultiply": false
+          }
+        ]
+      }
+    ],
     "mapPosition": {
-      "x": 17,
-      "y": 10
+      "x": 11,
+      "y": 2
     },
     "stat": {
-      "nextLevelMinExp": 30,
-      "maxHp": 16,
-      "hp": 10,
-      "mana": 11,
-      "stamina": 5,
+      "nextLevelMinExp": 20,
+      "maxHp": 15,
+      "hp": 12,
+      "mana": 10,
+      "stamina": 7,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
-      "str": 7,
+      "str": 5,
       "dex": 3,
-      "wis": 5,
-      "luck": 2,
+      "wis": 4,
+      "luck": 1,
       "vision": 2
     }
   },
-  "current_level": 2
+  "current_level": 3
 }
