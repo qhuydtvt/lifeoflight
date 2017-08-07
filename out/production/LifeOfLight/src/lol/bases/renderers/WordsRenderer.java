@@ -61,28 +61,6 @@ public class WordsRenderer {
         return wordsRenderers;
     }
 
-    //    public static WordsRenderer parse(String coloredText) {
-//        if (coloredText.startsWith("#")) {
-//            if (coloredText.length() < HEX_NUMBER_OF_CHAR) {
-//                System.out.println("Xeko lao: " + coloredText);
-//                return null;
-//            } else {
-//                String hexColor = coloredText.substring(0, HEX_NUMBER_OF_CHAR);
-//                String plainText = coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
-//
-//                WordsRenderer wordsRenderer = new WordsRenderer();
-//                wordsRenderer.plainText = plainText;
-//                wordsRenderer.color = Color.decode(hexColor);
-//                return wordsRenderer;
-//            }
-//        } else {
-//            WordsRenderer wordsRenderer = new WordsRenderer();
-//            wordsRenderer.plainText = coloredText;
-//            wordsRenderer.color = Color.white;
-//            return wordsRenderer;
-//        }
-//    }
-
     @Override
     public String toString() {
         return "WordsRenderer{" +

@@ -119,40 +119,40 @@
           "type": "WALL"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": "$",
@@ -247,8 +247,8 @@
           "type": "WALL"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": "O",
@@ -281,28 +281,28 @@
           "type": "WALL"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": "$",
@@ -768,6 +768,119 @@
             "isMultiply": false
           }
         ]
+      },
+      {
+        "name": "Xúc xích Đức_việt",
+        "id": "6",
+        "type": 0,
+        "description": "Xúc Xích ở siêu thị Quý phái.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "2.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Tích lịch ;#2090FFTrường kích; Hàng hiệu",
+        "id": "23-10-15",
+        "type": 2,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "6.7",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "4.3",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "0.5",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Bò khô gia truyền",
+        "id": "7",
+        "type": 0,
+        "description": "Thông tin dinh dưỡng : Bò khô;Mỗi 100-gam;Calor : 410;Chất béo 26g~40% mỗi ngày;Cholesterol 48mg~16% mỗi ngày;Natri 2/081g~86% mỗi ngày;đường 9g;Protein 33g~66% mỗi ngày;Vitamin A~0%;Vitamin C~0%;Canxi~2% mỗi ngày;Sắt~30%;Vitamin D~2% mỗi ngày;Vitamin B-6~10% mỗi ngày;Vitamin B-12~16% mỗi ngày;Magiê~12% mỗi ngày.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "2.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Dung dịch Bò húc",
+        "id": "2",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896 Lên Đỉnh; bị bò đực húc phải.",
+        "statAffects": [
+          {
+            "statName": "MANA",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Cà Phê Pha",
+        "id": "3",
+        "type": 0,
+        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê.",
+        "statAffects": [
+          {
+            "statName": "STAMINA",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Bún đậu mắm tôm",
+        "id": "9",
+        "type": 0,
+        "description": "Ăn xong sẽ có nguy cơ ngộ độc thực phẩm 10%.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "7.0",
+            "isMultiply": false
+          }
+        ]
       }
     ],
     "current_level": 0,
@@ -811,12 +924,12 @@
       }
     ],
     "mapPosition": {
-      "x": 5,
-      "y": 1
+      "x": 1,
+      "y": 5
     },
     "stat": {
       "nextLevelMinExp": 20,
-      "maxHp": 15,
+      "maxHp": 18,
       "hp": 15,
       "mana": 15,
       "stamina": 17,

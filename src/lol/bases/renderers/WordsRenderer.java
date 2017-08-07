@@ -60,7 +60,7 @@ public class WordsRenderer {
 
         return wordsRenderers;
     }
-    
+
     @Override
     public String toString() {
         return "WordsRenderer{" +

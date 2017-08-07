@@ -190,4 +190,15 @@ public class GameItem implements Cloneable {
 
         return gameItem;
     }
+
+    @Override
+    public int hashCode() {
+        return this.id.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof GameItem)) return false;
+        return ((GameItem) obj).id.equals(this.id);
+    }
 }
