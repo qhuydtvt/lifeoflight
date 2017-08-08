@@ -401,12 +401,12 @@
           "type": "EVENT"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
@@ -549,7 +549,7 @@
     "mainItemLeft": 1
   },
   "player": {
-    "exp": 0,
+    "exp": 2,
     "inventory": [
       {
         "name": "Song hỉ ;#2090FFĐinh ba; Khủng khiếp",
@@ -651,6 +651,32 @@
             "isMultiply": false
           }
         ]
+      },
+      {
+        "name": "Dung Dịch Fristi",
+        "id": "24",
+        "type": 0,
+        "description": "Cho trí tưởng tượng bay xa.",
+        "statAffects": [
+          {
+            "statName": "WIS",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Mỳ tôm",
+        "id": "1",
+        "type": 0,
+        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
       }
     ],
     "current_level": 0,
@@ -671,15 +697,15 @@
     },
     "handItems": [],
     "mapPosition": {
-      "x": 6,
-      "y": 9
+      "x": 4,
+      "y": 7
     },
     "stat": {
       "nextLevelMinExp": 20,
       "maxHp": 15,
-      "hp": 15,
+      "hp": 12,
       "mana": 10,
-      "stamina": 2,
+      "stamina": 13,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,

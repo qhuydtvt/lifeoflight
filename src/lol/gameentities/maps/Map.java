@@ -46,12 +46,12 @@ public class Map {
 
     public void removeItem(int x, int y) {
         MapItem mapItem = getMapItem(x, y);
-        if (mapItem.getType() == MapItemType.EVENT ||
-                mapItem.getType() == MapItemType.MAIN) {
-            if (mapItem.getType() == MapItemType.MAIN) {
-                mainItemLeft --;
-            }
-            setMapItem(x, y, MapItem.newEmpty() ); //TODO: Think of a better solution for this
+        if (mapItem.getType() == MapItemType.MAIN) {
+            mainItemLeft--;
+            setMapItem(x, y, MapItem.newEmpty());
+        }
+        else if(mapItem.getType() == MapItemType.EVENT) {
+            setMapItem(x, y, MapItem.newEmpty());
         }
     }
 
@@ -81,7 +81,7 @@ public class Map {
 
         List<List<MapItem>> block = new ArrayList<>();
 
-        for (int y = startY; y <= endY; y ++) {
+        for (int y = startY; y <= endY; y++) {
             List<MapItem> row = new ArrayList<>();
             for (int x = startX; x <= endX; x++) {
                 row.add(getMapItem(x, y));
