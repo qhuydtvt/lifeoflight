@@ -47,7 +47,12 @@ public class WordsRenderer {
         String allPlainText = null;
 
         if (coloredText.startsWith("#") && coloredText.length() >= HEX_NUMBER_OF_CHAR) {
-            color = Color.decode(coloredText.substring(0, HEX_NUMBER_OF_CHAR));
+            try {
+                color = Color.decode(coloredText.substring(0, HEX_NUMBER_OF_CHAR));
+            }
+            catch (NumberFormatException nfe) {
+                color = Color.MAGENTA;
+            }
             allPlainText = " " +coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
         } else {
             color = Color.WHITE;

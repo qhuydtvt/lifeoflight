@@ -860,7 +860,7 @@
     },
     "handItems": [],
     "mapPosition": {
-      "x": 10,
+      "x": 8,
       "y": 2
     },
     "stat": {
@@ -868,7 +868,7 @@
       "maxHp": 15,
       "hp": 12,
       "mana": 10,
-      "stamina": 24,
+      "stamina": 22,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
