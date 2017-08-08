@@ -125,12 +125,12 @@
     "statAffects":[
       {
         "statName": "STR",
-        "amount":"random() * 6 * {map.currentLevel}",
+        "amount":"random() * 4 * {map.currentLevel}",
         "isMultiply": false
       },
 	  {
         "statName": "DEX",
-        "amount":"random() * 1 * {map.currentLevel} - 2",
+        "amount":"random() * 2 * {map.currentLevel} - 2",
         "isMultiply": false
       }
     ]
@@ -164,7 +164,7 @@
       },
       {
         "statName": "STR",
-        "amount":"random() * 9 * {map.currentLevel}",
+        "amount":"random() * 6 * {map.currentLevel}",
         "isMultiply": false
       }
     ]
@@ -181,7 +181,7 @@
       },
       {
         "statName": "STR",
-        "amount":"random() * 7 * {map.currentLevel} - 1",
+        "amount":"random() * 4 * {map.currentLevel} - 1",
         "isMultiply": false
       }
     ]
@@ -210,7 +210,7 @@
     "statAffects":[
       {
         "statName": "DEX",
-        "amount":"random() * 8 * {map.currentLevel}",
+        "amount":"random() * 6 * {map.currentLevel}",
         "isMultiply": false
       },
       {
@@ -227,7 +227,7 @@
     "statAffects":[
       {
         "statName": "DEX",
-        "amount":"random() * 6 * {map.currentLevel}",
+        "amount":"random() * 5 * {map.currentLevel}",
         "isMultiply": false
       },
       {
@@ -244,12 +244,12 @@
     "statAffects":[
       {
         "statName": "DEX",
-        "amount":"random() * 6 * {map.currentLevel}",
+        "amount":"random() * 4 * {map.currentLevel}",
         "isMultiply": false
       },
       {
         "statName": "STR",
-        "amount":"random() * 5 * {map.currentLevel}",
+        "amount":"random() * 4 * {map.currentLevel}",
         "isMultiply": false
       }
     ]
@@ -261,7 +261,7 @@
     "statAffects":[
       {
         "statName": "MAXHP",
-        "amount":"random() * 8 * {map.currentLevel}",
+        "amount":"random() * 5 * {map.currentLevel}",
         "isMultiply": false
       },
       {
@@ -454,6 +454,74 @@
       {
         "statName": "MAXHP",
         "amount":"random()* 2 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+   {
+    "name":";#2090FFÁo;",
+    "id":"16",
+	"type": 3,
+    "statAffects":[
+      {
+        "statName": "MAXHP",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+   {
+    "name":";#2090FFĐồ lót;",
+    "id":"16",
+	"type": 3,
+    "statAffects":[
+      {
+        "statName": "MAXHP",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+   {
+    "name":";#2090FFMăng tô;",
+    "id":"16",
+	"type": 3,
+    "statAffects":[
+      {
+        "statName": "MAXHP",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "name":";#2090FFHình săm;",
+    "id":"16",
+	"type": 3,
+    "statAffects":[
+      {
+        "statName": "MAXHP",
+        "amount":"random() * 4 * {map.currentLevel}",
+        "isMultiply": false
+      },
+      {
+        "statName": "DEX",
+        "amount":"random() * 4 * {map.currentLevel}",
         "isMultiply": false
       }
     ]

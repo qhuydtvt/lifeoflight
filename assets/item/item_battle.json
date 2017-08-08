@@ -122,7 +122,7 @@
     "description": "Trước đây, trà sữa trân châu là món ăn tủ của nhiều bạn trẻ.;Nhưng sau nhiều bài báo và tận mắt chứng kiến :;Mấy gói bột sữa, hạt trân châu bán trôi nổi trên thị trường thì nhiều người;Không còn tha thiết với trà sữa chân trâu nữa mặc dù vẫn thích uống."
   },
   {
-    "id": 10,
+    "id": 0,
     "name": "Trà đá phố cổ",
     "type": 0,
     "statAffects": [
@@ -202,7 +202,7 @@
     "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Quái vật;."
   },
   {
-    "id": 23,
+    "id": 11,
     "name": "Neptune",
     "type": 0,
     "statAffects": [
@@ -215,7 +215,7 @@
     "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;."
   },
   {
-    "id": 24,
+    "id": 12,
     "name": "Dung Dịch Fristi",
     "type": 0,
     "statAffects": [
