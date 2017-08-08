@@ -23,6 +23,7 @@ public class MapProcessor extends Processor {
         EventManager.pushUIMessage(" ");
         for (int y = 0; y < block.size(); y ++) {
             StringBuilder rowMessage = new StringBuilder();
+            rowMessage.append("***");
             for(int x = 0; x < block.get(0).size(); x ++) {
                 MapItem item = block.get(y).get(x);
                 if (x == block.size() / 2 && y == block.get(0).size() / 2) {

@@ -45,28 +45,35 @@ public class WordsRenderer {
         ArrayList<WordsRenderer> wordsRenderers = new ArrayList<>();
         Color color = Color.WHITE;
         String allPlainText = null;
+        boolean preventSplitString = false;
 
         if (coloredText.startsWith("#") && coloredText.length() >= HEX_NUMBER_OF_CHAR) {
             try {
                 color = Color.decode(coloredText.substring(0, HEX_NUMBER_OF_CHAR));
-            }
-            catch (NumberFormatException nfe) {
+            } catch (NumberFormatException nfe) {
                 color = Color.MAGENTA;
             }
-            allPlainText = " " +coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
+            allPlainText = " " + coloredText.substring(HEX_NUMBER_OF_CHAR, coloredText.length());
+        } else if (coloredText.startsWith("***")) {
+            allPlainText = coloredText.replace("***", "");
+            color = Color.WHITE;
+            preventSplitString = true;
         } else {
             color = Color.WHITE;
             allPlainText = coloredText;
         }
 
-        String[] plainTexts = allPlainText.split(" ");
+        if (preventSplitString) {
+            wordsRenderers.add(new WordsRenderer(allPlainText, color));
+        } else {
+            String[] plainTexts = allPlainText.split(" ");
 
-        for (int i = 0; i < plainTexts.length; i++) {
-            String plainText = plainTexts[i];
-            String suffix = i < plainTexts.length - 1 ? " " : "";
-            wordsRenderers.add(new WordsRenderer(plainText + suffix, color));
+            for (int i = 0; i < plainTexts.length; i++) {
+                String plainText = plainTexts[i];
+                String suffix = i < plainTexts.length - 1 ? " " : "";
+                wordsRenderers.add(new WordsRenderer(plainText + suffix, color));
+            }
         }
-
         return wordsRenderers;
     }
 
