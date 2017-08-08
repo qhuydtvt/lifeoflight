@@ -7,61 +7,61 @@
     "data": [
       [
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
@@ -89,249 +89,195 @@
           "type": "START"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": " ",
           "type": "EMPTY"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
           "symbol": " ",
           "type": "EMPTY"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
+          "symbol": "$",
+          "type": "EVENT"
         },
         {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": " ",
-          "type": "EMPTY"
-        },
-        {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
@@ -355,8 +301,8 @@
           "type": "EVENT"
         },
         {
-          "symbol": "$",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": "$",
@@ -379,67 +325,13 @@
           "type": "EVENT"
         },
         {
-          "symbol": "O",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "O",
-          "type": "WALL"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "$",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
@@ -463,8 +355,116 @@
           "type": "EVENT"
         },
         {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
           "symbol": "$",
           "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "x",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "x",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "x",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "x",
+          "type": "WALL"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": "$",
+          "type": "EVENT"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": "M",
@@ -487,33 +487,33 @@
           "type": "EVENT"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         }
       ],
       [
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
@@ -521,27 +521,27 @@
           "type": "EXIT"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         },
         {
-          "symbol": "O",
+          "symbol": "x",
           "type": "WALL"
         }
       ]
@@ -552,186 +552,62 @@
     "exp": 2,
     "inventory": [
       {
-        "name": "Tinh thuần ;#2090FFDép cói; Gắn tạ",
-        "id": "6-26-17",
-        "type": 5,
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "-1.8",
-            "isMultiply": false
-          },
-          {
-            "statName": "WIS",
-            "amount": "1.9",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "1.3",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Trà sữa trân châu",
-        "id": "10",
-        "type": 0,
-        "description": "Trước đây, trà sữa trân châu là món ăn tủ của nhiều bạn trẻ.;Nhưng sau nhiều bài báo và tận mắt chứng kiến :;Mấy gói bột sữa, hạt trân châu bán trôi nổi trên thị trường thì nhiều người;Không còn tha thiết với trà sữa chân trâu nữa mặc dù vẫn thích uống.",
-        "statAffects": [
-          {
-            "statName": "STAMINA",
-            "amount": "7.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Lực sĩ ;#2090FFXà mâu; May mắn",
-        "id": "30-7-13",
+        "name": "Song hỉ ;#2090FFĐinh ba; Khủng khiếp",
+        "id": "25-4-22",
         "type": 2,
         "statAffects": [
           {
             "statName": "STR",
-            "amount": "12.0",
+            "amount": "8.4",
             "isMultiply": false
           },
           {
             "statName": "DEX",
-            "amount": "-0.7",
+            "amount": "4.3",
             "isMultiply": false
           },
           {
             "statName": "LUCK",
-            "amount": "2.3",
+            "amount": "-0.5",
             "isMultiply": false
           }
         ]
       },
       {
-        "name": "Mì xào đặc biệt",
-        "id": "30",
-        "type": 0,
-        "description": "Mì tự nấu đặc biệt.",
+        "name": "Hạ phẩm ;#2090FFĐuốc; Giá rẻ",
+        "id": "16-18-16",
+        "type": 1,
         "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "3.0",
-            "isMultiply": false
-          },
           {
             "statName": "STR",
-            "amount": "1.0",
+            "amount": "0.7",
             "isMultiply": false
           },
           {
-            "statName": "DEX",
-            "amount": "1.0",
+            "statName": "LUCK",
+            "amount": "-3.3",
             "isMultiply": false
           },
           {
-            "statName": "WIS",
-            "amount": "1.0",
+            "statName": "VISION",
+            "amount": "0.2",
             "isMultiply": false
           }
         ]
       },
       {
-        "name": "Dung dịch Bò húc",
-        "id": "2",
-        "type": 0,
-        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896 Lên Đỉnh; bị bò đực húc phải.",
-        "statAffects": [
-          {
-            "statName": "MANA",
-            "amount": "5.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Mỳ tôm",
-        "id": "1",
-        "type": 0,
-        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "5.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Kim xà ;#2090FFCung; Hư hỏng",
-        "id": "19-12-8",
+        "name": "Cường hãn ;#2090FFTrường kích; Lõi giấy",
+        "id": "4-10-18",
         "type": 2,
         "statAffects": [
           {
-            "statName": "DEX",
-            "amount": "-4.0",
-            "isMultiply": false
-          },
-          {
             "statName": "STR",
-            "amount": "4.5",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Neptune",
-        "id": "23",
-        "type": 0,
-        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Trà đá phố cổ",
-        "id": "10",
-        "type": 0,
-        "description": "Chưa có thông tin.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "4.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Xôi xéo gà nấm",
-        "id": "8",
-        "type": 0,
-        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "30.0",
+            "amount": "-1.3",
             "isMultiply": false
           },
           {
-            "statName": "LUCK",
-            "amount": "-1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Mỳ tôm",
-        "id": "1",
-        "type": 0,
-        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "5.0",
+            "statName": "DEX",
+            "amount": "4.4",
             "isMultiply": false
           }
         ]
@@ -750,93 +626,54 @@
         ]
       },
       {
-        "name": "Neptune",
-        "id": "23",
-        "type": 0,
-        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Lực sĩ ;#2090FFGiáp da; May mắn",
-        "id": "30-15-13",
-        "type": 3,
+        "name": "Đại hà ;#2090FFĐuốc; Hèn hạ",
+        "id": "24-20-27",
+        "type": 1,
         "statAffects": [
           {
             "statName": "STR",
-            "amount": "-0.4",
+            "amount": "2.0",
             "isMultiply": false
           },
           {
-            "statName": "DEX",
-            "amount": "11.8",
+            "statName": "WIS",
+            "amount": "-2.1",
             "isMultiply": false
           },
           {
             "statName": "LUCK",
-            "amount": "0.7",
+            "amount": "-3.7",
             "isMultiply": false
           },
           {
-            "statName": "MAXHP",
-            "amount": "7.7",
+            "statName": "VISION",
+            "amount": "0.8",
             "isMultiply": false
           }
         ]
       },
       {
-        "name": "Neptune",
-        "id": "23",
+        "name": "Dung Dịch Fristi",
+        "id": "24",
         "type": 0,
-        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "description": "Cho trí tưởng tượng bay xa.",
         "statAffects": [
           {
-            "statName": "DEX",
+            "statName": "WIS",
             "amount": "1.0",
             "isMultiply": false
           }
         ]
       },
       {
-        "name": "Cà Phê Pha",
-        "id": "3",
+        "name": "Mỳ tôm",
+        "id": "1",
         "type": 0,
-        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê.",
-        "statAffects": [
-          {
-            "statName": "STAMINA",
-            "amount": "5.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Cà Phê Pha",
-        "id": "3",
-        "type": 0,
-        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê.",
-        "statAffects": [
-          {
-            "statName": "STAMINA",
-            "amount": "5.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Bò khô gia truyền",
-        "id": "7",
-        "type": 0,
-        "description": "Thông tin dinh dưỡng : Bò khô;Mỗi 100-gam;Calor : 410;Chất béo 26g~40% mỗi ngày;Cholesterol 48mg~16% mỗi ngày;Natri 2/081g~86% mỗi ngày;đường 9g;Protein 33g~66% mỗi ngày;Vitamin A~0%;Vitamin C~0%;Canxi~2% mỗi ngày;Sắt~30%;Vitamin D~2% mỗi ngày;Vitamin B-6~10% mỗi ngày;Vitamin B-12~16% mỗi ngày;Magiê~12% mỗi ngày.",
+        "description": "Loại mỳ bình dân do đầu bếp ;#ffe896 Tôm hai càng ;phát minh.",
         "statAffects": [
           {
             "statName": "HP",
-            "amount": "2.0",
+            "amount": "5.0",
             "isMultiply": false
           }
         ]
@@ -860,15 +697,15 @@
     },
     "handItems": [],
     "mapPosition": {
-      "x": 8,
-      "y": 3
+      "x": 4,
+      "y": 7
     },
     "stat": {
       "nextLevelMinExp": 20,
       "maxHp": 15,
       "hp": 12,
       "mana": 10,
-      "stamina": 21,
+      "stamina": 13,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,

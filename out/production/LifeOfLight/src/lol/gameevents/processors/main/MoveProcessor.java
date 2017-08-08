@@ -48,10 +48,10 @@ public class MoveProcessor extends Processor {
         MapPosition futurePosition = player.mapPosition.add(moveDirection);
         MapItem mapItem = map.getMapItem(futurePosition);
         if (mapItem == null) {
-            EventManager.pushUIMessage(";#6B2083Empty space;, can't go there");
+            EventManager.pushUIMessage(";#6B2083Không gian vô định;, bạn không thể đi ");
         }
         else if (mapItem.getType() == WALL) {
-            EventManager.pushUIMessage("You just hit the ;#6e7f89wall;, can't move there");
+            EventManager.pushUIMessage("Bạn vừa húc đầu vào ;#6e7f89tường;");
         } else {
             if (player.getStat().stamina == 0) {
                 EventManager.pushUIMessage("Bạn đã hết sức lực, bạn cần nghỉ ngơi (;#FF0000rest;)");
