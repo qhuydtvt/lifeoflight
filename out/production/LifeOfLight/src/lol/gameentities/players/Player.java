@@ -110,6 +110,7 @@ public class Player extends CombatUnit {
                 return LEVELED_UP;
             }
         }
+        recalculateStat();
         return NO_LEVEL_UP;
     }
 
