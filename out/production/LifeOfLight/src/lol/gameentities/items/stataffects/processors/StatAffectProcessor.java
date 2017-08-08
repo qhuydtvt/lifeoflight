@@ -16,4 +16,12 @@ public abstract class StatAffectProcessor {
     }
 
     public abstract void affect(CombatStat currentStat, final CombatStat originStat);
+
+    @Override
+    public String toString() {
+        return "StatAffectProcessor{" +
+                "amount=" + amount +
+                ", operator=" + operator +
+                '}';
+    }
 }

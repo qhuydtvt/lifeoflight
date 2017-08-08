@@ -94,11 +94,10 @@ public class GameItem implements Cloneable {
     }
 
     private void generateProcessors() {
-        if (processors == null) {
-            processors = new ArrayList<>();
-            for (StatAffect statAffect : statAffects) {
-                processors.add(statAffect.getProcessor());
-            }
+        processors = new ArrayList<>();
+        for (StatAffect statAffect : statAffects) {
+            StatAffectProcessor processor = statAffect.getProcessor();
+            processors.add(processor);
         }
     }
 

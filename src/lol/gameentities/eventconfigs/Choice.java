@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class Choice {
     @SerializedName("label")
     public String label;
-    @SerializedName("statText")
+    @SerializedName("text")
     public String text;
     @SerializedName("result")
     public int resultIndex;

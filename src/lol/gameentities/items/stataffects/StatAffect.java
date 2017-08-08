@@ -32,7 +32,7 @@ public class StatAffect implements Cloneable {
         return Float.parseFloat(amount);
     }
 
-    public StatAffectProcessor  getProcessor() {
+    public StatAffectProcessor getProcessor() {
         StatOperator operator = isMultiply ? new MulStatOperator() : new AddStatOperator();
         switch (statName.toUpperCase()) {
             case "HP":

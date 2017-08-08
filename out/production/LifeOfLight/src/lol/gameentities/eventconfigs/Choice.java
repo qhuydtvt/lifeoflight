@@ -18,7 +18,7 @@ public class Choice {
     public String toString() {
         return "Choice{" +
                 "label='" + label + '\'' +
-                ", text='" + text + '\'' +
+                ", statText='" + text + '\'' +
                 ", resultIndex=" + resultIndex +
                 '}';
     }
