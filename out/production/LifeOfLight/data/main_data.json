@@ -606,33 +606,6 @@
         ]
       },
       {
-        "name": "Tình nhân ;#2090FFĐuốc; Dẻo dai",
-        "id": "29-17-12",
-        "type": 1,
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "-2.9",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "2.1",
-            "isMultiply": false
-          },
-          {
-            "statName": "VISION",
-            "amount": "1.5",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "4.6",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
         "name": "Xúc xích Đức_việt",
         "id": "6",
         "type": 0,
@@ -773,28 +746,6 @@
           {
             "statName": "HP",
             "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Tinh xảo ;#2090FFĐao; Vừa vặn",
-        "id": "5-2-10",
-        "type": 1,
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "9.4",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "3.9",
-            "isMultiply": false
-          },
-          {
-            "statName": "MANA",
-            "amount": "-2.3",
             "isMultiply": false
           }
         ]
@@ -1069,79 +1020,7 @@
       "luck": "{luck}+(random()*2)+(random()*{dex}*{dexRate})",
       "vision": "{vision}"
     },
-    "handItems": [
-      {
-        "name": "Hóa cốt ;#2090FFTrường kích; Lấp lánh",
-        "id": "26-10-1",
-        "type": 2,
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "0.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "13.2",
-            "isMultiply": false
-          },
-          {
-            "statName": "LUCK",
-            "amount": "-1.4",
-            "isMultiply": false
-          }
-        ]
-      }
-    ],
-    "bodyItem": {
-      "name": "Vô danh ;#2090FFGiáp da; Nhanh nhẹn",
-      "id": "17-15-2",
-      "type": 3,
-      "statAffects": [
-        {
-          "statName": "STR",
-          "amount": "-3.2",
-          "isMultiply": false
-        },
-        {
-          "statName": "DEX",
-          "amount": "10.6",
-          "isMultiply": false
-        },
-        {
-          "statName": "MAXHP",
-          "amount": "6.2",
-          "isMultiply": false
-        }
-      ]
-    },
-    "feetItem": {
-      "name": "Tình nhân ;#2090FFDép cói; May mắn",
-      "id": "29-26-13",
-      "type": 5,
-      "statAffects": [
-        {
-          "statName": "DEX",
-          "amount": "-2.1",
-          "isMultiply": false
-        },
-        {
-          "statName": "STR",
-          "amount": "1.7",
-          "isMultiply": false
-        },
-        {
-          "statName": "LUCK",
-          "amount": "-0.6",
-          "isMultiply": false
-        },
-        {
-          "statName": "MAXHP",
-          "amount": "4.4",
-          "isMultiply": false
-        }
-      ]
-    },
+    "handItems": [],
     "mapPosition": {
       "x": 4,
       "y": 7

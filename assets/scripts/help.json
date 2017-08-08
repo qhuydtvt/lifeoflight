@@ -1,0 +1,18 @@
+{
+  "text" : [
+    "HELP: ...",
+    "MOVE_<hướng_đi>: Di chuyển, ví dụ 'move_down'",
+    "REST: Nghỉ ngơi hồi phục sức lực",
+    "MAP: Hiển thị bản đồ",
+    "INVENTORY: xem hòm đồ",
+    "EQUIPMENT: xem đồ đang mặc / dùng",
+    "USE_<id>: Mang vật phẩm ra sử dụng",
+    "INSPECT_<id>: Xem tính năng vật phẩm",
+    "STORE_<id>: Cất vật phẩm đang mặc vào lại hòm đồ",
+    "TRASH_<id>: Vửt bở vật phẩm",
+    "ATK_<thứ tự>: Tấn công quân địch",
+    "FLEE: Chạy trốn",
+    "QUIT: Bỏ cuộc",
+    "REBIRTH: Tái sinh, dùng sau khi chết"
+  ]
+}

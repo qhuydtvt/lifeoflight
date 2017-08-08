@@ -22,6 +22,7 @@ public class GameEventManager implements CommandListener {
     private GameEvent currentEvent;
 
     private HashMap<String, Processor> globalCommandProcessors = new HashMap<String, Processor>() {{
+        put("HELP", new HelpProcessor());
         put("INVENTORY", new InventoryProcessor());
         put("INSPECT", new InspectProcessor());
         put("TRASH", new TrashProcessor());

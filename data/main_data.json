@@ -606,33 +606,6 @@
         ]
       },
       {
-        "name": "Tình nhân ;#2090FFĐuốc; Dẻo dai",
-        "id": "29-17-12",
-        "type": 1,
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "-2.9",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "2.1",
-            "isMultiply": false
-          },
-          {
-            "statName": "VISION",
-            "amount": "1.5",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "4.6",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
         "name": "Xúc xích Đức_việt",
         "id": "6",
         "type": 0,
@@ -773,28 +746,6 @@
           {
             "statName": "HP",
             "amount": "1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Tinh xảo ;#2090FFĐao; Vừa vặn",
-        "id": "5-2-10",
-        "type": 1,
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "9.4",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "3.9",
-            "isMultiply": false
-          },
-          {
-            "statName": "MANA",
-            "amount": "-2.3",
             "isMultiply": false
           }
         ]
