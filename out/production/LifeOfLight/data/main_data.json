@@ -281,132 +281,24 @@
           "type": "WALL"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
           "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "x",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "x",
-          "type": "WALL"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
           "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "x",
-          "type": "WALL"
-        }
-      ],
-      [
-        {
-          "symbol": "x",
-          "type": "WALL"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
-        },
-        {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
@@ -443,16 +335,16 @@
           "type": "WALL"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
@@ -467,24 +359,132 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "M",
-          "type": "MAIN"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "x",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "x",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": "x",
+          "type": "WALL"
+        }
+      ],
+      [
+        {
+          "symbol": "x",
+          "type": "WALL"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
+        },
+        {
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": "x",
@@ -546,10 +546,10 @@
         }
       ]
     ],
-    "mainItemLeft": 1
+    "mainItemLeft": 0
   },
   "player": {
-    "exp": 4,
+    "exp": 12,
     "inventory": [
       {
         "name": "Phô mai con bò cười",
@@ -578,28 +578,6 @@
           {
             "statName": "STR",
             "amount": "-1.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Hóa cốt ;#2090FFTrường kích; Lấp lánh",
-        "id": "26-10-1",
-        "type": 2,
-        "statAffects": [
-          {
-            "statName": "DEX",
-            "amount": "0.0",
-            "isMultiply": false
-          },
-          {
-            "statName": "STR",
-            "amount": "13.2",
-            "isMultiply": false
-          },
-          {
-            "statName": "LUCK",
-            "amount": "-1.4",
             "isMultiply": false
           }
         ]
@@ -668,33 +646,6 @@
         ]
       },
       {
-        "name": "Đại hà ;#2090FFThương; Hàng hiệu",
-        "id": "24-3-15",
-        "type": 2,
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "7.1",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "4.6",
-            "isMultiply": false
-          },
-          {
-            "statName": "WIS",
-            "amount": "-1.4",
-            "isMultiply": false
-          },
-          {
-            "statName": "LUCK",
-            "amount": "1.9",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
         "name": "Dung dịch Bò húc",
         "id": "2",
         "type": 0,
@@ -703,28 +654,6 @@
           {
             "statName": "MANA",
             "amount": "5.0",
-            "isMultiply": false
-          }
-        ]
-      },
-      {
-        "name": "Vô danh ;#2090FFGiáp da; Nhanh nhẹn",
-        "id": "17-15-2",
-        "type": 3,
-        "statAffects": [
-          {
-            "statName": "STR",
-            "amount": "-3.2",
-            "isMultiply": false
-          },
-          {
-            "statName": "DEX",
-            "amount": "10.6",
-            "isMultiply": false
-          },
-          {
-            "statName": "MAXHP",
-            "amount": "6.2",
             "isMultiply": false
           }
         ]
@@ -754,6 +683,374 @@
             "isMultiply": false
           }
         ]
+      },
+      {
+        "name": "Dung dich Monsters",
+        "id": "22",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Quái vật;.",
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Thượng phẩm ;#2090FFGươm; Vừa vặn",
+        "id": "15-0-10",
+        "type": 1,
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "4.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "DEX",
+            "amount": "5.2",
+            "isMultiply": false
+          },
+          {
+            "statName": "MANA",
+            "amount": "-0.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "2.3",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Hỏa phụng ;#2090FFNỏ; Dẻo dai",
+        "id": "21-13-12",
+        "type": 2,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "14.6",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "2.3",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "-2.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Dung dich Monsters",
+        "id": "22",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Quái vật;.",
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trứng",
+        "id": "5",
+        "type": 0,
+        "description": "Trứng bán ở siêu thị Quý phái.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Tinh xảo ;#2090FFĐao; Vừa vặn",
+        "id": "5-2-10",
+        "type": 1,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "9.4",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "3.9",
+            "isMultiply": false
+          },
+          {
+            "statName": "MANA",
+            "amount": "-2.3",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Chí tôn tinh ;#2090FFÁo lụa; Vừa vặn",
+        "id": "2-16-10",
+        "type": 3,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "10.7",
+            "isMultiply": false
+          },
+          {
+            "statName": "MANA",
+            "amount": "1.8",
+            "isMultiply": false
+          },
+          {
+            "statName": "MAXHP",
+            "amount": "8.7",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Vô hình ;#2090FFĐinh ba; Nhanh nhẹn",
+        "id": "7-4-2",
+        "type": 2,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "11.1",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "0.3",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Xôi xéo gà nấm",
+        "id": "8",
+        "type": 0,
+        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "30.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Chí tôn linh ;#2090FFPhi tiêu; Lõi giấy",
+        "id": "3-14-18",
+        "type": 1,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "9.3",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "7.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "WIS",
+            "amount": "2.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Xúc xích Đức_việt",
+        "id": "6",
+        "type": 0,
+        "description": "Xúc Xích ở siêu thị Quý phái.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "2.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trà đá phố cổ",
+        "id": "10",
+        "type": 0,
+        "description": "Chưa có thông tin.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "4.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Dung dich Monsters",
+        "id": "22",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Quái vật;.",
+        "statAffects": [
+          {
+            "statName": "STR",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Cà Phê Pha",
+        "id": "3",
+        "type": 0,
+        "description": "Loại bột tuyệt hảo, được pha từ Cà, uống vào thì phê.",
+        "statAffects": [
+          {
+            "statName": "STAMINA",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Xôi xéo gà nấm",
+        "id": "8",
+        "type": 0,
+        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "30.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trà đá phố cổ",
+        "id": "10",
+        "type": 0,
+        "description": "Chưa có thông tin.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "4.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Dung dịch Bò húc",
+        "id": "2",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chảy ra khi cây ;#ffe896 Lên Đỉnh; bị bò đực húc phải.",
+        "statAffects": [
+          {
+            "statName": "MANA",
+            "amount": "5.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Neptune",
+        "id": "23",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
       }
     ],
     "current_level": 0,
@@ -772,17 +1069,89 @@
       "luck": "{luck}+(random()*2)+(random()*{dex}*{dexRate})",
       "vision": "{vision}"
     },
-    "handItems": [],
+    "handItems": [
+      {
+        "name": "Hóa cốt ;#2090FFTrường kích; Lấp lánh",
+        "id": "26-10-1",
+        "type": 2,
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "0.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "STR",
+            "amount": "13.2",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-1.4",
+            "isMultiply": false
+          }
+        ]
+      }
+    ],
+    "bodyItem": {
+      "name": "Vô danh ;#2090FFGiáp da; Nhanh nhẹn",
+      "id": "17-15-2",
+      "type": 3,
+      "statAffects": [
+        {
+          "statName": "STR",
+          "amount": "-3.2",
+          "isMultiply": false
+        },
+        {
+          "statName": "DEX",
+          "amount": "10.6",
+          "isMultiply": false
+        },
+        {
+          "statName": "MAXHP",
+          "amount": "6.2",
+          "isMultiply": false
+        }
+      ]
+    },
+    "feetItem": {
+      "name": "Tình nhân ;#2090FFDép cói; May mắn",
+      "id": "29-26-13",
+      "type": 5,
+      "statAffects": [
+        {
+          "statName": "DEX",
+          "amount": "-2.1",
+          "isMultiply": false
+        },
+        {
+          "statName": "STR",
+          "amount": "1.7",
+          "isMultiply": false
+        },
+        {
+          "statName": "LUCK",
+          "amount": "-0.6",
+          "isMultiply": false
+        },
+        {
+          "statName": "MAXHP",
+          "amount": "4.4",
+          "isMultiply": false
+        }
+      ]
+    },
     "mapPosition": {
-      "x": 10,
+      "x": 4,
       "y": 7
     },
     "stat": {
       "nextLevelMinExp": 20,
-      "maxHp": 15,
-      "hp": 9,
+      "maxHp": 16,
+      "hp": 6,
       "mana": 10,
-      "stamina": 15,
+      "stamina": 0,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,

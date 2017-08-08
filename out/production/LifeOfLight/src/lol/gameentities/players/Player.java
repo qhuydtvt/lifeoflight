@@ -92,7 +92,6 @@ public class Player extends CombatUnit {
     }
 
 
-
     public int levelUp() {
         if (currentLevel == MAX_LEVEL) {
             return LEVEL_REACHED_MAX;
@@ -245,7 +244,7 @@ public class Player extends CombatUnit {
     public GameItem store(String itemId) {
         GameItem result = null;
 
-        if (headItem!= null &&headItem.id.equalsIgnoreCase(itemId)) {
+        if (headItem != null && headItem.id.equalsIgnoreCase(itemId)) {
             this.gameItems.add(headItem);
             result = headItem;
             headItem = null;
@@ -302,5 +301,19 @@ public class Player extends CombatUnit {
         stat.stamina += amount;
         if (stat.stamina < 0) stat.stamina = 0;
         recalculateStat();
+    }
+
+    public void removeItem(GameItem gameItem) {
+        if (headItem == gameItem) {
+            headItem = null;
+        } else if (bodyItem == gameItem) {
+            bodyItem = null;
+        } else if (feetItem == gameItem) {
+            feetItem = null;
+        } else if (handItems != null && handItems.contains(gameItem)){
+            handItems.remove(gameItem);
+        } else if (gameItems != null && gameItems.contains(gameItem)) {
+            gameItems.remove(gameItem);
+        }
     }
 }
