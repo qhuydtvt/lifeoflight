@@ -168,7 +168,7 @@
   },
   {
     "id": 5,
-    "name": "Thanh gươm bông hồng rực lửa.",
+    "name": ";#a8e4b1Thanh gươm bông hồng rực lửa;",
     "type": 1,
     "statAffects": [
       {
@@ -191,7 +191,7 @@
   },
   {
     "id": 6,
-    "name": "Khiên niềm tin.",
+    "name": ";#a8e4b1Khiên niềm tin;",
     "type": 1,
     "statAffects": [
       {
@@ -214,7 +214,7 @@
   },
   {
     "id": 6,
-    "name": "Áo cũ chưa giặt.",
+    "name": ";#a8e4b1Áo cũ chưa giặt;",
     "type": 3,
     "statAffects": [
       {
@@ -232,7 +232,7 @@
   },
   {
     "id": 7,
-    "name": "Giầy bata Thượng Đình 30 ngàn.",
+    "name": ";#a8e4b1Giầy bata Thượng Đình 30 ngàn;",
     "type": 5,
     "statAffects": [
       {
