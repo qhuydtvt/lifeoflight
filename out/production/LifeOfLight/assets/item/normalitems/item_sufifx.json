@@ -66,7 +66,7 @@
     ]
   },
   {
-    "name": "Láu lỉnh",
+    "name": "Đời mới",
     "id": "7",
     "statAffects": [
       {
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "name": "Hư hỏng",
+    "name": "Tuyệt diệt",
     "id": "8",
     "statAffects": [
       {
@@ -93,7 +93,7 @@
     ]
   },
   {
-    "name": "Đầy đặn",
+    "name": "bằng sắt",
     "id": "9",
     "statAffects": [
       {
@@ -148,7 +148,7 @@
     ]
   },
   {
-    "name": "Cáu kỉnh",
+    "name": "bằng Nhựa",
     "id": "14",
     "statAffects": [
       {
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "name": "Nóng nảy",
+    "name": "Cục súc",
     "id": "23",
     "statAffects": [
       {
@@ -263,7 +263,7 @@
     ]
   },
   {
-    "name": "Hòa nhã",
+    "name": "Mảnh mai",
     "id": "24",
     "statAffects": [
       {
@@ -329,11 +329,21 @@
     ]
   },
   {
-    "name": "Lấm lét",
+    "name": "Null Pointer Exception",
     "id": "30",
     "statAffects": [
       {
         "statName": "STR",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      },
+	  {
+        "statName": "DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 8",
+        "isMultiply": false
+      },
+	  {
+        "statName": "WIS",
         "amount": "random() * 5 + {map.currentLevel} - 8",
         "isMultiply": false
       }

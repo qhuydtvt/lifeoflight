@@ -28,7 +28,7 @@ public class MapProcessor extends Processor {
                 if (x == block.size() / 2 && y == block.get(0).size() / 2) {
                     rowMessage.append("@ ");
                 } else if (item == null) {
-                    rowMessage.append("x");
+                    rowMessage.append("x ");
                 } else {
                     rowMessage.append(item.getSymbol()).append(" ");
                 }

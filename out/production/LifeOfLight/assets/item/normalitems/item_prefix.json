@@ -1,33 +1,33 @@
 [
   {
-    "name": "Chí tôn cường",
+    "name": "Chí tôn",
     "id": "1",
     "statAffects": [
       {
 		"statName":"STR",
-        "amount": "random() * 5 + {map.currentLevel} - 3",
+        "amount": "random() * 4 + {map.currentLevel} - 3",
         "isMultiply": false
       }
     ]
   },
   {
-    "name": "Chí tôn tinh",
+    "name": "Chí tôn",
     "id": "2",
     "statAffects": [
 		{
 		"statName":"DEX",
-        "amount": "random() * 5 + {map.currentLevel} - 3",
+        "amount": "random() * 4 + {map.currentLevel} - 3",
         "isMultiply": false
 		}
     ]
   },
   {
-    "name": "Chí tôn linh",
+    "name": "Chí tôn",
     "id": "3",
     "statAffects": [
 		{
 		"statName":"WIS",
-        "amount": "random() * 5 + {map.currentLevel} - 3",
+        "amount": "random() * 4 + {map.currentLevel} - 3",
         "isMultiply": false
 		}
     ]
@@ -312,7 +312,7 @@
     "statAffects": [
 		{
 		"statName":"MAXHP",
-        "amount": "random() * 8 + {map.currentLevel} - 6",
+        "amount": "random() * 8 + {map.currentLevel} - 5",
         "isMultiply": false
 		}
     ]
@@ -323,18 +323,28 @@
     "statAffects": [
 		{
 		"statName":"DEX",
-        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "amount": "random() * 5 + {map.currentLevel} - 5",
         "isMultiply": false
 		}
     ]
   },
   {
-    "name": "Lực sĩ",
+    "name": "Null Pointer Excption",
     "id": "30",
     "statAffects": [
 		{
 		"statName":"STR",
-        "amount": "random() * 5 + {map.currentLevel} - 6",
+        "amount": "random() * 5 + {map.currentLevel} - 5",
+        "isMultiply": false
+		},
+		{
+		"statName":"DEX",
+        "amount": "random() * 5 + {map.currentLevel} - 5",
+        "isMultiply": false
+		},
+		{
+		"statName":"WIS",
+        "amount": "random() * 5 + {map.currentLevel} - 5",
         "isMultiply": false
 		}
     ]
