@@ -7,17 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/main_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/data/main_data.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/item_battle.json" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/item_battle.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/lengedary/item_legendary.json" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/lengedary/item_legendary.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/normalitems/item_prefix.json" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/normalitems/item_prefix.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/normalitems/item_root.json" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/normalitems/item_root.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/normalitems/item_sufifx.json" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/assets/item/normalitems/item_sufifx.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/settings/Settings.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/settings/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameevents/processors/main/MapProcessor.java" afterPath="$PROJECT_DIR$/src/lol/gameevents/processors/main/MapProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/settings/Settings.java" afterPath="$PROJECT_DIR$/src/lol/settings/Settings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/maps/lvl1.txt" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/assets/maps/lvl1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/maps/lvl2.txt" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/assets/maps/lvl2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/assets/maps/lvl3.txt" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/assets/maps/lvl3.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/lol/gameentities/players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="308" column="20" lean-forward="true" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
+              <caret line="308" column="20" lean-forward="false" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -47,17 +40,27 @@
         <entry file="file://$PROJECT_DIR$/src/lol/settings/Settings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapProcessor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MapProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/main/MapProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="365">
               <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/LifeOfLight_jar/assets/scripts/help.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/lol/gameevents/GameEventManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -89,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/assets/monster/monsters.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="15" selection-end-column="4" />
+              <caret line="15" column="4" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -721,6 +724,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LifeOfLight_jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LifeOfLight_jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LifeOfLight_jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lifeoflight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -850,25 +945,26 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/huynq/CI/Training/lifeoflight/src/lol/gameentities/players/Player.java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/item/rate" />
-      <recent name="$PROJECT_DIR$/assets/item/lengedary" />
-      <recent name="$PROJECT_DIR$/assets/item" />
-      <recent name="$PROJECT_DIR$/assets/item/bases" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="lol.gameentities.items.stataffects" />
       <recent name="lol.gameevents.processors.world" />
       <recent name="lol" />
       <recent name="lol/settings" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="lol.bases" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/artifacts/LifeOfLight_jar/assets" />
       <recent name="$PROJECT_DIR$/assets/maps" />
       <recent name="$PROJECT_DIR$/assets/item" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lol.bases" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/item/rate" />
+      <recent name="$PROJECT_DIR$/assets/item/lengedary" />
+      <recent name="$PROJECT_DIR$/assets/item" />
+      <recent name="$PROJECT_DIR$/assets/item/bases" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1216,13 +1312,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="387" column="0" lean-forward="false" selection-start-line="387" selection-start-column="0" selection-end-line="387" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/global/QuitProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1603,7 +1692,7 @@
     <entry file="file://$PROJECT_DIR$/src/lol/gameentities/players/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
-          <caret line="308" column="20" lean-forward="true" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
+          <caret line="308" column="20" lean-forward="false" selection-start-line="308" selection-start-column="20" selection-end-line="308" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1611,7 +1700,7 @@
     <entry file="file://$PROJECT_DIR$/assets/monster/monsters.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="15" selection-end-column="4" />
+          <caret line="15" column="4" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="15" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1637,7 +1726,7 @@
     <entry file="file://$PROJECT_DIR$/src/lol/gameevents/GameEventManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1645,7 +1734,7 @@
     <entry file="file://$PROJECT_DIR$/src/lol/settings/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1654,6 +1743,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/LifeOfLight_jar/assets/scripts/help.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
