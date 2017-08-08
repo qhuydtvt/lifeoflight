@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scripts/help.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lol/gameevents/processors/global/HelpProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/main_data.json" afterPath="$PROJECT_DIR$/data/main_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/data/main_data.json" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/data/main_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameevents/GameEventManager.java" afterPath="$PROJECT_DIR$/src/lol/gameevents/GameEventManager.java" />
-    </list>
+    <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
