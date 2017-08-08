@@ -15,6 +15,7 @@ import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 
 import static java.lang.System.currentTimeMillis;
+import static java.lang.System.nanoTime;
 
 /**
  * Created by huynq on 7/28/17.
@@ -99,11 +100,11 @@ public class GameWindow extends JFrame {
 
     public void gameLoop() {
         while(true) {
-            if (-1 == lastTimeUpdate) lastTimeUpdate = currentTimeMillis();
+            if (-1 == lastTimeUpdate) lastTimeUpdate = nanoTime();
 
-            long currentTime = currentTimeMillis();
+            long currentTime = nanoTime();
 
-            if(currentTime - lastTimeUpdate > 17) {
+            if(currentTime - lastTimeUpdate > 17000000) {
                 lastTimeUpdate = currentTime;
                 GameObject.runAll();
                 InputManager.instance.run();
