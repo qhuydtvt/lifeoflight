@@ -861,14 +861,14 @@
     "handItems": [],
     "mapPosition": {
       "x": 8,
-      "y": 2
+      "y": 3
     },
     "stat": {
       "nextLevelMinExp": 20,
       "maxHp": 15,
       "hp": 12,
       "mana": 10,
-      "stamina": 22,
+      "stamina": 21,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
