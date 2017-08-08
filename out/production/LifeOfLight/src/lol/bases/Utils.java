@@ -7,6 +7,7 @@ import java.awt.Font;
 import java.awt.FontFormatException;
 import java.io.*;
 import java.lang.reflect.Type;
+import java.nio.charset.StandardCharsets;
 import java.util.Random;
 import java.util.List;
 
@@ -16,7 +17,7 @@ import java.util.List;
 public class Utils {
     public static Font loadFont(String fontPath, float size) {
         try {
-            return Font .createFont(Font.TRUETYPE_FONT, new java.io.File(fontPath))
+            return Font.createFont(Font.TRUETYPE_FONT, new java.io.File(fontPath))
                     .deriveFont(size)
                     .deriveFont(Font.BOLD);
 
@@ -44,11 +45,13 @@ public class Utils {
     }
 
     public static void saveFileContent(String url, String content) {
+        Writer out = null;
         try {
-            PrintWriter out = new PrintWriter(url);
-            out.print(content);
+            out = new BufferedWriter(new OutputStreamWriter(
+                    new FileOutputStream(url), "UTF-8"));
+            out.write(content);
             out.close();
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
