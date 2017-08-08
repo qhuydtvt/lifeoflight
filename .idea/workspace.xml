@@ -7,7 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4092a90e-40c0-4e66-b92a-992c4e96755f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" afterPath="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LifeOfLight_jar/LifeOfLight.jar" afterPath="$PROJECT_DIR$/out/artifacts/LifeOfLight_jar/LifeOfLight.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/GameWindow.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/GameWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/players/Player.java" afterPath="$PROJECT_DIR$/out/production/LifeOfLight/src/lol/gameentities/players/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lol/GameWindow.java" afterPath="$PROJECT_DIR$/src/lol/GameWindow.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/gameentities/players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="83" column="26" lean-forward="false" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+            <state relative-caret-position="3417">
+              <caret line="225" column="27" lean-forward="true" selection-start-line="225" selection-start-column="27" selection-end-line="225" selection-end-column="27" />
+              <folding>
+                <element signature="e#5960#5961#0" expanded="true" />
+                <element signature="e#5996#5997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lol/GameWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="89" column="31" lean-forward="false" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -36,31 +53,8 @@
       <file leaf-file-name="WorldEventProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/world/WorldEventProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorldEventRollProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/world/WorldEventRollProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-              <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NextLevelFormula.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lol/gameentities/players/NextLevelFormula.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -136,11 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>r</find>
-      <find>flee</find>
-      <find>L</find>
-      <find>Lên</find>
-      <find>save</find>
       <find>repain</find>
       <find>W</find>
       <find>WALL</find>
@@ -166,6 +155,11 @@
       <find>ro</find>
       <find>rolll</find>
       <find>roll</find>
+      <find>c</find>
+      <find>class</find>
+      <find>class Play</find>
+      <find>class Player</find>
+      <find>getStat</find>
     </findStrings>
     <replaceStrings>
       <replace>*</replace>
@@ -236,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/lol/uis/TextView.java" />
         <option value="$PROJECT_DIR$/data/main_data.json" />
         <option value="$PROJECT_DIR$/src/lol/bases/Utils.java" />
-        <option value="$PROJECT_DIR$/src/lol/GameWindow.java" />
         <option value="$PROJECT_DIR$/src/lol/gameevents/processors/main/MoveProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/maps/mapitems/MapItem.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/maps/Map.java" />
@@ -252,6 +245,7 @@
         <option value="$PROJECT_DIR$/src/lol/bases/renderers/WordsRenderer.java" />
         <option value="$PROJECT_DIR$/src/lol/gameevents/processors/main/MapProcessor.java" />
         <option value="$PROJECT_DIR$/src/lol/gameentities/players/Player.java" />
+        <option value="$PROJECT_DIR$/src/lol/GameWindow.java" />
       </list>
     </option>
   </component>
@@ -1311,7 +1305,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24252222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24252222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5663842" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32627118" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1510,14 +1504,6 @@
             <element signature="e#860#861#0" expanded="false" />
             <element signature="e#906#907#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lol/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1775,14 +1761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/world/WorldEventProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lol/gameentities/eventconfigs/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -1816,10 +1794,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/gameevents/processors/world/WorldEventProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lol/gameentities/players/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="83" column="26" lean-forward="false" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+        <state relative-caret-position="3417">
+          <caret line="225" column="27" lean-forward="true" selection-start-line="225" selection-start-column="27" selection-end-line="225" selection-end-column="27" />
+          <folding>
+            <element signature="e#5960#5961#0" expanded="true" />
+            <element signature="e#5996#5997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lol/GameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="89" column="31" lean-forward="false" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
           <folding />
         </state>
       </provider>

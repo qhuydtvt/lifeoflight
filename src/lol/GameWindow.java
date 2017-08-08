@@ -87,6 +87,7 @@ public class GameWindow extends JFrame {
         this.setVisible(true);
         this.setTitle(Settings.GAME_TITLE);
         this.addKeyListener(InputManager.instance);
+        this.setResizable(false);
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {

@@ -81,6 +81,7 @@ public class Player extends CombatUnit {
 
     public void changeMaxHP(int amount) {
         stat.maxHp += amount;
+        recalculateStat();
     }
 
     public void move(int dx, int dy) {
