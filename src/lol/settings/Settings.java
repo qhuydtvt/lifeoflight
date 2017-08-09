@@ -22,5 +22,5 @@ public class Settings {
     public static Font DEFAULT_FONT = Utils.vnFont;
 
     public static final boolean TEST = false;
-    public static final boolean DEBUG = true;
+    public static final boolean DEBUG = false;
 }
