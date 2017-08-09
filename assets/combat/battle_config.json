@@ -1,0 +1,4 @@
+{
+  "monstersNumber": "random() * {map.currentLevel} + 1",
+  "monstersLevel": "{map.currentLevel} + (random() * 2 - 1)"
+}

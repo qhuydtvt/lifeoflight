@@ -1,18 +1,19 @@
 {
   "text" : [
     "HELP: ...",
-    "MOVE_<hướng_đi>: Di chuyển, ví dụ 'move_down'",
-    "REST: Nghỉ ngơi hồi phục sức lực",
-    "MAP: Hiển thị bản đồ",
-    "INVENTORY: xem hòm đồ",
-    "EQUIPMENT: xem đồ đang mặc / dùng",
-    "USE_<id>: Mang vật phẩm ra sử dụng",
-    "INSPECT_<id>: Xem tính năng vật phẩm",
-    "STORE_<id>: Cất vật phẩm đang mặc vào lại hòm đồ",
-    "TRASH_<id>: Vửt bở vật phẩm",
-    "ATK_<thứ tự>: Tấn công quân địch",
-    "FLEE: Chạy trốn",
-    "QUIT: Bỏ cuộc",
-    "REBIRTH: Tái sinh, dùng sau khi chết"
+    "MOVE_<hướng_đi>: Di chuyển, ví dụ 'move_down'.",
+    "REST: Nghỉ tí cho đôi chân bớt mỏi mệt.",
+    "MAP: Nhìn kỹ xung quanh, cẩn thận vẫn hơn.",
+    "INVENTORY: Kiểm tra đồ trong túi, sử dụng hay bán đều cần kiểm kê số lượng.",
+    "EQUIPMENT: Kiểm tra xem mình đang mặc đồ gì.; Đồ con gái hơi ngại nhưng nếu khỏe thì ...",
+    "USE_<id>: Sử dụng vật phẩm.",
+    "INSPECT_<id>: Đọc hướng dẫn sử dụng trước khi dùng.",
+    "STORE_<id>: Cất đồ đã, tí dùng sau.",
+    "TRASH_<id>: Những thứ rẻ rách không nên giữ. ",
+    "ATK_<thứ tự>: tấn công quân địch. 'ATK_0' tấn công con đầu tiên.",
+    "FLEE: 3 mươi 6 kế, chuồn là thượng sách.",
+    "QUIT: Thế giới này không phải là nơi bạn có thể sống ???",
+    "REBIRTH: Hãy cho tôi 1 cơ hội nữa.",
+	"CLEAR: Dụi mắt để cho bạn nhìn mọi thứ rõ ràng hơn."
   ]
 }

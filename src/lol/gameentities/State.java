@@ -29,7 +29,7 @@ public class State {
     @SerializedName("usedItemIds")
     private List<String> usedItemIds;
 
-    private transient List<Monster> monstersInMap;
+//    private transient List<Monster> monstersInMap;
 
     private static final String DATA_URL = "data/main_data.json";
     private static final String DATA_FOLDER = "data";
@@ -42,7 +42,6 @@ public class State {
         } else {
             currentLevel = 1;
         }
-        monstersInMap = new ArrayList<>();
         this.player = new Player();
     }
 
@@ -53,18 +52,17 @@ public class State {
             instance.player.init();
             instance.currentLevel = savedState.currentLevel;
             instance.map = savedState.map;
-            instance.loadMonsterInMap();
         } else {
             instance.loadInitialPlayer();
             instance.loadInitialMap();
         }
     }
 
-    private void loadMonsterInMap() {
-        System.out.println("Loading monsters in map");
-        monstersInMap = Monster.monsterInLevel(currentLevel);
-        System.out.println(monstersInMap);
-    }
+//    private void loadMonsterInMap() {
+//        System.out.println("Loading monsters in map");
+//        monstersInMap = Monster.monsterInLevel(currentLevel);
+//        System.out.println(monstersInMap);
+//    }
 
     public void addUsedItem(String itemId) {
         if (usedItemIds == null) {
@@ -145,12 +143,10 @@ public class State {
     private void loadMap(String url) {
         map = Map.parseFile(url);
         player.mapPosition.set(map.getPlayerStartX(), map.getPlayerStartY());
-        loadMonsterInMap();
     }
 
-    public Monster randomMonster() {
-        Monster monster = Utils.choice(monstersInMap);
-        return Utils.clone(monster, Monster.class);
+    public Monster randomMonster(int monsterLevel) {
+        return Utils.choice(Monster.monsterInLevel(monsterLevel));
     }
 
     private void loadInitialPlayer() {

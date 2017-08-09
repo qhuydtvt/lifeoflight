@@ -50,7 +50,7 @@ public class Player extends CombatUnit {
     private static final int MAX_LEVEL;
 
     static {
-        if (Settings.DEBUG) {
+        if (Settings.TEST) {
             MAX_LEVEL = 2;
         } else {
             MAX_LEVEL = 9;

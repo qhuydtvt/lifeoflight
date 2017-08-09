@@ -2,6 +2,7 @@ package lol.gameevents;
 
 import lol.bases.Utils;
 import lol.events.EventManager;
+import lol.formulas.CombatConfigFormula;
 import lol.formulas.ItemRateFormula;
 import lol.gameentities.State;
 import lol.gameevents.processors.combat.AttackProcessor;
@@ -27,20 +28,23 @@ public class CombatEvent implements GameEvent {
 
     public CombatEvent() {
         monsters = new ArrayList<>();
-        for(int i = 0; i < Utils.rollDice() % 2 + 1; i++) {
-            Monster monster = State.instance.randomMonster();
+        CombatConfigFormula combatConfigFormula = CombatConfigFormula.instance;
+        for (int i = 0; i < combatConfigFormula.randomMonstersNumber(); i++) {
+            Monster monster = State.instance.randomMonster(combatConfigFormula.randomMonsterLevel());
             if (monster != null)
                 monsters.add(monster);
         }
+
         if (monsters.size() == 0) {
             System.out.println("There are no monsters to generate");
+        } else {
+            EventManager.pushUIMessage("You have just entered a combat");
+            EventManager.pushUIMessage(String.format("You met %s monsters", monsters.size()));
+            for (Monster monster : monsters) {
+                EventManager.pushUIMessage(monster.getInfo());
+            }
+            EventManager.pushUIMessage("You can ;#FF0000atk; or you can ;#FFC0CBflee;");
         }
-        EventManager.pushUIMessage("You have just entered a combat");
-        EventManager.pushUIMessage(String.format("You met %s monsters", monsters.size()));
-        for (Monster monster : monsters) {
-            EventManager.pushUIMessage(monster.getInfo());
-        }
-        EventManager.pushUIMessage("You can ;#FF0000atk; or you can ;#FFC0CBflee;");
     }
 
     @Override
