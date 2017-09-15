@@ -549,7 +549,7 @@
     "mainItemLeft": 1
   },
   "player": {
-    "exp": 4,
+    "exp": 8,
     "inventory": [],
     "current_level": 0,
     "nextLevelFormula": {
@@ -570,14 +570,14 @@
     "handItems": [],
     "mapPosition": {
       "x": 6,
-      "y": 4
+      "y": 8
     },
     "stat": {
       "nextLevelMinExp": 20,
       "maxHp": 15,
       "hp": 15,
       "mana": 10,
-      "stamina": 2,
+      "stamina": 16,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,

@@ -8,6 +8,8 @@ import lol.gameentities.CombatStat;
 import lol.gameentities.CombatUnit;
 import lol.gameentities.MapPosition;
 import lol.gameentities.items.GameItem;
+import lol.gameentities.monsters.Monster;
+import lol.gameentities.skills.SkillResult;
 import lol.settings.Settings;
 
 import java.lang.reflect.Type;
@@ -316,5 +318,9 @@ public class Player extends CombatUnit {
         } else if (gameItems != null && gameItems.contains(gameItem)) {
             gameItems.remove(gameItem);
         }
+    }
+
+    public List<SkillResult> useSkill(String skillName, List<Monster> monsters) {
+        return null;
     }
 }
