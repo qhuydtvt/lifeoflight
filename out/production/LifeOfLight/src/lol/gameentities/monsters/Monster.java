@@ -26,9 +26,6 @@ public class Monster extends CombatUnit implements Cloneable {
         }
     }
 
-    @SerializedName("name")
-    private String name;
-
     @SerializedName("id")
     private int id;
 

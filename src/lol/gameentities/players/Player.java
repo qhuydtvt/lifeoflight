@@ -9,6 +9,7 @@ import lol.gameentities.CombatUnit;
 import lol.gameentities.MapPosition;
 import lol.gameentities.items.GameItem;
 import lol.gameentities.monsters.Monster;
+import lol.gameentities.skills.Skill;
 import lol.gameentities.skills.SkillResult;
 import lol.settings.Settings;
 
@@ -68,6 +69,8 @@ public class Player extends CombatUnit {
     public GameItem headItem;
     public GameItem feetItem;
 
+    public List<Skill> skills;
+
     public MapPosition mapPosition;
 
     private transient CombatStat temporaryStat;
@@ -75,6 +78,7 @@ public class Player extends CombatUnit {
     public Player() {
         mapPosition = new MapPosition();
         handItems = new ArrayList<>();
+        skills = new ArrayList<>();
     }
 
     public void init() {
@@ -313,7 +317,7 @@ public class Player extends CombatUnit {
             bodyItem = null;
         } else if (feetItem == gameItem) {
             feetItem = null;
-        } else if (handItems != null && handItems.contains(gameItem)){
+        } else if (handItems != null && handItems.contains(gameItem)) {
             handItems.remove(gameItem);
         } else if (gameItems != null && gameItems.contains(gameItem)) {
             gameItems.remove(gameItem);
@@ -321,6 +325,15 @@ public class Player extends CombatUnit {
     }
 
     public List<SkillResult> useSkill(String skillName, List<Monster> monsters) {
-        return null;
+        List<SkillResult> results = new ArrayList<>();
+        List<CombatUnit> combatUnits = new ArrayList<CombatUnit>();
+        combatUnits.addAll(monsters);
+
+        skills.forEach(skill -> {
+            if (skill.getName().equalsIgnoreCase(skillName)) {
+                skill.affect(combatUnits);
+            }
+        });
+        return results;
     }
 }

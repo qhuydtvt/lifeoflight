@@ -75,7 +75,6 @@ public class AttackProcessor extends Processor {
     private void addExp(Monster monster) {
         Player player = State.instance.getPlayer();
 
-        // TODO: Ask xeko about exp cap formula
         int expToIncrease = monster.getExp() - (monster.getLevel() + player.currentLevel);
 
         if (expToIncrease > 0) {

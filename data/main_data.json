@@ -568,16 +568,17 @@
       "vision": "{vision}"
     },
     "handItems": [],
+    "skills": [],
     "mapPosition": {
       "x": 6,
-      "y": 8
+      "y": 7
     },
     "stat": {
       "nextLevelMinExp": 20,
       "maxHp": 15,
       "hp": 15,
       "mana": 10,
-      "stamina": 16,
+      "stamina": 15,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,

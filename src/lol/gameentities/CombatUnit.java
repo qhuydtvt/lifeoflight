@@ -9,6 +9,9 @@ public class CombatUnit {
     @SerializedName("stat")
     protected CombatStat stat;
 
+    @SerializedName("name")
+    protected String name;
+
     public CombatStat getStat() {
         return stat;
     }

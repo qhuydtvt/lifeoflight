@@ -13,7 +13,7 @@ public class Skill {
     private int level;
 
     public List<SkillResult> affect(List<CombatUnit> combatUnits) {
-
+        
         return null;
     }
 
