@@ -32,6 +32,7 @@ public class StatScreen extends TextView {
         addText(String.format("MANA: %s", player.getStat().mana));
         addText(String.format("LUCK: %s", player.getStat().luck));
         addText(String.format("VISION: %s", player.getStat().vision));
+        addText(String.format("SKILL UPGRADES: %s", player.getSkillUpradesLeft()));
         super.render(g2d);
     }
 }

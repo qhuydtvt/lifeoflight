@@ -2238,6 +2238,7 @@
         "level": 0,
         "manaTaken": 8,
         "rangeType": 1,
+        "requirements": [],
         "statAffects": [
           {
             "statName": "HP",

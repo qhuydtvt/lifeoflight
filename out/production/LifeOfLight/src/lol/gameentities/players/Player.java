@@ -235,6 +235,10 @@ public class Player extends CombatUnit {
         return stat;
     }
 
+    public int getSkillUpradesLeft() {
+        return skillUpradesLeft;
+    }
+
     public void rebirth() {
         this.stat.hp = this.stat.maxHp;
         this.exp = this.exp * 75 / 100;
