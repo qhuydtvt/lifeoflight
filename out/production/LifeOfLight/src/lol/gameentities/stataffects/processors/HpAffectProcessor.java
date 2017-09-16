@@ -15,7 +15,7 @@ public class HpAffectProcessor extends StatAffectProcessor {
     @Override
     public void affect(CombatStat currentStat, CombatStat originStat) {
         currentStat.hp = (int)operator.op(currentStat.hp, originStat.hp, amount);
-        if (currentStat.hp > currentStat.maxHp) {
+        if (currentStat.maxHp > 0 && currentStat.hp > currentStat.maxHp) {
             currentStat.hp = currentStat.maxHp;
         }
     }

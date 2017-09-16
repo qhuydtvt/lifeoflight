@@ -155,8 +155,8 @@
           "type": "EMPTY"
         },
         {
-          "symbol": "%",
-          "type": "EVENT"
+          "symbol": " ",
+          "type": "EMPTY"
         },
         {
           "symbol": " ",
@@ -549,7 +549,7 @@
     "mainItemLeft": 1
   },
   "player": {
-    "exp": 11,
+    "exp": 14,
     "inventory": [
       {
         "name": "Neptune",
@@ -573,6 +573,24 @@
           {
             "statName": "HP",
             "amount": "4.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Xôi xéo gà nấm",
+        "id": "8",
+        "type": 0,
+        "description": "Xôi đã bị giày xéo kỹ càng. Gà ác hầm thuốc bắc nửa năm. nấm linh chi ngàn tuổi.;Đại khái là hơi đen.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "30.0",
+            "isMultiply": false
+          },
+          {
+            "statName": "LUCK",
+            "amount": "-1.0",
             "isMultiply": false
           }
         ]
@@ -606,22 +624,22 @@
         "statAffects": [
           {
             "statName": "HP",
-            "amount": "10",
+            "amount": "-1",
             "isMultiply": false
           }
         ]
       }
     ],
     "mapPosition": {
-      "x": 8,
-      "y": 8
+      "x": 5,
+      "y": 2
     },
     "stat": {
       "nextLevelMinExp": 15,
       "maxHp": 17,
-      "hp": 9,
-      "mana": 95,
-      "stamina": 5,
+      "hp": 8,
+      "mana": 55,
+      "stamina": 15,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,

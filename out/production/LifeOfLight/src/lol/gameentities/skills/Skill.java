@@ -65,11 +65,12 @@ public class Skill implements Cloneable {
     }
 
     public <T extends CombatUnit> void affect(T unit) {
+        CombatStat newStat = unit.getStat().clone();
         statAffects.forEach(statAffect -> {
-            CombatStat newStat = unit.getStat().clone();
             statAffect.getProcessor().affect(newStat, unit.getStat());
-            unit.setStat(newStat);
         });
+        System.out.println(newStat);
+        unit.setStat(newStat);
     }
 
     public String getId() {

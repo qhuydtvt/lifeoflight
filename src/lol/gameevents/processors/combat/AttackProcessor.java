@@ -21,10 +21,9 @@ import java.util.List;
  */
 public class AttackProcessor extends Processor {
 
-    private ItemRateFormula itemRateFormula;
 
-    public AttackProcessor(ItemRateFormula itemRateFormula) {
-        this.itemRateFormula = itemRateFormula;
+
+    public AttackProcessor() {
     }
 
     @Override
@@ -47,15 +46,6 @@ public class AttackProcessor extends Processor {
             if (player.getStat().hp <= 0) {
                 return new MainGameEvent();
             }
-            if (monster.getStat().getHp() <= 0) {
-                EventManager.pushUIMessage(String.format("%s just died", monster.getName()));
-                monsters.remove(monster);
-
-                addExp(monster);
-                generateRandomItem();
-
-                return null;
-            }
 
             EventManager.pushUIMessage(";");
         } catch (NumberFormatException | IndexOutOfBoundsException ex) {
@@ -66,63 +56,16 @@ public class AttackProcessor extends Processor {
         return null;
     }
 
-    private void addExp(Monster monster) {
-        Player player = State.instance.getPlayer();
-
-        int expToIncrease = monster.getExp() - (monster.getLevel() + player.currentLevel);
-
-        if (expToIncrease > 0) {
-            player.changeExp(expToIncrease);
-            EventManager.pushUIMessage(String.format("Your EXP just increased by %s", expToIncrease));
-            levelUp();
-        }
-    }
-
-    private void levelUp() {
-        Player player = State.instance.getPlayer();
-        boolean levelingUp = true;
-        do {
-            int levelUpStatus = player.levelUp();
-            if (levelUpStatus == Player.NO_LEVEL_UP) {
-                levelingUp = false;
-            }
-            else if (levelUpStatus == Player.LEVEL_REACHED_MAX) {
-                EventManager.pushUIMessage("Bạn đã đạt level cao nhất");
-                levelingUp = false;
-            }
-            else {
-                EventManager.pushUIMessage(String.format("Chúc mừng bạn đã lên level %s", player.currentLevel + 1));
-            }
-        }
-        while (levelingUp);
-    }
-
-    private void generateRandomItem() {
-        State state = State.instance;
-        Player player = state.getPlayer();
-        int type = itemRateFormula.randomItemType();
-        if (type != GameItem.TYPE_NULL) {
-            GameItem gameItem = GameItem.random(type, state);
-            if (gameItem != null) {
-                player.collect(gameItem);
-                EventManager.pushUIMessage(String.format("Bạn vừa nhặt được %s", gameItem.name));
-                EventManager.pushUIMessage(gameItem.name);
-                EventManager.pushUIMessage(gameItem.getDescription());
-                EventManager.pushUIMessage(gameItem.statText());
-            }
-        }
-    }
-
     private void fight(Player player, Monster monster) {
         PhysicsAttackResult physicsAttackResult = CombatFormula.instance.physicsAttack(player);
         if (physicsAttackResult.isCriticalAttack) {
-            EventManager.pushUIMessage("Critical attack");
+            EventManager.pushUIMessage("Tấn công với thương tổn cao");
         }
         if (CombatFormula.instance.doge(monster)) {
-            EventManager.pushUIMessage(String.format("%s dodged your attack", monster.getName()));
+            EventManager.pushUIMessage(String.format("%s đã tránh khỏi đòn tấn công của bạn", monster.getName()));
         } else {
             monster.getHit(physicsAttackResult.damage);
-            EventManager.pushUIMessage(String.format("You hit %s with %s damage and now it has %s hp left", monster.getName(),
+            EventManager.pushUIMessage(String.format("Bạn tấn công %s với %s thương tổn và nó còn lại %s hp", monster.getName(),
                     physicsAttackResult.damage,
                     monster.getStat().getHp()));
         }

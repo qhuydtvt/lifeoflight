@@ -5,10 +5,13 @@
     "description" : "Cú đấm phồng tôm học được trên tầng 6 siêu thị, đấm phát chết luôn",
     "manaTaken": 5,
     "rangeType": 0,
+    "requirements" : [
+
+    ],
     "statAffects": [
       {
         "statName": "HP",
-        "amount": "10",
+        "amount": "-1",
         "isMultiply": false
       }
     ]
@@ -18,11 +21,31 @@
     "name": "Tuyệt thế phi tiêu giấy",
     "description" : "Phi tiêu tung ra nhiều như mưa, tất cả được gập từ giấy vệ sinh cao cấp",
     "rangeType": 1,
-    "manaTaken": 10,
+    "manaTaken": 8,
+    "requirements" : [
+
+    ],
     "statAffects": [
       {
         "statName": "HP",
-        "amount": "2",
+        "amount": "-2",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "id": "phy_lvl1",
+    "name": "phy_lvl1",
+    "description" : "",
+    "rangeType": 0,
+    "manaTaken": 7,
+    "requirements" : [
+      "phongtom"
+    ],
+    "statAffects": [
+      {
+        "statName": "HP",
+        "amount": "-15",
         "isMultiply": false
       }
     ]
