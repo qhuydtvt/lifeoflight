@@ -2109,7 +2109,7 @@
     "mainItemLeft": 0
   },
   "player": {
-    "exp": 10,
+    "exp": 12,
     "inventory": [
       {
         "name": "Neptune",
@@ -2248,15 +2248,15 @@
       }
     ],
     "mapPosition": {
-      "x": 3,
+      "x": 8,
       "y": 2
     },
     "stat": {
       "nextLevelMinExp": 22,
       "maxHp": 18,
-      "hp": 10,
-      "mana": 44,
-      "stamina": 9,
+      "hp": 7,
+      "mana": 36,
+      "stamina": 7,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,

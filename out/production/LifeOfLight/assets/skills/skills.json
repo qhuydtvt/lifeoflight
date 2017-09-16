@@ -34,8 +34,8 @@
     ]
   },
   {
-    "id": "phy_lvl1",
-    "name": "phy_lvl1",
+    "id": "m1",
+    "name": "Magic level 1",
     "description" : "",
     "rangeType": 0,
     "manaTaken": 7,
@@ -46,6 +46,23 @@
       {
         "statName": "HP",
         "amount": "-15",
+        "isMultiply": false
+      }
+    ]
+  },
+  {
+    "id": "chuithue",
+    "name": "Chửi thuê",
+    "description" : "Chửi hối hả xối xả như nước tát vào mặt, như bão lũ áp thấp nhiệt đới, quân địch chỉ biết đứng trân trân câm nín nghe bạn chửi",
+    "rangeType": 1,
+    "manaTaken": 10,
+    "requirements" : [
+      "phitieugiay"
+    ],
+    "statAffects": [
+      {
+        "statName": "HP",
+        "amount": "-5",
         "isMultiply": false
       }
     ]

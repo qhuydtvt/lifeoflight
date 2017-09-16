@@ -22,6 +22,7 @@ public class MainGameEvent implements GameEvent {
             put("MAP", new MapProcessor());
             put("UPGRADE", new UpgradeSkillProcessor());
             put("REBIRTH", new RebirthProcessor());
+            put("SKILLALL", new SkillAllProcessor());
         }};
     }
 

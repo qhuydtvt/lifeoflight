@@ -35,7 +35,7 @@ public class UpgradeSkillProcessor extends Processor {
 
 
         player.upgradeSkill(skillId);
-        EventManager.pushUIMessage(String.format("Bạn đã học/nâng cấp %s, gõ ;#00FF00skill_tree; để xem", skill.getName()));
+        EventManager.pushUIMessage(String.format("Bạn đã học/nâng cấp %s, gõ ;#00FF00skillall; để xem", skill.getName()));
         return null;
     }
 }

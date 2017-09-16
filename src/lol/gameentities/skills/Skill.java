@@ -26,16 +26,24 @@ public class Skill implements Cloneable {
     private String id;
     @SerializedName("name")
     private String name;
+    @SerializedName("description")
+    private String description;
     @SerializedName("level")
     private int level;
     @SerializedName("manaTaken")
     private int manaTaken;
     @SerializedName("rangeType")
     private int rangeType;
+    @SerializedName("requirements")
+    private List<String> requirements;
     @SerializedName("statAffects")
     private List<StatAffect> statAffects;
 
     private static List<Skill> allSkills;
+
+    public static List<Skill> getAllSkills() {
+        return allSkills;
+    }
 
     public List<StatAffect> getStatAffects() {
         return statAffects;
@@ -91,6 +99,18 @@ public class Skill implements Cloneable {
 
     public int getManaTaken() {
         return manaTaken;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public Skill() {
+        requirements = new ArrayList<>();
+    }
+
+    public List<String> getRequirements() {
+        return requirements;
     }
 
     @Override
