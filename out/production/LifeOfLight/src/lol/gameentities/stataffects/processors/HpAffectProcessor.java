@@ -18,5 +18,7 @@ public class HpAffectProcessor extends StatAffectProcessor {
         if (currentStat.maxHp > 0 && currentStat.hp > currentStat.maxHp) {
             currentStat.hp = currentStat.maxHp;
         }
+
+        if (currentStat.hp < 0) currentStat.hp = 0;
     }
 }
