@@ -2231,23 +2231,7 @@
     },
     "skillUpradesLeft": 1,
     "handItems": [],
-    "skills": [
-      {
-        "id": "phitieugiay",
-        "name": "Tuyệt thế phi tiêu giấy",
-        "level": 0,
-        "manaTaken": 8,
-        "rangeType": 1,
-        "requirements": [],
-        "statAffects": [
-          {
-            "statName": "HP",
-            "amount": "-2",
-            "isMultiply": false
-          }
-        ]
-      }
-    ],
+    "skills": [],
     "mapPosition": {
       "x": 8,
       "y": 2

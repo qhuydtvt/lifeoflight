@@ -33,6 +33,17 @@ public class UpgradeSkillProcessor extends Processor {
             return null;
         }
 
+        boolean requirementsMet = true;
+        for (String reqId: skill.getRequirements()) {
+            if (!player.hasSkill(reqId)) {
+                EventManager.pushUIMessage(String.format("Bạn cần phải học %s trước khi học kỹ năng này", reqId));
+                requirementsMet = false;
+            }
+        }
+
+        if (!requirementsMet) {
+            return null;
+        }
 
         player.upgradeSkill(skillId);
         EventManager.pushUIMessage(String.format("Bạn đã học/nâng cấp %s, gõ ;#00FF00skillall; để xem", skill.getName()));
