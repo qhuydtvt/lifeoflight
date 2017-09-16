@@ -8,16 +8,13 @@ import lol.gameentities.CombatStat;
 import lol.gameentities.CombatUnit;
 import lol.gameentities.MapPosition;
 import lol.gameentities.items.GameItem;
-import lol.gameentities.monsters.Monster;
 import lol.gameentities.skills.Skill;
-import lol.gameentities.skills.SkillResult;
 import lol.settings.Settings;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
 
 import static lol.gameentities.items.GameItem.*;
 
@@ -50,6 +47,9 @@ public class Player extends CombatUnit {
     @SerializedName("nextLevelFormula")
     public NextLevelFormula nextLevelFormula;
 
+    @SerializedName("skillUpradesLeft")
+    public int skillUpradesLeft;
+
     private static final int MAX_LEVEL;
 
     static {
@@ -79,6 +79,7 @@ public class Player extends CombatUnit {
         mapPosition = new MapPosition();
         handItems = new ArrayList<>();
         skills = new ArrayList<>();
+        skillUpradesLeft = 0;
     }
 
     public void init() {
@@ -108,6 +109,7 @@ public class Player extends CombatUnit {
 
         if (nextLevelEXP != -1 && exp >= nextLevelEXP) {
             currentLevel++;
+            skillUpradesLeft++;
             exp -= nextLevelEXP;
             stat = nextLevelFormula.calculate(stat);
             stat.init();
@@ -118,6 +120,10 @@ public class Player extends CombatUnit {
             }
         }
         return NO_LEVEL_UP;
+    }
+
+    public boolean canUpgradeSkill() {
+        return skillUpradesLeft > 0;
     }
 
     public GameItem getItem(String id) {
@@ -324,16 +330,44 @@ public class Player extends CombatUnit {
         }
     }
 
-    public List<SkillResult> useSkill(String skillName, List<Monster> monsters) {
-        List<SkillResult> results = new ArrayList<>();
-        List<CombatUnit> combatUnits = new ArrayList<CombatUnit>();
-        combatUnits.addAll(monsters);
+    public boolean hasSkill(String skillId) {
+        return getSkill(skillId) != null;
+    }
 
-        skills.forEach(skill -> {
-            if (skill.getName().equalsIgnoreCase(skillName)) {
-                skill.affect(combatUnits);
+    public boolean hasManaForSkill(String skillId) {
+        Skill skill = getSkill(skillId);
+        if (skill == null) return false;
+        return stat.mana >= skill.getManaTaken();
+    }
+
+    public Skill getSkill(String skillId) {
+        return skills.stream()
+                .filter(skill -> skill.getId().equalsIgnoreCase(skillId))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public void useSkill(String skillId, List<? extends CombatUnit> units) {
+        Skill skill = getSkill(skillId);
+        skill.affect(units);
+        stat.mana -= skill.getManaTaken();
+    }
+
+    public void useSkill(String skillId, CombatUnit unit) {
+        Skill skill = getSkill(skillId);
+        skill.affect(unit);
+        stat.mana -= skill.getManaTaken();
+    }
+
+    public void upgradeSkill(String skillId) {
+        if (skillUpradesLeft > 0) {
+            Skill skill = skills.stream().filter(s -> s.getId().equalsIgnoreCase(skillId)).findFirst().orElse(null);
+            if (skill != null) {
+                skill.upgrade();
+            } else {
+                this.skills.add(Utils.clone(Skill.find(skillId), Skill.class));
             }
-        });
-        return results;
+            skillUpradesLeft--;
+        }
     }
 }

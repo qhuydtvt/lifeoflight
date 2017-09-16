@@ -67,7 +67,12 @@ public class GameEventManager implements CommandListener {
         }
 
         if (resultEvent != null) {
-            currentEvent = resultEvent;
+            GameEvent preProcessResult = resultEvent.preProcess();
+            if (preProcessResult != null) {
+                currentEvent = preProcessResult;
+            } else {
+                currentEvent = resultEvent;
+            }
         }
 
     }

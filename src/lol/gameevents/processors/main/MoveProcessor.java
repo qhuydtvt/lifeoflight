@@ -74,7 +74,6 @@ public class MoveProcessor extends Processor {
         player.changeStamina(-1);
     }
 
-    //TODO: Change combat possibilities here
     private GameEvent generateRandomEvent() {
         return random.nextInt(100) < 10 ? new CombatEvent() : null;
     }

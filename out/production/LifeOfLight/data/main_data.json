@@ -549,9 +549,36 @@
     "mainItemLeft": 1
   },
   "player": {
-    "exp": 8,
-    "inventory": [],
-    "current_level": 0,
+    "exp": 11,
+    "inventory": [
+      {
+        "name": "Neptune",
+        "id": "11",
+        "type": 0,
+        "description": "Tinh chất đặc biệt chiết xuất từ ;#ffe896 Hạt Lạc;.",
+        "statAffects": [
+          {
+            "statName": "DEX",
+            "amount": "1.0",
+            "isMultiply": false
+          }
+        ]
+      },
+      {
+        "name": "Trà đá phố cổ",
+        "id": "0",
+        "type": 0,
+        "description": "Chưa có thông tin.",
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "4.0",
+            "isMultiply": false
+          }
+        ]
+      }
+    ],
+    "current_level": 1,
     "nextLevelFormula": {
       "nextLevelMinExp": "{nextLevelMinExp}*1.5",
       "maxHP": "{maxHp}+1+(random()*2)",
@@ -567,26 +594,44 @@
       "luck": "{luck}+(random()*2)+(random()*{dex}*{dexRate})",
       "vision": "{vision}"
     },
+    "skillUpradesLeft": 0,
     "handItems": [],
+    "skills": [
+      {
+        "id": "phongtom",
+        "name": "Cú đấm phồng tôm",
+        "level": 0,
+        "manaTaken": 5,
+        "rangeType": 0,
+        "statAffects": [
+          {
+            "statName": "HP",
+            "amount": "10",
+            "isMultiply": false
+          }
+        ]
+      }
+    ],
     "mapPosition": {
-      "x": 6,
+      "x": 8,
       "y": 8
     },
     "stat": {
-      "nextLevelMinExp": 20,
-      "maxHp": 15,
-      "hp": 15,
-      "mana": 10,
-      "stamina": 16,
+      "nextLevelMinExp": 15,
+      "maxHp": 17,
+      "hp": 9,
+      "mana": 95,
+      "stamina": 5,
       "strRate": 0.5,
       "dexRate": 0.25,
       "wisRate": 0.25,
-      "str": 5,
-      "dex": 3,
+      "str": 6,
+      "dex": 5,
       "wis": 4,
-      "luck": 1,
+      "luck": 2,
       "vision": 2
-    }
+    },
+    "name": "Sáng"
   },
   "current_level": 1
 }

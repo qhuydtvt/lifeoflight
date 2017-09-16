@@ -54,8 +54,6 @@ public class Monster extends CombatUnit implements Cloneable {
     public static List<Monster> monsterInLevel(int level) {
         List<Monster> returnList = new ArrayList<>();
 
-        System.out.println(allMonsters);
-
         for (Monster monster : allMonsters) {
             if (monster.level == level) {
                 returnList.add(monster);

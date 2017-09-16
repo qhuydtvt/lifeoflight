@@ -20,6 +20,7 @@ public class MainGameEvent implements GameEvent {
             put("MOVE", new MoveProcessor());
             put("REST", new RestProcessor());
             put("MAP", new MapProcessor());
+            put("UPGRADE", new UpgradeSkillProcessor());
             put("REBIRTH", new RebirthProcessor());
         }};
     }

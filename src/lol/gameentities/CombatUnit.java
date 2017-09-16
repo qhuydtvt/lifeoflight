@@ -15,5 +15,8 @@ public class CombatUnit {
     public CombatStat getStat() {
         return stat;
     }
-    
+
+    public void setStat(CombatStat stat) {
+        this.stat = stat;
+    }
 }

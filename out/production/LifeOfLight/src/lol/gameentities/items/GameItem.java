@@ -5,8 +5,8 @@ import com.google.gson.reflect.TypeToken;
 import lol.bases.Utils;
 import lol.gameentities.CombatStat;
 import lol.gameentities.State;
-import lol.gameentities.items.stataffects.StatAffect;
-import lol.gameentities.items.stataffects.processors.StatAffectProcessor;
+import lol.gameentities.stataffects.StatAffect;
+import lol.gameentities.stataffects.processors.StatAffectProcessor;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

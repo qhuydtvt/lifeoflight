@@ -9,7 +9,7 @@
     "current_level": 0,
     "exp": 0,
     "stat": {
-      "nextLevelMinExp": 20,
+      "nextLevelMinExp": 10,
       "maxHp": 15,
       "hp": 15,
       "mana": 10,

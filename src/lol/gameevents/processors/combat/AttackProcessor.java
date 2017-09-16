@@ -29,7 +29,6 @@ public class AttackProcessor extends Processor {
 
     @Override
     public GameEvent process(List<String> commands, GameEvent currentEvent) {
-        State state = State.instance;
         CombatEvent combatEvent = (CombatEvent) currentEvent;
         List<Monster> monsters = combatEvent.getMonsters();
         if (commands.size() == 0) {
@@ -45,7 +44,6 @@ public class AttackProcessor extends Processor {
             Monster monster = monsters.get(monsterIdx);
             Player player = State.instance.getPlayer();
             fight(player, monster);
-            monsterFightBack(player, monsters);
             if (player.getStat().hp <= 0) {
                 return new MainGameEvent();
             }
@@ -56,10 +54,6 @@ public class AttackProcessor extends Processor {
                 addExp(monster);
                 generateRandomItem();
 
-                if (monsters.size() == 0) {
-                    EventManager.pushUIMessage("All monsters were killed, you won the combat");
-                    return new MainGameEvent();
-                }
                 return null;
             }
 
@@ -101,7 +95,6 @@ public class AttackProcessor extends Processor {
             }
         }
         while (levelingUp);
-
     }
 
     private void generateRandomItem() {
@@ -132,21 +125,6 @@ public class AttackProcessor extends Processor {
             EventManager.pushUIMessage(String.format("You hit %s with %s damage and now it has %s hp left", monster.getName(),
                     physicsAttackResult.damage,
                     monster.getStat().getHp()));
-        }
-    }
-
-    private void monsterFightBack(Player player, List<Monster> monsters) {
-        for (Monster monster : monsters) {
-            if (monster.getStat().hp > 0) {
-                if (!CombatFormula.instance.doge(player)) {
-                    player.getHit(monster.getStat().str);
-                    EventManager.pushUIMessage(String.format("%s hit you, you now has %s hp left", monster.getName(), player.getStat().hp));
-                    if (player.getStat().hp <= 0) return;
-                    // TODO: MainEvent
-                } else {
-                    EventManager.pushUIMessage(String.format("%s attacked you but missed", monster.getName()));
-                }
-            }
         }
     }
 }

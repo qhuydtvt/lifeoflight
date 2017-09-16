@@ -3,12 +3,15 @@ package lol.gameevents;
 import lol.bases.Utils;
 import lol.events.EventManager;
 import lol.formulas.CombatConfigFormula;
+import lol.formulas.CombatFormula;
 import lol.formulas.ItemRateFormula;
 import lol.gameentities.State;
+import lol.gameentities.players.Player;
 import lol.gameevents.processors.combat.AttackProcessor;
 import lol.gameevents.processors.Processor;
 import lol.gameevents.processors.combat.FleeProcessor;
 import lol.gameentities.monsters.Monster;
+import lol.gameevents.processors.combat.SkillProcessor;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,6 +26,7 @@ public class CombatEvent implements GameEvent {
 
     HashMap<String, Processor> commandProcessors = new HashMap<String, Processor>() {{
         put("ATK", new AttackProcessor(ItemRateFormula.combatInstance));
+        put("SKILL", new SkillProcessor());
         put("FLEE", new FleeProcessor());
     }};
 
@@ -60,7 +64,39 @@ public class CombatEvent implements GameEvent {
             EventManager.pushHelpMessage();
             return null;
         }
-        return Processor.forward(commands, commandProcessors.get(mainCommand), this);
+
+        GameEvent resultEvent = Processor.forward(commands, commandProcessors.get(mainCommand), this);
+
+        monsters.removeIf(monster -> monster.getStat().hp <= 0);
+
+        if (monsters.size() == 0) {
+            EventManager.pushUIMessage("Địch thủ đã bị quét sạch, bạn đã thắng trận chiến");
+        }
+
+        if (resultEvent == null) {
+            if (monsters.size() == 0) {
+                return new MainGameEvent();
+            } else {
+                return monsterFightBack(State.instance.getPlayer(), monsters);
+            }
+        } else {
+            return resultEvent;
+        }
+    }
+
+    private GameEvent monsterFightBack(Player player, List<Monster> monsters) {
+        for (Monster monster : monsters) {
+            if (monster.getStat().hp > 0) {
+                if (!CombatFormula.instance.doge(player)) {
+                    player.getHit(monster.getStat().str);
+                    EventManager.pushUIMessage(String.format("%s vừa đánh trúng bạn, bạn còn lại %s HP", monster.getName(), player.getStat().hp));
+                    if (player.getStat().hp <= 0) return new MainGameEvent();
+                } else {
+                    EventManager.pushUIMessage(String.format("%s vừa đánh trượt bạn", monster.getName()));
+                }
+            }
+        }
+        return null;
     }
 
 
